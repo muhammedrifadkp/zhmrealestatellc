@@ -296,6 +296,8 @@ export function Navbar() {
                       src={item.megaMenu.image} 
                       alt={item.megaMenu.imageTitle} 
                       fill 
+                      sizes="(max-width: 1024px) 100vw, 30vw"
+                      priority={true}
                       className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
