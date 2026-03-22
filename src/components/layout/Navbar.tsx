@@ -1,0 +1,477 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { 
+  Menu, X, Phone, Mail, ChevronDown, Search, Heart, 
+  Facebook, Twitter, Instagram, Linkedin, Youtube, Ghost 
+} from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+
+const navItems = [
+  {
+    name: "FEATURED PROJECTS",
+    href: "/properties?featured=true",
+    megaMenu: {
+      image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
+      imageTitle: "Featured Projects",
+      columns: [
+        {
+          title: "ABU DHABI",
+          links: [
+            { name: "Sama Yas", href: "#" },
+            { name: "Yas Riva", href: "#" },
+            { name: "Manarat Living - Saadiyat", href: "#" },
+            { name: "The Arthouse", href: "#" },
+            { name: "Muheira", href: "#" }
+          ]
+        },
+        {
+          title: "DUBAI",
+          links: [
+            { name: "Elegance Tower", href: "#" },
+            { name: "Address Residences The Bay", href: "#" },
+            { name: "Rawda Apartments", href: "#" },
+            { name: "DE Collective", href: "#" },
+            { name: "Expo Golf Villas", href: "#" }
+          ]
+        },
+        {
+          title: "SHARJAH",
+          links: [
+            { name: "Sharjah Waterfront City", href: "#" },
+            { name: "Deem at Hayyan", href: "#" },
+            { name: "Olfah", href: "#" },
+            { name: "Hayyan", href: "#" },
+            { name: "Hamsa 2", href: "#" }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    name: "PROPERTIES",
+    href: "/properties",
+    megaMenu: {
+      image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+      imageTitle: "Properties",
+      columns: [
+        {
+          title: "RESIDENTIAL",
+          links: [
+            { name: "Buy Apartments", href: "#" },
+            { name: "Buy Villas", href: "#" },
+            { name: "Rent Apartments", href: "#" },
+            { name: "Rent Villas", href: "#" }
+          ]
+        },
+        {
+          title: "COMMERCIAL",
+          links: [
+            { name: "Offices for Sale", href: "#" },
+            { name: "Offices for Rent", href: "#" },
+            { name: "Commercial plot", href: "#" },
+            { name: "View All", href: "#" }
+          ]
+        },
+        {
+          title: "BEDROOMS",
+          links: [
+            { name: "1 Bedroom", href: "#" },
+            { name: "2 Bedrooms", href: "#" },
+            { name: "3 Bedrooms", href: "#" },
+            { name: "View All", href: "#" }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    name: "PROJECTS",
+    href: "/properties",
+    megaMenu: {
+      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
+      imageTitle: "Projects",
+      columns: [
+        {
+          title: "ABU DHABI",
+          links: [
+            { name: "Al Reem Island", href: "#" },
+            { name: "Saadiyat Island", href: "#" },
+            { name: "Yas island", href: "#" },
+            { name: "Al Raha Beach", href: "#" },
+            { name: "Al Raha Gardens", href: "#" },
+            { name: "View All", href: "#" }
+          ]
+        },
+        {
+          title: "DUBAI",
+          links: [
+            { name: "Palm Jumeirah", href: "#" },
+            { name: "Downtown Dubai", href: "#" },
+            { name: "Dubai Creek", href: "#" },
+            { name: "Town Square Dubai", href: "#" },
+            { name: "Dubai Hills Estate", href: "#" },
+            { name: "View All", href: "#" }
+          ]
+        },
+        {
+          title: "DEVELOPERS",
+          links: [
+            { name: "Aldar", href: "#" },
+            { name: "Emaar", href: "#" },
+            { name: "Imkan", href: "#" },
+            { name: "Meraas", href: "#" },
+            { name: "Dubai Properties", href: "#" },
+            { name: "View All", href: "#" }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    name: "SERVICES",
+    href: "/services",
+    megaMenu: {
+      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800",
+      imageTitle: "Services",
+      columns: [
+        {
+          title: "VALUATION & FINANCE",
+          links: [
+            { name: "Mortgage Calculator", href: "#" },
+            { name: "Amortization", href: "#" },
+            { name: "Refinancing", href: "#" },
+            { name: "Rent vs Buying", href: "#" },
+            { name: "House Affordability", href: "#" }
+          ]
+        },
+        {
+          title: "CLIENT SERVICES",
+          links: [
+            { name: "List Your Property", href: "#" },
+            { name: "International", href: "#" },
+            { name: "Youngsters Program", href: "#" },
+            { name: "Luxury Projects", href: "#" },
+            { name: "Emirati Hub", href: "#" }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    name: "COMPANY",
+    href: "/about",
+    megaMenu: {
+      image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+      imageTitle: "Company",
+      columns: [
+        {
+          title: "ABOUT PSI",
+          links: [
+            { name: "Our Story", href: "/about" },
+            { name: "Careers", href: "#" },
+            { name: "Awards", href: "#" },
+            { name: "Blog", href: "#" }
+          ]
+        },
+        {
+          title: "MEDIA",
+          links: [
+            { name: "Newsletters", href: "#" },
+            { name: "Contact Us", href: "/contact" },
+            { name: "Articles", href: "#" }
+          ]
+        }
+      ]
+    }
+  }
+];
+
+export function Navbar() {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+  const [expandedMobileItem, setExpandedMobileItem] = useState<string | null>(null);
+
+  const isNavbarActive = isScrolled || isHovered || isMobileMenuOpen;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => { document.body.style.overflow = "unset"; };
+  }, [isMobileMenuOpen]);
+
+  return (
+    <header className="fixed top-0 w-full z-50 flex flex-col font-sans">
+      {/* Top Bar (Dark Navy) */}
+      <div 
+        className={`bg-[#12163b] text-white/90 text-[11px] font-medium px-6 hidden lg:flex justify-between items-center tracking-wide overflow-hidden transition-all duration-300 ${
+          isScrolled ? "max-h-0 py-0 opacity-0" : "max-h-[40px] py-1.5 opacity-100"
+        }`}
+      >
+        <div className="flex items-center gap-4">
+          <button className="flex items-center gap-1 hover:text-white transition-colors">
+            AED <ChevronDown size={12} />
+          </button>
+          <div className="w-px h-3 bg-white/20"></div>
+          <button className="flex items-center gap-1 hover:text-white transition-colors">
+            GB EN <ChevronDown size={12} />
+          </button>
+          <button className="flex items-center gap-1 hover:text-white transition-colors ml-2">
+            BRANCHES <ChevronDown size={12} />
+          </button>
+        </div>
+        
+        <div className="flex items-center gap-5">
+          <div className="flex items-center gap-3">
+            <a href="#" className="hover:text-white transition-colors"><Facebook size={13} /></a>
+            <a href="#" className="hover:text-white transition-colors"><Twitter size={13} /></a>
+            <a href="#" className="hover:text-white transition-colors"><Instagram size={13} /></a>
+            {/* Using Ghost for snapchat icon placeholder */}
+            <a href="#" className="hover:text-white transition-colors"><Ghost size={13} /></a>
+            <a href="#" className="hover:text-white transition-colors"><Linkedin size={13} /></a>
+            <a href="#" className="hover:text-white transition-colors"><Youtube size={13} /></a>
+          </div>
+          <button className="flex items-center gap-1 font-semibold hover:text-white transition-colors">
+            DUBAI <ChevronDown size={12} />
+          </button>
+        </div>
+      </div>
+
+      {/* Main Navbar */}
+      <div 
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        className={`w-full transition-colors duration-300 ${
+          isNavbarActive ? "bg-white shadow-md py-2" : "bg-transparent py-4"
+        } px-6 flex justify-between items-center relative z-40`}
+      >
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-2 z-50">
+          <Image 
+            src="/nava_logo.png"
+            alt="ZHM Real Estate Logo"
+            width={80}
+            height={34}
+            className="object-contain transition-all duration-300"
+            priority
+          />
+        </Link>
+
+        {/* Desktop Nav Mega Menu */}
+        <nav className="hidden lg:flex items-center gap-8 h-full">
+          {navItems.map((item) => (
+            <div key={item.name} className="group h-full relative">
+              <Link
+                href={item.href}
+                className={`flex items-center gap-1 text-[13px] font-bold uppercase tracking-widest py-6 border-b-2 border-transparent group-hover:border-primary transition-all duration-300 ${
+                  isNavbarActive ? "text-[#2a304e]" : "text-white"
+                }`}
+              >
+                {item.name}
+                {item.megaMenu && <ChevronDown size={14} className="opacity-50 group-hover:rotate-180 transition-transform duration-300" />}
+              </Link>
+
+              {/* Mega Menu Dropdown */}
+              {item.megaMenu && (
+                <div className="absolute top-[100%] left-1/2 -translate-x-1/2 w-[900px] xl:w-[1100px] bg-white shadow-2xl rounded-b-xl border-t border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 -mt-2 transform group-hover:mt-0 flex overflow-hidden">
+                  
+                  {/* Left Featured Image side */}
+                  <div className="w-[30%] relative bg-gray-900 overflow-hidden">
+                    <Image 
+                      src={item.megaMenu.image} 
+                      alt={item.megaMenu.imageTitle} 
+                      fill 
+                      className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div className="absolute bottom-6 left-6 text-white">
+                      <p className="text-[10px] font-bold tracking-[0.2em] mb-1 opacity-70">FEATURED</p>
+                      <h3 className="text-2xl font-serif font-bold tracking-tight">{item.megaMenu.imageTitle}</h3>
+                    </div>
+                  </div>
+
+                  {/* Right Links side */}
+                  <div className="w-[70%] p-8 flex gap-12 bg-white">
+                    {item.megaMenu.columns.map((col, idx) => (
+                      <div key={idx} className="flex-1">
+                        <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2">{col.title}</h4>
+                        <ul className="flex flex-col gap-3.5">
+                          {col.links.map((link, lIdx) => (
+                            <li key={lIdx}>
+                              <Link 
+                                href={link.href}
+                                className="text-[13px] text-gray-500 hover:text-primary transition-colors flex items-center"
+                              >
+                                <span className="w-0 h-px bg-primary mr-0 transition-all duration-300 group-hover/link:w-2 group-hover/link:mr-2"></span>
+                                {link.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+
+                </div>
+              )}
+            </div>
+          ))}
+        </nav>
+
+        {/* Right Icons (Search, Heart, Login) */}
+        <div className="hidden lg:flex items-center gap-6 z-50">
+          <button className={`hover:text-primary transition-colors ${isNavbarActive ? "text-[#2a304e]" : "text-white"}`}>
+            <Search size={20} strokeWidth={1.5} />
+          </button>
+          <button className={`hover:text-primary transition-colors ${isNavbarActive ? "text-[#2a304e]" : "text-white"}`}>
+            <Heart size={20} strokeWidth={1.5} />
+          </button>
+        </div>
+
+        {/* Mobile Menu Toggle */}
+        <button
+          className={`lg:hidden z-50 transition-colors ${isNavbarActive ? "text-[#2a304e]" : "text-white"}`}
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        >
+          {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+        </button>
+      </div>
+
+      {/* Full Screen Mobile Menu Overlay */}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.98 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.98 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="fixed inset-0 z-[60] bg-[#fafafa] flex flex-col overflow-y-auto"
+          >
+            {/* Mobile Menu Header */}
+            <div className="flex justify-between items-center px-6 py-4 border-b border-gray-200 bg-white">
+              <Image 
+                src="/nava_logo.png"
+                alt="ZHM Real Estate Logo"
+                width={80}
+                height={34}
+                className="object-contain"
+              />
+              <button
+                className="text-[#1e2350] p-1"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <X size={32} strokeWidth={1.5} />
+              </button>
+            </div>
+
+            {/* Mobile Nav Links Accordion */}
+            <nav className="flex flex-col bg-white">
+              {navItems.map((item) => (
+                <div key={item.name} className="flex flex-col border-b border-gray-100 px-6">
+                  {item.megaMenu ? (
+                    <button
+                      onClick={() => setExpandedMobileItem(expandedMobileItem === item.name ? null : item.name)}
+                      className="text-[14px] font-bold tracking-widest text-[#1e2350] uppercase py-5 flex justify-between items-center w-full focus:outline-none"
+                    >
+                      {expandedMobileItem === item.name ? (
+                        // Title Case when expanded
+                        <span className="capitalize text-base">
+                          {item.name.toLowerCase()}
+                        </span>
+                      ) : (
+                        item.name
+                      )}
+                      <ChevronDown 
+                        size={16} 
+                        className={`text-gray-400 transition-transform duration-300 ${expandedMobileItem === item.name ? "rotate-180" : ""}`} 
+                      />
+                    </button>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className="text-[14px] font-bold tracking-widest text-[#1e2350] uppercase py-5 flex justify-between items-center w-full"
+                    >
+                      {item.name}
+                    </Link>
+                  )}
+                  
+                  {/* Expanded Sub-menu */}
+                  <AnimatePresence>
+                    {item.megaMenu && expandedMobileItem === item.name && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        className="overflow-hidden flex flex-col gap-6 pb-6 px-4"
+                      >
+                        {item.megaMenu.columns.map((col, idx) => (
+                          <div key={idx} className="flex flex-col gap-4 mt-2">
+                            <h4 className="text-[11px] font-bold text-gray-400 tracking-widest uppercase">{col.title}</h4>
+                            <ul className="flex flex-col gap-4">
+                              {col.links.map((link, lIdx) => (
+                                <li key={lIdx}>
+                                  <Link 
+                                    href={link.href}
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                    className="text-[15px] font-bold text-[#2a304e] hover:text-primary transition-colors"
+                                  >
+                                    {link.name}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ))}
+            </nav>
+            
+            {/* Mobile Footer Info */}
+            <div className="mt-8 flex flex-col gap-6 px-6 pb-12">
+              <div className="flex flex-col gap-3">
+                <a href="tel:+971502057334" className="flex items-center gap-4 text-[15px] font-bold text-[#1e2350]">
+                  <Phone className="text-primary" size={20} strokeWidth={2} />
+                  +971 50 205 7334
+                </a>
+                <a href="mailto:info@zhmrealestatellc.ae" className="flex items-center gap-4 text-[15px] font-bold text-[#1e2350]">
+                  <Mail className="text-primary" size={20} strokeWidth={2} />
+                  info@zhmrealestatellc.ae
+                </a>
+              </div>
+              
+              <div className="flex gap-4 mt-2 text-gray-400">
+                <a href="#" className="hover:text-primary transition-colors"><Facebook size={22} strokeWidth={1.5} /></a>
+                <a href="#" className="hover:text-primary transition-colors"><Twitter size={22} strokeWidth={1.5} /></a>
+                <a href="#" className="hover:text-primary transition-colors"><Instagram size={22} strokeWidth={1.5} /></a>
+              </div>
+
+              {/* Black N Logo Button Placeholder */}
+              <div className="w-12 h-12 bg-[#2a2a2a] rounded-full flex items-center justify-center text-white mt-4 shadow-lg cursor-pointer hover:bg-black transition-colors">
+                <span className="font-serif italic font-bold text-xl">N</span>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </header>
+  );
+}

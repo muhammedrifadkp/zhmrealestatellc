@@ -1,0 +1,45 @@
+
+> zhmrealestatellc@0.1.0 build
+> next build
+
+▲ Next.js 16.2.1 (Turbopack)
+- Environments: .env
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.9s
+  Running TypeScript ...
+  Finished TypeScript in 3.6s ...
+  Collecting page data using 11 workers ...
+Error [PrismaClientInitializationError]: `PrismaClient` needs to be constructed with a non-empty, valid `PrismaClientOptions`:
+
+```
+new PrismaClient({
+  ...
+})
+```
+
+or
+
+```
+constructor() {
+  super({ ... });
+}
+```
+          
+    at module evaluation (C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\.next\server\chunks\[root-of-the-server]__0gzjwjq._.js:1:1382)
+    at instantiateModule (C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\.next\server\chunks\[turbopack]_runtime.js:853:9)
+    at instantiateRuntimeModule (C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\.next\server\chunks\[turbopack]_runtime.js:882:12)
+    at getOrInstantiateRuntimeModule (C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\.next\server\chunks\[turbopack]_runtime.js:895:12)
+    at Object.m (C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\.next\server\chunks\[turbopack]_runtime.js:898:18)
+    at Object.<anonymous> (C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\.next\server\app\api\contact\route.js:5:3) {
+  clientVersion: '7.5.0',
+  errorCode: undefined,
+  retryable: undefined
+}
+
+> Build error occurred
+Error: Failed to collect page data for /api/contact
+    at ignore-listed frames {
+  type: 'Error'
+}
