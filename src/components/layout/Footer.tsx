@@ -70,15 +70,17 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="text-lg font-bold uppercase tracking-wider mb-2 border-b-2 border-primary inline-block self-start pb-1">Newsletter</h3>
             <p className="text-gray-400 text-sm mb-2">Subscribe to our newsletter for the latest updates and property offers.</p>
-            <form className="flex flex-col gap-3">
+            <form className="flex flex-col gap-3" suppressHydrationWarning>
               <input 
                 type="email" 
+                suppressHydrationWarning
                 placeholder="Your email address" 
                 className="bg-white/5 border border-white/10 px-4 py-3 rounded-md text-white focus:outline-none focus:border-primary transition-colors"
                 required
               />
               <button 
                 type="submit" 
+                suppressHydrationWarning
                 className="bg-primary text-white font-semibold py-3 px-4 rounded-md hover:bg-primary-dark transition-colors uppercase tracking-wider text-sm"
               >
                 Subscribe

@@ -194,13 +194,16 @@ export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [expandedMobileItem, setExpandedMobileItem] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
 
-  const isNavbarActive = isScrolled || isHovered || isMobileMenuOpen;
+  const isNavbarActive = (mounted && isScrolled) || isHovered || isMobileMenuOpen;
 
   useEffect(() => {
+    setMounted(true);
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -224,14 +227,14 @@ export function Navbar() {
         }`}
       >
         <div className="flex items-center gap-4">
-          <button className="flex items-center gap-1 hover:text-white transition-colors">
+          <button suppressHydrationWarning className="flex items-center gap-1 hover:text-white transition-colors">
             AED <ChevronDown size={12} />
           </button>
           <div className="w-px h-3 bg-white/20"></div>
-          <button className="flex items-center gap-1 hover:text-white transition-colors">
+          <button suppressHydrationWarning className="flex items-center gap-1 hover:text-white transition-colors">
             GB EN <ChevronDown size={12} />
           </button>
-          <button className="flex items-center gap-1 hover:text-white transition-colors ml-2">
+          <button suppressHydrationWarning className="flex items-center gap-1 hover:text-white transition-colors ml-2">
             BRANCHES <ChevronDown size={12} />
           </button>
         </div>
@@ -246,7 +249,7 @@ export function Navbar() {
             <a href="#" className="hover:text-white transition-colors"><Linkedin size={13} /></a>
             <a href="#" className="hover:text-white transition-colors"><Youtube size={13} /></a>
           </div>
-          <button className="flex items-center gap-1 font-semibold hover:text-white transition-colors">
+          <button suppressHydrationWarning className="flex items-center gap-1 font-semibold hover:text-white transition-colors">
             DUBAI <ChevronDown size={12} />
           </button>
         </div>
@@ -275,9 +278,10 @@ export function Navbar() {
         {/* Desktop Nav Mega Menu */}
         <nav className="hidden lg:flex items-center gap-8 h-full">
           {navItems.map((item) => (
-            <div key={item.name} className="group h-full relative">
+            <div key={item.name} className="group h-full relative" suppressHydrationWarning>
               <Link
                 href={item.href}
+                suppressHydrationWarning
                 className={`flex items-center gap-1 text-[13px] font-bold uppercase tracking-widest py-6 border-b-2 border-transparent group-hover:border-primary transition-all duration-300 ${
                   isNavbarActive ? "text-[#2a304e]" : "text-white"
                 }`}
@@ -337,16 +341,17 @@ export function Navbar() {
 
         {/* Right Icons (Search, Heart, Login) */}
         <div className="hidden lg:flex items-center gap-6 z-50">
-          <button className={`hover:text-primary transition-colors ${isNavbarActive ? "text-[#2a304e]" : "text-white"}`}>
+          <button suppressHydrationWarning className={`hover:text-primary transition-colors ${isNavbarActive ? "text-[#2a304e]" : "text-white"}`}>
             <Search size={20} strokeWidth={1.5} />
           </button>
-          <button className={`hover:text-primary transition-colors ${isNavbarActive ? "text-[#2a304e]" : "text-white"}`}>
+          <button suppressHydrationWarning className={`hover:text-primary transition-colors ${isNavbarActive ? "text-[#2a304e]" : "text-white"}`}>
             <Heart size={20} strokeWidth={1.5} />
           </button>
         </div>
 
         {/* Mobile Menu Toggle */}
         <button
+          suppressHydrationWarning
           className={`lg:hidden z-50 transition-colors ${isNavbarActive ? "text-[#2a304e]" : "text-white"}`}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
@@ -374,6 +379,7 @@ export function Navbar() {
                 className="object-contain"
               />
               <button
+                suppressHydrationWarning
                 className="text-[#1e2350] p-1"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
