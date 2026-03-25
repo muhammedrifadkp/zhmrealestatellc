@@ -26,12 +26,12 @@ export function PropertySearchBar() {
   };
 
   return (
-    <section className="relative z-20 -mt-2 pb-0">
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="bg-white rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)] overflow-hidden border border-gray-100">
+    <section className="relative z-30 -mt-24 sm:-mt-20 md:-mt-24 pb-12 sm:pb-16 px-4 md:px-0">
+      <div className="container mx-auto max-w-6xl">
+        <div className="bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.3)] overflow-hidden border border-white/20">
           {/* Tab Bar */}
-          <div className="bg-secondary flex items-center px-6 pt-4 gap-1">
-            <h2 className="text-white/60 text-xs uppercase tracking-widest font-bold mr-4 hidden sm:block">
+          <div className="bg-secondary/95 backdrop-blur-md flex items-center px-4 md:px-6 pt-4 gap-2 border-b border-white/5">
+            <h2 className="text-primary text-[10px] sm:text-xs uppercase tracking-[0.2em] font-bold mr-auto hidden md:block">
               Find the Right Property, Faster
             </h2>
             {contractTypes.map((type) => (
@@ -39,10 +39,10 @@ export function PropertySearchBar() {
                 key={type}
                 suppressHydrationWarning
                 onClick={() => setContract(type)}
-                className={`px-5 py-2.5 text-sm font-bold tracking-wider rounded-t-lg transition-all duration-200 ${
+                className={`flex-1 sm:flex-none px-6 py-3 text-sm font-bold tracking-wider rounded-t-lg transition-all duration-300 ${
                   contract === type
-                    ? "bg-white text-secondary"
-                    : "text-white/60 hover:text-white"
+                    ? "bg-white text-secondary shadow-[0_-4px_20px_rgba(0,0,0,0.1)]"
+                    : "text-white/60 hover:text-white bg-white/5 hover:bg-white/10"
                 }`}
               >
                 {type}
@@ -51,8 +51,11 @@ export function PropertySearchBar() {
           </div>
 
           {/* Search Form */}
-          <form onSubmit={handleSearch} className="p-4 md:p-6">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <form onSubmit={handleSearch} className="relative p-5 md:p-8 bg-white">
+            {/* Subtle luxury background element */}
+            <div className="absolute inset-0 opacity-[0.02] pointer-events-none" style={{ backgroundImage: 'radial-gradient(#d4af37 1px, transparent 1px)', backgroundSize: '24px 24px' }} />
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 relative z-10">
               {/* Project / Community Search */}
               <div className="lg:col-span-1">
                 <label className="block text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-1.5">
@@ -66,7 +69,7 @@ export function PropertySearchBar() {
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                     placeholder="e.g. Palm Jumeirah, Downtown..."
-                    className="w-full pl-9 pr-4 py-3 border border-gray-200 rounded-lg text-sm text-secondary focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
+                    className="w-full pl-9 pr-4 py-3.5 bg-gray-50 border border-gray-200 rounded-lg text-sm text-secondary focus:bg-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                   />
                 </div>
               </div>
@@ -81,7 +84,7 @@ export function PropertySearchBar() {
                     value={propertyType}
                     suppressHydrationWarning
                     onChange={(e) => setPropertyType(e.target.value)}
-                    className="w-full appearance-none px-4 py-3 border border-gray-200 rounded-lg text-sm text-secondary focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all bg-white cursor-pointer"
+                    className="w-full appearance-none px-4 py-3.5 bg-gray-50 border border-gray-200 rounded-lg text-sm text-secondary focus:bg-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all cursor-pointer"
                   >
                     <option value="">All Types</option>
                     {propertyTypes.map((t) => (
@@ -102,7 +105,7 @@ export function PropertySearchBar() {
                     value={beds}
                     suppressHydrationWarning
                     onChange={(e) => setBeds(e.target.value)}
-                    className="w-full appearance-none px-4 py-3 border border-gray-200 rounded-lg text-sm text-secondary focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all bg-white cursor-pointer"
+                    className="w-full appearance-none px-4 py-3.5 bg-gray-50 border border-gray-200 rounded-lg text-sm text-secondary focus:bg-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all cursor-pointer"
                   >
                     <option value="">Any Beds</option>
                     {bedroomOptions.map((b) => (
@@ -118,7 +121,7 @@ export function PropertySearchBar() {
                 <button
                   type="submit"
                   suppressHydrationWarning
-                  className="btn-gold w-full py-3 rounded-lg flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-widest"
+                  className="btn-gold w-full py-3.5 rounded-lg flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-[0.15em] shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all duration-300"
                 >
                   <Search size={16} />
                   Search Properties

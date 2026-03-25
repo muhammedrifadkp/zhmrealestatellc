@@ -108,15 +108,15 @@ export function HeroSection() {
         style={{ background: "linear-gradient(90deg, transparent, #d4af37, transparent)" }} />
 
       {/* Hero Content */}
-      <div className="relative z-10 container mx-auto px-4 md:px-6 text-center pt-28 md:pt-32 lg:pt-40 pb-56 sm:pb-48 md:pb-40 flex flex-col justify-center min-h-[100dvh]">
+      <div className="relative z-10 container mx-auto px-4 md:px-6 text-center pt-28 md:pt-32 lg:pt-36 pb-56 sm:pb-48 md:pb-40 flex flex-col justify-center min-h-[100dvh]">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 mb-6"
+          className="flex items-center justify-center gap-2 mb-6 w-full"
         >
           <span className="w-8 h-px bg-primary" />
-          <span className="text-primary text-xs font-bold tracking-[0.25em] uppercase">
+          <span className="text-primary text-xs font-bold tracking-[0.25em] uppercase text-center">
             Dubai&apos;s Premier Real Estate Agency
           </span>
           <span className="w-8 h-px bg-primary" />
@@ -188,8 +188,8 @@ export function HeroSection() {
       </div>
 
       {/* Animated Stats Bar */}
-      <div className="absolute bottom-0 left-0 right-0 z-10">
-        <div className="glass-dark border-t border-white/10 px-4">
+      <div className="absolute bottom-24 sm:bottom-20 md:bottom-24 left-0 right-0 z-10 w-full pointer-events-none">
+        <div className="bg-secondary/80 backdrop-blur-md border-y border-white/10 px-4 pointer-events-auto">
           <div className="container mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-4">
               {stats.map((stat, i) => (
