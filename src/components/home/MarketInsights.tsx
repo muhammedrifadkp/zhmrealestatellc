@@ -10,7 +10,7 @@ const stats = [
     value: 72.06,
     suffix: "%",
     label: "Total Sales Growth",
-    desc: "Year-on-year growth in total property sales across Dubai.",
+    desc: "Year-on-year growth in total real estate sales across Dubai.",
     color: "#d4af37",
   },
   {
@@ -26,7 +26,7 @@ const stats = [
     value: 16.88,
     suffix: "%",
     label: "Investment Gains",
-    desc: "Average capital appreciation on prime Dubai properties.",
+    desc: "Average capital appreciation on prime Dubai real estate.",
     color: "#34d399",
   },
   {
@@ -109,7 +109,7 @@ export function MarketInsights() {
             <em className="text-gold-gradient font-medium">Market Performance</em>
           </h2>
           <p className="text-gray-400 max-w-lg mx-auto text-sm leading-relaxed">
-            Backed by data from Dubai&apos;s leading property research agencies — here&apos;s what the market looks like.
+            Backed by data from Dubai&apos;s leading real estate research agencies — here&apos;s what the market looks like.
           </p>
         </div>
 

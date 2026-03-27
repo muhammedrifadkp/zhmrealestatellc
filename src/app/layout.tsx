@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ZHM Real Estate – Top Real Estate Company in Dubai",
-  description: "ZHM Real Estate LLC is one of the top real estate agencies in Dubai, offering premium properties for buy, sell, and rent.",
+  description: "ZHM Real Estate LLC is one of the top real estate agencies in Dubai, offering premium real estate for buy, sell, and rent.",
 };
 
 export default function RootLayout({

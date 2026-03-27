@@ -24,7 +24,7 @@ const heroSlides = [
 const stats = [
   { icon: Users, value: 1200, suffix: "+", label: "Happy Families" },
   { icon: Building2, value: 350, suffix: "+", label: "Projects Completed" },
-  { icon: Home, value: 2500, suffix: "+", label: "Properties Across Dubai" },
+  { icon: Home, value: 2500, suffix: "+", label: "Happy Clients" },
   { icon: Award, value: 15, suffix: "+", label: "Years of Experience" },
 ];
 
@@ -142,7 +142,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-base md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed"
         >
-          Your trusted partner for residential properties — helping homeowners and investors 
+          Your trusted partner for residential real estate — helping homeowners and investors 
           find their dream homes with expert guidance and deep market knowledge.
         </motion.p>
 
@@ -153,10 +153,10 @@ export function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full px-4 sm:px-0"
         >
           <Link
-            href="/properties"
+            href="/services"
             className="btn-gold w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-sm text-sm font-bold tracking-widest uppercase"
           >
-            Find Your Property
+            Explore Services
             <ArrowRight size={16} />
           </Link>
           <Link

@@ -12,7 +12,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const navItems = [
   {
     name: "FEATURED PROJECTS",
-    href: "/properties?featured=true",
+    href: "#",
     megaMenu: {
       image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
       imageTitle: "Featured Projects",
@@ -51,45 +51,8 @@ const navItems = [
     }
   },
   {
-    name: "PROPERTIES",
-    href: "/properties",
-    megaMenu: {
-      image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      imageTitle: "Properties",
-      columns: [
-        {
-          title: "RESIDENTIAL",
-          links: [
-            { name: "Buy Apartments", href: "#" },
-            { name: "Buy Villas", href: "#" },
-            { name: "Rent Apartments", href: "#" },
-            { name: "Rent Villas", href: "#" }
-          ]
-        },
-        {
-          title: "COMMERCIAL",
-          links: [
-            { name: "Offices for Sale", href: "#" },
-            { name: "Offices for Rent", href: "#" },
-            { name: "Commercial plot", href: "#" },
-            { name: "View All", href: "#" }
-          ]
-        },
-        {
-          title: "BEDROOMS",
-          links: [
-            { name: "1 Bedroom", href: "#" },
-            { name: "2 Bedrooms", href: "#" },
-            { name: "3 Bedrooms", href: "#" },
-            { name: "View All", href: "#" }
-          ]
-        }
-      ]
-    }
-  },
-  {
     name: "PROJECTS",
-    href: "/properties",
+    href: "#",
     megaMenu: {
       image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
       imageTitle: "Projects",
@@ -371,13 +334,15 @@ export function Navbar() {
           >
             {/* Mobile Menu Header */}
             <div className="flex justify-between items-center px-6 py-4 border-b border-gray-200 bg-white">
-              <Image 
-                src="/nava_logo.png"
-                alt="ZHM Real Estate Logo"
-                width={80}
-                height={34}
-                className="object-contain"
-              />
+              <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
+                <Image 
+                  src="/nava_logo.png"
+                  alt="ZHM Real Estate Logo"
+                  width={80}
+                  height={34}
+                  className="object-contain"
+                />
+              </Link>
               <button
                 suppressHydrationWarning
                 className="text-[#1e2350] p-1"

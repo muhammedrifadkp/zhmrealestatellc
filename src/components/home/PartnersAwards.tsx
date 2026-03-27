@@ -9,10 +9,10 @@ const developers = [
 ];
 
 const awards = [
-  { title: "Best Real Estate Agency", year: "2024", org: "Dubai Property Awards" },
+  { title: "Best Real Estate Agency", year: "2024", org: "Dubai Real Estate Awards" },
   { title: "Top Performing Broker", year: "2023", org: "Real Estate Excellence Awards" },
   { title: "Client Satisfaction Excellence", year: "2023", org: "UAE Real Estate Forum" },
-  { title: "Innovation in Property Tech", year: "2022", org: "Gulf Real Estate Awards" },
+  { title: "Innovation in PropTech", year: "2022", org: "Gulf Real Estate Awards" },
 ];
 
 export function PartnersAwards() {
@@ -29,7 +29,7 @@ export function PartnersAwards() {
               <em className="font-medium"> Leading Developers</em>
             </h2>
             <p className="text-gray-500 text-sm max-w-md mx-auto">
-              Partnered with the UAE&apos;s most reputable real estate developers to bring you the finest properties.
+              Partnered with the UAE&apos;s most reputable real estate developers to bring you the finest real estate.
             </p>
           </div>
 

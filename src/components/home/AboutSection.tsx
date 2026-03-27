@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 const features = [
-  "Premium luxury properties",
+  "Premium luxury real estate",
   "Trusted & certified agents",
-  "Professional property management",
+  "Professional portfolio management",
   "Expert investment advice",
   "Market-leading valuations",
   "End-to-end client support",
@@ -32,7 +32,7 @@ export function AboutSection() {
             <div className="relative h-[480px] rounded-2xl overflow-hidden shadow-[var(--shadow-luxury)]">
               <Image
                 src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop"
-                alt="ZHM Real Estate – Luxury Property Dubai"
+                alt="ZHM Real Estate – Luxury Real Estate Dubai"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -95,7 +95,7 @@ export function AboutSection() {
             </p>
             <p className="text-gray-600 mb-8 text-base leading-relaxed">
               We provide comprehensive real estate services with years of experience and deep market knowledge, 
-              catering to both local and international investors looking to make their mark in Dubai&apos;s dynamic property market.
+              catering to both local and international investors looking to make their mark in Dubai&apos;s dynamic real estate market.
             </p>
 
             {/* Feature grid */}

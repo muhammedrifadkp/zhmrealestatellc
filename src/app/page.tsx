@@ -1,7 +1,4 @@
 import { HeroSection } from "@/components/home/HeroSection";
-import { PropertySearchBar } from "@/components/home/PropertySearchBar";
-import { FeaturedProperties } from "@/components/home/FeaturedProperties";
-import { ListYourProperty } from "@/components/home/ListYourProperty";
 import { AboutSection } from "@/components/home/AboutSection";
 import { ServicesSection } from "@/components/home/ServicesSection";
 import { WhyChooseUs } from "@/components/home/WhyChooseUs";
@@ -16,16 +13,8 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full overflow-hidden">
       {/* 1. Hero - Full screen with bg slider, headline, CTAs, animated counters */}
+      {/* 1. Hero - Full screen with bg slider, headline, CTAs, animated counters */}
       <HeroSection />
-
-      {/* 2. Property Search Bar - Buy/Rent tabs, filters */}
-      <PropertySearchBar />
-
-      {/* 3. Featured Properties - Dubai Properties For Sale & Rent */}
-      <FeaturedProperties />
-
-      {/* 4. List Your Property Form */}
-      <ListYourProperty />
 
       {/* 5. About Us - Who We Are */}
       <AboutSection />

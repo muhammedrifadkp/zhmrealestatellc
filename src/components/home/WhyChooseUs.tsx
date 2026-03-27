@@ -17,11 +17,11 @@ const pillars = [
   {
     icon: Heart,
     title: "Personalized Service",
-    desc: "We take time to understand your unique needs and tailor our approach to find you the perfect property match.",
+    desc: "We take time to understand your unique needs and tailor our approach to find you the perfect match.",
   },
   {
     icon: LayoutGrid,
-    title: "Wide Range of Properties",
+    title: "Wide Range of Options",
     desc: "From luxury villas in Palm Jumeirah to smart city apartments — our extensive portfolio covers every budget and preference.",
   },
   {
@@ -32,7 +32,7 @@ const pillars = [
   {
     icon: Building2,
     title: "Extensive Portfolio",
-    desc: "Access an unmatched selection of premium, mid-range, and investment properties across all key Dubai communities.",
+    desc: "Access an unmatched selection of premium, mid-range, and investment real estate across all key Dubai communities.",
   },
 ];
 
@@ -49,7 +49,7 @@ export function WhyChooseUs() {
           <h2 className="heading-luxury text-3xl md:text-5xl mb-4">
             Why Choose ZHM for Your
             <br />
-            <em className="font-medium text-gold-gradient">Property Needs?</em>
+            <em className="font-medium text-gold-gradient">Real Estate Needs?</em>
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto text-sm leading-relaxed">
             We combine local expertise with international standards to deliver a real estate experience 

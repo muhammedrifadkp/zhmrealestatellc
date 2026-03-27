@@ -7,27 +7,27 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "What services does ZHM Real Estate offer?",
-    a: "ZHM Real Estate offers a comprehensive range of services including buying, selling, leasing, and property management for residential and commercial properties in Dubai and the wider UAE. We also assist with international property investments in countries like Georgia and Latvia.",
+    a: "ZHM Real Estate offers a comprehensive range of services including buying, selling, leasing, and portfolio management for residential and commercial real estate in Dubai and the wider UAE. We also assist with international real estate investments in countries like Georgia and Latvia.",
   },
   {
-    q: "What types of properties do you deal with?",
-    a: "We specialize in a wide range of property types including luxury villas, apartments, penthouses, townhouses, studios, commercial offices, and land. Our portfolio covers all key communities across Dubai including Palm Jumeirah, Downtown, Business Bay, Dubai Hills Estate, and more.",
+    q: "What types of real estate do you deal with?",
+    a: "We specialize in a wide range of asset types including luxury villas, apartments, penthouses, townhouses, studios, commercial offices, and land. Our portfolio covers all key communities across Dubai including Palm Jumeirah, Downtown, Business Bay, Dubai Hills Estate, and more.",
   },
   {
     q: "Do you assist international investors looking to buy in Dubai?",
-    a: "Absolutely! ZHM Real Estate has extensive experience working with international investors. We guide you through every step from property selection, legal processes, financing options, and final handover — making your Dubai investment seamless regardless of where you're based.",
+    a: "Absolutely! ZHM Real Estate has extensive experience working with international investors. We guide you through every step from asset selection, legal processes, financing options, and final handover — making your Dubai investment seamless regardless of where you're based.",
   },
   {
-    q: "How does the property management service work?",
-    a: "Our property management service covers everything from tenant sourcing, rent collection, maintenance coordination, and regulatory compliance to ensuring your investment generates maximum returns while you focus on other priorities.",
+    q: "How does the portfolio management service work?",
+    a: "Our portfolio management service covers everything from tenant sourcing, rent collection, maintenance coordination, and regulatory compliance to ensuring your investment generates maximum returns while you focus on other priorities.",
   },
   {
-    q: "Does ZHM Real Estate offer properties outside of the UAE?",
-    a: "Yes! We offer carefully selected international investment properties in Georgia and Latvia, providing our clients with diversification opportunities and attractive yields in emerging European markets.",
+    q: "Does ZHM Real Estate offer assets outside of the UAE?",
+    a: "Yes! We offer carefully selected international investment assets in Georgia and Latvia, providing our clients with diversification opportunities and attractive yields in emerging European markets.",
   },
   {
-    q: "How do I list my property with ZHM Real Estate?",
-    a: "Simply fill out our 'List Your Property' form above with your contact details and property information. Our team will reach out within 24 hours to conduct a complimentary valuation and begin the listing process.",
+    q: "How do I list my asset with ZHM Real Estate?",
+    a: "Simply contact us with your contact details and asset information. Our team will reach out within 24 hours to conduct a complimentary valuation and begin the listing process.",
   },
 ];
 
@@ -65,7 +65,7 @@ export function FAQSection() {
             {/* Contact prompt */}
             <div className="bg-secondary rounded-2xl p-6">
               <p className="text-white font-bold mb-2">Still have questions?</p>
-              <p className="text-gray-400 text-sm mb-4">Our team is ready to help you with any property-related queries.</p>
+              <p className="text-gray-400 text-sm mb-4">Our team is ready to help you with any real estate queries.</p>
               <a
                 href="tel:+971502057334"
                 className="btn-gold inline-flex items-center gap-2 px-6 py-3 rounded-lg text-sm font-bold"

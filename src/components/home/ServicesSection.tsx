@@ -9,8 +9,8 @@ const services = [
   {
     icon: Building2,
     title: "Buy Property",
-    desc: "Find your dream home with our extensive portfolio of luxury properties across Dubai's most sought-after communities.",
-    href: "/properties",
+    desc: "Find your dream home with our extensive portfolio of luxury real estate across Dubai's most sought-after communities.",
+    href: "#",
   },
   {
     icon: Key,
@@ -21,8 +21,8 @@ const services = [
   {
     icon: Home,
     title: "Rent & Lease",
-    desc: "Access a curated selection of residential and commercial properties available for rent across all key Dubai areas.",
-    href: "/properties",
+    desc: "Access a curated selection of residential and commercial real estate available for rent across all key Dubai areas.",
+    href: "#",
   },
   {
     icon: ShieldCheck,

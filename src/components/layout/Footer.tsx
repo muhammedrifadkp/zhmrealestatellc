@@ -38,7 +38,6 @@ export function Footer() {
             <h3 className="text-lg font-bold uppercase tracking-wider mb-2 border-b-2 border-primary inline-block self-start pb-1">Quick Links</h3>
             <ul className="flex flex-col gap-2">
               <li><Link href="/about" className="text-gray-400 hover:text-primary transition-colors">About Us</Link></li>
-              <li><Link href="/properties" className="text-gray-400 hover:text-primary transition-colors">Properties</Link></li>
               <li><Link href="/services" className="text-gray-400 hover:text-primary transition-colors">Services</Link></li>
               <li><Link href="/contact" className="text-gray-400 hover:text-primary transition-colors">Contact Us</Link></li>
             </ul>
@@ -69,7 +68,7 @@ export function Footer() {
           {/* Newsletter */}
           <div className="flex flex-col gap-4">
             <h3 className="text-lg font-bold uppercase tracking-wider mb-2 border-b-2 border-primary inline-block self-start pb-1">Newsletter</h3>
-            <p className="text-gray-400 text-sm mb-2">Subscribe to our newsletter for the latest updates and property offers.</p>
+            <p className="text-gray-400 text-sm mb-2">Subscribe to our newsletter for the latest updates and real estate offers.</p>
             <form className="flex flex-col gap-3" suppressHydrationWarning>
               <input 
                 type="email" 
