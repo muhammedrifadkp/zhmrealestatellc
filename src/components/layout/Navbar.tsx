@@ -20,11 +20,11 @@ const navItems = [
         {
           title: "ABU DHABI",
           links: [
-            { name: "Sama Yas", href: "#" },
-            { name: "Yas Riva", href: "#" },
-            { name: "Manarat Living - Saadiyat", href: "#" },
-            { name: "The Arthouse", href: "#" },
-            { name: "Muheira", href: "#" }
+            { name: "Sama Yas", href: "/projects/sama-yas" },
+            { name: "Yas Riva", href: "/projects/yas-riva" },
+            { name: "Manarat Living - Saadiyat", href: "/projects/manarat-living" },
+            { name: "The Arthouse", href: "/projects/the-arthouse" },
+            { name: "Muheira", href: "/projects/muheira" }
           ]
         },
         {
