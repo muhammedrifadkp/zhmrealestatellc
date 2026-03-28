@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { 
   Menu, X, Phone, Mail, ChevronDown, Search, Heart, 
   Facebook, Twitter, Instagram, Linkedin, Youtube, Ghost 
@@ -158,8 +159,10 @@ export function Navbar() {
   const [isHovered, setIsHovered] = useState(false);
   const [expandedMobileItem, setExpandedMobileItem] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
+  const pathname = usePathname();
 
-  const isNavbarActive = (mounted && isScrolled) || isHovered || isMobileMenuOpen;
+  const isSearchPage = pathname?.startsWith('/search');
+  const isNavbarActive = (mounted && isScrolled) || isHovered || isMobileMenuOpen || isSearchPage;
 
   useEffect(() => {
     setMounted(true);
@@ -234,6 +237,7 @@ export function Navbar() {
             width={80}
             height={34}
             className="object-contain transition-all duration-300"
+            // style={{ width: 'auto', height: 'auto' }}
             priority
           />
         </Link>
@@ -340,6 +344,7 @@ export function Navbar() {
                   alt="ZHM Real Estate Logo"
                   width={80}
                   height={34}
+                  style={{ width: 'auto', height: 'auto' }}
                   className="object-contain"
                 />
               </Link>

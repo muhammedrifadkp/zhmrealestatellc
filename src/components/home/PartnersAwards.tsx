@@ -8,12 +8,7 @@ const developers = [
   "Sobha", "Dubai Properties", "Imkan", "Azizi", "Ellington",
 ];
 
-const awards = [
-  { title: "Best Real Estate Agency", year: "2024", org: "Dubai Real Estate Awards" },
-  { title: "Top Performing Broker", year: "2023", org: "Real Estate Excellence Awards" },
-  { title: "Client Satisfaction Excellence", year: "2023", org: "UAE Real Estate Forum" },
-  { title: "Innovation in PropTech", year: "2022", org: "Gulf Real Estate Awards" },
-];
+
 
 export function PartnersAwards() {
   return (
@@ -55,45 +50,7 @@ export function PartnersAwards() {
           </div>
         </div>
 
-        {/* Awards */}
-        <div>
-          <div className="text-center mb-10">
-            <span className="section-label mb-3 inline-flex mx-auto">Recognition</span>
-            <h2 className="heading-luxury text-3xl md:text-4xl mb-3">
-              Recognized for
-              <em className="font-medium"> Excellence</em>
-            </h2>
-          </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {awards.map((award, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="group relative bg-secondary rounded-2xl p-8 text-center overflow-hidden luxury-card"
-              >
-                {/* Glow */}
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-32 rounded-full opacity-10 group-hover:opacity-20 transition-opacity"
-                  style={{ background: "radial-gradient(circle, #d4af37, transparent)" }} />
-
-                {/* Trophy icon */}
-                <div className="w-16 h-16 rounded-full bg-primary/20 border border-primary/30 mx-auto mb-5 flex items-center justify-center">
-                  <span className="text-2xl">🏆</span>
-                </div>
-
-                <p className="text-primary text-xs font-bold uppercase tracking-widest mb-2">{award.year}</p>
-                <h3 className="text-white font-bold text-base mb-2 leading-snug">{award.title}</h3>
-                <p className="text-gray-400 text-xs">{award.org}</p>
-
-                {/* Bottom accent */}
-                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
-              </motion.div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
