@@ -187,6 +187,7 @@ export default function AboutPage() {
                       src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1956&auto=format&fit=crop"
                       alt="Business Meeting"
                       fill
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
                     />
                   </div>
@@ -195,6 +196,7 @@ export default function AboutPage() {
                       src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop"
                       alt="Office Space"
                       fill
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
                     />
                   </div>
@@ -205,6 +207,7 @@ export default function AboutPage() {
                       src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
                       alt="Dubai Buildings"
                       fill
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
                     />
                   </div>
@@ -213,6 +216,7 @@ export default function AboutPage() {
                       src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop"
                       alt="Property Showcase"
                       fill
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
                     />
                   </div>
@@ -244,6 +248,8 @@ export default function AboutPage() {
                     src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=2070&auto=format&fit=crop"
                     alt="Mr. Shahbaz - Founder"
                     fill
+                    priority
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent" />
@@ -335,6 +341,7 @@ export default function AboutPage() {
                     src={member.image}
                     alt={member.name}
                     fill
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 25vw"
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   {/* Always visible name on mobile, hover on desktop */}

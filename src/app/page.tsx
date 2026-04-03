@@ -1,5 +1,5 @@
 import { HeroSection } from "@/components/home/HeroSection";
-import { HomeSearchFilter } from "@/components/home/HomeSearchFilter";
+
 import { AboutSection } from "@/components/home/AboutSection";
 import { ServicesSection } from "@/components/home/ServicesSection";
 import { WhyChooseUs } from "@/components/home/WhyChooseUs";
@@ -17,8 +17,7 @@ export default function Home() {
       {/* 1. Hero - Full screen with bg slider, headline, CTAs, animated counters */}
       <HeroSection />
 
-      {/* Search Filter */}
-      <HomeSearchFilter />
+
 
       {/* 5. About Us - Who We Are */}
       <AboutSection />

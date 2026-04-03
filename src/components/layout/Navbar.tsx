@@ -31,21 +31,19 @@ const navItems = [
         {
           title: "DUBAI",
           links: [
-            { name: "Elegance Tower", href: "#" },
-            { name: "Address Residences The Bay", href: "#" },
-            { name: "Rawda Apartments", href: "#" },
-            { name: "DE Collective", href: "#" },
-            { name: "Expo Golf Villas", href: "#" }
+            { name: "Elegance Tower", href: "/projects/elegance-tower" },
+            { name: "Address Residences The Bay", href: "/projects/address-residences-the-bay" },
+            { name: "Rawda Apartments", href: "/projects/rawda-apartments" },
+            { name: "DE Collective", href: "/projects/de-collective" },
+            { name: "Expo Golf Villas", href: "/projects/expo-golf-villas" }
           ]
         },
         {
-          title: "SHARJAH",
+          title: "RAS AL KHAIMA",
           links: [
-            { name: "Sharjah Waterfront City", href: "#" },
-            { name: "Deem at Hayyan", href: "#" },
-            { name: "Olfah", href: "#" },
-            { name: "Hayyan", href: "#" },
-            { name: "Hamsa 2", href: "#" }
+            { name: "Solera", href: "/projects/solera" },
+            { name: "Nikki Beach Residences", href: "/projects/nikki-beach-residences" },
+            { name: "View All", href: "/projects/rak" }
           ]
         }
       ]
@@ -61,23 +59,23 @@ const navItems = [
         {
           title: "ABU DHABI",
           links: [
-            { name: "Al Reem Island", href: "#" },
-            { name: "Saadiyat Island", href: "#" },
-            { name: "Yas island", href: "#" },
-            { name: "Al Raha Beach", href: "#" },
-            { name: "Al Raha Gardens", href: "#" },
-            { name: "View All", href: "#" }
+            { name: "Al Reem Island", href: "/projects/abu-dhabi/al-reem-island" },
+            { name: "Saadiyat Island", href: "/projects/abu-dhabi/saadiyat-island" },
+            { name: "Yas Island", href: "/projects/abu-dhabi/yas-island" },
+            { name: "Al Raha Beach", href: "/projects/abu-dhabi/al-raha-beach" },
+            { name: "Al Raha Gardens", href: "/projects/abu-dhabi/al-raha-gardens" },
+            { name: "View All", href: "/projects/abu-dhabi" }
           ]
         },
         {
           title: "DUBAI",
           links: [
-            { name: "Palm Jumeirah", href: "#" },
-            { name: "Downtown Dubai", href: "#" },
-            { name: "Dubai Creek", href: "#" },
-            { name: "Town Square Dubai", href: "#" },
-            { name: "Dubai Hills Estate", href: "#" },
-            { name: "View All", href: "#" }
+            { name: "Palm Jumeirah", href: "/projects/dubai/palm-jumeirah" },
+            { name: "Downtown Dubai", href: "/projects/dubai/downtown-dubai" },
+            { name: "Dubai Creek", href: "/projects/dubai/dubai-creek" },
+            { name: "Town Square Dubai", href: "/projects/dubai/town-square-dubai" },
+            { name: "Dubai Hills Estate", href: "/projects/dubai/dubai-hills-estate" },
+            { name: "View All", href: "/projects/dubai" }
           ]
         },
         {
@@ -88,7 +86,7 @@ const navItems = [
             { name: "Imkan", href: "#" },
             { name: "Meraas", href: "#" },
             { name: "Dubai Properties", href: "#" },
-            { name: "View All", href: "#" }
+            { name: "View All", href: "/developers" }
           ]
         }
       ]
@@ -162,7 +160,9 @@ export function Navbar() {
   const pathname = usePathname();
 
   const isSearchPage = pathname?.startsWith('/search');
-  const isNavbarActive = (mounted && isScrolled) || isHovered || isMobileMenuOpen || isSearchPage;
+  const isTermsOrPrivacy = pathname === '/terms' || pathname === '/privacy';
+  const isProjectsListing = pathname?.startsWith('/projects/') || pathname === '/developers';
+  const isNavbarActive = (mounted && isScrolled) || isHovered || isMobileMenuOpen || isSearchPage || isTermsOrPrivacy || isProjectsListing;
 
   useEffect(() => {
     setMounted(true);
@@ -189,7 +189,7 @@ export function Navbar() {
       {/* Top Bar (Dark Navy) */}
       <div 
         className={`bg-[#12163b] text-white/90 text-[11px] font-medium px-6 hidden lg:flex justify-between items-center tracking-wide overflow-hidden transition-all duration-300 ${
-          isScrolled ? "max-h-0 py-0 opacity-0" : "max-h-[40px] py-1.5 opacity-100"
+          isScrolled ? "max-h-0 py-0 opacity-0" : "max-h-[36px] py-1.5 opacity-100"
         }`}
       >
         <div className="flex items-center gap-4">
@@ -226,7 +226,7 @@ export function Navbar() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         className={`w-full transition-colors duration-300 ${
-          isNavbarActive ? "bg-white shadow-md py-2" : "bg-transparent py-4"
+          isNavbarActive ? "bg-white shadow-md py-2.5" : "bg-transparent py-4"
         } px-6 flex justify-between items-center relative z-40`}
       >
         {/* Logo */}
@@ -234,10 +234,9 @@ export function Navbar() {
           <Image 
             src="/nava_logo.png"
             alt="ZHM Real Estate Logo"
-            width={80}
-            height={34}
-            className="object-contain transition-all duration-300"
-            // style={{ width: 'auto', height: 'auto' }}
+            width={160}
+            height={80}
+            className="h-[75px] w-auto object-contain transition-all duration-300"
             priority
           />
         </Link>
@@ -282,7 +281,39 @@ export function Navbar() {
                   <div className="w-[70%] p-8 flex gap-12 bg-white">
                     {item.megaMenu.columns.map((col, idx) => (
                       <div key={idx} className="flex-1">
-                        <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2">{col.title}</h4>
+                        {col.title === "ABU DHABI" ? (
+                          <Link href="/projects/abu-dhabi" className="block group/title">
+                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
+                              {col.title}
+                            </h4>
+                          </Link>
+                        ) : col.title === "DUBAI" ? (
+                          <Link href="/projects/dubai" className="block group/title">
+                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
+                              {col.title}
+                            </h4>
+                          </Link>
+                        ) : col.title === "SHARJAH" ? (
+                          <Link href="/projects/sharjah" className="block group/title">
+                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
+                              {col.title}
+                            </h4>
+                          </Link>
+                        ) : col.title === "RAS AL KHAIMA" ? (
+                          <Link href="/projects/rak" className="block group/title">
+                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
+                              {col.title}
+                            </h4>
+                          </Link>
+                        ) : col.title === "DEVELOPERS" ? (
+                          <Link href="/developers" className="block group/title">
+                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
+                              {col.title}
+                            </h4>
+                          </Link>
+                        ) : (
+                          <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2">{col.title}</h4>
+                        )}
                         <ul className="flex flex-col gap-3.5">
                           {col.links.map((link, lIdx) => (
                             <li key={lIdx}>
@@ -342,10 +373,9 @@ export function Navbar() {
                 <Image 
                   src="/nava_logo.png"
                   alt="ZHM Real Estate Logo"
-                  width={80}
-                  height={34}
-                  style={{ width: 'auto', height: 'auto' }}
-                  className="object-contain"
+                  width={160}
+                  height={80}
+                  className="h-[60px] w-auto object-contain"
                 />
               </Link>
               <button
@@ -400,7 +430,29 @@ export function Navbar() {
                       >
                         {item.megaMenu.columns.map((col, idx) => (
                           <div key={idx} className="flex flex-col gap-4 mt-2">
-                            <h4 className="text-[11px] font-bold text-gray-400 tracking-widest uppercase">{col.title}</h4>
+                            {col.title === "ABU DHABI" ? (
+                              <Link href="/projects/abu-dhabi" onClick={() => setIsMobileMenuOpen(false)}>
+                                <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
+                              </Link>
+                            ) : col.title === "DUBAI" ? (
+                              <Link href="/projects/dubai" onClick={() => setIsMobileMenuOpen(false)}>
+                                <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
+                              </Link>
+                            ) : col.title === "SHARJAH" ? (
+                              <Link href="/projects/sharjah" onClick={() => setIsMobileMenuOpen(false)}>
+                                <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
+                              </Link>
+                            ) : col.title === "RAS AL KHAIMA" ? (
+                              <Link href="/projects/rak" onClick={() => setIsMobileMenuOpen(false)}>
+                                <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
+                              </Link>
+                            ) : col.title === "DEVELOPERS" ? (
+                              <Link href="/developers" onClick={() => setIsMobileMenuOpen(false)}>
+                                <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
+                              </Link>
+                            ) : (
+                              <h4 className="text-[11px] font-bold text-gray-400 tracking-widest uppercase">{col.title}</h4>
+                            )}
                             <ul className="flex flex-col gap-4">
                               {col.links.map((link, lIdx) => (
                                 <li key={lIdx}>
@@ -442,10 +494,6 @@ export function Navbar() {
                 <a href="#" className="hover:text-primary transition-colors"><Instagram size={22} strokeWidth={1.5} /></a>
               </div>
 
-              {/* Black N Logo Button Placeholder */}
-              <div className="w-12 h-12 bg-[#2a2a2a] rounded-full flex items-center justify-center text-white mt-4 shadow-lg cursor-pointer hover:bg-black transition-colors">
-                <span className="font-serif italic font-bold text-xl">N</span>
-              </div>
             </div>
           </motion.div>
         )}

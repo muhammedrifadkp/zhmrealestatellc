@@ -43,6 +43,7 @@ export default function ProjectFloorPlans({ project }: { project: ProjectPropert
             {project.floorPlans.map((plan, idx) => (
               <button
                 key={idx}
+                suppressHydrationWarning
                 onClick={() => handleTabChange(idx)}
                 className={`px-8 py-2.5 rounded-md text-sm font-bold transition-all border ${
                   activeIdx === idx 
@@ -66,6 +67,7 @@ export default function ProjectFloorPlans({ project }: { project: ProjectPropert
               alt={`${project.name} Site Overview`}
               fill
               className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
 
@@ -81,18 +83,21 @@ export default function ProjectFloorPlans({ project }: { project: ProjectPropert
                 alt={`${project.name} ${activePlan.bedrooms} Layout ${imgIdx + 1}`}
                 fill
                 className="object-contain transition-all duration-500"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
 
               {/* Carousel Controls */}
               {hasMultipleImages && (
                 <>
                   <button 
+                    suppressHydrationWarning
                     onClick={prevImg}
                     className="absolute left-0 top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-md flex items-center justify-center text-[#12163b] hover:bg-gray-50 transition-colors -ml-5"
                   >
                     <ChevronLeft className="w-6 h-6" />
                   </button>
                   <button 
+                    suppressHydrationWarning
                     onClick={nextImg}
                     className="absolute right-0 top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-md flex items-center justify-center text-[#12163b] hover:bg-gray-50 transition-colors -mr-5"
                   >
@@ -104,6 +109,7 @@ export default function ProjectFloorPlans({ project }: { project: ProjectPropert
                     {activePlan.images.map((_, i) => (
                       <button
                         key={i}
+                        suppressHydrationWarning
                         onClick={() => setImgIdx(i)}
                         className={`w-2.5 h-2.5 rounded-full transition-all ${
                           imgIdx === i ? "bg-[#12163b] w-6" : "bg-gray-300"
@@ -116,6 +122,7 @@ export default function ProjectFloorPlans({ project }: { project: ProjectPropert
             </div>
 
             <button 
+              suppressHydrationWarning
               onClick={() => setIsModalOpen(true)}
               className="flex items-center gap-2 text-[#12163b] font-bold border-b-2 border-[#12163b] pb-1 hover:text-[#ef7c00] hover:border-[#ef7c00] transition-all group/link mt-4"
             >

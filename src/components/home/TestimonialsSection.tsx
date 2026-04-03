@@ -9,14 +9,14 @@ const testimonials = [
   {
     name: "Ahmed Al Mansouri",
     role: "Real Estate Investor",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     rating: 5,
     text: "ZHM Real Estate gave me the most professional real estate experience I've ever had in Dubai. Broker Mohammad Shahbaz Rasheed was transparent, knowledgeable, and truly went above and beyond to help me find the perfect investment property. Highly recommended!",
   },
   {
     name: "Sarah Johnson",
     role: "Homeowner – Palm Jumeirah",
-    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b73c?q=80&w=200&auto=format&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop",
     rating: 5,
     text: "The team at ZHM was incredibly supportive throughout my entire property purchase journey. Their market knowledge is unmatched, and they secured me a fantastic deal on my dream apartment. I couldn't be happier with the outcome.",
   },

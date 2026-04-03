@@ -8,6 +8,8 @@ import ProjectGallery from "./ProjectGallery";
 import ProjectAmenities from "./ProjectAmenities";
 import ProjectFloorPlans from "./ProjectFloorPlans";
 import ProjectLocation from "./ProjectLocation";
+import ProjectPaymentPlan from "./ProjectPaymentPlan";
+import ProjectFAQs from "./ProjectFAQs";
 import LeadCaptureForm from "./LeadCaptureForm";
 
 export default function ProjectTemplate({ project }: { project: ProjectProperty }) {
@@ -20,6 +22,8 @@ export default function ProjectTemplate({ project }: { project: ProjectProperty 
       <ProjectGallery project={project} />
       <ProjectAmenities project={project} />
       <ProjectFloorPlans project={project} />
+      <ProjectPaymentPlan project={project} />
+      <ProjectFAQs project={project} />
       <ProjectLocation project={project} />
       
       {/* Sticky Bottom Bar / Footer CTA */}
@@ -30,14 +34,14 @@ export default function ProjectTemplate({ project }: { project: ProjectProperty 
             Addax Tower Level 44, Al Reem Island, City of Lights, Abu Dhabi, United Arab Emirates
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-6 md:gap-12">
-            <a href="tel:600548200" className="flex flex-col">
-              <span className="text-xs text-primary tracking-widest uppercase mb-1">Local Tel</span>
-              <span className="text-xl font-bold">600 548 200</span>
+            <a href="tel:+971502057334" className="flex flex-col">
+              <span className="text-xs text-primary tracking-widest uppercase mb-1">Phone 1</span>
+              <span className="text-xl font-bold">+971 50 205 7334</span>
             </a>
             <div className="hidden md:block w-px bg-white/20"></div>
-            <a href="tel:+97122052999" className="flex flex-col">
-              <span className="text-xs text-primary tracking-widest uppercase mb-1">Int&apos;l Tel</span>
-              <span className="text-xl font-bold">+971 2205 2999</span>
+            <a href="tel:+971585723972" className="flex flex-col">
+              <span className="text-xs text-primary tracking-widest uppercase mb-1">Phone 2</span>
+              <span className="text-xl font-bold">+971 58 572 3972</span>
             </a>
           </div>
         </div>

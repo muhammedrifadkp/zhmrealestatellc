@@ -9,13 +9,14 @@ export default function LeadCaptureForm() {
           <p className="text-gray-300">Register your interest and our experts will help you buy the best.</p>
         </div>
 
-        <form className="bg-white/5 backdrop-blur-md p-8 md:p-10 rounded-2xl border border-white/10 shadow-xl">
+        <form className="bg-white/5 backdrop-blur-md p-8 md:p-10 rounded-2xl border border-white/10 shadow-xl" suppressHydrationWarning>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div className="flex flex-col gap-2">
               <label className="text-xs font-semibold tracking-wider text-gray-300 uppercase">First Name *</label>
               <input 
                 type="text" 
                 required 
+                suppressHydrationWarning
                 className="bg-transparent border-b border-white/30 px-0 py-2 outline-none focus:border-primary transition-colors text-white" 
               />
             </div>
@@ -24,6 +25,7 @@ export default function LeadCaptureForm() {
               <input 
                 type="text" 
                 required 
+                suppressHydrationWarning
                 className="bg-transparent border-b border-white/30 px-0 py-2 outline-none focus:border-primary transition-colors text-white" 
               />
             </div>
@@ -35,6 +37,7 @@ export default function LeadCaptureForm() {
               <input 
                 type="email" 
                 required 
+                suppressHydrationWarning
                 className="bg-transparent border-b border-white/30 px-0 py-2 outline-none focus:border-primary transition-colors text-white" 
               />
             </div>
@@ -43,6 +46,7 @@ export default function LeadCaptureForm() {
               <input 
                 type="tel" 
                 required 
+                suppressHydrationWarning
                 className="bg-transparent border-b border-white/30 px-0 py-2 outline-none focus:border-primary transition-colors text-white" 
               />
             </div>
@@ -54,6 +58,7 @@ export default function LeadCaptureForm() {
 
           <button 
             type="submit" 
+            suppressHydrationWarning
             className="w-full md:w-auto px-10 py-4 bg-primary hover:bg-primary-dark text-white font-bold tracking-widest uppercase transition-all shadow-lg shadow-primary/30"
           >
             Submit Request

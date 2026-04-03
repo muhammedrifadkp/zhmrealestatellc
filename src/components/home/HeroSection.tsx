@@ -188,7 +188,7 @@ export function HeroSection() {
       </div>
 
       {/* Animated Stats Bar */}
-      <div className="absolute bottom-24 sm:bottom-20 md:bottom-24 left-0 right-0 z-10 w-full pointer-events-none">
+      <div className="absolute bottom-0 sm:bottom-0 md:bottom-0 left-0 right-0 z-10 w-full pointer-events-none">
         <div className="bg-secondary/80 backdrop-blur-md border-y border-white/10 px-4 pointer-events-auto">
           <div className="container mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-4">
