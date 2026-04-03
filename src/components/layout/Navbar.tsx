@@ -39,6 +39,16 @@ const navItems = [
           ]
         },
         {
+          title: "SHARJAH",
+          links: [
+            { name: "Sharjah Waterfront City", href: "/projects/sharjah-waterfront-city" },
+            { name: "Deem at Hayyan", href: "/projects/deem-at-hayyan" },
+            { name: "Olfah", href: "/projects/olfah" },
+            { name: "Hayyan", href: "/projects/hayyan" },
+            { name: "View All", href: "/projects/sharjah" }
+          ]
+        },
+        {
           title: "RAS AL KHAIMA",
           links: [
             { name: "Solera", href: "/projects/solera" },
