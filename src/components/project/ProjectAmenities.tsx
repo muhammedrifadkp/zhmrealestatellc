@@ -28,6 +28,7 @@ const Footprints = ({ className }: { className?: string }) => (
 );
 
 export default function ProjectAmenities({ project }: { project: ProjectProperty }) {
+  if (!project.amenities || project.amenities.length === 0) return null;
   return (
     <section className="py-24 bg-[#12163b] text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">

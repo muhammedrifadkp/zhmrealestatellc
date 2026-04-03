@@ -9,6 +9,7 @@ import "yet-another-react-lightbox/styles.css";
 
 export default function ProjectGallery({ project }: { project: ProjectProperty }) {
   const [index, setIndex] = useState(-1);
+  if (!project.galleryImages || project.galleryImages.length === 0) return null;
 
   return (
     <section className="py-20 bg-white">

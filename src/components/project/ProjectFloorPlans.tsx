@@ -11,8 +11,10 @@ export default function ProjectFloorPlans({ project }: { project: ProjectPropert
   const [imgIdx, setImgIdx] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   
+  if (!project.floorPlans || project.floorPlans.length === 0) return null;
+
   const activePlan = project.floorPlans[activeIdx];
-  const hasMultipleImages = activePlan.images.length > 1;
+  const hasMultipleImages = activePlan?.images?.length > 1;
 
   // Reset image index when tab changes
   const handleTabChange = (idx: number) => {
