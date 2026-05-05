@@ -1,6 +1,7 @@
 "use client";
 
 import { X, User, Mail, Phone, ArrowRight } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 interface LeadModalProps {
@@ -14,6 +15,9 @@ export default function LeadModal({ isOpen, onClose, projectName }: LeadModalPro
 
   useEffect(() => {
     setMounted(true);
+  }, []);
+
+  useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
     } else {
@@ -77,7 +81,7 @@ export default function LeadModal({ isOpen, onClose, projectName }: LeadModalPro
               <label className="text-sm font-semibold text-white">Phone</label>
               <div className="relative group">
                 <div className="absolute left-4 top-1/2 -translate-y-1/2 flex items-center gap-2 pr-2 border-r border-gray-200">
-                  <img src="https://flagcdn.com/w20/ae.png" alt="UAE Flag" className="w-5" />
+                  <Image src="https://flagcdn.com/w20/ae.png" alt="UAE Flag" width={20} height={15} className="w-5" />
                   <span className="text-gray-900 text-sm font-medium">+971</span>
                 </div>
                 <input 

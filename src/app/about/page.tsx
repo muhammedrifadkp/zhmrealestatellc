@@ -243,19 +243,36 @@ export default function AboutPage() {
                 transition={{ duration: 0.8 }}
                 className="relative"
               >
-                <div className="relative h-[300px] sm:h-[420px] md:h-[520px] rounded-2xl overflow-hidden shadow-2xl">
-                  <Image
-                    src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=2070&auto=format&fit=crop"
-                    alt="Mr. Shahbaz - Founder"
-                    fill
-                    priority
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent" />
-                  <div className="absolute bottom-5 left-6 right-6">
-                    <p className="text-white text-base font-bold">Mr. Shahbaz</p>
-                    <p className="text-gray-300 text-sm">Founder & CEO</p>
+                <div className="relative h-[300px] sm:h-[420px] md:h-[520px] rounded-2xl overflow-hidden shadow-2xl group cursor-pointer">
+                  {/* Default Image */}
+                  <div className="absolute inset-0 transition-transform duration-[1200ms] ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover:scale-110">
+                    <Image
+                      src="/images/about/image-1.jpeg"
+                      alt="Mr. Shahbaz - Founder"
+                      fill
+                      priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover transition-opacity duration-700 ease-in-out group-hover:opacity-0"
+                    />
+                  </div>
+                  
+                  {/* Hover Image */}
+                  <div className="absolute inset-0 scale-110 transition-transform duration-[1200ms] ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover:scale-100">
+                    <Image
+                      src="/images/about/image-2.jpeg"
+                      alt="Mr. Shahbaz - Founder Hover"
+                      fill
+                      priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100"
+                    />
+                  </div>
+
+                  <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-transparent to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-700" />
+                  
+                  <div className="absolute bottom-6 left-6 right-6 transform transition-all duration-700 ease-out group-hover:-translate-y-2">
+                    <p className="text-white text-lg md:text-xl font-bold tracking-wide drop-shadow-sm">Mr. Shahbaz</p>
+                    <p className="text-primary text-sm font-medium uppercase tracking-wider mt-1 opacity-90 group-hover:opacity-100 transition-opacity duration-700">Founder & CEO</p>
                   </div>
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-36 h-36 bg-primary/10 rounded-full blur-3xl" />
@@ -303,7 +320,7 @@ export default function AboutPage() {
       </section>
 
       {/* ===== 4. TEAM SECTION ===== */}
-      <section className="py-10 md:py-24 bg-white">
+      {/* <section className="py-10 md:py-24 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div
             initial="hidden"
@@ -344,7 +361,7 @@ export default function AboutPage() {
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 25vw"
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
                   />
-                  {/* Always visible name on mobile, hover on desktop */}
+
                   <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/30 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-3 md:p-5">
                     <h3 className="text-sm md:text-lg font-bold text-white">{member.name}</h3>
@@ -355,7 +372,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ===== 5. CORE VALUES SECTION ===== */}
       <section className="py-10 md:py-24 bg-secondary text-white relative overflow-hidden">

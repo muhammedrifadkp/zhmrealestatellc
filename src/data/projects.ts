@@ -15,6 +15,7 @@ export type ProjectProperty = {
   location: string;
   subtitle: string;
   description: string;
+  isFeatured?: boolean;
   features: {
     bedrooms: string;
     propertyType: string;
@@ -51,6 +52,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Yas Island",
     subtitle: "Experience The Epitome Of Luxurious Living",
     description: "Sama Yas by Al Dar is a luxury park living experience, featuring a collection of 234 apartments, duplexes, and penthouses. Culinary mastermind Chef Izu will curate an exclusive dining experience within the community and inspire the kitchen designs in each home. Set against the serene backdrop of Yas Park, this boutique residential community provides residents with a rare opportunity to enjoy a luxurious lifestyle within nature, with easy access to Yas Island’s world-class leisure and entertainment experiences.",
+    isFeatured: true,
     features: {
       bedrooms: "1 - 3 BR",
       propertyType: "Apartments, Duplexes, Penthouses",
@@ -100,6 +102,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Yas Island",
     subtitle: "Exclusive Waterfront Villa Living",
     description: "Yas Riva is an exclusive villa community on Yas Island, offering canal-front and canal-accessible homes designed for refined relaxation in a tranquil waterfront setting. Surrounded by world-class attractions, Yas Riva blends elegant architecture with direct canal access to create a distinctive lifestyle where the water becomes an extension of the home.",
+    isFeatured: true,
     features: {
       bedrooms: "4 – 6 BR Bedroom",
       propertyType: "Standalone Villa",
@@ -148,6 +151,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Saadiyat Island",
     subtitle: "A NEW DESIGN CONCEPT BY ALDAR",
     description: "A groundbreaking new approach that’s bringing home ownership down to earth, with properties to suit your tastes, amenities made for your needs, in locations that connect you to everything. Whether you’re growing your family or building a career, leave that rental behind and make the smart move to a home at Manarat Living.",
+    isFeatured: true,
     features: {
       bedrooms: "Studio - 2BR",
       propertyType: "Apartments",
@@ -197,6 +201,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Saadiyat Grove",
     subtitle: "Life Between Art & Elegance",
     description: "The Arthouse by Aldar is a refined residential destination in Saadiyat Grove, offering apartments and sky villas designed around creativity, culture, and elevated living in Abu Dhabi’s cultural district. Designed to blend artistic expression with modern living, the project offers thoughtfully crafted homes surrounded by cultural landmarks, green spaces, and world-class lifestyle amenities.",
+    isFeatured: true,
     features: {
       bedrooms: "1 - 3 BR Apartments, 5 BR Sky Villas",
       propertyType: "Apartments & Sky Villas",
@@ -246,6 +251,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Al Reem Island, Abu Dhabi",
     subtitle: "Experience the Epitome of Luxury Living at Muheira on Al Reem Island",
     description: "Welcome to Muheira, a stunning residential project designed for those who value comfort and elegance. Offering a remarkable selection of 1 to 3-bedroom apartments, this off-plan development by Modon Properties aims to provide a sophisticated lifestyle amidst modern amenities and natural beauty. Strategically located in one of Abu Dhabi’s most desirable communities, providing residents with breathtaking views and unmatched facilities.",
+    isFeatured: true,
     features: {
       bedrooms: "1, 2, 3",
       propertyType: "Residential Apartment",
@@ -295,6 +301,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Downtown Dubai",
     subtitle: "The First-Ever Branded Tower by Zuhair Murad",
     description: "Every aspect of its interior design is worthy of a fashion magazine cover. The exterior evokes the glamour of a bespoke dress. The first-ever branded tower by Zuhair Murad is coming soon to Downtown Dubai, commanding the skyline with its spectacular design by Damac Properties.",
+    isFeatured: true,
     features: {
       bedrooms: "1 - 2 BR",
       propertyType: "Apartments",
@@ -340,6 +347,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Emaar Beachfront, Jumeirah Beach Residence",
     subtitle: "Coastal Luxury Reimagined by Emaar",
     description: "Offering magnificent views of the Arabian Gulf and the Dubai Marina skyline, Address Residences The Bay by Emaar presents an exclusive beachfront lifestyle. Step outside your luxury apartment to access 1.5 km of pristine beach and world-class marina facilities in Dubai's most sought-after new waterfront community.",
+    isFeatured: true,
     features: {
       bedrooms: "1 - 3 BR",
       propertyType: "Branded Apartments",
@@ -389,6 +397,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Town Square Dubai",
     subtitle: "Family-Centric Living in Town Square",
     description: "Rawda Apartments by Nshama offers an elegant lifestyle amidst the lush green parks of Town Square Dubai. Perfect for families, these apartments provide incredible community amenities, expansive courtyard spaces, and instant access to the vibrant Town Square Park, retail outlets, and cafes.",
+    isFeatured: true,
     features: {
       bedrooms: "1 - 3 BR",
       propertyType: "Apartments",
@@ -434,6 +443,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Dubai Hills Estate",
     subtitle: "Modern Urban Living Co-working Hub",
     description: "Collective in Dubai Hills Estate by Emaar is an active and contemporary co-living project built for ambitious individuals and entrepreneurs. Offering functional 1 and 2-bedroom apartments, it merges chic design with vibrant shared communal areas, including lounges, libraries, and an integrated networking atmosphere right near the Dubai Hills Mall.",
+    isFeatured: true,
     features: {
       bedrooms: "1 - 2 BR",
       propertyType: "Apartments",
@@ -479,6 +489,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Emaar South",
     subtitle: "Premium Villa Living by the Golf Course",
     description: "Expo Golf Villas by Emaar South offer limited premium 3 and 4-bedroom villas situated alongside an 18-hole championship golf course. Designed for luxury and tranquility, the community provides excellent family-friendly layouts with vast green spaces, while remaining perfectly positioned near the Expo 2020 site and Al Maktoum International Airport.",
+    isFeatured: true,
     features: {
       bedrooms: "3 - 4 BR",
       propertyType: "Villas",
@@ -1824,6 +1835,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Sharjah Waterfront City, Sharjah",
     subtitle: "The Future of Coastal Living",
     description: "Sharjah Waterfront City by Baraka is a massive coastal development offering luxury villas and apartments. It features 10 islands and will be home to thousands of residents, providing a unique lifestyle by the sea.",
+    isFeatured: true,
     features: {
       bedrooms: "3 - 6 BR",
       propertyType: "Villa",
@@ -2044,6 +2056,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Muwaileh Commercial, Sharjah",
     subtitle: "Premium Living Space",
     description: "Olfah by Alef Group in Muwaileh Commercial is a flagship residential project offering thoughtfully designed apartments with modern aesthetic and convenient features.",
+    isFeatured: true,
     features: {
       bedrooms: "1 - 3 BR",
       propertyType: "Apartment",
@@ -2132,6 +2145,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Ain Al Fayda, Sharjah",
     subtitle: "Villa Living in Ain Al Fayda",
     description: "Hayyan at Ain Al Fayda by Alef Group offers gracefully designed villas in one of Sharjah's growing residential areas. It provides a perfect balance of community living and private luxury.",
+    isFeatured: true,
     features: {
       bedrooms: "2, 4, 5 BR",
       propertyType: "Villa",
@@ -2242,6 +2256,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Mina Al Arab, Ras Al Khaimah",
     subtitle: "The Island Luxury Beachfront Living",
     description: "Solera by RAK Properties is an exclusive residential community on the pristine shores of Mina Al Arab. Featuring a collection of 1 and 2-bedroom apartments, residents can enjoy unmatched access to the beach, high-end amenities within the community, and a peaceful atmosphere. Set against the serene backdrop of the Arabian Gulf, this beachfront sanctuary provides premium living with leisure and entertainment experiences right at your doorstep. Crafted with contemporary design and a focus on wellness, it is designed for a modern lifestyle.",
+    isFeatured: true,
     features: {
       bedrooms: "1 - 2 BR",
       propertyType: "Apartment",
@@ -2292,6 +2307,7 @@ export const projectsData: ProjectProperty[] = [
     location: "Al Marjan Island, Ras Al Khaimah",
     subtitle: "Luxury Beachfront Living at its Peak",
     description: "Nikki Beach Residences by Aldar Properties is a premium residential development on the iconic Al Marjan Island. Offering a collection of 1 to 5-bedroom apartments, residents can experience the ultimate beachfront lifestyle with top-tier amenities and direct beach access. The community is designed for those who appreciate energetic living combined with the tranquility of the sea. Featuring minimalist design and high-end finishes, it provide a sophisticated residential option in Ras Al Khaimah.",
+    isFeatured: true,
     features: {
       bedrooms: "1 - 5 BR",
       propertyType: "Apartment",

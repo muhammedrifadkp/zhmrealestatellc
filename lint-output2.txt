@@ -1,0 +1,184 @@
+﻿
+> zhmrealestatellc@0.1.0 lint
+> eslint
+
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\scripts\extract.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\about\page.tsx
+   3:10  warning  'useState' is defined but never used           @typescript-eslint/no-unused-vars
+  11:36  warning  'Play' is defined but never used               @typescript-eslint/no-unused-vars
+  16:9   warning  'isInView' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\admin\login\page.tsx
+  34:14  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\admin\messages\page.tsx
+  21:30  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\admin\properties\page.tsx
+  10:48  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  83:28  warning  'e' is defined but never used             @typescript-eslint/no-unused-vars
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\api\auth\route.ts
+  23:12  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\contact\page.tsx
+    9:31   warning  'Laptop' is defined but never used                               @typescript-eslint/no-unused-vars
+   88:18   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   94:15   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+   94:277  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  127:126  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  405:107  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  425:19   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  425:38   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\developers\page.tsx
+  4:8   warning  'Image' is defined but never used         @typescript-eslint/no-unused-vars
+  6:24  warning  'ChevronLeft' is defined but never used   @typescript-eslint/no-unused-vars
+  6:37  warning  'ChevronRight' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\featured-projects\[location]\page.tsx
+  26:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\featured-projects\[location]\page.tsx:26:5
+  24 |
+  25 |   useEffect(() => {
+> 26 |     setMounted(true);
+     |     ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  27 |   }, []);
+  28 |
+  29 |   const locationTitle = locationParam ? locationParam.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ') : "";  react-hooks/set-state-in-effect
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\privacy\page.tsx
+  22:68   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  22:84   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  22:87   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  22:90   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  22:95   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  22:98   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  57:106  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  57:128  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\projects\[location]\page.tsx
+  26:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\projects\[location]\page.tsx:26:5
+  24 |
+  25 |   useEffect(() => {
+> 26 |     setMounted(true);
+     |     ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  27 |   }, []);
+  28 |
+  29 |   const locationTitle = locationParam ? locationParam.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ') : "";  react-hooks/set-state-in-effect
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\services\page.tsx
+  102:133  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\app\terms\page.tsx
+  32:27   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:35   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:38   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:54   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:57   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:60   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:63   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:66   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  33:27   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  33:37   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  34:27   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  34:32   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  34:35   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  34:39   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  34:99   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  34:153  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  35:27   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  35:34   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  36:27   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  36:36   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  36:41   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  36:49   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  44:118  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  44:149  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  61:19   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  61:35   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\components\home\HeroSection.tsx
+  71:10  warning  'mounted' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+  74:5   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\components\home\HeroSection.tsx:74:5
+  72 |
+  73 |   useEffect(() => {
+> 74 |     setMounted(true);
+     |     ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  75 |     const timer = setInterval(() => {
+  76 |       setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
+  77 |     }, 5000);  react-hooks/set-state-in-effect
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\components\home\PartnersAwards.tsx
+  3:10  warning  'motion' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\components\layout\Navbar.tsx
+  180:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\components\layout\Navbar.tsx:180:5
+  178 |
+  179 |   useEffect(() => {
+> 180 |     setMounted(true);
+      |     ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  181 |     const handleScroll = () => {
+  182 |       setIsScrolled(window.scrollY > 10);
+  183 |     };  react-hooks/set-state-in-effect
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\components\project\LeadModal.tsx
+   3:25  warning  'Phone' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+   3:32  warning  'ArrowRight' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+  13:54  warning  'projectName' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           @typescript-eslint/no-unused-vars
+  17:5   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\components\project\LeadModal.tsx:17:5
+  15 |
+  16 |   useEffect(() => {
+> 17 |     setMounted(true);
+     |     ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  18 |   }, []);
+  19 |
+  20 |   useEffect(() => {  react-hooks/set-state-in-effect
+
+C:\Users\TUF\OneDrive\Desktop\Freelance\zhmrealestatellc\src\components\ui\button.tsx
+  39:32  warning  'asChild' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 66 problems (50 errors, 16 warnings)
+

@@ -26,8 +26,20 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('loading');
-    // Simulated API call
-    setTimeout(() => {
+    
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
+
       setStatus('success');
       setFormData({
         firstName: "",
@@ -38,7 +50,10 @@ export default function ContactPage() {
         propertyType: "",
         message: ""
       });
-    }, 1500);
+    } catch (error) {
+      console.error(error);
+      setStatus('error');
+    }
   };
 
   return (

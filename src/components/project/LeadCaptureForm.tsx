@@ -9,7 +9,11 @@ export default function LeadCaptureForm() {
           <p className="text-gray-300">Register your interest and our experts will help you buy the best.</p>
         </div>
 
-        <form className="bg-white/5 backdrop-blur-md p-8 md:p-10 rounded-2xl border border-white/10 shadow-xl" suppressHydrationWarning>
+        <form 
+          className="bg-white/5 backdrop-blur-md p-8 md:p-10 rounded-2xl border border-white/10 shadow-xl" 
+          suppressHydrationWarning
+          onSubmit={(e) => { e.preventDefault(); alert("Request submitted successfully!"); }}
+        >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div className="flex flex-col gap-2">
               <label className="text-xs font-semibold tracking-wider text-gray-300 uppercase">First Name *</label>

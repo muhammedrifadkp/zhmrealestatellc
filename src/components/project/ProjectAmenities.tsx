@@ -3,7 +3,7 @@
 import { ProjectProperty } from "@/data/projects";
 import { 
   Building2, ConciergeBell, TreePine, Dumbbell, 
-  ShoppingBag, Coffee, Bath, Bike, Ruler, 
+  ShoppingBag, Coffee, Bike, 
   ArrowRight, Waves, Flower2
 } from "lucide-react";
 

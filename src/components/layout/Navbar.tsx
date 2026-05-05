@@ -21,39 +21,41 @@ const navItems = [
         {
           title: "ABU DHABI",
           links: [
-            { name: "Sama Yas", href: "/projects/sama-yas" },
-            { name: "Yas Riva", href: "/projects/yas-riva" },
-            { name: "Manarat Living - Saadiyat", href: "/projects/manarat-living" },
-            { name: "The Arthouse", href: "/projects/the-arthouse" },
-            { name: "Muheira", href: "/projects/muheira" }
+            { name: "Sama Yas", href: "/featured-projects/abu-dhabi/sama-yas" },
+            { name: "Yas Riva", href: "/featured-projects/abu-dhabi/yas-riva" },
+            { name: "Manarat Living - Saadiyat", href: "/featured-projects/abu-dhabi/manarat-living" },
+            { name: "The Arthouse", href: "/featured-projects/abu-dhabi/the-arthouse" },
+            { name: "Muheira", href: "/featured-projects/abu-dhabi/muheira" },
+            { name: "View All", href: "/featured-projects/abu-dhabi" }
           ]
         },
         {
           title: "DUBAI",
           links: [
-            { name: "Elegance Tower", href: "/projects/elegance-tower" },
-            { name: "Address Residences The Bay", href: "/projects/address-residences-the-bay" },
-            { name: "Rawda Apartments", href: "/projects/rawda-apartments" },
-            { name: "DE Collective", href: "/projects/de-collective" },
-            { name: "Expo Golf Villas", href: "/projects/expo-golf-villas" }
+            { name: "Elegance Tower", href: "/featured-projects/dubai/elegance-tower" },
+            { name: "Address Residences The Bay", href: "/featured-projects/dubai/address-residences-the-bay" },
+            { name: "Rawda Apartments", href: "/featured-projects/dubai/rawda-apartments" },
+            { name: "DE Collective", href: "/featured-projects/dubai/de-collective" },
+            { name: "Expo Golf Villas", href: "/featured-projects/dubai/expo-golf-villas" },
+            { name: "View All", href: "/featured-projects/dubai" }
           ]
         },
         {
           title: "SHARJAH",
           links: [
-            { name: "Sharjah Waterfront City", href: "/projects/sharjah-waterfront-city" },
-            { name: "Deem at Hayyan", href: "/projects/deem-at-hayyan" },
-            { name: "Olfah", href: "/projects/olfah" },
-            { name: "Hayyan", href: "/projects/hayyan" },
-            { name: "View All", href: "/projects/sharjah" }
+            { name: "Sharjah Waterfront City", href: "/featured-projects/sharjah/sharjah-waterfront-city" },
+            { name: "Deem at Hayyan", href: "/featured-projects/sharjah/deem-at-hayyan" },
+            { name: "Olfah", href: "/featured-projects/sharjah/olfah" },
+            { name: "Hayyan", href: "/featured-projects/sharjah/hayyan" },
+            { name: "View All", href: "/featured-projects/sharjah" }
           ]
         },
         {
           title: "RAS AL KHAIMA",
           links: [
-            { name: "Solera", href: "/projects/solera" },
-            { name: "Nikki Beach Residences", href: "/projects/nikki-beach-residences" },
-            { name: "View All", href: "/projects/rak" }
+            { name: "Solera", href: "/featured-projects/rak/solera" },
+            { name: "Nikki Beach Residences", href: "/featured-projects/rak/nikki-beach-residences" },
+            { name: "View All", href: "/featured-projects/rak" }
           ]
         }
       ]
@@ -91,11 +93,11 @@ const navItems = [
         {
           title: "DEVELOPERS",
           links: [
-            { name: "Aldar", href: "#" },
-            { name: "Emaar", href: "#" },
-            { name: "Imkan", href: "#" },
-            { name: "Meraas", href: "#" },
-            { name: "Dubai Properties", href: "#" },
+            { name: "Aldar", href: "/developers" },
+            { name: "Emaar", href: "/developers" },
+            { name: "Imkan", href: "/developers" },
+            { name: "Meraas", href: "/developers" },
+            { name: "Dubai Properties", href: "/developers" },
             { name: "View All", href: "/developers" }
           ]
         }
@@ -112,21 +114,21 @@ const navItems = [
         {
           title: "VALUATION & FINANCE",
           links: [
-            { name: "Mortgage Calculator", href: "#" },
-            { name: "Amortization", href: "#" },
-            { name: "Refinancing", href: "#" },
-            { name: "Rent vs Buying", href: "#" },
-            { name: "House Affordability", href: "#" }
+            { name: "Mortgage Calculator", href: "/services" },
+            { name: "Amortization", href: "/services" },
+            { name: "Refinancing", href: "/services" },
+            { name: "Rent vs Buying", href: "/services" },
+            { name: "House Affordability", href: "/services" }
           ]
         },
         {
           title: "CLIENT SERVICES",
           links: [
-            { name: "List Your Property", href: "#" },
-            { name: "International", href: "#" },
-            { name: "Youngsters Program", href: "#" },
-            { name: "Luxury Projects", href: "#" },
-            { name: "Emirati Hub", href: "#" }
+            { name: "List Your Property", href: "/contact" },
+            { name: "International", href: "/services" },
+            { name: "Youngsters Program", href: "/services" },
+            { name: "Luxury Projects", href: "/projects" },
+            { name: "Emirati Hub", href: "/services" }
           ]
         }
       ]
@@ -143,17 +145,17 @@ const navItems = [
           title: "ABOUT PSI",
           links: [
             { name: "Our Story", href: "/about" },
-            { name: "Careers", href: "#" },
-            { name: "Awards", href: "#" },
-            { name: "Blog", href: "#" }
+            { name: "Careers", href: "/contact" },
+            { name: "Awards", href: "/about" },
+            { name: "Blog", href: "/about" }
           ]
         },
         {
           title: "MEDIA",
           links: [
-            { name: "Newsletters", href: "#" },
+            { name: "Newsletters", href: "/contact" },
             { name: "Contact Us", href: "/contact" },
-            { name: "Articles", href: "#" }
+            { name: "Articles", href: "/about" }
           ]
         }
       ]
@@ -171,7 +173,7 @@ export function Navbar() {
 
   const isSearchPage = pathname?.startsWith('/search');
   const isTermsOrPrivacy = pathname === '/terms' || pathname === '/privacy';
-  const isProjectsListing = pathname?.startsWith('/projects/') || pathname === '/developers';
+  const isProjectsListing = pathname?.startsWith('/projects/') || pathname?.startsWith('/featured-projects') || pathname === '/developers';
   const isNavbarActive = (mounted && isScrolled) || isHovered || isMobileMenuOpen || isSearchPage || isTermsOrPrivacy || isProjectsListing;
 
   useEffect(() => {
@@ -289,56 +291,45 @@ export function Navbar() {
 
                   {/* Right Links side */}
                   <div className="w-[70%] p-8 flex gap-12 bg-white">
-                    {item.megaMenu.columns.map((col, idx) => (
-                      <div key={idx} className="flex-1">
-                        {col.title === "ABU DHABI" ? (
-                          <Link href="/projects/abu-dhabi" className="block group/title">
-                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
-                              {col.title}
-                            </h4>
-                          </Link>
-                        ) : col.title === "DUBAI" ? (
-                          <Link href="/projects/dubai" className="block group/title">
-                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
-                              {col.title}
-                            </h4>
-                          </Link>
-                        ) : col.title === "SHARJAH" ? (
-                          <Link href="/projects/sharjah" className="block group/title">
-                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
-                              {col.title}
-                            </h4>
-                          </Link>
-                        ) : col.title === "RAS AL KHAIMA" ? (
-                          <Link href="/projects/rak" className="block group/title">
-                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
-                              {col.title}
-                            </h4>
-                          </Link>
-                        ) : col.title === "DEVELOPERS" ? (
-                          <Link href="/developers" className="block group/title">
-                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
-                              {col.title}
-                            </h4>
-                          </Link>
-                        ) : (
-                          <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2">{col.title}</h4>
-                        )}
-                        <ul className="flex flex-col gap-3.5">
-                          {col.links.map((link, lIdx) => (
-                            <li key={lIdx}>
-                              <Link 
-                                href={link.href}
-                                className="text-[13px] text-gray-500 hover:text-primary transition-colors flex items-center"
-                              >
-                                <span className="w-0 h-px bg-primary mr-0 transition-all duration-300 group-hover/link:w-2 group-hover/link:mr-2"></span>
-                                {link.name}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
+                    {item.megaMenu.columns.map((col, idx) => {
+                      const isFeaturedSection = item.name === "FEATURED PROJECTS";
+                      const getLink = (title: string) => {
+                        const base = isFeaturedSection ? "/featured-projects" : "/projects";
+                        if (title === "ABU DHABI") return `${base}/abu-dhabi`;
+                        if (title === "DUBAI") return `${base}/dubai`;
+                        if (title === "SHARJAH") return `${base}/sharjah`;
+                        if (title === "RAS AL KHAIMA") return `${base}/rak`;
+                        if (title === "DEVELOPERS") return "/developers";
+                        return "#";
+                      };
+
+                      return (
+                        <div key={idx} className="flex-1">
+                          {["ABU DHABI", "DUBAI", "SHARJAH", "RAS AL KHAIMA", "DEVELOPERS"].includes(col.title) ? (
+                            <Link href={getLink(col.title)} className="block group/title">
+                              <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
+                                {col.title}
+                              </h4>
+                            </Link>
+                          ) : (
+                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2">{col.title}</h4>
+                          )}
+                          <ul className="flex flex-col gap-3.5">
+                            {col.links.map((link, lIdx) => (
+                              <li key={lIdx}>
+                                <Link 
+                                  href={link.href}
+                                  className="text-[13px] text-gray-500 hover:text-primary transition-colors flex items-center"
+                                >
+                                  <span className="w-0 h-px bg-primary mr-0 transition-all duration-300 group-hover/link:w-2 group-hover/link:mr-2"></span>
+                                  {link.name}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      );
+                    })}
                   </div>
 
                 </div>
@@ -440,24 +431,15 @@ export function Navbar() {
                       >
                         {item.megaMenu.columns.map((col, idx) => (
                           <div key={idx} className="flex flex-col gap-4 mt-2">
-                            {col.title === "ABU DHABI" ? (
-                              <Link href="/projects/abu-dhabi" onClick={() => setIsMobileMenuOpen(false)}>
-                                <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
-                              </Link>
-                            ) : col.title === "DUBAI" ? (
-                              <Link href="/projects/dubai" onClick={() => setIsMobileMenuOpen(false)}>
-                                <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
-                              </Link>
-                            ) : col.title === "SHARJAH" ? (
-                              <Link href="/projects/sharjah" onClick={() => setIsMobileMenuOpen(false)}>
-                                <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
-                              </Link>
-                            ) : col.title === "RAS AL KHAIMA" ? (
-                              <Link href="/projects/rak" onClick={() => setIsMobileMenuOpen(false)}>
-                                <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
-                              </Link>
-                            ) : col.title === "DEVELOPERS" ? (
-                              <Link href="/developers" onClick={() => setIsMobileMenuOpen(false)}>
+                            {["ABU DHABI", "DUBAI", "SHARJAH", "RAS AL KHAIMA", "DEVELOPERS"].includes(col.title) ? (
+                              <Link 
+                                href={
+                                  item.name === "FEATURED PROJECTS" 
+                                    ? `/featured-projects/${col.title === "RAS AL KHAIMA" ? "rak" : col.title.toLowerCase().replace(" ", "-")}`
+                                    : col.title === "DEVELOPERS" ? "/developers" : `/projects/${col.title === "RAS AL KHAIMA" ? "rak" : col.title.toLowerCase().replace(" ", "-")}`
+                                } 
+                                onClick={() => setIsMobileMenuOpen(false)}
+                              >
                                 <h4 className="text-[11px] font-bold text-primary tracking-widest uppercase">{col.title}</h4>
                               </Link>
                             ) : (
