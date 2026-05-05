@@ -4648,3 +4648,53 @@ export const projectsData: ProjectProperty[] = [
   }
 ];
 
+export function getProjectRegion(location: string): string {
+  const loc = location.toLowerCase();
+  if (
+    loc.includes("abu dhabi") || 
+    loc.includes("yas island") || 
+    loc.includes("saadiyat") || 
+    loc.includes("reem island") || 
+    loc.includes("raha gardens") || 
+    loc.includes("golf gardens") || 
+    loc.includes("al raha beach") ||
+    loc.includes("al raha gardens") ||
+    loc.includes("maysan") ||
+    loc.includes("al reem")
+  ) return "abu-dhabi";
+  
+  if (
+    loc.includes("dubai") || 
+    loc.includes("palm jumeirah") || 
+    loc.includes("emaar beachfront") ||
+    loc.includes("town square") ||
+    loc.includes("dubai hills") ||
+    loc.includes("business bay") ||
+    loc.includes("jumeirah") ||
+    loc.includes("damac lagoons") ||
+    loc.includes("dubai creek") ||
+    loc.includes("dubailand") ||
+    loc.includes("jvc") ||
+    loc.includes("jumeirah village")
+  ) return "dubai";
+      
+  if (
+    loc.includes("sharjah") || 
+    loc.includes("hayyan") || 
+    loc.includes("olfah") ||
+    loc.includes("masaar") ||
+    loc.includes("tilal city")
+  ) return "sharjah";
+      
+  if (
+    loc.includes("ras al khaimah") || 
+    loc.includes("rak") || 
+    loc.includes("nikki beach") ||
+    loc.includes("al marjan") ||
+    loc.includes("mina al arab")
+  ) return "rak";
+      
+  return "";
+}
+
+

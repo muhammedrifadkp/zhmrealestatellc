@@ -10,7 +10,7 @@ import {
   ChevronLeft, ChevronRight, Building,
   Home, ArrowRight
 } from "lucide-react";
-import { projectsData } from "@/data/projects";
+import { projectsData, getProjectRegion } from "@/data/projects";
 import { useParams } from "next/navigation";
 
 export default function FeaturedProjectsLocationPage() {
@@ -31,19 +31,19 @@ export default function FeaturedProjectsLocationPage() {
   // Filter projects for the specific location and only featured
   const filteredProjects = useMemo(() => {
     if (!locationParam) return [];
+    
     return projectsData.filter(project => {
-      const matchesLocation = project.location.toLowerCase().includes(locationParam.replace('-', ' ')) || 
-                            (locationParam === 'abu-dhabi' && (
-                              project.location.toLowerCase().includes("yas island") ||
-                              project.location.toLowerCase().includes("saadiyat") ||
-                              project.location.toLowerCase().includes("reem island") ||
-                              project.location.toLowerCase().includes("raha gardens") ||
-                              project.location.toLowerCase().includes("golf gardens") ||
-                              project.location.toLowerCase().includes("al raha beach")
-                            )) ||
-                            (locationParam === 'rak' && project.location.toLowerCase().includes("ras al khaimah"));
-      
-      return matchesLocation && project.isFeatured === true;
+      if (!project.isFeatured) return false;
+
+      // 1. Direct match with the region (e.g., "abu-dhabi", "dubai")
+      const projectRegion = getProjectRegion(project.location);
+      if (projectRegion === locationParam) return true;
+
+      // 2. Match with specific community/area name in the URL (e.g., "al-reem-island")
+      const humanizedParam = locationParam.replace(/-/g, ' ').toLowerCase();
+      if (project.location.toLowerCase().includes(humanizedParam)) return true;
+
+      return false;
     });
   }, [locationParam]);
 

@@ -1,5 +1,5 @@
 import ProjectTemplate from "@/components/project/ProjectTemplate";
-import { projectsData } from "@/data/projects";
+import { projectsData, getProjectRegion } from "@/data/projects";
 import { notFound } from "next/navigation";
 
 interface PageProps {
@@ -19,18 +19,9 @@ export default async function FeaturedProjectDetailPage({ params }: PageProps) {
   }
 
   // Validate location matches project region
-  const projectRegion = project.location.toLowerCase().includes("abu dhabi") || 
-                       project.location.toLowerCase().includes("yas island") ||
-                       project.location.toLowerCase().includes("saadiyat") ||
-                       project.location.toLowerCase().includes("reem island") ||
-                       project.location.toLowerCase().includes("raha gardens") ||
-                       project.location.toLowerCase().includes("golf gardens") ||
-                       project.location.toLowerCase().includes("al raha beach") ? "abu-dhabi" :
-                       project.location.toLowerCase().includes("dubai") ? "dubai" :
-                       project.location.toLowerCase().includes("sharjah") ? "sharjah" :
-                       project.location.toLowerCase().includes("ras al khaimah") ? "rak" : "";
+  const projectRegion = getProjectRegion(project.location);
 
-  if (location !== projectRegion) {
+  if (location !== projectRegion && !project.location.toLowerCase().includes(location.replace(/-/g, ' '))) {
     notFound();
   }
 

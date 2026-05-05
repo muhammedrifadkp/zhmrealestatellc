@@ -73,22 +73,22 @@ const navItems = [
         {
           title: "ABU DHABI",
           links: [
-            { name: "Al Reem Island", href: "/projects/abu-dhabi/al-reem-island" },
-            { name: "Saadiyat Island", href: "/projects/abu-dhabi/saadiyat-island" },
-            { name: "Yas Island", href: "/projects/abu-dhabi/yas-island" },
-            { name: "Al Raha Beach", href: "/projects/abu-dhabi/al-raha-beach" },
-            { name: "Al Raha Gardens", href: "/projects/abu-dhabi/al-raha-gardens" },
+            { name: "Al Reem Island", href: "/projects/al-reem-island" },
+            { name: "Saadiyat Island", href: "/projects/saadiyat-island" },
+            { name: "Yas Island", href: "/projects/yas-island" },
+            { name: "Al Raha Beach", href: "/projects/al-raha-beach" },
+            { name: "Al Raha Gardens", href: "/projects/al-raha-gardens" },
             { name: "View All", href: "/projects/abu-dhabi" }
           ]
         },
         {
           title: "DUBAI",
           links: [
-            { name: "Palm Jumeirah", href: "/projects/dubai/palm-jumeirah" },
-            { name: "Downtown Dubai", href: "/projects/dubai/downtown-dubai" },
-            { name: "Dubai Creek", href: "/projects/dubai/dubai-creek" },
-            { name: "Town Square Dubai", href: "/projects/dubai/town-square-dubai" },
-            { name: "Dubai Hills Estate", href: "/projects/dubai/dubai-hills-estate" },
+            { name: "Palm Jumeirah", href: "/projects/palm-jumeirah" },
+            { name: "Downtown Dubai", href: "/projects/downtown-dubai" },
+            { name: "Dubai Creek", href: "/projects/dubai-creek" },
+            { name: "Town Square Dubai", href: "/projects/town-square-dubai" },
+            { name: "Dubai Hills Estate", href: "/projects/dubai-hills-estate" },
             { name: "View All", href: "/projects/dubai" }
           ]
         },
@@ -108,33 +108,7 @@ const navItems = [
   },
   {
     name: "SERVICES",
-    href: "/services",
-    megaMenu: {
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800",
-      imageTitle: "Services",
-      columns: [
-        {
-          title: "VALUATION & FINANCE",
-          links: [
-            { name: "Mortgage Calculator", href: "/services" },
-            { name: "Amortization", href: "/services" },
-            { name: "Refinancing", href: "/services" },
-            { name: "Rent vs Buying", href: "/services" },
-            { name: "House Affordability", href: "/services" }
-          ]
-        },
-        {
-          title: "CLIENT SERVICES",
-          links: [
-            { name: "List Your Property", href: "/contact" },
-            { name: "International", href: "/services" },
-            { name: "Youngsters Program", href: "/services" },
-            { name: "Luxury Projects", href: "/projects" },
-            { name: "Emirati Hub", href: "/services" }
-          ]
-        }
-      ]
-    }
+    href: "/services"
   },
   {
     name: "COMPANY",
@@ -169,6 +143,7 @@ export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
   const [expandedMobileItem, setExpandedMobileItem] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
@@ -176,7 +151,7 @@ export function Navbar() {
   const isSearchPage = pathname?.startsWith('/search');
   const isTermsOrPrivacy = pathname === '/terms' || pathname === '/privacy';
   const isProjectsListing = pathname?.startsWith('/projects/') || pathname?.startsWith('/featured-projects') || pathname === '/developers';
-  const isNavbarActive = (mounted && isScrolled) || isHovered || isMobileMenuOpen || isSearchPage || isTermsOrPrivacy || isProjectsListing;
+  const isNavbarActive = (mounted && isScrolled) || isHovered || isMobileMenuOpen || isSearchPage || isTermsOrPrivacy || isProjectsListing || activeMegaMenu !== null;
 
   useEffect(() => {
     setMounted(true);
@@ -188,6 +163,12 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Close mobile menu and mega menu on route change
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+    setActiveMegaMenu(null);
+  }, [pathname]);
+
   // Lock body scroll when mobile menu is open
   useEffect(() => {
     if (isMobileMenuOpen) {
@@ -197,6 +178,12 @@ export function Navbar() {
     }
     return () => { document.body.style.overflow = "unset"; };
   }, [isMobileMenuOpen]);
+
+  const handleLinkClick = () => {
+    setIsMobileMenuOpen(false);
+    setActiveMegaMenu(null);
+    setIsHovered(false);
+  };
 
   return (
     <header className="fixed top-0 w-full z-50 flex flex-col font-sans">
@@ -238,13 +225,16 @@ export function Navbar() {
       {/* Main Navbar */}
       <div 
         onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
+        onMouseLeave={() => {
+          setIsHovered(false);
+          setActiveMegaMenu(null);
+        }}
         className={`w-full transition-colors duration-300 ${
           isNavbarActive ? "bg-white shadow-md py-2.5" : "bg-transparent py-4"
         } px-6 flex justify-between items-center relative z-40`}
       >
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 z-50">
+        <Link href="/" onClick={handleLinkClick} className="flex items-center gap-2 z-50">
           <Image 
             src="/nava_logo.png"
             alt="ZHM Real Estate Logo"
@@ -258,21 +248,31 @@ export function Navbar() {
         {/* Desktop Nav Mega Menu */}
         <nav className="hidden lg:flex items-center gap-8 h-full">
           {navItems.map((item) => (
-            <div key={item.name} className="group h-full relative" suppressHydrationWarning>
+            <div 
+              key={item.name} 
+              className="h-full relative group" 
+              onMouseEnter={() => setActiveMegaMenu(item.megaMenu ? item.name : null)}
+              suppressHydrationWarning
+            >
               <Link
                 href={item.href}
+                onClick={handleLinkClick}
                 suppressHydrationWarning
-                className={`flex items-center gap-1 text-[13px] font-bold uppercase tracking-widest py-6 border-b-2 border-transparent group-hover:border-primary transition-all duration-300 ${
+                className={`flex items-center gap-1 text-[13px] font-bold uppercase tracking-widest py-6 border-b-2 transition-all duration-300 ${
+                  activeMegaMenu === item.name ? "border-primary" : "border-transparent group-hover:border-primary"
+                } ${
                   isNavbarActive ? "text-[#2a304e]" : "text-white"
                 }`}
               >
                 {item.name}
-                {item.megaMenu && <ChevronDown size={14} className="opacity-50 group-hover:rotate-180 transition-transform duration-300" />}
+                {item.megaMenu && <ChevronDown size={14} className={`opacity-50 transition-transform duration-300 ${activeMegaMenu === item.name ? "rotate-180" : ""}`} />}
               </Link>
 
               {/* Mega Menu Dropdown */}
               {item.megaMenu && (
-                <div className="absolute top-[100%] left-1/2 -translate-x-1/2 w-[900px] xl:w-[1100px] bg-white shadow-2xl rounded-b-xl border-t border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 -mt-2 transform group-hover:mt-0 flex overflow-hidden">
+                <div className={`absolute top-[100%] left-1/2 -translate-x-1/2 w-[900px] xl:w-[1100px] bg-white shadow-2xl rounded-b-xl border-t border-gray-100 transition-all duration-300 -mt-2 transform flex overflow-hidden ${
+                  activeMegaMenu === item.name ? "opacity-100 visible mt-0" : "opacity-0 invisible"
+                }`}>
                   
                   {/* Left Featured Image side */}
                   <div className="w-[30%] relative bg-gray-900 overflow-hidden">
@@ -282,7 +282,7 @@ export function Navbar() {
                       fill 
                       sizes="(max-width: 1024px) 100vw, 30vw"
                       priority={true}
-                      className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                      className={`object-cover opacity-80 transition-transform duration-700 ${activeMegaMenu === item.name ? "scale-105" : "scale-100"}`}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div className="absolute bottom-6 left-6 text-white">
@@ -308,7 +308,7 @@ export function Navbar() {
                       return (
                         <div key={idx} className="flex-1">
                           {["ABU DHABI", "DUBAI", "SHARJAH", "RAS AL KHAIMA", "DEVELOPERS"].includes(col.title) ? (
-                            <Link href={getLink(col.title)} className="block group/title">
+                            <Link href={getLink(col.title)} onClick={handleLinkClick} className="block group/title">
                               <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
                                 {col.title}
                               </h4>
@@ -321,7 +321,8 @@ export function Navbar() {
                               <li key={lIdx}>
                                 <Link 
                                   href={link.href}
-                                  className="text-[13px] text-gray-500 hover:text-primary transition-colors flex items-center"
+                                  onClick={handleLinkClick}
+                                  className="text-[13px] text-gray-500 hover:text-primary transition-colors flex items-center group/link"
                                 >
                                   <span className="w-0 h-px bg-primary mr-0 transition-all duration-300 group-hover/link:w-2 group-hover/link:mr-2"></span>
                                   {link.name}
