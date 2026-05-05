@@ -24,8 +24,10 @@ export function ContactSection() {
   } = useForm<ContactForm>();
 
   const onSubmit = async (data: ContactForm) => {
-    console.log(data);
-    await new Promise((r) => setTimeout(r, 1000));
+    const message = `*New Contact Inquiry*\nName: ${data.name}\nPhone: ${data.phone}\nEmail: ${data.email}\nInterest: ${data.interest}\nMessage: ${data.message}`;
+    const whatsappUrl = `https://wa.me/971585723972?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, "_blank");
+
     setSubmitted(true);
     reset();
     setTimeout(() => setSubmitted(false), 6000);

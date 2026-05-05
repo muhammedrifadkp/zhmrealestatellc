@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
@@ -69,9 +71,22 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="text-lg font-bold uppercase tracking-wider mb-2 border-b-2 border-primary inline-block self-start pb-1">Newsletter</h3>
             <p className="text-gray-400 text-sm mb-2">Subscribe to our newsletter for the latest updates and real estate offers.</p>
-            <form className="flex flex-col gap-3" suppressHydrationWarning>
+            <form 
+              className="flex flex-col gap-3" 
+              suppressHydrationWarning
+              onSubmit={(e) => {
+                e.preventDefault();
+                const formData = new FormData(e.currentTarget);
+                const email = formData.get("email");
+                const message = `*Newsletter Subscription*\nEmail: ${email}`;
+                const whatsappUrl = `https://wa.me/971585723972?text=${encodeURIComponent(message)}`;
+                window.open(whatsappUrl, "_blank");
+                e.currentTarget.reset();
+              }}
+            >
               <input 
                 type="email" 
+                name="email"
                 suppressHydrationWarning
                 placeholder="Your email address" 
                 className="bg-white/5 border border-white/10 px-4 py-3 rounded-md text-white focus:outline-none focus:border-primary transition-colors"

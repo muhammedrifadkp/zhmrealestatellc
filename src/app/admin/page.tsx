@@ -1,12 +1,9 @@
-import prisma from "@/lib/prisma";
 import { Home, MessageSquare, PlusCircle } from 'lucide-react';
 import Link from 'next/link';
 
-export const dynamic = 'force-dynamic';
-
 export default async function AdminDashboard() {
-  const propertyCount = await prisma.property.count();
-  const messageCount = await prisma.contactMessage.count();
+  const propertyCount = 0;
+  const messageCount = 0;
 
   return (
     <div>

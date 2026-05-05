@@ -1,12 +1,7 @@
-import prisma from "@/lib/prisma";
 import { Mail, Phone, Calendar } from "lucide-react";
 
-export const dynamic = 'force-dynamic';
-
 export default async function AdminMessages() {
-  const messages = await prisma.contactMessage.findMany({
-    orderBy: { createdAt: "desc" },
-  });
+  const messages: any[] = [];
 
   return (
     <div>

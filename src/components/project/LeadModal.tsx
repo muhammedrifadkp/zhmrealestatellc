@@ -49,7 +49,19 @@ export default function LeadModal({ isOpen, onClose, projectName }: LeadModalPro
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Let us know if you&apos;re interested!</h2>
           </div>
 
-          <form className="space-y-6" onSubmit={(e) => { e.preventDefault(); onClose(); }}>
+          <form className="space-y-6" onSubmit={(e) => { 
+            e.preventDefault(); 
+            const formData = new FormData(e.currentTarget);
+            const firstName = formData.get("firstName");
+            const lastName = formData.get("lastName");
+            const phone = formData.get("phone");
+            const email = formData.get("email");
+
+            const message = `*New Lead for ${projectName}*\nName: ${firstName} ${lastName}\nPhone: ${phone}\nEmail: ${email}`;
+            const whatsappUrl = `https://wa.me/971585723972?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, "_blank");
+            onClose(); 
+          }}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div className="space-y-2">
                 <label className="text-sm font-semibold text-white">First Name</label>
@@ -57,6 +69,7 @@ export default function LeadModal({ isOpen, onClose, projectName }: LeadModalPro
                   <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                   <input 
                     type="text" 
+                    name="firstName"
                     placeholder="First Name"
                     required
                     className="w-full bg-white rounded-md py-3.5 pl-12 pr-4 text-gray-900 outline-none focus:ring-2 focus:ring-[#ef7c00]/50 transition-all placeholder:text-gray-400"
@@ -69,6 +82,7 @@ export default function LeadModal({ isOpen, onClose, projectName }: LeadModalPro
                   <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                   <input 
                     type="text" 
+                    name="lastName"
                     placeholder="Last Name"
                     required
                     className="w-full bg-white rounded-md py-3.5 pl-12 pr-4 text-gray-900 outline-none focus:ring-2 focus:ring-[#ef7c00]/50 transition-all placeholder:text-gray-400"
@@ -86,6 +100,7 @@ export default function LeadModal({ isOpen, onClose, projectName }: LeadModalPro
                 </div>
                 <input 
                   type="tel" 
+                  name="phone"
                   placeholder="Phone Number"
                   required
                   className="w-full bg-white rounded-md py-3.5 pl-24 pr-4 text-gray-900 outline-none focus:ring-2 focus:ring-[#ef7c00]/50 transition-all placeholder:text-gray-400"
@@ -99,6 +114,7 @@ export default function LeadModal({ isOpen, onClose, projectName }: LeadModalPro
                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                 <input 
                   type="email" 
+                  name="email"
                   placeholder="Email"
                   required
                   className="w-full bg-white rounded-md py-3.5 pl-12 pr-4 text-gray-900 outline-none focus:ring-2 focus:ring-[#ef7c00]/50 transition-all placeholder:text-gray-400"

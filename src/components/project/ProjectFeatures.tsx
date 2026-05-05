@@ -6,14 +6,15 @@ export default function ProjectFeatures({ project }: { project: ProjectProperty 
   const { features } = project;
   
   const featureList = [
-    { label: "Bedrooms", value: features.bedrooms },
-    { label: "Property Type", value: features.propertyType },
-    { label: "Payment Plan", value: features.paymentPlan },
+    { label: "Unit Types", value: features.bedrooms },
+    { label: "Property Options", value: features.propertyType },
     { label: "Starting Price", value: features.startingPrice },
-    { label: "Handover", value: features.handover },
+    { label: "Payment Plan", value: features.paymentPlan },
     { label: "Down Payment", value: features.downPayment },
+    { label: "Handover", value: features.handover },
+    { label: "Location", value: project.location },
+    ...(features.nationality ? [{ label: "Availability", value: features.nationality }] : []),
     ...(features.developer ? [{ label: "Developer", value: features.developer }] : []),
-    ...(features.nationality ? [{ label: "Nationality", value: features.nationality }] : []),
   ];
 
   return (
@@ -26,11 +27,11 @@ export default function ProjectFeatures({ project }: { project: ProjectProperty 
               className="group h-full min-h-[160px] bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-50 flex flex-col items-center justify-center text-center transition-all duration-300 hover:bg-[#12163b] hover:shadow-xl hover:-translate-y-1 cursor-pointer relative overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#b28a4c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <span className="relative z-10 text-xl md:text-2xl font-bold text-[#12163b] group-hover:text-[#b28a4c] mb-3 tracking-tight transition-colors duration-300">
-                {item.value}
-              </span>
-              <span className="relative z-10 text-[13px] md:text-sm text-gray-500 font-semibold group-hover:text-white/90 transition-colors duration-300 uppercase tracking-widest text-center px-2">
+              <span className="relative z-10 text-[13px] md:text-sm text-gray-500 font-semibold group-hover:text-white/90 transition-colors duration-300 uppercase tracking-widest text-center px-2 mb-3">
                 {item.label}
+              </span>
+              <span className="relative z-10 text-xl md:text-xl font-bold text-[#12163b] group-hover:text-[#b28a4c] tracking-tight transition-colors duration-300">
+                {item.value}
               </span>
             </div>
           ))}

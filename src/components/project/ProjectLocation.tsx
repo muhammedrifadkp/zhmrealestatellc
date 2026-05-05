@@ -7,9 +7,20 @@ export default function ProjectLocation({ project }: { project: ProjectProperty 
     <section className="py-20 bg-[#f8f7f4]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="section-label justify-center">Location</span>
-          <h2 className="heading-luxury text-4xl mt-4">{project.location}</h2>
+          <span className="section-label justify-center">Location Benefits</span>
+          <h2 className="heading-luxury text-4xl mt-4">Location</h2>
         </div>
+
+        {project.locationBenefits && (
+          <div className="mb-10 max-w-4xl mx-auto">
+            <p className="text-lg text-gray-700 mb-6">{project.locationBenefits.description}</p>
+            <ul className="list-disc pl-6 space-y-2 text-gray-600">
+              {project.locationBenefits.points.map((point, i) => (
+                <li key={i}>{point}</li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         <div className="w-full h-[500px] bg-gray-200 rounded-xl overflow-hidden luxury-card relative">
           {project.mapCode ? (

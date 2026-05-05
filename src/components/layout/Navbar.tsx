@@ -46,7 +46,9 @@ const navItems = [
             { name: "Sharjah Waterfront City", href: "/featured-projects/sharjah/sharjah-waterfront-city" },
             { name: "Deem at Hayyan", href: "/featured-projects/sharjah/deem-at-hayyan" },
             { name: "Olfah", href: "/featured-projects/sharjah/olfah" },
+            { name: "Olfah 3", href: "/featured-projects/sharjah/olfah-3" },
             { name: "Hayyan", href: "/featured-projects/sharjah/hayyan" },
+            { name: "Hamsa 2", href: "/featured-projects/sharjah/hamsa-2" },
             { name: "View All", href: "/featured-projects/sharjah" }
           ]
         },

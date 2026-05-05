@@ -28,17 +28,9 @@ export default function ContactPage() {
     setStatus('loading');
     
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to send message');
-      }
+      const message = `*New Property Consultation Request*\nName: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nInquiry Type: ${formData.inquiryType}\nProperty Type: ${formData.propertyType}\nMessage: ${formData.message}`;
+      const whatsappUrl = `https://wa.me/971585723972?text=${encodeURIComponent(message)}`;
+      window.open(whatsappUrl, "_blank");
 
       setStatus('success');
       setFormData({
@@ -60,7 +52,7 @@ export default function ContactPage() {
     <div className="flex flex-col w-full font-sans bg-white overflow-x-hidden">
       
       {/* SECTION 1: HERO */}
-      <section className="relative h-[600px] lg:h-[750px] flex items-center justify-center text-white overflow-hidden pt-32 bg-[#1e2350]">
+      <section className="relative min-h-[100dvh] lg:min-h-[750px] flex flex-col justify-center text-white overflow-hidden pt-28 lg:pt-32 pb-16 lg:pb-0 bg-[#1e2350]">
         {/* Background Image with Enhanced Gradient Overlay */}
         <div className="absolute inset-0 z-0">
           <Image 
@@ -80,27 +72,27 @@ export default function ContactPage() {
             {/* Minimal decoration line */}
             <div className="w-12 h-1 bg-primary mb-10 animate-fade-in-slow"></div>
             
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 tracking-tighter uppercase leading-none drop-shadow-2xl">
+            <h1 className="text-4xl md:text-7xl lg:text-8xl font-black mb-6 md:mb-8 tracking-tighter uppercase leading-tight md:leading-none drop-shadow-2xl px-2">
               Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white/90 to-white/60">ZHM Real Estate</span>
             </h1>
             
-            <p className="text-lg md:text-2xl font-bold text-white mb-6 uppercase tracking-[0.2em] leading-relaxed drop-shadow-md">
+            <p className="text-sm md:text-2xl font-bold text-white mb-6 uppercase tracking-[0.15em] md:tracking-[0.2em] leading-relaxed drop-shadow-md px-4">
               Let's Help You Find the Right <span className="text-primary italic">Property in Dubai</span>
             </p>
             
-            <div className="w-full max-w-2xl h-[1px] bg-white/20 mb-10"></div>
+            <div className="w-[80%] max-w-2xl h-[1px] bg-white/20 mb-8 md:mb-10"></div>
             
-            <p className="text-sm md:text-lg text-white/70 mb-12 max-w-4xl mx-auto leading-8 font-light italic">
+            <p className="text-xs md:text-lg text-white/70 mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed md:leading-8 font-light italic px-4">
               "Whether you are looking to buy, sell, or explore Dubai properties for sale, our team at ZHM Real Estate is ready to assist you. Reach out to our experienced real estate professionals for expert guidance, property inquiries, or investment opportunities in Dubai."
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button suppressHydrationWarning asChild size="lg" className="bg-primary hover:bg-white text-secondary hover:text-secondary rounded-full px-14 py-8 text-xs font-black uppercase tracking-[3px] transition-all duration-500 shadow-2xl hover:-translate-y-1 cursor-pointer">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center w-full px-6">
+              <Button suppressHydrationWarning asChild size="lg" className="w-full sm:w-auto bg-primary hover:bg-white text-secondary hover:text-secondary rounded-full px-10 md:px-14 py-6 md:py-8 text-[10px] md:text-xs font-black uppercase tracking-[2px] md:tracking-[3px] transition-all duration-500 shadow-2xl hover:-translate-y-1 cursor-pointer">
                 <Link href="/projects/dubai">
                   Buy a Property
                 </Link>
               </Button>
-              <Button suppressHydrationWarning size="lg" variant="outline" className="border-2 border-white/20 bg-white/5 backdrop-blur-xl text-white hover:bg-white hover:text-[#1e2350] rounded-full px-14 py-8 text-xs font-black uppercase tracking-[3px] transition-all duration-500 shadow-2xl hover:-translate-y-1">
+              <Button suppressHydrationWarning size="lg" variant="outline" className="w-full sm:w-auto border-2 border-white/20 bg-white/5 backdrop-blur-xl text-white hover:bg-white hover:text-[#1e2350] rounded-full px-10 md:px-14 py-6 md:py-8 text-[10px] md:text-xs font-black uppercase tracking-[2px] md:tracking-[3px] transition-all duration-500 shadow-2xl hover:-translate-y-1">
                 Send Inquiry
               </Button>
             </div>
@@ -109,12 +101,12 @@ export default function ContactPage() {
       </section>
 
       {/* SECTION 2: CONTACT GRID & FORM */}
-      <section className="py-24 bg-[#f8f9fb]">
+      <section className="py-16 md:py-24 bg-[#f8f9fb]">
         <div className="container mx-auto px-4 max-w-[1300px]">
           <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100 flex flex-col lg:flex-row">
             
             {/* INFO COLUMN */}
-            <div className="lg:w-[40%] bg-[#1e2350] p-10 md:p-16 text-white flex flex-col gap-12 relative overflow-hidden">
+            <div className="lg:w-[40%] bg-[#1e2350] p-8 md:p-16 text-white flex flex-col gap-10 md:gap-12 relative overflow-hidden">
               {/* Abstract decoration */}
               <div className="absolute -top-10 -right-10 w-40 h-40 bg-white/5 rounded-full blur-3xl"></div>
               
@@ -190,8 +182,8 @@ export default function ContactPage() {
             </div>
 
             {/* FORM COLUMN */}
-            <div className="lg:w-[60%] p-10 md:p-20 flex flex-col font-sans">
-              <div className="mb-12">
+            <div className="lg:w-[60%] p-6 md:p-16 lg:p-20 flex flex-col font-sans">
+              <div className="mb-8 md:mb-12">
                 <h2 className="text-3xl font-extrabold text-[#1e2350] mb-4 tracking-tight uppercase">Request a Free <br /> <span className="text-primary italic">Property Consultation</span></h2>
                 <p className="text-gray-400 text-sm font-medium">Fill out the form below and our team will get back to you as soon as possible.</p>
               </div>
@@ -357,29 +349,29 @@ export default function ContactPage() {
       </section>
 
       {/* SECTION 3: MAP / VISIT US */}
-      <section className="py-24 bg-[#1e2350] text-white overflow-hidden relative">
+      <section className="py-16 md:py-24 bg-[#1e2350] text-white overflow-hidden relative">
         <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-white to-transparent opacity-10"></div>
         
         <div className="container mx-auto px-4 max-w-[1300px]">
-          <div className="flex flex-col lg:flex-row items-center gap-20">
+          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="lg:w-1/2">
-              <h2 className="text-4xl md:text-5xl font-extrabold mb-8 uppercase tracking-tighter leading-tight">Visit Our Office <br /><span className="text-primary italic">in Dubai</span></h2>
+              <h2 className="text-3xl md:text-5xl font-extrabold mb-6 md:mb-8 uppercase tracking-tighter leading-tight">Visit Our Office <br /><span className="text-primary italic">in Dubai</span></h2>
               <p className="text-white/60 text-base leading-relaxed mb-10 font-light max-w-xl italic">
                 Visit our office to discuss your real estate goals and explore the best property opportunities in Dubai. Our advisors will guide you through available listings, market insights, and investment options.
               </p>
               
-              <div className="flex items-start gap-4 p-8 bg-white/5 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-sm max-w-md group hover:bg-white/10 transition-all duration-500">
-                <MapPin size={32} className="text-primary mt-1 group-hover:scale-110 transition-transform" />
+              <div className="flex items-start gap-4 p-6 md:p-8 bg-white/5 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-sm max-w-md group hover:bg-white/10 transition-all duration-500">
+                <MapPin size={32} className="text-primary mt-1 group-hover:scale-110 transition-transform shrink-0" />
                 <div className="flex flex-col">
                   <h4 className="text-xs font-black text-primary uppercase tracking-widest mb-3">Principal Address</h4>
-                  <p className="text-xl font-bold leading-relaxed tracking-tight">
+                  <p className="text-base md:text-xl font-bold leading-relaxed tracking-tight">
                     ZHM Real Estate LLC <br /> G010 Ontario Tower <br /> Ground Floor Business Bay <br /> Dubai- UAE
                   </p>
                 </div>
               </div>
             </div>
             
-            <div className="lg:w-1/2 w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl relative grayscale hover:grayscale-0 transition-all duration-1000 border-4 border-white/5 group">
+            <div className="lg:w-1/2 w-full h-[350px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl relative grayscale hover:grayscale-0 transition-all duration-1000 border-4 border-white/5 group">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.17851002444!2d55.2713833!3d25.197197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4334ad467dbd%3A0xed433f1141df9043!2sOntario%20Tower!5e0!3m2!1sen!2sae!4v1712160000000!5m2!1sen!2sae" 
                 width="100%" 

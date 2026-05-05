@@ -42,6 +42,10 @@ export type ProjectProperty = {
     question: string;
     answer: string;
   }[];
+  locationBenefits?: {
+    description: string;
+    points: string[];
+  };
 };
 
 export const projectsData: ProjectProperty[] = [
@@ -51,18 +55,18 @@ export const projectsData: ProjectProperty[] = [
     name: "Sama Yas",
     location: "Yas Island",
     subtitle: "Experience The Epitome Of Luxurious Living",
-    description: "Sama Yas by Al Dar is a luxury park living experience, featuring a collection of 234 apartments, duplexes, and penthouses. Culinary mastermind Chef Izu will curate an exclusive dining experience within the community and inspire the kitchen designs in each home. Set against the serene backdrop of Yas Park, this boutique residential community provides residents with a rare opportunity to enjoy a luxurious lifestyle within nature, with easy access to Yas Island’s world-class leisure and entertainment experiences.",
+    description: "Discover premium living at Sama Yas, a modern residential development located in the heart of Yas Island. Offering stylish apartments, duplexes, and penthouses, this project combines contemporary design with a vibrant lifestyle and strong investment potential. Sama Yas is a premium residential development designed to offer a refined lifestyle in one of Abu Dhabi's most sought-after destinations. Set within the vibrant Yas Island community, the project features modern homes with thoughtfully designed layouts, combining comfort, style, and functionality. Surrounded by entertainment, leisure, and lifestyle attractions, Sama Yas provides residents with a balanced living experience. Whether you're looking for a comfortable home or a long-term investment, this development offers both convenience and value in a prime location.",
     isFeatured: true,
     features: {
-      bedrooms: "1 - 3 BR",
-      propertyType: "Apartments, Duplexes, Penthouses",
-      paymentPlan: "Flexible payment plan",
-      startingPrice: "AED 1,900,000 Starting from",
-      handover: "2027 Handover",
-      downPayment: "10% Down Payment",
-      nationality: "For All Nationalities",
+      bedrooms: "1 to 3 Bedroom Apartments",
+      propertyType: "Duplexes & Penthouses",
+      paymentPlan: "Flexible options available",
+      startingPrice: "From AED 1,900,000",
+      handover: "Expected by 2027",
+      downPayment: "10%",
+      nationality: "Open to all nationalities",
     },
-    heroImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600",
+    heroImage: "/images/Sama-Yas/sama-yas-bg-image.webp",
     galleryImages: [
       "https://sama-yas-metropolitan.ae/images/INT11_3BR_MAID_LIVING-VIGNETTE_B2.webp",
       "https://metropolitan.realestate/wp-content/uploads/2024/01/Sama-Yas-09.jpg",
@@ -93,25 +97,40 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
     mapCode: "https://www.google.com/maps?cid=13736646489557951630",
-    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng"
+    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng",
+    locationBenefits: {
+      description: "Located in Yas Island, Sama Yas offers access to a wide range of lifestyle and entertainment destinations.",
+      points: [
+        "Close to Yas Mall and entertainment hubs",
+        "Easy access to major road networks",
+        "Surrounded by leisure and lifestyle attractions",
+        "Convenient connectivity to key areas in Abu Dhabi"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Sama Yas?",
+        answer: "Homebuyers looking for modern apartments in a prime location, investors seeking properties with strong rental demand, professionals wanting connectivity to lifestyle hubs, and families looking for a well-developed community environment."
+      }
+    ]
   },
   {
     id: "yas-riva",
     slug: "yas-riva",
     name: "Yas Riva",
     location: "Yas Island",
-    subtitle: "Exclusive Waterfront Villa Living",
-    description: "Yas Riva is an exclusive villa community on Yas Island, offering canal-front and canal-accessible homes designed for refined relaxation in a tranquil waterfront setting. Surrounded by world-class attractions, Yas Riva blends elegant architecture with direct canal access to create a distinctive lifestyle where the water becomes an extension of the home.",
+    subtitle: "Yas Riva at Yas Island – Waterfront Villas in Abu Dhabi",
+    description: "Experience premium waterfront living at Yas Riva, an exclusive villa community located in the heart of Yas Island. Designed for those who value space, privacy, and modern design, these villas offer a unique lifestyle surrounded by nature and world-class amenities. Yas Riva is a premium waterfront villa development offering a collection of spacious homes in one of Abu Dhabi’s most desirable destinations. The project features beautifully designed villas with modern architecture, open layouts, and a strong focus on comfort and functionality. Set within a peaceful environment, Yas Riva provides a perfect balance between privacy and connectivity. Residents can enjoy a relaxed lifestyle while staying close to key attractions, making it an ideal choice for families and investors alike.",
     isFeatured: true,
     features: {
-      bedrooms: "4 – 6 BR Bedroom",
-      propertyType: "Standalone Villa",
-      paymentPlan: "Flexible Payment Plan",
-      startingPrice: "8.3M AED Starting From",
-      handover: "Q2 2028 Handover",
-      downPayment: "5% Downpayment",
+      bedrooms: "4 to 6 Bedroom Villas",
+      propertyType: "Standalone Villas",
+      paymentPlan: "Flexible options available",
+      startingPrice: "From AED 8.3 Million",
+      handover: "Expected by Q2 2028",
+      downPayment: "5%",
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
+    heroImage: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
     galleryImages: [
       "https://royallp.com/wp-content/uploads/2024/08/Yas-Riva-by-Aldar-at-Yas-Island-Abu-Dhabi-Villas.jpg",
       "https://sales-office-dubai.com/wp-content/uploads/2024/09/yas-riva-aldar-villa.jpg",
@@ -142,26 +161,41 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
     mapCode: "https://www.google.com/maps?cid=6331614094278326616",
-    videoUrl: "https://www.youtube.com/embed/7_00nbGZBPY"
+    videoUrl: "https://www.youtube.com/embed/7_00nbGZBPY",
+    locationBenefits: {
+      description: "Located in Yas Island, Yas Riva offers access to a wide range of lifestyle and entertainment destinations.",
+      points: [
+        "Close to major attractions in Yas Island",
+        "Easy connectivity to key road networks",
+        "Surrounded by leisure and lifestyle facilities",
+        "Convenient access to Abu Dhabi city"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Yas Riva?",
+        answer: "Families looking for spacious villas in a premium location, buyers seeking privacy and waterfront living, investors targeting high-value real estate opportunities, and end-users looking for long-term lifestyle benefits."
+      }
+    ]
   },
   {
     id: "manarat-living",
     slug: "manarat-living",
     name: "Manarat Living",
     location: "Saadiyat Island",
-    subtitle: "A NEW DESIGN CONCEPT BY ALDAR",
-    description: "A groundbreaking new approach that’s bringing home ownership down to earth, with properties to suit your tastes, amenities made for your needs, in locations that connect you to everything. Whether you’re growing your family or building a career, leave that rental behind and make the smart move to a home at Manarat Living.",
+    subtitle: "Manarat Living at Saadiyat Island – Modern Apartments in Abu Dhabi",
+    description: "Discover contemporary living at Manarat Living, a thoughtfully designed residential development located in the cultural heart of Saadiyat Island. Offering stylish apartments with flexible payment options, this project is ideal for both homeowners and investors seeking long-term value. Manarat Living is a modern residential development designed to offer a comfortable and flexible lifestyle in one of Abu Dhabi’s most culturally rich destinations. Located in Saadiyat Island, the project features well-planned apartments that cater to a wide range of residents, from individuals to families. With a focus on convenience, functionality, and design, Manarat Living provides an environment where residents can enjoy everyday living with access to key lifestyle and leisure destinations nearby. It is an excellent choice for both first-time buyers and investors looking for value-driven opportunities.",
     isFeatured: true,
     features: {
-      bedrooms: "Studio - 2BR",
-      propertyType: "Apartments",
-      paymentPlan: "Flexible Payment Plan",
-      startingPrice: "AED 634,000 Starting From",
-      handover: "2026 Handover",
-      downPayment: "5% Down Payment",
-      developer: "By ALDAR"
+      bedrooms: "Studio to 2 Bedroom Apartments",
+      propertyType: "Residential Apartments",
+      paymentPlan: "Flexible options available",
+      startingPrice: "From AED 634,000",
+      handover: "Expected by 2026",
+      downPayment: "5%",
+      developer: "Aldar"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
+    heroImage: "/images/Manarat-Living-Saadiyat/Manarat-Living-bg-img.webp",
     galleryImages: [
       "https://royallp.com/wp-content/uploads/2023/02/manarat-living-projects-thumbnail-website.jpg",
       "https://dubairealestateproperties.com/admin_dReP060606/images/property/slider_img/slider_img_6534_A01%20-%20Saadiyat.webp",
@@ -192,26 +226,42 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
     mapCode: "https://www.google.com/maps?cid=7052363078271759646",
-    videoUrl: "https://www.youtube.com/embed/oSCxqJmrks4"
+    videoUrl: "https://www.youtube.com/embed/oSCxqJmrks4",
+    locationBenefits: {
+      description: "Located in Saadiyat Island, Manarat Living provides access to key cultural, lifestyle, and residential destinations in Abu Dhabi.",
+      points: [
+        "Close to cultural landmarks and attractions",
+        "Easy connectivity to major road networks",
+        "Surrounded by lifestyle and leisure destinations",
+        "Convenient access to Abu Dhabi city"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Manarat Living?",
+        answer: "First-time buyers looking for affordable apartments in a prime location, investors seeking high-demand rental properties, professionals looking for modern urban living, and individuals or small families seeking flexible housing options."
+      }
+    ]
   },
   {
     id: "the-arthouse",
     slug: "the-arthouse",
     name: "The Arthouse",
     location: "Saadiyat Grove",
-    subtitle: "Life Between Art & Elegance",
-    description: "The Arthouse by Aldar is a refined residential destination in Saadiyat Grove, offering apartments and sky villas designed around creativity, culture, and elevated living in Abu Dhabi’s cultural district. Designed to blend artistic expression with modern living, the project offers thoughtfully crafted homes surrounded by cultural landmarks, green spaces, and world-class lifestyle amenities.",
+    subtitle: "The Arthouse at Saadiyat Grove – Artistic Living in Abu Dhabi",
+    description: "Experience a unique blend of creativity and luxury at The Arthouse, a premium residential development in Saadiyat Grove. Designed for modern lifestyles, this project offers elegant apartments and exclusive sky villas in one of Abu Dhabi’s most culturally rich destinations. The Arthouse at Saadiyat Grove is a thoughtfully designed residential development that brings together artistic inspiration and modern living. Located in the heart of Abu Dhabi’s cultural district, the project offers a refined lifestyle surrounded by iconic landmarks, galleries, and vibrant social spaces. Every home is designed with attention to detail, combining contemporary architecture with functional layouts to create comfortable and elegant living spaces. With its prime location and distinctive concept, The Arthouse is ideal for those who appreciate creativity, culture, and premium living.",
     isFeatured: true,
     features: {
-      bedrooms: "1 - 3 BR Apartments, 5 BR Sky Villas",
-      propertyType: "Apartments & Sky Villas",
-      paymentPlan: "Flexible Payment Plan",
+      bedrooms: "1 to 3 Bedroom Apartments",
+      propertyType: "5 Bedroom Sky Villas",
+      paymentPlan: "Flexible options available",
       startingPrice: "Contact for Pricing",
-      handover: "Q2 2028 Handover",
-      downPayment: "10% Down Payment",
-      developer: "By ALDAR"
+      handover: "Expected by Q2 2028",
+      downPayment: "Starting from 10%",
+      developer: "Aldar",
+      nationality: ""
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
+    heroImage: "/images/The-Arthouse/The-Arthouse-bg-img.avif",
     galleryImages: [
       "https://cloud.thedubailands.com/Allimages/property/the-arthouse/gallery4231.webp",
       "https://metropolitan.realestate/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/07/the-arthouse-04.jpg.webp",
@@ -242,7 +292,23 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
     mapCode: "https://www.google.com/maps?cid=3510584966415592117",
-    videoUrl: "https://www.youtube.com/embed/I9efY5rm3PQ"
+    videoUrl: "https://www.youtube.com/embed/I9efY5rm3PQ",
+    locationBenefits: {
+      description: "Situated in Saadiyat Grove, The Arthouse offers excellent connectivity and access to key attractions in Abu Dhabi.",
+      points: [
+        "Located in Abu Dhabi’s cultural district",
+        "Close to museums, galleries, and lifestyle destinations",
+        "Easy access to major road networks",
+        "Surrounded by leisure, retail, and dining options",
+        "Well-connected to key areas of the city"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider The Arthouse?",
+        answer: "Buyers looking for stylish homes in a cultural hub, investors seeking premium properties with long-term value, professionals wanting a vibrant and well-connected location, and families looking for a refined and community-focused environment."
+      }
+    ]
   },
   {
     id: "muheira",
@@ -344,18 +410,19 @@ export const projectsData: ProjectProperty[] = [
     id: "address-residences-the-bay",
     slug: "address-residences-the-bay",
     name: "Address Residences The Bay",
-    location: "Emaar Beachfront, Jumeirah Beach Residence",
-    subtitle: "Coastal Luxury Reimagined by Emaar",
-    description: "Offering magnificent views of the Arabian Gulf and the Dubai Marina skyline, Address Residences The Bay by Emaar presents an exclusive beachfront lifestyle. Step outside your luxury apartment to access 1.5 km of pristine beach and world-class marina facilities in Dubai's most sought-after new waterfront community.",
+    location: "Emaar Beachfront, Dubai",
+    subtitle: "Luxury Waterfront Living in Dubai",
+    description: "Experience high-end coastal living at Address Residences The Bay, a premium beachfront development by Emaar. Located in the iconic Emaar Beachfront community, this project offers branded residences with breathtaking sea views and world-class hospitality-inspired living. Address Residences The Bay is an ultra-luxury residential development offering a refined lifestyle by the sea. Positioned in one of the most prestigious waterfront locations in Dubai, this project combines modern architecture with the elegance of branded living. The residences are thoughtfully designed with high-end interiors, spacious layouts, and floor-to-ceiling windows that maximize natural light and showcase stunning views of the Arabian Gulf. With direct beach access and premium hospitality services, residents can enjoy a resort-style living experience every day. Whether you're looking for a luxury home or a high-value investment, Address Residences The Bay presents an exceptional opportunity in Dubai's thriving real estate market.",
     isFeatured: true,
     features: {
-      bedrooms: "1 - 3 BR",
-      propertyType: "Branded Apartments",
-      paymentPlan: "80/20 Payment Plan",
+      bedrooms: "Studio, 1-3 Bedroom & Premium Layouts",
+      propertyType: "Apartments & Penthouses",
+      paymentPlan: "Off-Plan",
       startingPrice: "AED 2,500,000 Starting from",
-      handover: "Q4 2026 Handover",
+      handover: "Expected by December 2026",
       downPayment: "10% Down Payment",
-      developer: "By Emaar Properties"
+      developer: "Emaar",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
     galleryImages: [
@@ -388,7 +455,23 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
     mapCode: "https://www.google.com/maps?cid=13736646489557951630",
-    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng"
+    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng",
+    locationBenefits: {
+      description: "Located in Emaar Beachfront, one of Dubai's most desirable waterfront communities, this development offers excellent connectivity and lifestyle access.",
+      points: [
+        "Direct access to private beach",
+        "Close to Dubai Marina & JBR",
+        "Nearby fine dining, cafés, and retail outlets",
+        "Easy access to Sheikh Zayed Road",
+        "Well-connected to major business and leisure hubs"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Address Residences The Bay?",
+        answer: "Buyers seeking luxury beachfront residences in Dubai, investors looking for high-demand waterfront properties, professionals and families wanting premium lifestyle living, and international buyers interested in branded real estate."
+      }
+    ]
   },
   {
     id: "rawda-apartments",
@@ -441,17 +524,18 @@ export const projectsData: ProjectProperty[] = [
     slug: "de-collective",
     name: "DE Collective",
     location: "Dubai Hills Estate",
-    subtitle: "Modern Urban Living Co-working Hub",
-    description: "Collective in Dubai Hills Estate by Emaar is an active and contemporary co-living project built for ambitious individuals and entrepreneurs. Offering functional 1 and 2-bedroom apartments, it merges chic design with vibrant shared communal areas, including lounges, libraries, and an integrated networking atmosphere right near the Dubai Hills Mall.",
+    subtitle: "Modern Community Living in Dubai",
+    description: "Discover a vibrant and contemporary lifestyle at DE Collective, a completed residential development by Emaar Properties in Dubai Hills Estate. Designed for modern living, this project offers stylish apartments with access to dynamic shared spaces and community-focused amenities. DE Collective is a modern residential development built around the concept of community living. Designed to bring people together, the project offers thoughtfully planned apartments complemented by a wide range of shared amenities and social spaces. Residents can enjoy open, functional living areas that promote comfort while encouraging interaction and connection. The development features a lively ground-floor environment with access to dining, retail, leisure, and cultural experiences—all within easy reach. Ideal for young professionals, first-time buyers, and investors, DE Collective offers a balanced lifestyle in one of Dubai's most sought-after master communities.",
     isFeatured: true,
     features: {
-      bedrooms: "1 - 2 BR",
+      bedrooms: "1 & 2 Bedroom Apartments",
       propertyType: "Apartments",
-      paymentPlan: "Flexible Payment Plan",
-      startingPrice: "AED 900,000 Starting from",
-      handover: "Ready to Move",
-      downPayment: "20% Down Payment",
-      developer: "By Emaar Properties"
+      paymentPlan: "Completed",
+      startingPrice: "Up to AED 1,171,888",
+      handover: "Launch Year: 2018",
+      downPayment: "Contact for details",
+      developer: "Emaar Properties",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
     galleryImages: [
@@ -480,24 +564,41 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
     mapCode: "https://www.google.com/maps?cid=3510584966415592117",
-    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng"
+    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng",
+    locationBenefits: {
+      description: "Located in Dubai Hills Estate, one of Dubai's most well-planned communities, DE Collective offers excellent connectivity and lifestyle access.",
+      points: [
+        "Close to Dubai Hills Mall",
+        "Easy access to major roads and business districts",
+        "Nearby schools, healthcare facilities, and parks",
+        "Well-connected to Downtown Dubai and Dubai Marina",
+        "Surrounded by green spaces and community parks"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider DE Collective?",
+        answer: "First-time buyers looking for affordable apartments in Dubai, investors seeking properties with strong rental demand, young professionals wanting a social and connected lifestyle, and buyers looking for ready-to-move-in properties."
+      }
+    ]
   },
   {
     id: "expo-golf-villas",
     slug: "expo-golf-villas",
     name: "Expo Golf Villas",
-    location: "Emaar South",
-    subtitle: "Premium Villa Living by the Golf Course",
-    description: "Expo Golf Villas by Emaar South offer limited premium 3 and 4-bedroom villas situated alongside an 18-hole championship golf course. Designed for luxury and tranquility, the community provides excellent family-friendly layouts with vast green spaces, while remaining perfectly positioned near the Expo 2020 site and Al Maktoum International Airport.",
+    location: "Emaar South, Dubai",
+    subtitle: "Expo Golf Villas at Emaar South",
+    description: "Discover a peaceful and modern lifestyle at Expo Golf Villas, a completed residential community by Emaar Properties. Located in Emaar South, this development offers spacious villas overlooking lush green landscapes and a championship golf course. Expo Golf Villas is a well-planned residential development offering a blend of comfort, space, and natural surroundings. Set near the 18-hole championship golf course in Emaar South, the community is designed to provide a relaxing lifestyle away from the city's fast pace. The villas feature contemporary architecture with spacious interiors, large windows, and seamless indoor-outdoor living. Residents can enjoy scenic golf course views, landscaped surroundings, and a family-friendly environment. With its strategic location near the Expo 2020 site and growing infrastructure, Expo Golf Villas offers strong potential for both homeowners and investors.",
     isFeatured: true,
     features: {
-      bedrooms: "3 - 4 BR",
-      propertyType: "Villas",
-      paymentPlan: "Post-Handover Payment Plan",
-      startingPrice: "AED 1,400,000 Starting from",
-      handover: "Q3 2025 Handover",
-      downPayment: "5% Down Payment",
-      developer: "By Emaar Properties"
+      bedrooms: "3 & 4 Bedroom Villas",
+      propertyType: "Villas & Townhouses",
+      paymentPlan: "Completed",
+      startingPrice: "AED 1,000,000 – AED 1,530,888",
+      handover: "Completed in August 2021",
+      downPayment: "Contact for details",
+      developer: "Emaar Properties",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
     galleryImages: [
@@ -526,7 +627,23 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
     mapCode: "https://www.google.com/maps?cid=5129177740809991f1c",
-    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng"
+    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng",
+    locationBenefits: {
+      description: "Located in Emaar South, Expo Golf Villas offers a growing community environment with excellent connectivity.",
+      points: [
+        "Close to Expo City Dubai",
+        "Easy access to Sheikh Mohammed Bin Zayed Road",
+        "Near Al Maktoum International Airport",
+        "Growing infrastructure and future developments",
+        "Peaceful suburban environment with green landscapes"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Expo Golf Villas?",
+        answer: "Families looking for spacious villas in a peaceful community, buyers seeking ready-to-move-in homes in Dubai, investors looking for affordable villa properties, and professionals working near Dubai South and Expo City."
+      }
+    ]
   },
   {
     id: "orchid-golf-gardens",
@@ -1720,16 +1837,18 @@ export const projectsData: ProjectProperty[] = [
     slug: "deem-at-hayyan",
     name: "DEEM AT HAYYAN",
     location: "Al Bedea Suburb, Sharjah",
-    subtitle: "Premium Townhouse Living in the Heart of Nature",
-    description: "Deem at Hayyan by Alef Group offers an exceptional collection of 6-bedroom townhouses. Set within the lush, green community of Hayyan, it provides residents with a perfect blend of modern luxury and natural surroundings. Each home is designed with spacious interiors and high-end finishes, creating a tranquil sanctuary for families.",
+    subtitle: "Deem at Hayyan – Premium Villas & Townhouses in Sharjah",
+    description: "Discover elevated living at Deem at Hayyan, a modern residential development designed for comfort, space, and lifestyle. Located in Al Bedea Suburb, this off-plan project offers beautifully designed homes surrounded by nature, community spaces, and premium amenities. Deem at Hayyan is a thoughtfully planned residential community that combines modern design with a nature-focused lifestyle. Set within Al Bedea Suburb, the project offers spacious villas and townhouses designed to provide privacy, comfort, and a sense of community. The development features contemporary architecture with elegant interiors, complemented by green landscapes, lagoon views, and outdoor living spaces. With a strong focus on lifestyle and well-being, Deem at Hayyan creates an environment where residents can enjoy both relaxation and active living.",
+    isFeatured: true,
     features: {
-      bedrooms: "6 BR",
-      propertyType: "Townhouse",
-      paymentPlan: "Flexible",
-      startingPrice: "AED 2,100,000 Starting from",
-      handover: "2026",
-      downPayment: "10%",
-      developer: "Alef Group"
+      bedrooms: "Up to 6 Bedroom Homes",
+      propertyType: "Villas & Townhouses",
+      paymentPlan: "Off-Plan",
+      startingPrice: "AED 1,700,000 – AED 2,800,000",
+      handover: "Expected by November 2026",
+      downPayment: "Contact for details",
+      developer: "Alef Group",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
     galleryImages: [
@@ -1739,6 +1858,22 @@ export const projectsData: ProjectProperty[] = [
     amenities: ["Large Park", "Swimming Pool", "Fitness Center", "BBQ Area", "Jogging Track"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
+    locationBenefits: {
+      description: "Located in Al Bedea Suburb, Deem at Hayyan offers a peaceful environment with access to essential services and major roads.",
+      points: [
+        "Easy connectivity to key areas in Sharjah",
+        "Close to schools and educational institutions",
+        "Nearby healthcare facilities",
+        "Access to retail, dining, and daily essentials",
+        "Growing residential community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Deem at Hayyan?",
+        answer: "Families looking for spacious homes with private outdoor spaces, buyers seeking modern villas in a community setting, investors looking for off-plan opportunities in Sharjah, and homeowners who value nature, privacy, and lifestyle amenities."
+      }
+    ]
   },
   {
     id: "samr1-at-hayyan",
@@ -1767,22 +1902,40 @@ export const projectsData: ProjectProperty[] = [
     slug: "hayyan",
     name: "HAYYAN",
     location: "Al Bedea Suburb, Sharjah",
-    subtitle: "The Green Heart of Sharjah",
-    description: "Hayyan is the largest green community in Sharjah, featuring a diverse range of residential options from 1 to 6-bedroom units. Designed by Alef Group, it offers an unparalleled lifestyle surrounded by nature and world-class amenities.",
+    subtitle: "Hayyan – Nature-Inspired Villas & Townhouses in Sharjah",
+    description: "Discover a unique lifestyle at Hayyan, a thoughtfully designed residential community where luxury meets nature. Located in the peaceful Barashi (Ain Al Fayda) area of Sharjah, this off-plan development offers spacious villas and townhouses crafted for modern family living. Hayyan is more than just a residential development, it is a nature-inspired sanctuary designed to offer a calm and balanced lifestyle. Surrounded by greenery and peaceful surroundings, the project creates an environment where residents can enjoy both comfort and tranquility. The community features a collection of premium villas and townhouses with modern architecture and spacious layouts. Designed for families and individuals alike, Hayyan emphasizes quality living with a strong connection to nature. Its location in Barashi ensures a quiet setting while still offering accessibility to key destinations within Sharjah.",
+    isFeatured: true,
     features: {
-      bedrooms: "1 - 6 BR",
-      propertyType: "Mixed-Use",
-      paymentPlan: "Flexible",
-      startingPrice: "AED 900,000 Starting from",
-      handover: "2027",
-      downPayment: "10%",
-      developer: "Alef Group"
+      bedrooms: "2, 4, 5 Bedroom Homes",
+      propertyType: "Villas & Townhouses",
+      paymentPlan: "Off-Plan",
+      startingPrice: "AED 1,349,000 – AED 5,759,040",
+      handover: "Expected by December 2026",
+      downPayment: "Contact for details",
+      developer: "Alef Group",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
     galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
     amenities: ["Largest Lagoon", "Green Park", "Football Court", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
+    locationBenefits: {
+      description: "Located in Al Bedea Suburb, Hayyan offers a strategic location with access to essential services and connectivity.",
+      points: [
+        "Easy access to major roads and highways",
+        "Close to retail, dining, and daily essentials",
+        "Nearby educational institutions",
+        "Access to healthcare facilities",
+        "Located in a growing residential community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Hayyan?",
+        answer: "Families looking for spacious homes in a peaceful community, buyers seeking villas and townhouses in Sharjah, investors exploring off-plan opportunities, and homeowners who value privacy and nature-inspired living."
+      }
+    ]
   },
   {
     id: "boulevard-aljada",
@@ -1834,22 +1987,39 @@ export const projectsData: ProjectProperty[] = [
     name: "SHARJAH WATERFRONT CITY",
     location: "Sharjah Waterfront City, Sharjah",
     subtitle: "The Future of Coastal Living",
-    description: "Sharjah Waterfront City by Baraka is a massive coastal development offering luxury villas and apartments. It features 10 islands and will be home to thousands of residents, providing a unique lifestyle by the sea.",
+    description: "Experience serene coastal living at Sharjah Waterfront City, a large-scale residential development designed for comfort, privacy, and modern lifestyle. Surrounded by scenic waterfront views and green landscapes, this community offers a peaceful environment for families and investors. Sharjah Waterfront City is a thoughtfully designed residential destination that combines natural beauty with modern living. Built with a focus on outdoor lifestyle and open spaces, the community offers a pollution-free environment with access to beaches, landscaped areas, and lifestyle facilities. The development is designed to provide maximum comfort and privacy, making it ideal for families seeking a relaxed coastal lifestyle. With scenic waterfront views and well-planned infrastructure, residents can enjoy a balanced living experience surrounded by nature and convenience.",
     isFeatured: true,
     features: {
-      bedrooms: "3 - 6 BR",
-      propertyType: "Villa",
-      paymentPlan: "Post-Handover",
+      bedrooms: "3 to 6 Bedroom Villas",
+      propertyType: "Villas",
+      paymentPlan: "Completed",
       startingPrice: "AED 2,500,000 Starting from",
-      handover: "Completed",
-      downPayment: "20%",
-      developer: "BARAKA REAL ESTATE DEVELOPMENT LLC"
+      handover: "Launch Year: 2018",
+      downPayment: "Contact for details",
+      developer: "Baraka Real Estate Development LLC",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
     galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
     amenities: ["Waterpark", "Marina", "Shopping Center"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
+    locationBenefits: {
+      description: "Located in Sharjah Waterfront City, this development offers a unique coastal lifestyle with access to key destinations.",
+      points: [
+        "Direct access to beaches and waterfront areas",
+        "Peaceful environment away from city congestion",
+        "Easy access to nearby dining and retail outlets",
+        "Growing infrastructure and community development",
+        "Well-connected to key areas in Sharjah"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Sharjah Waterfront City?",
+        answer: "Families looking for spacious beachfront villas, buyers seeking a peaceful and private residential environment, investors interested in coastal properties, and international buyers looking for lifestyle-driven communities."
+      }
+    ]
   },
   {
     id: "arada-central-business",
@@ -1900,22 +2070,40 @@ export const projectsData: ProjectProperty[] = [
     slug: "olfah-3",
     name: "OLFAH 3",
     location: "Muwaileh Commercial, Sharjah",
-    subtitle: "Sophisticated Apartment Living",
-    description: "Olfah 3 by Alef Group offers modern apartments in the Muwaileh area. Known for its strategic location and modern design, it is ideal for those seeking an urban lifestyle in Sharjah.",
+    subtitle: "Olfah 3 at Muwaileh Commercial – Modern Apartments in Sharjah",
+    description: "Discover contemporary urban living at Olfah 3, a premium residential development located in the vibrant Muwaileh Commercial area. Designed for modern lifestyles, this off-plan project offers stylish apartments with access to essential amenities and a well-connected community. Olfah 3 is a thoughtfully designed residential building that brings together modern architecture and everyday convenience. Located in Muwaileh Commercial, one of Sharjah's most active and growing areas, the project offers a comfortable and connected lifestyle for residents. The development features well-planned apartments with contemporary layouts, making them suitable for both individuals and families. With easy access to retail, dining, and essential services, Olfah 3 provides a practical living environment combined with modern design.",
+    isFeatured: true,
     features: {
-      bedrooms: "Studio - 3 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Monthly Installments",
-      startingPrice: "AED 750,000 Starting from",
-      handover: "2027",
-      downPayment: "10%",
-      developer: "Alef Group"
+      bedrooms: "1, 2 & 3 Bedroom Apartments",
+      propertyType: "Apartments",
+      paymentPlan: "Off-Plan",
+      startingPrice: "AED 699,000 – AED 1,710,000",
+      handover: "Expected by March 2029",
+      downPayment: "Contact for details",
+      developer: "Alef Group",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600",
     galleryImages: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600"],
     amenities: ["Swimming Pool", "Kids Play Area", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
+    locationBenefits: {
+      description: "Located in Muwaileh Commercial, Olfah 3 offers excellent connectivity and access to daily essentials.",
+      points: [
+        "Close to schools and educational institutions",
+        "Easy access to major roads and transport routes",
+        "Nearby retail, dining, and shopping facilities",
+        "Well-connected to key areas in Sharjah",
+        "Situated in a growing residential and commercial hub"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Olfah 3?",
+        answer: "First-time buyers looking for affordable apartments, investors seeking properties in a high-demand area, professionals looking for well-connected urban living, and families seeking modern homes with nearby amenities."
+      }
+    ]
   },
   {
     id: "olfah-2",
@@ -2077,22 +2265,40 @@ export const projectsData: ProjectProperty[] = [
     slug: "hamsa-2",
     name: "HAMSA 2",
     location: "Muwaileh Commercial, Sharjah",
-    subtitle: "Modernity Meets Convenience",
-    description: "Hamsa 2 by Alef Group offers contemporary apartments designed with efficiency and style in mind. It is perfectly situated for easy access to Sharjah's main hubs.",
+    subtitle: "Hamsa 2 at Muwaileh Commercial – Modern Apartments in Sharjah",
+    description: "Experience contemporary urban living at Hamsa 2, a premium off-plan residential development located in the vibrant Muwaileh Commercial area. Designed with modern architecture and lifestyle-focused amenities, this project offers comfortable apartments ideal for both homeowners and investors. Hamsa 2 is a modern residential project designed to provide a comfortable and connected lifestyle in one of Sharjah's most active communities. Located in Muwaileh Commercial, the development offers well-designed apartments with contemporary layouts and practical living spaces. The project focuses on combining urban convenience with lifestyle amenities, making it suitable for individuals, families, and investors. With its strategic location, residents benefit from easy access to educational institutions, retail outlets, and key areas across Sharjah.",
+    isFeatured: true,
     features: {
-      bedrooms: "1 - 3 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Flexible",
-      startingPrice: "AED 680,000 Starting from",
-      handover: "2026",
-      downPayment: "10%",
-      developer: "Alef Group"
+      bedrooms: "1, 2 & 3 Bedroom Apartments",
+      propertyType: "Apartments",
+      paymentPlan: "Off-Plan",
+      startingPrice: "Contact for details",
+      handover: "Expected by February 2029",
+      downPayment: "Contact for details",
+      developer: "Alef Group",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600",
     galleryImages: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600"],
     amenities: ["Park and retail", "Cafe", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
+    locationBenefits: {
+      description: "Located in Muwaileh Commercial area, Hamsa 2 offers a strategic location with access to essential services and connectivity.",
+      points: [
+        "Easy access to major roads and highways",
+        "Close to retail, dining, and daily essentials",
+        "Nearby educational institutions",
+        "Access to healthcare facilities",
+        "Located in a growing residential community"
+      ]
+    },
+    faqs: [
+      {
+        question: "Who should consider Hamsa 2?",
+        answer: "First-time buyers looking for modern apartments, investors seeking affordable off-plan opportunities, professionals looking for well-connected urban living, and families seeking homes near schools and amenities."
+      }
+    ]
   },
   {
     id: "hamsa",
@@ -2254,17 +2460,18 @@ export const projectsData: ProjectProperty[] = [
     slug: "solera",
     name: "Solera",
     location: "Mina Al Arab, Ras Al Khaimah",
-    subtitle: "The Island Luxury Beachfront Living",
-    description: "Solera by RAK Properties is an exclusive residential community on the pristine shores of Mina Al Arab. Featuring a collection of 1 and 2-bedroom apartments, residents can enjoy unmatched access to the beach, high-end amenities within the community, and a peaceful atmosphere. Set against the serene backdrop of the Arabian Gulf, this beachfront sanctuary provides premium living with leisure and entertainment experiences right at your doorstep. Crafted with contemporary design and a focus on wellness, it is designed for a modern lifestyle.",
+    subtitle: "Waterfront Living in Ras Al Khaimah",
+    description: "Experience modern coastal living at Solera, a premium residential development located in the scenic Mina Al Arab community. Designed to offer a balance of luxury, comfort, and lifestyle, this off-plan project features stylish homes surrounded by natural beauty and waterfront views. Solera is a thoughtfully designed residential community offering a relaxed waterfront lifestyle in one of Ras Al Khaimah’s most desirable locations. Set within Mina Al Arab, the project combines contemporary architecture with natural surroundings to create a peaceful yet vibrant living environment. The development features a range of unit types, from studios to spacious penthouses, making it suitable for individuals, families, and investors. With modern interiors, open layouts, and access to premium amenities, Solera delivers both comfort and long-term value.",
     isFeatured: true,
     features: {
-      bedrooms: "1 - 2 BR",
-      propertyType: "Apartment",
-      paymentPlan: "10% Down Payment",
-      startingPrice: "AED 882,000 Starting from",
-      handover: "Dec 2026",
-      downPayment: "10%",
-      developer: "RAK Properties"
+      bedrooms: "Studios, 1 to 4 Bedroom Units",
+      propertyType: "Apartments, Studios & Penthouses",
+      paymentPlan: "Off-Plan",
+      startingPrice: "AED 768,000 – AED 3,080,000",
+      handover: "Expected by March 2028",
+      downPayment: "10% Down Payment",
+      developer: "RAK Properties",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
     galleryImages: [
@@ -2289,15 +2496,21 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
     mapCode: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d115200!2d55.8410848!3d25.6544976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sae!4v1712160000000!5m2!1sen!2sae",
-    paymentPlanDetails: [
-      { percentage: "10%", label: "At Reservation", description: "Deposit" },
-      { percentage: "40%", label: "During Construction", description: "Progress Payments" },
-      { percentage: "50%", label: "On Handover", description: "Final Payment" }
-    ],
+    locationBenefits: {
+      description: "Located in Mina Al Arab, Solera offers a unique coastal lifestyle with excellent connectivity.",
+      points: [
+        "Access to waterfront and natural surroundings",
+        "Close to retail, dining, and leisure destinations",
+        "Nearby healthcare and essential services",
+        "Easy connectivity to major roads",
+        "Peaceful environment ideal for residential living"
+      ]
+    },
     faqs: [
-      { question: "Where is Solera located?", answer: "Solera is located in Mina Al Arab, Ras Al Khaimah." },
-      { question: "What are the apartment types available?", answer: "1 and 2 bedroom luxury apartments are available." },
-      { question: "Who is the developer of Solera?", answer: "The project is developed by RAK Properties." }
+      {
+        question: "Who should consider Solera?",
+        answer: "Buyers looking for waterfront apartments, investors seeking high-potential off-plan properties, individuals looking for modern studio or apartment living, and families seeking a peaceful coastal lifestyle."
+      }
     ]
   },
   {
@@ -2305,17 +2518,18 @@ export const projectsData: ProjectProperty[] = [
     slug: "nikki-beach-residences",
     name: "Nikki Beach Residences",
     location: "Al Marjan Island, Ras Al Khaimah",
-    subtitle: "Luxury Beachfront Living at its Peak",
-    description: "Nikki Beach Residences by Aldar Properties is a premium residential development on the iconic Al Marjan Island. Offering a collection of 1 to 5-bedroom apartments, residents can experience the ultimate beachfront lifestyle with top-tier amenities and direct beach access. The community is designed for those who appreciate energetic living combined with the tranquility of the sea. Featuring minimalist design and high-end finishes, it provide a sophisticated residential option in Ras Al Khaimah.",
+    subtitle: "Branded Beachfront Living in Ras Al Khaimah",
+    description: "Experience luxury coastal living at Nikki Beach Residences, a premium branded development located on Al Marjan Island. Developed by Aldar Properties in partnership with Nikki Beach Global, this exclusive project offers fully furnished homes with stunning ocean views and direct beach access. Nikki Beach Residences is a high-end waterfront development that brings together luxury living and a globally recognized lifestyle brand. Located on Al Marjan Island, the project offers a unique beachfront experience with elegant residences designed for comfort, style, and exclusivity. The apartments are fully furnished and feature modern interiors, open layouts, and panoramic ocean views. Residents enjoy access to premium lifestyle facilities, including beach clubs, wellness spaces, and curated social environments. With its branded concept and prime coastal location, Nikki Beach Residences offers both a refined living experience and strong investment potential.",
     isFeatured: true,
     features: {
-      bedrooms: "1 - 5 BR",
-      propertyType: "Apartment",
-      paymentPlan: "10% Down Payment",
-      startingPrice: "AED 2,300,000 Starting from",
-      handover: "Dec 2027",
-      downPayment: "10%",
-      developer: "Aldar Properties PJSC"
+      bedrooms: "1 & 2 Bedroom Apartments",
+      propertyType: "Apartments",
+      paymentPlan: "Off-Plan",
+      startingPrice: "AED 2,049,800 – AED 6,740,000",
+      handover: "Expected by April 2028",
+      downPayment: "10% Down Payment",
+      developer: "Aldar Properties PJSC",
+      nationality: "Freehold"
     },
     heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
     galleryImages: [
@@ -2335,15 +2549,21 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
     mapCode: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d115456.123!2d55.255353!3d25.24586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sae!4v1712160000000!5m2!1sen!2sae",
-    paymentPlanDetails: [
-      { percentage: "10%", label: "On Booking", description: "Deposit" },
-      { percentage: "50%", label: "During Construction", description: "Installments" },
-      { percentage: "40%", label: "On Handover", description: "Final Payment" }
-    ],
+    locationBenefits: {
+      description: "Located on Al Marjan Island, this development offers a premium coastal lifestyle with excellent connectivity.",
+      points: [
+        "Direct access to beaches and waterfront views",
+        "Close to luxury resorts and leisure destinations",
+        "Nearby dining and entertainment options",
+        "Easy access to key areas in Ras Al Khaimah",
+        "Ideal for both living and holiday investment"
+      ]
+    },
     faqs: [
-      { question: "Where is Nikki Beach Residences located?", answer: "Nikki Beach Residences is located on Al Marjan Island, Ras Al Khaimah." },
-      { question: "What is the development's key highlight?", answer: "Nikki Beach offers direct access to the beach and top-level boutique hospitality services." },
-      { question: "Who is the developer?", answer: "The project is developed by Aldar Properties PJSC." }
+      {
+        question: "Who should consider Nikki Beach Residences?",
+        answer: "Buyers looking for luxury beachfront apartments, investors seeking branded residences with high demand, individuals wanting a premium lifestyle experience, and buyers interested in furnished, ready-to-enjoy homes."
+      }
     ]
   },
   {

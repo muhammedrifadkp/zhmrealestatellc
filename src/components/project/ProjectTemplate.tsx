@@ -16,15 +16,15 @@ export default function ProjectTemplate({ project }: { project: ProjectProperty 
   return (
     <main className="min-h-screen bg-white selection:bg-primary/20">
       <ProjectHero project={project} />
-      <LeadCaptureForm />
       <ProjectFeatures project={project} />
       <ProjectAbout project={project} />
-      <ProjectGallery project={project} />
+      <ProjectFAQs project={project} />
       <ProjectAmenities project={project} />
+      <ProjectGallery project={project} />
       <ProjectFloorPlans project={project} />
       <ProjectPaymentPlan project={project} />
-      <ProjectFAQs project={project} />
       <ProjectLocation project={project} />
+      <LeadCaptureForm project={project} />
       
       {/* Sticky Bottom Bar / Footer CTA */}
       <div className="bg-[#12163b] text-white py-12 px-6 border-t border-white/10">
