@@ -106,10 +106,10 @@ const navItems = [
       ]
     }
   },
-  {
-    name: "SERVICES",
-    href: "/services"
-  },
+  // {
+  //   name: "SERVICES",
+  //   href: "/services"
+  // },
   {
     name: "COMPANY",
     href: "/about",
