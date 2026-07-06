@@ -90,7 +90,7 @@ export function AboutSection() {
             </h2>
 
             <p className="text-gray-600 mb-4 text-base leading-relaxed">
-              ZHM Real Estate LLC was founded by Mr. Shahbaz solely — an expert and specialist in the 
+              ZHM Real Estate LLC was founded by Mohammad Shahbaz Rasheed solely — an expert and specialist in the 
               Real Estate Fraternity. His in-depth knowledge and visionary insights have led ZHM Real Estate 
               to successfully establish itself as one of the most sought-after real estate agencies in Dubai (UAE).
             </p>

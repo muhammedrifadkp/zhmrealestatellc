@@ -1,31 +1,33 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight, Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Ahmed Al Mansouri",
-    role: "Real Estate Investor",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+    name: "Vijay Barrey",
+    role: "Local Guide",
     rating: 5,
-    text: "ZHM Real Estate gave me the most professional real estate experience I've ever had in Dubai. Broker Mohammad Shahbaz Rasheed was transparent, knowledgeable, and truly went above and beyond to help me find the perfect investment property. Highly recommended!",
+    text: "I recently worked with Shahbaz and had a truly positive experience from start to finish. The team demonstrated exceptional professionalism, market knowledge, and dedication throughout the entire process.",
   },
   {
-    name: "Sarah Johnson",
-    role: "Homeowner – Palm Jumeirah",
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop",
+    name: "Muhammed Najeeb",
+    role: "Real Estate Client",
     rating: 5,
-    text: "The team at ZHM was incredibly supportive throughout my entire property purchase journey. Their market knowledge is unmatched, and they secured me a fantastic deal on my dream apartment. I couldn't be happier with the outcome.",
+    text: "Had a great experience working with Shabaz. He was professional, responsive, and helped me rent out my apartment in just a few days. Very smooth process with clear communication throughout. Highly recommended!",
   },
   {
-    name: "Raj Patel",
-    role: "Property Investor – UK Based",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop",
+    name: "Bipin Rai",
+    role: "Real Estate Client",
     rating: 5,
-    text: "As an international investor, I was nervous about buying property in Dubai remotely. ZHM Real Estate made the entire process seamless. Their transparency and quick results exceeded my expectations — I've already referred three of my colleagues to them.",
+    text: "Very nice experience. Reliable. Mr. Shahbaz.",
+  },
+  {
+    name: "Ahmed Landoulsi",
+    role: "Local Guide",
+    rating: 5,
+    text: "Very satisfied, thanks very cooperative.",
   },
 ];
 
@@ -70,10 +72,13 @@ export function TestimonialsSection() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: direction * -60 }}
             transition={{ duration: 0.5 }}
-            className="bg-white rounded-3xl shadow-[var(--shadow-luxury)] p-8 md:p-12 relative"
+            className="bg-white/90 backdrop-blur-md rounded-3xl border border-primary/10 shadow-[0_20px_50px_rgba(0,0,0,0.05)] p-8 md:p-12 relative overflow-hidden group hover:border-primary/25 transition-all duration-500"
           >
+            {/* Accent Gold Line */}
+            <div className="absolute top-0 left-0 right-0 h-[4px] bg-gradient-to-r from-primary/30 via-primary to-primary/30" />
+
             {/* Quote icon */}
-            <div className="absolute top-6 right-8 text-primary/10">
+            <div className="absolute top-6 right-8 text-primary/5 group-hover:text-primary/10 transition-colors duration-500">
               <Quote size={80} />
             </div>
 
@@ -84,21 +89,27 @@ export function TestimonialsSection() {
               ))}
             </div>
 
-            <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-8 italic relative z-10">
+            <p 
+              className="text-secondary text-lg md:text-2xl leading-relaxed mb-8 italic relative z-10"
+              style={{ fontFamily: '"Cormorant Garamond", serif' }}
+            >
               &ldquo;{t.text}&rdquo;
             </p>
 
-            {/* Author */}
-            <div className="flex items-center gap-4">
-              <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-primary/30 shrink-0">
-                <Image src={t.avatar} alt={t.name} width={56} height={56} className="object-cover" />
-              </div>
+            {/* Author info & Verified Badge */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-6 border-t border-gray-100">
               <div>
-                <p className="font-bold text-secondary">{t.name}</p>
-                <p className="text-sm text-gray-400">{t.role}</p>
+                <p className="font-extrabold text-secondary text-lg tracking-wide">{t.name}</p>
+                <p className="text-sm text-gray-400 font-medium">{t.role}</p>
               </div>
-              {/* Gold divider */}
-              <div className="ml-auto w-12 h-px bg-primary" />
+              <div className="flex items-center">
+                <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-[10px] font-bold text-primary uppercase tracking-widest">
+                  <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                    <path d="M12.24 10.285V14.4h6.887c-.648 2.41-2.519 4.113-5.111 4.113-3.414 0-6.19-2.776-6.19-6.19 0-3.414 2.776-6.19 6.19-6.19 1.483 0 2.844.525 3.917 1.398l3.11-3.11C18.91 2.158 15.82 1 12.24 1 5.48 1 0 6.48 0 13.24c0 6.76 5.48 12.24 12.24 12.24 6.818 0 12.015-4.8 12.015-12.24 0-.648-.06-1.302-.18-1.955H12.24z"/>
+                  </svg>
+                  Verified Google Review
+                </div>
+              </div>
             </div>
           </motion.div>
 

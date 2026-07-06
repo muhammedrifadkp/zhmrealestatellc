@@ -1,11 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
-// Placeholder partners – using styled text blocks since no actual logos available
 const developers = [
-  "Emaar", "Damac", "Meraas", "Aldar", "Nakheel",
-  "Sobha", "Dubai Properties", "Imkan", "Azizi", "Ellington",
+  { name: "Emaar", logo: "/images/Leading-Developers-logo/Emaar.jpeg" },
+  { name: "Damac", logo: "/images/Leading-Developers-logo/DAMAC..png" },
+  { name: "Meraas", logo: "/images/Leading-Developers-logo/Meraas.png" },
+  { name: "Aldar", logo: "/images/Leading-Developers-logo/Aldar.png" },
+  { name: "Nakheel", logo: "/images/Leading-Developers-logo/Nakheel.png" },
+  { name: "Sobha", logo: "/images/Leading-Developers-logo/Sobha.png" },
+  { name: "Dubai Properties", logo: "/images/Leading-Developers-logo/dubai properties.jpeg" },
+  { name: "Imkan", logo: "/images/Leading-Developers-logo/IMKAN.png" },
+  { name: "Azizi", logo: "/images/Leading-Developers-logo/Azizi Developments.png" },
+  { name: "Ellington", logo: "/images/Leading-Developers-logo/Ellington.png" },
 ];
 
 
@@ -38,12 +46,20 @@ export function PartnersAwards() {
               style={{ background: "linear-gradient(-90deg, white, transparent)" }} />
 
             <div className="partners-track">
-              {[...developers, ...developers].map((name, i) => (
+              {[...developers, ...developers].map((dev, i) => (
                 <div
                   key={i}
-                  className="flex items-center justify-center mx-6 px-8 py-5 border border-gray-100 rounded-xl shrink-0 min-w-[160px] hover:border-primary hover:shadow-[var(--shadow-gold)] transition-all duration-300 cursor-default"
+                  className="flex items-center justify-center mx-6 px-8 py-4 border border-gray-100 rounded-xl shrink-0 min-w-[180px] h-20 hover:border-primary/50 hover:shadow-[var(--shadow-gold)] transition-all duration-300 cursor-default bg-white relative overflow-hidden"
                 >
-                  <span className="font-bold text-secondary text-sm tracking-wider whitespace-nowrap">{name}</span>
+                  <div className="relative w-full h-full flex items-center justify-center">
+                    <Image
+                      src={dev.logo}
+                      alt={`${dev.name} Logo`}
+                      fill
+                      sizes="180px"
+                      className="object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
+                    />
+                  </div>
                 </div>
               ))}
             </div>

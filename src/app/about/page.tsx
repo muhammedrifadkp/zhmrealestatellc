@@ -11,6 +11,19 @@ import {
   MapPin, Phone, Mail, ArrowRight, Play
 } from "lucide-react";
 
+const developers = [
+  { name: "Emaar", logo: "/images/Leading-Developers-logo/Emaar.jpeg" },
+  { name: "Damac", logo: "/images/Leading-Developers-logo/DAMAC..png" },
+  { name: "Meraas", logo: "/images/Leading-Developers-logo/Meraas.png" },
+  { name: "Aldar", logo: "/images/Leading-Developers-logo/Aldar.png" },
+  { name: "Nakheel", logo: "/images/Leading-Developers-logo/Nakheel.png" },
+  { name: "Sobha", logo: "/images/Leading-Developers-logo/Sobha.png" },
+  { name: "Dubai Properties", logo: "/images/Leading-Developers-logo/dubai properties.jpeg" },
+  { name: "Imkan", logo: "/images/Leading-Developers-logo/IMKAN.png" },
+  { name: "Azizi", logo: "/images/Leading-Developers-logo/Azizi Developments.png" },
+  { name: "Ellington", logo: "/images/Leading-Developers-logo/Ellington.png" },
+];
+
 export default function AboutPage() {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
@@ -143,7 +156,7 @@ export default function AboutPage() {
       
               <motion.div variants={fadeInUp} className="space-y-4 text-gray-600 text-base leading-relaxed">
                 <p>
-                  ZHM Real Estate LLC was founded by Mr. Shahbaz solely. An expert & specialist in Real Estate Fraternity. His in-depth knowledge & visionary insights have led ZHM Real Estate to successfully establish itself as one of the most sought real estate agency in Dubai (UAE).
+                  ZHM Real Estate LLC was founded by Mohammad Shahbaz Rasheed solely. An expert & specialist in Real Estate Fraternity. His in-depth knowledge & visionary insights have led ZHM Real Estate to successfully establish itself as one of the most sought real estate agency in Dubai (UAE).
                 </p>
                 <p>
                   With over 15 years of industry excellence, we&apos;ve built a reputation for delivering exceptional service, innovative solutions, and unmatched market expertise. Our commitment to integrity and client satisfaction has made us a trusted name in Dubai&apos;s competitive real estate landscape.
@@ -248,7 +261,7 @@ export default function AboutPage() {
                   <div className="absolute inset-0 transition-transform duration-[1200ms] ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover:scale-110">
                     <Image
                       src="/images/about/image-1.jpeg"
-                      alt="Mr. Shahbaz - Founder"
+                      alt="Mohammad Shahbaz Rasheed - Founder"
                       fill
                       priority
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -260,7 +273,7 @@ export default function AboutPage() {
                   <div className="absolute inset-0 scale-110 transition-transform duration-[1200ms] ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover:scale-100">
                     <Image
                       src="/images/about/image-2.jpeg"
-                      alt="Mr. Shahbaz - Founder Hover"
+                      alt="Mohammad Shahbaz Rasheed - Founder Hover"
                       fill
                       priority
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -271,7 +284,7 @@ export default function AboutPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-transparent to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-700" />
                   
                   <div className="absolute bottom-6 left-6 right-6 transform transition-all duration-700 ease-out group-hover:-translate-y-2">
-                    <p className="text-white text-lg md:text-xl font-bold tracking-wide drop-shadow-sm">Mr. Shahbaz</p>
+                    <p className="text-white text-lg md:text-xl font-bold tracking-wide drop-shadow-sm">Mohammad Shahbaz Rasheed</p>
                     <p className="text-primary text-sm font-medium uppercase tracking-wider mt-1 opacity-90 group-hover:opacity-100 transition-opacity duration-700">Founder & CEO</p>
                   </div>
                 </div>
@@ -294,7 +307,7 @@ export default function AboutPage() {
 
                 <div className="space-y-4 text-gray-600 text-base leading-relaxed">
                   <p>
-                    With an unwavering commitment to excellence and a deep understanding of Dubai&apos;s dynamic real estate market, Mr. Shahbaz has transformed ZHM Real Estate into a beacon of trust and professionalism.
+                    With an unwavering commitment to excellence and a deep understanding of Dubai&apos;s dynamic real estate market, Mohammad Shahbaz Rasheed has transformed ZHM Real Estate into a beacon of trust and professionalism.
                   </p>
                   <p>
                     His strategic vision combined with a hands-on approach and client-first philosophy has enabled us to consistently exceed expectations and build lasting relationships with our valued clients.
@@ -632,16 +645,19 @@ export default function AboutPage() {
           >
             {[...Array(2)].map((_, setIndex) => (
               <div key={setIndex} className="flex gap-10 md:gap-16 items-center px-5">
-                {[
-                  "Emaar", "Damac", "Nakheel", "Meraas", "Sobha", "Azizi",
-                  "Aldar", "Select Group", "Ellington", "Reportage", "Danube"
-                ].map((partner, idx) => (
+                {developers.map((dev, idx) => (
                   <div
                     key={`${setIndex}-${idx}`}
-                    className="w-24 md:w-40 h-12 md:h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 cursor-pointer"
+                    className="w-24 md:w-40 h-12 md:h-20 flex items-center justify-center transition-all duration-300 opacity-90 hover:opacity-100 cursor-pointer relative"
                   >
-                    <div className="text-lg md:text-2xl font-bold text-secondary" style={{ fontFamily: '"Cormorant Garamond", serif' }}>
-                      {partner}
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={dev.logo}
+                        alt={`${dev.name} Logo`}
+                        fill
+                        sizes="(max-width: 768px) 96px, 160px"
+                        className="object-contain"
+                      />
                     </div>
                   </div>
                 ))}

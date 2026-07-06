@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { TrendingUp, Activity, BarChart2, DollarSign } from "lucide-react";
+import { TrendingUp, Percent, Coins, DollarSign } from "lucide-react";
 
 const stats = [
   {
@@ -14,20 +14,20 @@ const stats = [
     color: "#d4af37",
   },
   {
-    icon: Activity,
+    icon: Percent,
     value: 11.06,
     suffix: "%",
     label: "Mortgage Activity",
     desc: "Rise in mortgage-financed transactions in the Dubai market.",
-    color: "#60a5fa",
+    color: "#d4af37",
   },
   {
-    icon: BarChart2,
+    icon: Coins,
     value: 16.88,
     suffix: "%",
     label: "Investment Gains",
     desc: "Average capital appreciation on prime Dubai real estate.",
-    color: "#34d399",
+    color: "#d4af37",
   },
   {
     icon: DollarSign,
@@ -35,7 +35,7 @@ const stats = [
     suffix: "B+",
     label: "Market Transactions",
     desc: "Total value of real estate transactions processed in Dubai.",
-    color: "#f87171",
+    color: "#d4af37",
   },
 ];
 
@@ -81,8 +81,8 @@ function FloatCounter({
   }, [target]);
 
   return (
-    <div ref={ref} className="text-4xl md:text-5xl font-bold font-serif" style={{ color }}>
-      {isDecimal ? count.toFixed(2) : count.toFixed(2)}{suffix}
+    <div ref={ref} className="text-4xl md:text-5xl font-bold font-serif text-gold-gradient inline-block">
+      {count.toFixed(2)}{suffix}
     </div>
   );
 }
@@ -122,30 +122,29 @@ export function MarketInsights() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 text-center hover:bg-white/10 transition-all duration-300 overflow-hidden"
+              className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 text-center hover:bg-white/10 hover:border-primary/30 transition-all duration-300 overflow-hidden shadow-[0_4px_24px_rgba(0,0,0,0.08)] hover:shadow-[0_20px_40px_rgba(212,175,55,0.05)]"
             >
               {/* Glow effect */}
               <div
-                className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl"
-                style={{ background: `radial-gradient(circle at center, ${stat.color}15, transparent 70%)` }}
+                className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.1)_0%,transparent_70%)]"
               />
 
-              {/* Icon */}
-              <div className="w-12 h-12 rounded-full mx-auto mb-5 flex items-center justify-center"
-                style={{ background: `${stat.color}20` }}>
-                <stat.icon size={22} style={{ color: stat.color }} />
+              {/* Icon wrapper with gold gradient styling */}
+              <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 text-primary group-hover:bg-primary group-hover:text-secondary group-hover:border-primary transition-all duration-300 shadow-[0_0_15px_rgba(212,175,55,0)] group-hover:shadow-[0_0_20px_rgba(212,175,55,0.3)] flex items-center justify-center mx-auto mb-5">
+                <stat.icon size={22} className="transition-transform duration-500 group-hover:rotate-[360deg]" />
               </div>
 
               {/* Counter */}
-              <FloatCounter target={stat.value} suffix={stat.suffix} isDecimal={true} color={stat.color} />
+              <div className="mb-3">
+                <FloatCounter target={stat.value} suffix={stat.suffix} isDecimal={true} color={stat.color} />
+              </div>
 
-              <h3 className="text-white font-bold mt-3 mb-2 text-sm">{stat.label}</h3>
+              <h3 className="text-white font-bold mb-2 text-sm group-hover:text-primary transition-colors duration-300">{stat.label}</h3>
               <p className="text-gray-500 text-xs leading-relaxed">{stat.desc}</p>
 
-              {/* Bottom accent */}
+              {/* Bottom accent line */}
               <div
-                className="absolute bottom-0 left-0 right-0 h-0.5 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"
-                style={{ background: stat.color }}
+                className="absolute bottom-0 left-0 right-0 h-[3px] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left bg-gradient-to-r from-primary via-primary-light to-primary"
               />
             </motion.div>
           ))}

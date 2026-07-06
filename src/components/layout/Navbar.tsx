@@ -118,7 +118,7 @@ const navItems = [
       imageTitle: "Company",
       columns: [
         {
-          title: "ABOUT PSI",
+          title: "ABOUT ZHM",
           links: [
             { name: "Our Story", href: "/about" },
             { name: "Careers", href: "/contact" },
@@ -130,8 +130,7 @@ const navItems = [
           title: "MEDIA",
           links: [
             { name: "Newsletters", href: "/contact" },
-            { name: "Contact Us", href: "/contact" },
-            { name: "Articles", href: "/about" }
+            { name: "Contact Us", href: "/contact" }
           ]
         }
       ]
