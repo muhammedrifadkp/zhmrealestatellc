@@ -130,7 +130,6 @@ export function HeroSection() {
             // First video: aggressively preload + highest fetch priority
             // Others: preload=none until progressively unlocked above
             preload={i === 0 ? "auto" : "none"}
-            fetchPriority={i === 0 ? "high" : "low"}
             autoPlay={i === 0}
             muted
             loop
