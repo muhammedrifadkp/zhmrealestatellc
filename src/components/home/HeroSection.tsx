@@ -7,6 +7,10 @@ import { ArrowRight, Users, Building2, Award, Handshake } from "lucide-react";
 
 const heroVideos = [
   {
+    src: "/videos/Burj_Khalifa_in_Dubai_1080p_202607070141.mp4",
+    label: "Burj Khalifa in Dubai",
+  },
+  {
     src: "/videos/Living_room_walkthrough_modern_i…_202607040407.mp4",
     label: "Living Room Walkthrough",
   },
@@ -64,10 +68,23 @@ function AnimatedCounter({ target, suffix }: { target: number; suffix: string })
 export function HeroSection() {
   const [currentVideo, setCurrentVideo] = useState(0);
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
+  // Track which videos have been preloaded so we only flip once
+  const preloaded = useRef<boolean[]>(heroVideos.map(() => false));
 
-  // Per-video durations: video 0 = 5s, video 1 = 10s, then loop
-  const videoDurations = [5000, 10000];
+  // Per-video display durations
+  const videoDurations = [8000, 5000, 10000];
 
+  // ── Progressive preload: as current video plays, quietly preload the next ──
+  useEffect(() => {
+    const nextIdx = (currentVideo + 1) % heroVideos.length;
+    const nextVid = videoRefs.current[nextIdx];
+    if (nextVid && !preloaded.current[nextIdx]) {
+      preloaded.current[nextIdx] = true;
+      nextVid.preload = "auto"; // start buffering the next clip now
+    }
+  }, [currentVideo]);
+
+  // ── Advance slide timer ──
   useEffect(() => {
     const timer = setTimeout(() => {
       setCurrentVideo((prev) => (prev + 1) % heroVideos.length);
@@ -75,19 +92,25 @@ export function HeroSection() {
     return () => clearTimeout(timer);
   }, [currentVideo]);
 
-  // Play/pause based on active slide
+  // ── Play/pause + instant-start on active slide ──
   useEffect(() => {
     videoRefs.current.forEach((vid, i) => {
       if (!vid) return;
       if (i === currentVideo) {
         vid.currentTime = 0;
-        vid.play().catch(() => {});
+        // canplay fires as soon as the browser has enough data to start —
+        // much faster than waiting for full buffering.
+        const play = () => vid.play().catch(() => {});
+        if (vid.readyState >= 3) {
+          play(); // already buffered — play immediately
+        } else {
+          vid.addEventListener("canplay", play, { once: true });
+        }
       } else {
         vid.pause();
       }
     });
   }, [currentVideo]);
-
 
 
   return (
@@ -104,6 +127,10 @@ export function HeroSection() {
           <video
             ref={(el) => { videoRefs.current[i] = el; }}
             src={video.src}
+            // First video: aggressively preload + highest fetch priority
+            // Others: preload=none until progressively unlocked above
+            preload={i === 0 ? "auto" : "none"}
+            fetchPriority={i === 0 ? "high" : "low"}
             autoPlay={i === 0}
             muted
             loop

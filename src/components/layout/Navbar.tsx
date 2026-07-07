@@ -147,6 +147,14 @@ export function Navbar() {
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
 
+  const isNavItemActive = (itemName: string): boolean => {
+    if (!pathname) return false;
+    if (itemName === "FEATURED PROJECTS") return pathname.startsWith("/featured-projects");
+    if (itemName === "PROJECTS") return pathname.startsWith("/projects") || pathname === "/developers" || pathname.startsWith("/developers");
+    if (itemName === "COMPANY") return pathname.startsWith("/about") || pathname.startsWith("/contact");
+    return false;
+  };
+
   const isSearchPage = pathname?.startsWith('/search');
   const isTermsOrPrivacy = pathname === '/terms' || pathname === '/privacy';
   const isProjectsListing = pathname?.startsWith('/projects/') || pathname?.startsWith('/featured-projects') || pathname === '/developers';
@@ -258,9 +266,17 @@ export function Navbar() {
                 onClick={handleLinkClick}
                 suppressHydrationWarning
                 className={`flex items-center gap-1 text-[13px] font-bold uppercase tracking-widest py-6 border-b-2 transition-all duration-300 ${
-                  activeMegaMenu === item.name ? "border-primary" : "border-transparent group-hover:border-primary"
+                  activeMegaMenu === item.name
+                    ? "border-primary"
+                    : isNavItemActive(item.name)
+                    ? "border-primary"
+                    : "border-transparent group-hover:border-primary"
                 } ${
-                  isNavbarActive ? "text-[#2a304e]" : "text-white"
+                  isNavItemActive(item.name)
+                    ? "text-primary"
+                    : isNavbarActive
+                    ? "text-[#2a304e] hover:text-primary"
+                    : "text-white hover:text-white/80"
                 }`}
               >
                 {item.name}
@@ -304,11 +320,22 @@ export function Navbar() {
                         return "#";
                       };
 
+                      const isLinkActive = (href: string) => {
+                        if (!pathname || href === "#") return false;
+                        return pathname === href;
+                      };
+
+                      const isColActive = col.links.some(l => isLinkActive(l.href));
+
                       return (
                         <div key={idx} className="flex-1">
                           {["ABU DHABI", "DUBAI", "SHARJAH", "RAS AL KHAIMA", "DEVELOPERS"].includes(col.title) ? (
                             <Link href={getLink(col.title)} onClick={handleLinkClick} className="block group/title">
-                              <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2 group-hover/title:text-primary group-hover/title:border-primary transition-all">
+                              <h4 className={`text-[13px] font-bold mb-6 tracking-wider uppercase border-b pb-2 transition-all ${
+                                isColActive
+                                  ? "text-primary border-primary"
+                                  : "text-[#1e2350] border-gray-100 group-hover/title:text-primary group-hover/title:border-primary"
+                              }`}>
                                 {col.title}
                               </h4>
                             </Link>
@@ -321,9 +348,17 @@ export function Navbar() {
                                 <Link 
                                   href={link.href}
                                   onClick={handleLinkClick}
-                                  className="text-[13px] text-gray-500 hover:text-primary transition-colors flex items-center group/link"
+                                  className={`text-[13px] transition-colors flex items-center group/link ${
+                                    isLinkActive(link.href)
+                                      ? "text-primary font-semibold"
+                                      : "text-gray-500 hover:text-primary"
+                                  }`}
                                 >
-                                  <span className="w-0 h-px bg-primary mr-0 transition-all duration-300 group-hover/link:w-2 group-hover/link:mr-2"></span>
+                                  <span className={`h-px bg-primary mr-0 transition-all duration-300 ${
+                                    isLinkActive(link.href)
+                                      ? "w-2 mr-2"
+                                      : "w-0 group-hover/link:w-2 group-hover/link:mr-2"
+                                  }`}></span>
                                   {link.name}
                                 </Link>
                               </li>
@@ -397,7 +432,9 @@ export function Navbar() {
                   {item.megaMenu ? (
                     <button
                       onClick={() => setExpandedMobileItem(expandedMobileItem === item.name ? null : item.name)}
-                      className="text-[14px] font-bold tracking-widest text-[#1e2350] uppercase py-5 flex justify-between items-center w-full focus:outline-none"
+                      className={`text-[14px] font-bold tracking-widest uppercase py-5 flex justify-between items-center w-full focus:outline-none transition-colors ${
+                        isNavItemActive(item.name) ? "text-primary" : "text-[#1e2350]"
+                      }`}
                     >
                       {expandedMobileItem === item.name ? (
                         // Title Case when expanded
@@ -409,7 +446,7 @@ export function Navbar() {
                       )}
                       <ChevronDown 
                         size={16} 
-                        className={`text-gray-400 transition-transform duration-300 ${expandedMobileItem === item.name ? "rotate-180" : ""}`} 
+                        className={`transition-transform duration-300 ${expandedMobileItem === item.name ? "rotate-180 text-primary" : "text-gray-400"}`} 
                       />
                     </button>
                   ) : (
@@ -453,7 +490,11 @@ export function Navbar() {
                                   <Link 
                                     href={link.href}
                                     onClick={() => setIsMobileMenuOpen(false)}
-                                    className="text-[15px] font-bold text-[#2a304e] hover:text-primary transition-colors"
+                                    className={`text-[15px] font-bold transition-colors ${
+                                      pathname === link.href
+                                        ? "text-primary"
+                                        : "text-[#2a304e] hover:text-primary"
+                                    }`}
                                   >
                                     {link.name}
                                   </Link>

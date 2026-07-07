@@ -2,6 +2,28 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "standalone",
+
+  // ── Long-lived cache headers for static video assets ──
+  // Videos are served with 1-year immutable cache.
+  // Return visits / CDN: zero re-downloads, instant playback.
+  async headers() {
+    return [
+      {
+        source: "/videos/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+          {
+            key: "Accept-Ranges",
+            value: "bytes",
+          },
+        ],
+      },
+    ];
+  },
+
   images: {
     remotePatterns: [
       {

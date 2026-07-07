@@ -21,6 +21,13 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <GoogleAnalytics />
+        {/* Preload first hero video at highest priority — largest loading win */}
+        <link
+          rel="preload"
+          as="video"
+          href="/videos/Burj_Khalifa_in_Dubai_1080p_202607070141.mp4"
+          type="video/mp4"
+        />
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col`} suppressHydrationWarning>
         <Navbar />

@@ -202,10 +202,10 @@ export const projectsData: ProjectProperty[] = [
       "https://manage.goldpillars.ae/Banner/2047/Large/12747.webp",
       "https://asset.providentestate.com/x/1504x/MANARAT_LIVING_III_at_Saadiyat_Island_by_Aldar_Properties_447d46b6bf.webp",
       "https://img2.creatium.app/disk2/06/a4/08/2f3f439b29b1eef4560caef9e1d02cea30/qtzxmnptltu0xtrbd_n_in7otbmrgiwq_8uqjaf3gsu.jpg#%7B%22size%22:[1680,945],%22quality%22:8%7D",
-      "https://drehomes.com/admin_xcs6iwyiueuu8wd/assets/media/project/gallery/gallery_image_4948_Aldar-Manarat-Living3-Saadiyat-Island-img4.jpg",
+      "https://manage.tanamiproperties.com/Gallery/1206/Thumb/13625.webp",
       "https://i.ytimg.com/vi/xaEAocNREvM/maxresdefault.jpg",
       "https://new-projects-media.propertyfinder.com/project/33f9642b-fe60-4068-9646-6820fd8dd206/gallery/image/_4m4cwd4dD1hHglwykLEf8PvUU36v2mnwCuhiaswLOA=/big.webp",
-      "https://drehomes.com/admin_xcs6iwyiueuu8wd/assets/media/project/gallery/gallery_image_1598_Aldar-Manarat-Living3-Saadiyat-Island-img7.jpg"
+      "https://manage.tanamiproperties.com/Gallery/1206/Thumb/13629.webp"
     ],
     amenities: [
       "Concierge Service", "Kids Play Area", "Park", "Gym", "Retail", "Cafés", "Pets Allowed", "View of Landmark", "Pool"
@@ -381,13 +381,13 @@ export const projectsData: ProjectProperty[] = [
     galleryImages: [
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
       "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
       "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
       "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+      "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800"
     ],
     amenities: [
       "Convenience store", "Retail Services", "Shopping centre", "Coffee Shop", "Restaurants", "Water Features", "Hotel Luxury Service", "Lady's Gym"
@@ -403,8 +403,8 @@ export const projectsData: ProjectProperty[] = [
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-    mapCode: "https://www.google.com/maps?cid=6331614094278326616",
-    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng"
+    mapCode: "https://www.google.com/maps?q=DAMAC+ELEGANCE+TOWER",
+    videoUrl: "https://www.youtube.com/embed/JXLwgF9n_uI"
   },
   {
     id: "address-residences-the-bay",
@@ -426,15 +426,15 @@ export const projectsData: ProjectProperty[] = [
     },
     heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
     galleryImages: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
+      "/images/address-residences-the-bay/exterior-1.png",
+      "/images/address-residences-the-bay/interior-living.png",
+      "/images/address-residences-the-bay/infinity-pool.png",
+      "/images/address-residences-the-bay/master-bedroom.png",
+      "/images/address-residences-the-bay/lobby.png",
+      "/images/address-residences-the-bay/beach-access.png",
+      "/images/address-residences-the-bay/kitchen.png",
+      "/images/address-residences-the-bay/aerial-view.png",
+      "/images/address-residences-the-bay/bathroom.png"
     ],
     amenities: [
       "Private Beach Access", "Infinity Pool", "State-of-the-art Gym", "Concierge", "Hotel Services", "Retail Promenade", "Marina Access"
@@ -454,8 +454,8 @@ export const projectsData: ProjectProperty[] = [
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
-    mapCode: "https://www.google.com/maps?cid=13736646489557951630",
-    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d25246.66972672699!2d55.13553878336277!3d25.105081800022788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20Address%20Residences%20The%20Bay%20-%20Emaar%20Beachfront%2C%20Dubai!5e1!3m2!1sen!2sin!4v1783393644586!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/wofWu1LUMRE?si=4DO1nzJt-zLkutUG",
     locationBenefits: {
       description: "Located in Emaar Beachfront, one of Dubai's most desirable waterfront communities, this development offers excellent connectivity and lifestyle access.",
       points: [
@@ -492,15 +492,15 @@ export const projectsData: ProjectProperty[] = [
     },
     heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
     galleryImages: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
+      "/images/rawda-apartments/exterior-building.png",
+      "/images/rawda-apartments/park-view.png",
+      "/images/rawda-apartments/swimming-pool.png",
+      "/images/rawda-apartments/living-room.png",
+      "/images/rawda-apartments/kids-play-area.png",
+      "/images/rawda-apartments/bedroom.png",
+      "/images/rawda-apartments/gym-facility.png",
+      "/images/rawda-apartments/retail-promenade.png",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800"
     ],
     amenities: [
       "Town Square Park", "Swimming Pool", "Gymnasium", "Kids Play Area", "Retail Outlets", "Cycling Trails", "Skate Park"
@@ -517,7 +517,7 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
     mapCode: "https://www.google.com/maps?cid=7052363078271759646",
-    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng"
+    videoUrl: "https://www.youtube.com/embed/Wtwizhwkr8A?si=tKu7yUk_M7hmUHFP"
   },
   {
     id: "de-collective",
@@ -539,15 +539,15 @@ export const projectsData: ProjectProperty[] = [
     },
     heroImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
     galleryImages: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+      "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?w=800",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800",
+      "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800",
+      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=800"
     ],
     amenities: [
       "Co-working Space", "Library", "Swimming Pool", "Gym", "Dubai Hills Mall Proximity", "Lounge Areas", "Outdoor Cinema"
@@ -564,7 +564,7 @@ export const projectsData: ProjectProperty[] = [
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
     mapCode: "https://www.google.com/maps?cid=3510584966415592117",
-    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng",
+    videoUrl: "https://www.youtube.com/embed/iA0pBNhSUsA?si=OC09IbGvm5Ob3an7",
     locationBenefits: {
       description: "Located in Dubai Hills Estate, one of Dubai's most well-planned communities, DE Collective offers excellent connectivity and lifestyle access.",
       points: [
