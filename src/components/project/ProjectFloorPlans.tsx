@@ -62,13 +62,13 @@ export default function ProjectFloorPlans({ project }: { project: ProjectPropert
         {/* Split Content */}
         <div className="flex flex-col lg:flex-row gap-8 items-start">
           
-          {/* Left: Site Map / Overview */}
+          {/* Left: Side image — per-plan if available, else site map */}
           <div className="w-full lg:w-1/2 relative aspect-[4/3] rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
             <Image 
-              src={project.siteMapImage}
-              alt={`${project.name} Site Overview`}
+              src={activePlan.sideImage ?? project.siteMapImage}
+              alt={`${project.name} ${activePlan.bedrooms} Overview`}
               fill
-              className="object-cover"
+              className="object-cover transition-all duration-500"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>

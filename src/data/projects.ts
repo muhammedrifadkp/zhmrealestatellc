@@ -1,6 +1,7 @@
 export type FloorPlan = {
   bedrooms: string;
   images: string[];
+  sideImage?: string;
 };
 
 export type Amenity = {
@@ -327,7 +328,7 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Contact for details",
       developer: "By Modon Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
+    heroImage: "/images/Muheira at Reem Island, Abu Dhabi.jpg.jpeg",
     galleryImages: [
       "https://www.modon.com/images/modoncorporatelibraries/about-us/muheira-factsheet.jpg?sfvrsn=a45420e2_1",
       "https://platinumlist.net/guide/wp-content/uploads/2025/05/SaveClip.App_500691654_18297838006218074_4606720333651889061_n.jpg",
@@ -377,7 +378,7 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "20% Down Payment",
       developer: "By Damac Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600",
+    heroImage: "/images/Elegance Tower - Downtown Dubai.jpg.jpeg",
     galleryImages: [
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
@@ -424,7 +425,7 @@ export const projectsData: ProjectProperty[] = [
       developer: "Emaar",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
+    heroImage: "/images/Address Residences The Bay - Emaar Beachfront, Dubai.jpg.jpeg",
     galleryImages: [
       "/images/address-residences-the-bay/exterior-1.png",
       "/images/address-residences-the-bay/interior-living.png",
@@ -490,7 +491,7 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10% Down Payment",
       developer: "By NSHAMA"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
+    heroImage: "/images/Rawda Apartments by Nshama at Town Square.jpg.jpeg",
     galleryImages: [
       "/images/rawda-apartments/exterior-building.png",
       "/images/rawda-apartments/park-view.png",
@@ -516,7 +517,7 @@ export const projectsData: ProjectProperty[] = [
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
-    mapCode: "https://www.google.com/maps?cid=7052363078271759646",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11560.372379480308!2d55.28456000096293!3d25.005980280670343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRawda%20Apartments!5e1!3m2!1sen!2sin!4v1783408888033!5m2!1sen!2sin",
     videoUrl: "https://www.youtube.com/embed/Wtwizhwkr8A?si=tKu7yUk_M7hmUHFP"
   },
   {
@@ -537,7 +538,7 @@ export const projectsData: ProjectProperty[] = [
       developer: "Emaar Properties",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
+    heroImage: "/images/DE Collective - Dubai Hills Estate.jpg.jpeg",
     galleryImages: [
       "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800",
       "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800",
@@ -555,15 +556,17 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "1 Bedroom",
-        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-5.webp"]
+        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-5.webp"],
+        sideImage: "/images/de-collective-1br-side.png"
       },
       {
         bedrooms: "2 Bedroom",
-        images: ["/images/Sama-Yas/2br-1.webp"]
+        images: ["/images/Sama-Yas/2br-1.webp"],
+        sideImage: "/images/de-collective-2br-side.png"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-    mapCode: "https://www.google.com/maps?cid=3510584966415592117",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6868.596626395404!2d55.24135144082024!3d25.099491466707203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6eb612424f1d%3A0xdbb072ae633982c!2sCollective%20-%20Tower%201%2C%20Dubai%20Hills%20Estate!5e1!3m2!1sen!2sin!4v1783409384330!5m2!1sen!2sin",
     videoUrl: "https://www.youtube.com/embed/iA0pBNhSUsA?si=OC09IbGvm5Ob3an7",
     locationBenefits: {
       description: "Located in Dubai Hills Estate, one of Dubai's most well-planned communities, DE Collective offers excellent connectivity and lifestyle access.",
@@ -600,17 +603,17 @@ export const projectsData: ProjectProperty[] = [
       developer: "Emaar Properties",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
+    heroImage: "/images/Expo Golf Villas - Emaar South, Dubai.jpg.jpeg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
+      "/images/expo-golf-villas/exterior.png",
+      "/images/expo-golf-villas/golf-view.png",
+      "/images/expo-golf-villas/pool.png",
+      "/images/expo-golf-villas/living-room.png",
+      "/images/expo-golf-villas/kitchen.png",
+      "/images/expo-golf-villas/bedroom.png",
+      "/images/expo-golf-villas/community.png",
+      "/images/expo-golf-villas/garden.png",
+      "/images/expo-golf-villas/bathroom.png"
     ],
     amenities: [
       "18-Hole Golf Course", "Community Centre", "Parks & Green Spaces", "Kids Play Area", "Swimming Pool", "Gym"
@@ -618,16 +621,18 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "3 Bedroom",
-        images: ["/images/Sama-Yas/3br-1.webp"]
+        images: ["/images/Sama-Yas/3br-1.webp"],
+        sideImage: "/images/expo-golf-villas/3br-side.png"
       },
       {
         bedrooms: "4 Bedroom",
-        images: ["/images/Yas-Riva/4br-1.webp"]
+        images: ["/images/Yas-Riva/4br-1.webp"],
+        sideImage: "/images/expo-golf-villas/golf-view.png"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
-    mapCode: "https://www.google.com/maps?cid=5129177740809991f1c",
-    videoUrl: "https://www.youtube.com/embed/ZB79YfvIcng",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.0259279336597!2d55.1520297751519!3d24.858800277930317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f7528ceb0a7c9%3A0xc5481b1a29167095!2sExpo%20Golf%20Villas%20III!5e1!3m2!1sen!2sin!4v1783410074974!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/R-ZNFp-9Wes?si=bMk9pugN3tvAp6TG",
     locationBenefits: {
       description: "Located in Emaar South, Expo Golf Villas offers a growing community environment with excellent connectivity.",
       points: [
