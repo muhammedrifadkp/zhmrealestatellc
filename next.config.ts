@@ -24,6 +24,16 @@ const nextConfig: NextConfig = {
     ];
   },
 
+  async redirects() {
+    return [
+      {
+        source: "/agency/https-zhmrealestatellc-ae",
+        destination: "/",
+        permanent: true,
+      },
+    ];
+  },
+
   images: {
     remotePatterns: [
       {
