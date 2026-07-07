@@ -85,15 +85,18 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "1 Bedroom",
-        images: ["/images/Sama-Yas/1br-1.webp"]
+        images: ["/images/Sama-Yas/1br-1.webp"],
+        sideImage: "/images/sama-yas/1br-side.png"
       },
       {
         bedrooms: "2 Bedroom",
-        images: ["/images/Sama-Yas/2br-1.webp", "/images/Sama-Yas/2br-2.webp"]
+        images: ["/images/Sama-Yas/2br-1.webp", "/images/Sama-Yas/2br-2.webp"],
+        sideImage: "/images/sama-yas/2br-side.png"
       },
       {
         bedrooms: "3 Bedroom",
-        images: ["/images/Sama-Yas/3br-1.webp", "/images/Sama-Yas/3br-2.webp"]
+        images: ["/images/Sama-Yas/3br-1.webp", "/images/Sama-Yas/3br-2.webp"],
+        sideImage: "/images/sama-yas/3br-side.png"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -149,15 +152,18 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "4 Bedroom",
-        images: ["/images/Yas-Riva/4br-1.webp"]
+        images: ["/images/Yas-Riva/4br-1.webp"],
+        sideImage: "https://royallp.com/wp-content/uploads/2024/08/Yas-Riva-by-Aldar-at-Yas-Island-Abu-Dhabi-Villas.jpg"
       },
       {
         bedrooms: "5 Bedroom",
-        images: ["/images/Yas-Riva/5br-1.webp", "/images/Yas-Riva/5br-2.webp", "/images/Yas-Riva/5br-3.webp", "/images/Yas-Riva/5br-4.webp", "/images/Yas-Riva/5br-5.webp"]
+        images: ["/images/Yas-Riva/5br-1.webp", "/images/Yas-Riva/5br-2.webp", "/images/Yas-Riva/5br-3.webp", "/images/Yas-Riva/5br-4.webp", "/images/Yas-Riva/5br-5.webp"],
+        sideImage: "https://yas-riva.com/storage/gallaries/birMryQNiBat9BS4N0EYxOg2TWyjxNDMVFoRO4aX.jpg"
       },
       {
         bedrooms: "6 Bedroom",
-        images: ["/images/Yas-Riva/6br-1.webp", "/images/Yas-Riva/6br-2.webp"]
+        images: ["/images/Yas-Riva/6br-1.webp", "/images/Yas-Riva/6br-2.webp"],
+        sideImage: "https://royallp.com/wp-content/uploads/2025/11/Yas-Riva-exterior-3-1024x576.jpg"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
@@ -214,15 +220,18 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "Studio",
-        images: ["/images/Manarat-Living-Saadiyat/studio-type-1.webp", "/images/Manarat-Living-Saadiyat/studio-type-1a.webp", "/images/Manarat-Living-Saadiyat/studio-type-2.webp", "/images/Manarat-Living-Saadiyat/studio-type-3.webp", "/images/Manarat-Living-Saadiyat/studio-type-4.webp"]
+        images: ["/images/Manarat-Living-Saadiyat/studio-type-1.webp", "/images/Manarat-Living-Saadiyat/studio-type-1a.webp", "/images/Manarat-Living-Saadiyat/studio-type-2.webp", "/images/Manarat-Living-Saadiyat/studio-type-3.webp", "/images/Manarat-Living-Saadiyat/studio-type-4.webp"],
+        sideImage: "https://royallp.com/wp-content/uploads/2023/02/manarat-living-projects-thumbnail-website.jpg"
       },
       {
         bedrooms: "1 Bedroom",
-        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-1.webp", "/images/Manarat-Living-Saadiyat/1-bed-type-2.webp", "/images/Manarat-Living-Saadiyat/1-bed-type-3.webp", "/images/Manarat-Living-Saadiyat/1-bed-type-5.webp"]
+        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-1.webp", "/images/Manarat-Living-Saadiyat/1-bed-type-2.webp", "/images/Manarat-Living-Saadiyat/1-bed-type-3.webp", "/images/Manarat-Living-Saadiyat/1-bed-type-5.webp"],
+        sideImage: "https://asset.providentestate.com/x/1504x/MANARAT_LIVING_III_at_Saadiyat_Island_by_Aldar_Properties_447d46b6bf.webp"
       },
       {
         bedrooms: "2 Bedroom",
-        images: ["/images/Manarat-Living-Saadiyat/2-bed-type-1.webp", "/images/Manarat-Living-Saadiyat/2-bed-m-type-2.webp", "/images/Manarat-Living-Saadiyat/2-bed-type-3.webp", "/images/Manarat-Living-Saadiyat/2-bed-type-5.webp"]
+        images: ["/images/Manarat-Living-Saadiyat/2-bed-type-1.webp", "/images/Manarat-Living-Saadiyat/2-bed-m-type-2.webp", "/images/Manarat-Living-Saadiyat/2-bed-type-3.webp", "/images/Manarat-Living-Saadiyat/2-bed-type-5.webp"],
+        sideImage: "https://manage.goldpillars.ae/Banner/2047/Large/12747.webp"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
@@ -280,15 +289,18 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "1 Bedroom",
-        images: ["/images/The-Arthouse/1br-1.webp", "/images/The-Arthouse/1br-2.webp", "/images/The-Arthouse/1br-3.webp"]
+        images: ["/images/The-Arthouse/1br-1.webp", "/images/The-Arthouse/1br-2.webp", "/images/The-Arthouse/1br-3.webp"],
+        sideImage: "https://cloud.thedubailands.com/Allimages/property/the-arthouse/gallery4231.webp"
       },
       {
         bedrooms: "2 Bedroom",
-        images: ["/images/The-Arthouse/2br-1.webp", "/images/The-Arthouse/2br-2.webp", "/images/The-Arthouse/2br-3.webp", "/images/The-Arthouse/2br-4.webp"]
+        images: ["/images/The-Arthouse/2br-1.webp", "/images/The-Arthouse/2br-2.webp", "/images/The-Arthouse/2br-3.webp", "/images/The-Arthouse/2br-4.webp"],
+        sideImage: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800"
       },
       {
         bedrooms: "3 Bedroom",
-        images: ["/images/The-Arthouse/3br-1.webp", "/images/The-Arthouse/3br-2.webp", "/images/The-Arthouse/3br-3.webp", "/images/The-Arthouse/3br-4.webp", "/images/The-Arthouse/3br-5.webp"]
+        images: ["/images/The-Arthouse/3br-1.webp", "/images/The-Arthouse/3br-2.webp", "/images/The-Arthouse/3br-3.webp", "/images/The-Arthouse/3br-4.webp", "/images/The-Arthouse/3br-5.webp"],
+        sideImage: "https://d34mfkth6cubud.cloudfront.net/wp-content/uploads/2024/09/10100626/the-arthouse-body1-1024x640.png"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
@@ -346,15 +358,18 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "1 Bedroom",
-        images: ["/images/Muheira/1BR-Type-1.png", "/images/Muheira/1BR-Type-2.png", "/images/Muheira/1BR-Type-3.png", "/images/Muheira/1BR-Type-4.png"]
+        images: ["/images/Muheira/1BR-Type-1.png", "/images/Muheira/1BR-Type-2.png", "/images/Muheira/1BR-Type-3.png", "/images/Muheira/1BR-Type-4.png"],
+        sideImage: "https://www.modon.com/images/modoncorporatelibraries/about-us/muheira-factsheet.jpg?sfvrsn=a45420e2_1"
       },
       {
         bedrooms: "2 Bedroom",
-        images: ["/images/Muheira/2BR-Type-1A.png", "/images/Muheira/2BR-Type-1A-Corner.png", "/images/Muheira/2BR-Type-1B.png", "/images/Muheira/2BR-Type-1C-Corner.png", "/images/Muheira/2BR-Type-2A.png", "/images/Muheira/2BR-Type-3.png"]
+        images: ["/images/Muheira/2BR-Type-1A.png", "/images/Muheira/2BR-Type-1A-Corner.png", "/images/Muheira/2BR-Type-1B.png", "/images/Muheira/2BR-Type-1C-Corner.png", "/images/Muheira/2BR-Type-2A.png", "/images/Muheira/2BR-Type-3.png"],
+        sideImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800"
       },
       {
         bedrooms: "3 Bedroom",
-        images: ["/images/Muheira/3BR-Type-1A.png", "/images/Muheira/3BR-Type-1B.png", "/images/Muheira/3BR-Type-1C.png"]
+        images: ["/images/Muheira/3BR-Type-1A.png", "/images/Muheira/3BR-Type-1B.png", "/images/Muheira/3BR-Type-1C.png"],
+        sideImage: "https://openhomegroup.com/wp-content/uploads/2025/02/Muheira-at-Maysan-Reem-Hills-by-Modon-Properties-Master-Plan.jpg"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -396,11 +411,13 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "1 Bedroom",
-        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-1.webp"]
+        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-1.webp"],
+        sideImage: "/images/elegance-tower/1br-side.png"
       },
       {
         bedrooms: "2 Bedroom",
-        images: ["/images/Sama-Yas/2br-1.webp", "/images/Sama-Yas/2br-2.webp"]
+        images: ["/images/Sama-Yas/2br-1.webp", "/images/Sama-Yas/2br-2.webp"],
+        sideImage: "/images/elegance-tower/2br-side.png"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -443,15 +460,18 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "1 Bedroom",
-        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-2.webp"]
+        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-2.webp"],
+        sideImage: "/images/address-residences-the-bay/interior-living.png"
       },
       {
         bedrooms: "2 Bedroom",
-        images: ["/images/Sama-Yas/2br-1.webp"]
+        images: ["/images/Sama-Yas/2br-1.webp"],
+        sideImage: "/images/address-residences-the-bay/infinity-pool.png"
       },
       {
         bedrooms: "3 Bedroom",
-        images: ["/images/Sama-Yas/3br-1.webp"]
+        images: ["/images/Sama-Yas/3br-1.webp"],
+        sideImage: "/images/address-residences-the-bay/master-bedroom.png"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
@@ -509,11 +529,13 @@ export const projectsData: ProjectProperty[] = [
     floorPlans: [
       {
         bedrooms: "1 Bedroom",
-        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-3.webp"]
+        images: ["/images/Manarat-Living-Saadiyat/1-bed-type-3.webp"],
+        sideImage: "/images/rawda-apartments/living-room.png"
       },
       {
         bedrooms: "2 Bedroom",
-        images: ["/images/Sama-Yas/2br-2.webp"]
+        images: ["/images/Sama-Yas/2br-2.webp"],
+        sideImage: "/images/rawda-apartments/park-view.png"
       }
     ],
     siteMapImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
