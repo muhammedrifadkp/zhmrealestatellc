@@ -197,7 +197,7 @@ export default function AboutPage() {
                 <div className="space-y-3">
                   <div className="relative h-44 md:h-64 rounded-xl overflow-hidden group">
                     <Image
-                      src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1956&auto=format&fit=crop"
+                      src="/images/address-residences-the-bay/lobby.png"
                       alt="Business Meeting"
                       fill
                       sizes="(max-width: 768px) 50vw, 25vw"
@@ -206,7 +206,7 @@ export default function AboutPage() {
                   </div>
                   <div className="relative h-32 md:h-48 rounded-xl overflow-hidden group">
                     <Image
-                      src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop"
+                      src="/images/address-residences-the-bay/interior-living.png"
                       alt="Office Space"
                       fill
                       sizes="(max-width: 768px) 50vw, 25vw"
@@ -217,7 +217,7 @@ export default function AboutPage() {
                 <div className="space-y-3 pt-6">
                   <div className="relative h-32 md:h-48 rounded-xl overflow-hidden group">
                     <Image
-                      src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
+                      src="/images/Address Residences The Bay - Emaar Beachfront, Dubai.jpg.jpeg"
                       alt="Dubai Buildings"
                       fill
                       sizes="(max-width: 768px) 50vw, 25vw"
@@ -226,7 +226,7 @@ export default function AboutPage() {
                   </div>
                   <div className="relative h-44 md:h-64 rounded-xl overflow-hidden group">
                     <Image
-                      src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop"
+                      src="/images/Sama-Yas/sama-yas-bg-image.webp"
                       alt="Property Showcase"
                       fill
                       sizes="(max-width: 768px) 50vw, 25vw"

@@ -56,7 +56,7 @@ export default function ContactPage() {
         {/* Background Image with Enhanced Gradient Overlay */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?q=80&w=2000&auto=format&fit=crop" 
+            src="/images/Dubai_skyline_at_night_2K_202607071634.jpeg" 
             alt="Dubai Skyline Night" 
             fill 
             priority

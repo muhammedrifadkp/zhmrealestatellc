@@ -15,7 +15,7 @@ const navItems = [
     name: "FEATURED PROJECTS",
     href: "#",
     megaMenu: {
-      image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
+      image: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
       imageTitle: "Featured Projects",
       columns: [
         {
@@ -67,7 +67,7 @@ const navItems = [
     name: "PROJECTS",
     href: "#",
     megaMenu: {
-      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
+      image: "/images/Address Residences The Bay - Emaar Beachfront, Dubai.jpg.jpeg",
       imageTitle: "Projects",
       columns: [
         {
@@ -114,7 +114,7 @@ const navItems = [
     name: "COMPANY",
     href: "/about",
     megaMenu: {
-      image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+      image: "/images/address-residences-the-bay/lobby.png",
       imageTitle: "Company",
       columns: [
         {
@@ -217,7 +217,7 @@ export function Navbar() {
           <div className="flex items-center gap-3">
             <a href="#" className="hover:text-white transition-colors"><Facebook size={13} /></a>
             <a href="#" className="hover:text-white transition-colors"><Twitter size={13} /></a>
-            <a href="#" className="hover:text-white transition-colors"><Instagram size={13} /></a>
+            <a href="https://www.instagram.com/zhmrealestate/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Instagram size={13} /></a>
             {/* Using Ghost for snapchat icon placeholder */}
             <a href="#" className="hover:text-white transition-colors"><Ghost size={13} /></a>
             <a href="#" className="hover:text-white transition-colors"><Linkedin size={13} /></a>
@@ -526,7 +526,7 @@ export function Navbar() {
               <div className="flex gap-4 mt-2 text-gray-400">
                 <a href="#" className="hover:text-primary transition-colors"><Facebook size={22} strokeWidth={1.5} /></a>
                 <a href="#" className="hover:text-primary transition-colors"><Twitter size={22} strokeWidth={1.5} /></a>
-                <a href="#" className="hover:text-primary transition-colors"><Instagram size={22} strokeWidth={1.5} /></a>
+                <a href="https://www.instagram.com/zhmrealestate/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors"><Instagram size={22} strokeWidth={1.5} /></a>
               </div>
 
             </div>

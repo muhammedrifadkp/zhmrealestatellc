@@ -47,7 +47,7 @@ export default function ServicesPage() {
       <section className="relative h-[400px] flex items-center justify-center bg-secondary">
         <div className="absolute inset-0 z-0 opacity-40">
           <Image 
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" 
+            src="/images/OUR SERVICES.jpeg" 
             alt="Business Buildings" 
             fill 
             className="object-cover"

@@ -49,14 +49,14 @@ export function PartnersAwards() {
               {[...developers, ...developers].map((dev, i) => (
                 <div
                   key={i}
-                  className="flex items-center justify-center mx-6 px-8 py-4 border border-gray-100 rounded-xl shrink-0 min-w-[180px] h-20 hover:border-primary/50 hover:shadow-[var(--shadow-gold)] transition-all duration-300 cursor-default bg-white relative overflow-hidden"
+                  className="flex items-center justify-center mx-6 px-8 py-3 border border-gray-100 rounded-xl shrink-0 min-w-[240px] h-28 hover:border-primary/50 hover:shadow-[var(--shadow-gold)] transition-all duration-300 cursor-default bg-white relative overflow-hidden"
                 >
                   <div className="relative w-full h-full flex items-center justify-center">
                     <Image
                       src={dev.logo}
                       alt={`${dev.name} Logo`}
                       fill
-                      sizes="180px"
+                      sizes="240px"
                       className="object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
                     />
                   </div>

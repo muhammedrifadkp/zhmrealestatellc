@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Building2, Key, ShieldCheck, Globe, BarChart3, Home } from "lucide-react";
 import Link from "next/link";
@@ -47,7 +48,17 @@ const services = [
 export function ServicesSection() {
   return (
     <section className="section-py bg-secondary relative overflow-hidden">
-      <div className="absolute inset-0 bg-pattern-grid opacity-20" />
+      {/* Background Image with Dark Overlay */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/OUR SERVICES.jpeg"
+          alt="Services Background"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-secondary/85" />
+      </div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         {/* Header */}

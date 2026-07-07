@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { TrendingUp, Percent, Coins, DollarSign } from "lucide-react";
@@ -90,10 +91,17 @@ function FloatCounter({
 export function MarketInsights() {
   return (
     <section className="section-py bg-secondary relative overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-pattern-grid opacity-20" />
-      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full opacity-5"
-        style={{ background: "radial-gradient(circle, #d4af37, transparent)" }} />
+      {/* Background Image with Dark Overlay */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/Dubai_skyline_at_night_2K_202607071634.jpeg"
+          alt="Market Insights Background"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-secondary/85" />
+      </div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         {/* Header */}

@@ -115,11 +115,11 @@ const baseUnits: Omit<Unit, "id" | "image">[] = [
 ];
 
 const images = [
-  "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-  "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-  "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
-  "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800"
+  "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
+  "/images/address-residences-the-bay/interior-living.png",
+  "/images/address-residences-the-bay/master-bedroom.png",
+  "/images/address-residences-the-bay/kitchen.png",
+  "/images/address-residences-the-bay/infinity-pool.png"
 ];
 
 // Generate exactly 50 items simulating 5 pages of psinv results

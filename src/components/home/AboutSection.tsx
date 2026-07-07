@@ -31,7 +31,7 @@ export function AboutSection() {
             {/* Main Image */}
             <div className="relative h-[480px] rounded-2xl overflow-hidden shadow-[var(--shadow-luxury)]">
               <Image
-                src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop"
+                src="/images/About-Us-section.png"
                 alt="ZHM Real Estate – Luxury Real Estate Dubai"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -52,26 +52,6 @@ export function AboutSection() {
               <p className="text-4xl font-bold text-primary font-serif">15+</p>
               <p className="text-white/80 text-sm leading-tight mt-1">Years of Experience<br />in Dubai Real Estate</p>
             </motion.div>
-
-            {/* Second small image */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.5 }}
-              className="absolute -top-6 -left-6 w-36 h-36 rounded-xl overflow-hidden shadow-xl border-4 border-white hidden md:block"
-            >
-              <Image
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=400&auto=format&fit=crop"
-                alt="ZHM Office"
-                fill
-                sizes="(max-width: 768px) 100vw, 33vw"
-                className="object-cover"
-              />
-            </motion.div>
-
-            {/* Gold accent shape */}
-            <div className="absolute -bottom-3 -left-3 w-24 h-24 rounded-full border-4 border-primary/30 hidden md:block" />
           </motion.div>
 
           {/* Text Side */}

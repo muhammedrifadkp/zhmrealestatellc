@@ -13,7 +13,7 @@ const posts = [
     category: "Market Trends",
     date: "March 15, 2025",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=600&auto=format&fit=crop",
+    image: "/images/Dubai_skyline_at_night_2K_202607071634.jpeg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const posts = [
     category: "Investment Tips",
     date: "February 28, 2025",
     readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=600&auto=format&fit=crop",
+    image: "/images/DE Collective - Dubai Hills Estate.jpg.jpeg",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const posts = [
     category: "Buyer's Guide",
     date: "February 10, 2025",
     readTime: "10 min read",
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=600&auto=format&fit=crop",
+    image: "/images/address-residences-the-bay/lobby.png",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const posts = [
     category: "International",
     date: "January 22, 2025",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop",
+    image: "/images/Elegance Tower - Downtown Dubai.jpg.jpeg",
   },
 ];
 

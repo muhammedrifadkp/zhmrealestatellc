@@ -688,12 +688,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Golf Course", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -714,12 +710,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800"
-    ],
+    heroImage: "/images/al-reem/gate-tower-3.png",
+    galleryImages: ["/images/al-reem/gate-tower-3.png", "/images/al-reem/luxury-apartment-interior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Swimming Pool", "Gym", "Sky Bridge"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -740,12 +732,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800"
-    ],
+    heroImage: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
+    galleryImages: ["/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/al-reem/maya-villas-townhouses.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Parks", "Clubhouse", "Sports Courts"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -766,12 +754,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"
-    ],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/expo-golf-villas/exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Private Garden", "Community Pool", "Security"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -792,12 +776,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/expo-golf-villas/exterior.png",
+    galleryImages: ["/images/expo-golf-villas/exterior.png", "/images/expo-golf-villas/garden.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Kid's Play Area", "Fitness Center", "Green Spaces"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -818,12 +798,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/expo-golf-villas/garden.png",
+    galleryImages: ["/images/expo-golf-villas/garden.png", "/images/expo-golf-villas/golf-view.png", "/images/address-residences-the-bay/kitchen.png"],
     amenities: ["Landscaped Parks", "Tennis Courts", "Community Hub"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -844,12 +820,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Community Center", "Nurseries", "Shopping"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -870,12 +842,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
+    galleryImages: ["/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/al-reem/maya-villas-townhouses.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Privately Gated", "Near Schools", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -896,12 +864,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
-    ],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/expo-golf-villas/exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Community Pool", "Gated Entry", "Landscaped Gardens"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -922,12 +886,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800"
-    ],
+    heroImage: "/images/expo-golf-villas/exterior.png",
+    galleryImages: ["/images/expo-golf-villas/exterior.png", "/images/expo-golf-villas/garden.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Parks", "Jogging Tracks", "Retail Outlets"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -948,12 +908,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"
-    ],
+    heroImage: "/images/expo-golf-villas/garden.png",
+    galleryImages: ["/images/expo-golf-villas/garden.png", "/images/expo-golf-villas/golf-view.png", "/images/address-residences-the-bay/kitchen.png"],
     amenities: ["Fitness Center", "Pool", "Children's Area"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -974,12 +930,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Al Badee Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800"
-    ],
+    heroImage: "/images/al-reem/beach-towers-exterior.png",
+    galleryImages: ["/images/al-reem/beach-towers-exterior.png", "/images/al-reem/luxury-apartment-interior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Beach Access", "Pool", "Gym", "Concierge"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1000,11 +952,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800"
-    ],
+    heroImage: "/images/al-reem/gate-towers-exterior.png",
+    galleryImages: ["/images/al-reem/gate-towers-exterior.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Infinity Pool", "Sky Lounge", "State-of-the-art Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1025,11 +974,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "General Housing Company"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800"
-    ],
+    heroImage: "/images/al-reem/sky-gardens-exterior.png",
+    galleryImages: ["/images/al-reem/sky-gardens-exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Indoor Garden", "Swimming Pool", "24/7 Security"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1050,11 +996,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Community Farm", "Shops", "Cafes", "Parks"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1075,11 +1018,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800"
-    ],
+    heroImage: "/images/al-reem/luxury-apartment-interior.png",
+    galleryImages: ["/images/al-reem/luxury-apartment-interior.png", "/images/al-reem/gate-towers-exterior.png"],
     amenities: ["Spa", "Gym", "Private Parking"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1100,11 +1040,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "TDIC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Beach Club", "Golf Club", "Parks", "Resort Facilities"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1125,11 +1062,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Hydra Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/al-reem/marina-bay-exterior.png",
+    galleryImages: ["/images/al-reem/marina-bay-exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Retail Mall", "Cafes", "Health Club", "Running Track"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1150,11 +1084,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Damac"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800"
-    ],
+    heroImage: "/images/al-reem/reem-island-aerial.png",
+    galleryImages: ["/images/al-reem/reem-island-aerial.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Swimming Pool", "Steam & Sauna", "24/7 Security"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1175,11 +1106,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Hydra Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Landscape Parks", "Play Area", "Community Centre"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1200,11 +1128,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Moton Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"
-    ],
+    heroImage: "/images/al-reem/addax-port-commercial.png",
+    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png"],
     amenities: ["Conference Rooms", "Valet Parking", "High-speed Elevators"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1225,11 +1150,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Contact for details",
       developer: "Moton Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1448630360428-65456885c650?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800"
-    ],
+    heroImage: "/images/al-reem/addax-port-commercial.png",
+    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png"],
     amenities: ["Business Center", "Security", "Parking"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1250,11 +1172,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/al-reem/gate-tower-3.png",
+    galleryImages: ["/images/al-reem/gate-tower-3.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Health Club", "Tennis Pavilion", "Shopping Mall"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1275,11 +1194,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Nshama"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Park Access", "Retail Outlets", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1300,11 +1216,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Golf Course View", "Clubhouse", "Private Garden"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1325,11 +1238,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "MAG EYE Real Estate Development"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Concierge", "Fitness Center", "Premium Location"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1350,11 +1260,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "MAG EYE Real Estate Development"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Landscape Gardens", "Retail Outlets", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1375,11 +1282,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Park Access", "Cycling Tracks", "Community Hub"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1400,11 +1304,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Damac"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Parks", "Golf Course Access", "Gated Security"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1425,11 +1326,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Park View", "Gym", "Pool", "Central Location"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1450,11 +1348,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Damac"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
+    galleryImages: ["/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/al-reem/maya-villas-townhouses.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Kid's Play Area", "Water Park", "Greenery"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1475,11 +1370,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Damac"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800"
-    ],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/expo-golf-villas/exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Smart Homes", "Parks", "Community Center"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1500,11 +1392,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Damac"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/expo-golf-villas/exterior.png",
+    galleryImages: ["/images/expo-golf-villas/exterior.png", "/images/expo-golf-villas/garden.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Italian Design", "Community Pool", "Gated Access"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1525,11 +1414,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Damac"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800"
-    ],
+    heroImage: "/images/expo-golf-villas/garden.png",
+    galleryImages: ["/images/expo-golf-villas/garden.png", "/images/expo-golf-villas/golf-view.png", "/images/address-residences-the-bay/kitchen.png"],
     amenities: ["Golf Course Access", "Large Plot", "Privately Gated"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1550,11 +1436,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Dubai Properties - IDAMA"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Park Views", "Gymnasium", "Community Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1575,11 +1458,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Waterfront Access", "Creek View", "Valet Service"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1600,11 +1480,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Damac"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/expo-golf-villas/golf-view.png",
+    galleryImages: ["/images/expo-golf-villas/golf-view.png", "/images/rawda-apartments/park-view.png", "/images/address-residences-the-bay/master-bedroom.png"],
     amenities: ["Stone Architecture", "Nature Trails", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1625,11 +1502,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Golf Course View", "Fitness Center", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1650,11 +1524,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Dubai Properties - IDAMA"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Creekfront Living", "Retail Shops", "Promenade"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1675,11 +1546,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Skyline Views", "Harbor Access", "Luxury Facilities"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1700,11 +1568,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Tiered Design", "Park Views", "Swimming Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1725,11 +1590,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Burj Khalifa Access", "Designer Interior", "World-class Spa"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1750,11 +1612,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "FalconCity"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800"
-    ],
+    heroImage: "/images/rawda-apartments/park-view.png",
+    galleryImages: ["/images/rawda-apartments/park-view.png", "/images/saadiyat/saadiyat-beach-villa-1.png", "/images/expo-golf-villas/living-room.png"],
     amenities: ["Historical Themed Parks", "Retail Center", "Sports Facilities"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1775,11 +1634,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Dubai Properties - IDAMA"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Park Access", "Supermarket", "Pharmacy", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1800,11 +1656,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Nakheel"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Private Beach", "24/7 Security", "Elite Address"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1825,11 +1678,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Tameer Investment and Development"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Marina View", "Sky Lounge", "Indoor & Outdoor Pools"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1850,11 +1700,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Damac"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Marina Walk Access", "Luxury Yacht Club Proximity", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1877,11 +1724,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Alef Group",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Large Park", "Swimming Pool", "Fitness Center", "BBQ Area", "Jogging Track"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1918,8 +1762,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
+    galleryImages: ["/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/al-reem/maya-villas-townhouses.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Park Access", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1942,8 +1786,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Alef Group",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/expo-golf-villas/exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Largest Lagoon", "Green Park", "Football Court", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1980,8 +1824,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "5%",
       developer: "ARADA"
     },
-    heroImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600"],
+    heroImage: "/images/al-reem/addax-port-commercial.png",
+    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["City Walk Access", "Fitness Center", "Dining"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2002,8 +1846,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "ARADA"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Private Garden", "Shared Pool", "Security"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2026,8 +1870,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Baraka Real Estate Development LLC",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Waterpark", "Marina", "Shopping Center"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2064,8 +1908,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "ARADA"
     },
-    heroImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600"],
+    heroImage: "/images/al-reem/reem-island-aerial.png",
+    galleryImages: ["/images/al-reem/reem-island-aerial.png", "/images/al-reem/addax-port-commercial.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["High-speed Lifts", "Meeting Rooms", "Dining"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2086,8 +1930,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "ARADA"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Nasma Square", "Nasma Park", "School"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2110,8 +1954,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Alef Group",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600"],
+    heroImage: "/images/al-reem/addax-port-commercial.png",
+    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Swimming Pool", "Kids Play Area", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2148,8 +1992,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1600"],
+    heroImage: "/images/al-reem/reem-island-aerial.png",
+    galleryImages: ["/images/al-reem/reem-island-aerial.png", "/images/al-reem/addax-port-commercial.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Gym", "Pool", "Parking"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2170,8 +2014,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/addax-port-commercial.png",
+    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Concierge", "Fitness Center", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2192,8 +2036,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Parks", "Retail outlets", "Cafe and Restaurants"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2214,8 +2058,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Co-working spaces", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2236,8 +2080,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/expo-golf-villas/exterior.png",
+    galleryImages: ["/images/expo-golf-villas/exterior.png", "/images/expo-golf-villas/garden.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Private Pool", "Garden", "Park Access"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2258,8 +2102,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/expo-golf-villas/garden.png",
+    galleryImages: ["/images/expo-golf-villas/garden.png", "/images/expo-golf-villas/golf-view.png", "/images/address-residences-the-bay/kitchen.png"],
     amenities: ["Cycling track", "Community Center", "Park"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2281,8 +2125,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/reem-island-aerial.png",
+    galleryImages: ["/images/al-reem/reem-island-aerial.png", "/images/al-reem/addax-port-commercial.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Lobby", "Gym", "Security"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2305,8 +2149,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Alef Group",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600"],
+    heroImage: "/images/al-reem/addax-port-commercial.png",
+    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Park and retail", "Cafe", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2343,8 +2187,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600"],
+    heroImage: "/images/al-reem/reem-island-aerial.png",
+    galleryImages: ["/images/al-reem/reem-island-aerial.png", "/images/al-reem/addax-port-commercial.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Community Mall", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2365,8 +2209,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/addax-port-commercial.png",
+    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Retail outlets", "Traditional Souk", "Parks"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2388,8 +2232,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Community Park", "Retail Hub", "Mosque"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2410,8 +2254,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/expo-golf-villas/golf-view.png",
+    galleryImages: ["/images/expo-golf-villas/golf-view.png", "/images/rawda-apartments/park-view.png", "/images/address-residences-the-bay/master-bedroom.png"],
     amenities: ["Large Garden", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2432,8 +2276,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600"],
+    heroImage: "/images/al-reem/addax-port-commercial.png",
+    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Pool", "Gym", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2454,8 +2298,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Health club", "Swimming pool", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2476,8 +2320,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "5%",
       developer: "Arada Developments LLC"
     },
-    heroImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Sports Facilities", "Community Park", "Dining"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2500,12 +2344,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "RAK Properties",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: [
       "Beach Access", "Fitness Center", "Infinity Pool", "Kid's Play area",
       "Private Balcony", "Covered Parking", "24/7 Security", "Retail Outlets",
@@ -2558,12 +2398,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Aldar Properties PJSC",
       nationality: "Freehold"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"
-    ],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: [
       "Private Beach", "Beach Club", "Health Club", "Outdoor Pool",
       "Signature Dining", "Concierge Service", "Valet Parking", "Smart Home Technology"
@@ -2609,8 +2445,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "RAK Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Beach Access", "Pool", "Gym", "Lush Landscapes"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2631,8 +2467,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Lapis Properties LLC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["City View", "Gym", "Roof Terrace"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2653,8 +2489,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "20%",
       developer: "Damac Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Beach Access", "Infinity Pool", "Wellness Center", "Dining"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2675,8 +2511,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "RAK Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Island Views", "Concierge", "Beach Club"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2697,8 +2533,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "RAK Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beachfront-condos.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/gate-tower-3.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Park Access", "Retail", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2719,8 +2555,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "RAK Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/gate-tower-3.png",
+    galleryImages: ["/images/al-reem/gate-tower-3.png", "/images/al-reem/gate-towers-exterior.png", "/images/address-residences-the-bay/kitchen.png"],
     amenities: ["Sea View", "Private Balcony", "Sports Facilities"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2741,8 +2577,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "20%",
       developer: "RAK Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Private Garden", "Beach Access", "Community Center"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2763,8 +2599,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/the-bridges-parkside.png",
+    galleryImages: ["/images/al-reem/the-bridges-parkside.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Park Access", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2785,8 +2621,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Mismak Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?w=1600"],
+    heroImage: "/images/al-reem/gate-towers-exterior.png",
+    galleryImages: ["/images/al-reem/gate-towers-exterior.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Waterfront View", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2807,8 +2643,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/al-reem/sky-gardens-exterior.png",
+    galleryImages: ["/images/al-reem/sky-gardens-exterior.png", "/images/al-reem/gate-tower-3.png"],
     amenities: ["Shopping Mall", "Club House", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2829,8 +2665,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Reem Investments"
     },
-    heroImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600"],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Private Garden", "Quiet Community", "Beach Access"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2851,8 +2687,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Reem Investments"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/beach-towers-exterior.png",
+    galleryImages: ["/images/al-reem/beach-towers-exterior.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Spacious Gym", "Large Pool", "Sauna"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2873,8 +2709,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/al-reem/marina-bay-exterior.png",
+    galleryImages: ["/images/al-reem/marina-bay-exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Park Access", "Modern Lobby", "Play Area"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2895,8 +2731,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aabar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600"],
+    heroImage: "/images/al-reem/luxury-apartment-interior.png",
+    galleryImages: ["/images/al-reem/luxury-apartment-interior.png", "/images/al-reem/reem-island-aerial.png"],
     amenities: ["Sea View", "Podium Garden", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2917,8 +2753,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "MAG Property Development"
     },
-    heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600"],
+    heroImage: "/images/al-reem/modern-kitchen-interior.png",
+    galleryImages: ["/images/al-reem/modern-kitchen-interior.png", "/images/al-reem/sky-gardens-exterior.png"],
     amenities: ["Gym", "Pool", "Retail Nearby"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2939,8 +2775,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Mismak Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/al-reem/reem-island-aerial.png",
+    galleryImages: ["/images/al-reem/reem-island-aerial.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Marina View", "Spa", "Infinity Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2961,8 +2797,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Tamouh Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?w=1600"],
+    heroImage: "/images/al-reem/gate-tower-3.png",
+    galleryImages: ["/images/al-reem/gate-tower-3.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Gym", "Pool", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2983,8 +2819,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Al Mifaq Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/al-reem/the-bridges-parkside.png",
+    galleryImages: ["/images/al-reem/the-bridges-parkside.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Gym", "Pool", "Parking"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3005,8 +2841,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Mismak Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/gate-towers-exterior.png",
+    galleryImages: ["/images/al-reem/gate-towers-exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3027,229 +2863,9 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Lootah Real Estate Development"
     },
-    heroImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600"],
+    heroImage: "/images/al-reem/sky-gardens-exterior.png",
+    galleryImages: ["/images/al-reem/sky-gardens-exterior.png", "/images/al-reem/the-bridges-parkside.png"],
     amenities: ["Gym", "Pool", "Close to Park"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "the-gate-tower-3",
-    slug: "the-gate-tower-3",
-    name: "The Gate Tower 3",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "Iconic Living at The Gate",
-    description: "Part of the iconic Gate District on Al Reem Island, Tower 3 offers luxury high-rise living with unparalleled views. This award-winning development provides residents with access to world-class facilities and is connected to the Sun & Sky Towers lifestyle podium.",
-    features: {
-      bedrooms: "1 - 4 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Completed",
-      startingPrice: "AED 1,350,000",
-      handover: "Apr 2013",
-      downPayment: "10%",
-      developer: "Aldar Properties"
-    },
-    heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600"],
-    amenities: ["Gym", "Pool", "Sauna", "Malls"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "beach-towers",
-    slug: "beach-towers",
-    name: "Beach Towers",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "Beachfront Bliss",
-    description: "Beach Towers is a luxury residential development offering stunning beachfront living. The two towers are designed to provide residents with maximum comfort and luxury, with spacious apartments and high-end amenities. It's an ideal choice for those who love the sea and a sophisticated urban lifestyle.",
-    features: {
-      bedrooms: "1 - 4 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Completed",
-      startingPrice: "AED 1,500,000",
-      handover: "Jan 2013",
-      downPayment: "10%",
-      developer: "Al Reem Investments"
-    },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
-    amenities: ["Beach Access", "Pool", "Gym"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "the-gate-tower-1",
-    slug: "the-gate-tower-1",
-    name: "The Gate Tower 1",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "Gateway to Luxury",
-    description: "Tower 1 of The Gate District offers premier residential units in one of Abu Dhabi's most recognizable developments. Like its sister towers, it's connected by an iconic sky bridge and provides residents with access to extensive recreational and lifestyle facilities.",
-    features: {
-      bedrooms: "1 - 4 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Completed",
-      startingPrice: "AED 1,350,000",
-      handover: "Jun 2013",
-      downPayment: "10%",
-      developer: "Aldar Properties"
-    },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
-    amenities: ["Gym", "Pool", "Mall Access"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "sky-gardens-tower",
-    slug: "sky-gardens-tower",
-    name: "Sky Gardens Tower",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "Living Above the Clouds",
-    description: "Sky Gardens Tower is a high-rise residential development featuring modern apartments with stunning views of Al Reem Island and beyond. It's known for its contemporary design and quality finishes, offering residents a premium lifestyle with a range of leisure facilities.",
-    features: {
-      bedrooms: "1 - 4 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Contact for Plan",
-      startingPrice: "AED 1,200,000",
-      handover: "Mar 2011",
-      downPayment: "10%",
-      developer: "Mismak Properties"
-    },
-    heroImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600"],
-    amenities: ["Gym", "Pool", "Lobby"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "the-gate-tower-2",
-    slug: "the-gate-tower-2",
-    name: "The Gate Tower 2",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "Premium High-Rise Living",
-    description: "The Gate Tower 2 is a key component of the landmark Gate District. Residents of this 65-story tower enjoy a luxurious lifestyle with access to a sprawling podium level featuring pools, sports fields, and landscaped gardens, all within the vibrant Shams Abu Dhabi community.",
-    features: {
-      bedrooms: "1 - 4 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Completed",
-      startingPrice: "AED 1,350,000",
-      handover: "Oct 2013",
-      downPayment: "10%",
-      developer: "Aldar Properties"
-    },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
-    amenities: ["Sports Fields", "Pools", "Gardens"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "hydra-avenue-towers",
-    slug: "hydra-avenue-towers",
-    name: "Hydra Avenue Towers",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "Modernity at City of Lights",
-    description: "Hydra Avenue is a flagship development in the City of Lights on Al Reem Island. It comprises six towers that offer a mix of residential and commercial spaces. The development is designed to be self-sufficient, with a wide array of retail, dining, and leisure options located on-site.",
-    features: {
-      bedrooms: "1 - 3 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Contact for Plan",
-      startingPrice: "AED 900,000",
-      handover: "Jan 2014",
-      downPayment: "10%",
-      developer: "Hydra Properties"
-    },
-    heroImage: "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?w=1600"],
-    amenities: ["Retail", "Dining", "Gym", "Pool"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "marina-bay-damac",
-    slug: "marina-bay-damac",
-    name: "Marina Bay Damac",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "Damac's Signature in Abu Dhabi",
-    description: "Marina Bay by Damac is a 25-story mixed-use tower in the City of Lights on Al Reem Island. It offers luxury apartments with exceptional waterfront views and access to high-end facilities including a grand lobby, state-of-the-art gymnasium, and infinity pool.",
-    features: {
-      bedrooms: "1 - 3 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Completed",
-      startingPrice: "AED 1,200,000",
-      handover: "Jun 2014",
-      downPayment: "10%",
-      developer: "Damac Properties"
-    },
-    heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600"],
-    amenities: ["Infinity Pool", "Grand Lobby", "Gym"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "addax-port",
-    slug: "addax-port",
-    name: "Addax Port",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "Premier Commercial & Residential Hub",
-    description: "Addax Port is a major mixed-use development on Al Reem Island, featuring a prominent tower with high-quality residential and commercial office spaces. It's designed to meet the highest standards of modern business and lifestyle requirements, offering stunning views and excellent facilities.",
-    features: {
-      bedrooms: "1 - 3 BR",
-      propertyType: "Apartment & Office",
-      paymentPlan: "Contact for Plan",
-      startingPrice: "AED 1,100,000",
-      handover: "Jan 2014",
-      downPayment: "10%",
-      developer: "Addax Properties"
-    },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
-    amenities: ["Office Space", "Gym", "Pool"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "tamouh-tower-reem",
-    slug: "tamouh-tower-reem",
-    name: "Tamouh Tower",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "A Landmark in Reem Island",
-    description: "Tamouh Tower is a significant development on Al Reem Island, offering a range of high-quality residential units. It's built with modern design principles and features top-tier amenities, ensuring a comfortable and luxurious living experience for its residents.",
-    features: {
-      bedrooms: "1 - 3 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Contact for Plan",
-      startingPrice: "AED 1,050,000",
-      handover: "Completed",
-      downPayment: "10%",
-      developer: "Tamouh Properties"
-    },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
-    amenities: ["Gym", "Pool"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "sky-tower-reem",
-    slug: "sky-tower-reem",
-    name: "Sky Tower",
-    location: "Al Reem Island, Abu Dhabi",
-    subtitle: "Elevated Living",
-    description: "Wait, isn't this part of Sun & Sky? Often Sky Tower is listed individually. It offers ultra-luxury residential units with panoramic views and world-class management. Residents enjoy the highest levels of luxury and convenience on the island.",
-    features: {
-      bedrooms: "1 - 4 BR",
-      propertyType: "Apartment",
-      paymentPlan: "Completed",
-      startingPrice: "AED 1,450,000",
-      handover: "Oct 2011",
-      downPayment: "10%",
-      developer: "Aldar Properties"
-    },
-    heroImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600"],
-    amenities: ["Gym", "Pool", "Boutik Mall"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
   },
@@ -3269,8 +2885,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3291,8 +2907,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Wellness Center", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3313,8 +2929,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Spa", "Gym", "Landscaped Gardens"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3335,8 +2951,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png"],
     amenities: ["Nobu Restaurant", "Private Beach", "Concierge"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3357,8 +2973,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Nature Trails", "Eco-Park", "Community Center"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3379,8 +2995,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-interior-living.png",
+    galleryImages: ["/images/saadiyat/saadiyat-interior-living.png", "/images/saadiyat/saadiyat-modern-apartment-1.png"],
     amenities: ["Fountain Views", "Retail Hub", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3401,8 +3017,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Art Lounge", "Gallery Space", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3423,8 +3039,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "IMKAN Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Private Beach", "Custom Finishes", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3445,8 +3061,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Gym", "Pool", "Retail Proximity"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3467,8 +3083,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beachfront-condos.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beachfront-condos.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Sea Views", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3489,8 +3105,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "IMKAN Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Gym", "Pool", "Landscape Gardens"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3511,8 +3127,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "IMKAN Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Pool", "Gym", "Lobby"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3533,8 +3149,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "FIB Property"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Gym", "Pool", "Parking"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3555,8 +3171,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Museum Views", "Retail Hub", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3577,8 +3193,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beachfront-condos.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beachfront-condos.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Priviledge Club", "Art Studio", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3599,8 +3215,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-interior-living.png",
+    galleryImages: ["/images/saadiyat/saadiyat-interior-living.png", "/images/saadiyat/saadiyat-modern-apartment-1.png"],
     amenities: ["Retail Arcade", "Cinema", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3621,8 +3237,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "IMKAN Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Private Garden", "Quiet Community", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3643,8 +3259,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
+    galleryImages: ["/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/al-reem/maya-villas-townhouses.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Park Access", "Gated Community", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3665,8 +3281,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Golf Proximity", "Community Center", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3687,8 +3303,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "SDIC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beachfront-condos.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beachfront-condos.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Private Beach", "Parks", "Marine Station"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3709,8 +3325,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Bloom Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Retail", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3731,8 +3347,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Bloom Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Park Access", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3753,8 +3369,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beachfront-condos.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beachfront-condos.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Beach Promenade", "Dining", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3775,35 +3391,12 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Hotel Services", "Private Beach", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
   },
-  {
-    id: "saadiyat-beach-villas-tdic",
-    slug: "saadiyat-beach-villas-tdic",
-    name: "Saadiyat Beach Villas",
-    location: "Saadiyat Island",
-    subtitle: "The Ultimate Beachfront Home",
-    description: "Saadiyat Beach Villas by TDIC offer the ultimate beachfront living experience in Abu Dhabi. These villas are architectural masterpieces, featuring spacious layouts and premium finishes. Residents benefit from a private, secure community with direct beach access and prime amenities.",
-    features: {
-      bedrooms: "3 - 6 BR",
-      propertyType: "Villa",
-      paymentPlan: "Completed",
-      startingPrice: "AED 8,500,000 Starting from",
-      handover: "Nov 2012",
-      downPayment: "Completed",
-      developer: "TDIC - Tourism Development & Investment Company"
-    },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
-    amenities: ["Direct Beach Access", "Private Garden", "Pool"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  /* Yas Island Projects */
   {
     id: "yas-golf-collection-views",
     slug: "yas-golf-collection-views",
@@ -3820,8 +3413,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Golf Course Views", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3842,8 +3435,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Gym", "Pool", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3864,8 +3457,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Reportage Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Waterfront Views", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3886,8 +3479,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Reportage Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beachfront-condos.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/gate-tower-3.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Bay Views", "Fitness Center", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3908,8 +3501,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Nine Yards"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/al-reem/gate-tower-3.png",
+    galleryImages: ["/images/al-reem/gate-tower-3.png", "/images/al-reem/gate-towers-exterior.png", "/images/address-residences-the-bay/kitchen.png"],
     amenities: ["Infinity Pool", "Private Beach Access", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3930,8 +3523,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
+    heroImage: "/images/al-reem/gate-towers-exterior.png",
+    galleryImages: ["/images/al-reem/gate-towers-exterior.png", "/images/al-reem/beach-towers-exterior.png", "/images/address-residences-the-bay/master-bedroom.png"],
     amenities: ["Solar Energy", "Biodomes", "Community Park"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3952,8 +3545,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Park Access", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3974,8 +3567,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "RAK Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/al-reem/beach-towers-exterior.png",
+    galleryImages: ["/images/al-reem/beach-towers-exterior.png", "/images/al-reem/sky-gardens-exterior.png", "/images/expo-golf-villas/living-room.png"],
     amenities: ["Community Pool", "Gym", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -3996,8 +3589,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
+    heroImage: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
+    galleryImages: ["/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/al-reem/maya-villas-townhouses.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Sports Facilities", "Park", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4018,8 +3611,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/expo-golf-villas/exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Kid's Play Area", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4040,8 +3633,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/expo-golf-villas/exterior.png",
+    galleryImages: ["/images/expo-golf-villas/exterior.png", "/images/expo-golf-villas/garden.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Golf View", "Parks", "Fitness Center"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4062,8 +3655,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
+    heroImage: "/images/expo-golf-villas/garden.png",
+    galleryImages: ["/images/expo-golf-villas/garden.png", "/images/expo-golf-villas/golf-view.png", "/images/address-residences-the-bay/kitchen.png"],
     amenities: ["Private Garden", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4084,8 +3677,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/expo-golf-villas/golf-view.png",
+    galleryImages: ["/images/expo-golf-villas/golf-view.png", "/images/rawda-apartments/park-view.png", "/images/address-residences-the-bay/master-bedroom.png"],
     amenities: ["Parks", "Retail Hub", "Sports Courts"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4106,8 +3699,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Miral"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/al-reem/addax-port-commercial.png",
+    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Pier Access", "Retail Arcade", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4128,8 +3721,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Siadah Development"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
+    heroImage: "/images/al-reem/sky-gardens-exterior.png",
+    galleryImages: ["/images/al-reem/sky-gardens-exterior.png", "/images/al-reem/marina-bay-exterior.png", "/images/expo-golf-villas/kitchen.png"],
     amenities: ["Private Beach", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4150,8 +3743,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/rawda-apartments/park-view.png",
+    galleryImages: ["/images/rawda-apartments/park-view.png", "/images/saadiyat/saadiyat-beach-villa-1.png", "/images/expo-golf-villas/living-room.png"],
     amenities: ["Sea Views", "Parks", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4172,8 +3765,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Social Club", "Waterfront View", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4194,14 +3787,12 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
+    heroImage: "/images/al-reem/marina-bay-exterior.png",
+    galleryImages: ["/images/al-reem/marina-bay-exterior.png", "/images/address-residences-the-bay/exterior-1.png", "/images/rawda-apartments/living-room.png"],
     amenities: ["Golf View", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
   },
-
-  /* Al Raha Beach Projects */
   {
     id: "c17-raha",
     slug: "c17-raha",
@@ -4218,8 +3809,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Canal Views", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4240,8 +3831,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "FAB Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Pool", "Gym", "Lobby"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4262,8 +3853,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Al Raha Beach"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Panoramic Views", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4284,8 +3875,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "National Bonds"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beachfront-condos.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/gate-tower-3.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Quiet Community", "Gym", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4306,8 +3897,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Private Beach", "Retail Hub", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4328,8 +3919,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
+    heroImage: "/images/al-reem/gate-tower-3.png",
+    galleryImages: ["/images/al-reem/gate-tower-3.png", "/images/al-reem/gate-towers-exterior.png", "/images/address-residences-the-bay/kitchen.png"],
     amenities: ["Marina Views", "Infinity Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4350,14 +3941,12 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/al-reem/gate-towers-exterior.png",
+    galleryImages: ["/images/al-reem/gate-towers-exterior.png", "/images/al-reem/beach-towers-exterior.png", "/images/address-residences-the-bay/master-bedroom.png"],
     amenities: ["Social Club", "Waterfront View", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
   },
-
-  /* Al Raha Gardens Projects */
   {
     id: "al-ward-raha",
     slug: "al-ward-raha",
@@ -4374,57 +3963,12 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Aldar Properties PJSC"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Private Garden", "Quiet Community", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
   },
-  {
-    id: "muzera-raha",
-    slug: "muzera-raha",
-    name: "Muzera",
-    location: "Al Raha Gardens",
-    subtitle: "Spacious Subarban Living",
-    description: "Muzera is one of the most searches residential districts in Al Raha Gardens. These completed villas by Aldar offer spacious layouts and high-end finishes, perfect for families seeking a peaceful retreat away from the city's hustle, yet close to major transport hubs.",
-    features: {
-      bedrooms: "3 - 4 BR",
-      propertyType: "Villa",
-      paymentPlan: "Completed",
-      startingPrice: "AED 3,500,000 Starting from",
-      handover: "Jan 2011",
-      downPayment: "Completed",
-      developer: "Aldar Properties PJSC"
-    },
-    heroImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600"],
-    amenities: ["Park Access", "Gated Security", "Gym"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  {
-    id: "al-tharwaniah-raha",
-    slug: "al-tharwaniah-raha",
-    name: "Al Tharwaniah",
-    location: "Al Raha Gardens",
-    subtitle: "Premium Family Villas",
-    description: "Al Tharwaniah is a premier residential community within Al Raha Gardens, offering spacious and elegantly designed villas. Each home is crafted with attention to detail, providing a perfect balance of comfort and luxury for modern families.",
-    features: {
-      bedrooms: "3 - 5 BR",
-      propertyType: "Villa",
-      paymentPlan: "Completed",
-      startingPrice: "AED 3,600,000 Starting from",
-      handover: "Jan 2008",
-      downPayment: "Completed",
-      developer: "Aldar Properties PJSC"
-    },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
-    amenities: ["Community Pool", "Gated Entry", "Landscaped Gardens"],
-    floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
-  },
-  /* Palm Jumeirah Projects */
   {
     id: "canal-cove-villas",
     slug: "canal-cove-villas",
@@ -4441,8 +3985,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Nakheel"
     },
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Beach Access", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4463,8 +4007,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Seven Tides"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-interior-living.png"],
     amenities: ["Infinity Pool", "Private Beach", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4485,8 +4029,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Zabeel Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Private Club", "Gym", "Beach Access"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4507,14 +4051,12 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Kerzner International"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Private Pool", "Beach Access", "Spa", "Signature Dining"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
   },
-
-  /* Downtown Dubai Projects */
   {
     id: "burj-crown",
     slug: "burj-crown",
@@ -4531,8 +4073,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Burj View", "Gym", "Pool", "Walking to Mall"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4553,8 +4095,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "Completed",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Hotel Service", "Pool", "Gym", "Boulevard Living"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4575,14 +4117,12 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beachfront-condos.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/gate-tower-3.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Panoramic View", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
   },
-
-  /* Dubai Creek Projects */
   {
     id: "creek-beach-surf",
     slug: "creek-beach-surf",
@@ -4599,8 +4139,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-beachfront-condos.png",
+    galleryImages: ["/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/gate-tower-3.png", "/images/address-residences-the-bay/interior-living.png"],
     amenities: ["Beach Access", "Marina", "Pool", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4621,14 +4161,12 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600"],
+    heroImage: "/images/al-reem/gate-tower-3.png",
+    galleryImages: ["/images/al-reem/gate-tower-3.png", "/images/al-reem/gate-towers-exterior.png", "/images/address-residences-the-bay/kitchen.png"],
     amenities: ["Canal View", "Pool", "Fitness Center"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
   },
-
-  /* Dubai Hills Estate Projects */
   {
     id: "golf-grand-hills",
     slug: "golf-grand-hills",
@@ -4645,8 +4183,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600"],
+    heroImage: "/images/saadiyat/saadiyat-louvre-adjacent.png",
+    galleryImages: ["/images/saadiyat/saadiyat-louvre-adjacent.png", "/images/saadiyat/saadiyat-resort-pool.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Golf Course View", "Park Access", "Pool"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -4667,8 +4205,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Emaar Properties"
     },
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600",
-    galleryImages: ["https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600"],
+    heroImage: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg",
+    galleryImages: ["/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/al-reem/maya-villas-townhouses.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Lamborghini Design", "Golf Front", "Large Terrace"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
