@@ -10,6 +10,7 @@ import {
   CheckCircle, Star, Globe, TrendingUp, Medal,
   MapPin, Phone, Mail, ArrowRight, Play
 } from "lucide-react";
+import CompanyGallery from "../../components/about/CompanyGallery";
 
 const developers = [
   { name: "Emaar", logo: "/images/Leading-Developers-logo/Emaar.jpeg" },
@@ -617,6 +618,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* ===== 8.5. COMPANY & CLIENT MEETING GALLERY ===== */}
+      <CompanyGallery />
 
       {/* ===== 9. PARTNERS LOGOS SLIDER ===== */}
       <section className="py-10 md:py-24 bg-white overflow-hidden">
