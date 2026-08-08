@@ -8,7 +8,7 @@ import { useRef } from "react";
 import { 
   Trophy, Users, Building2, Target, Eye, Award, 
   CheckCircle, Star, Globe, TrendingUp, Medal,
-  MapPin, Phone, Mail, ArrowRight, Play
+  MapPin, Phone, Mail, ArrowRight, Play, Facebook
 } from "lucide-react";
 import CompanyGallery from "../../components/about/CompanyGallery";
 
@@ -767,6 +767,20 @@ export default function AboutPage() {
                     <h3 className="text-base font-bold text-secondary mb-1">Email</h3>
                     <a href="mailto:info@zhmrealestatellc.ae" className="text-gray-600 text-sm hover:text-primary transition-colors">
                       info@zhmrealestatellc.ae
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-5 md:p-7 rounded-xl shadow-md border border-gray-100">
+                <div className="flex items-start gap-4">
+                  <div className="w-11 h-11 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                    <Facebook className="text-primary" size={22} />
+                  </div>
+                  <div>
+                    <h3 className="text-base font-bold text-secondary mb-1">Facebook</h3>
+                    <a href="https://www.facebook.com/share/1D2TDYap2G/" target="_blank" rel="noopener noreferrer" className="text-gray-600 text-sm hover:text-primary transition-colors">
+                      Follow ZHM Real Estate
                     </a>
                   </div>
                 </div>

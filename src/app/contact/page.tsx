@@ -6,7 +6,7 @@ import Link from "next/link";
 import { 
   Mail, MapPin, Phone, MessageSquare, 
   Globe, Clock, Send, ChevronRight,
-  User, Building, HelpCircle, Laptop
+  User, Building, HelpCircle, Laptop, Facebook, Instagram
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -176,6 +176,17 @@ export default function ContactPage() {
                   <div className="flex flex-col">
                     <span className="text-[10px] font-bold text-white/50 uppercase tracking-[0.2em] mb-1">Website</span>
                     <a href="https://zhmrealestatellc.ae" target="_blank" rel="noopener noreferrer" className="text-lg font-bold hover:text-primary transition-colors">zhmrealestatellc.ae</a>
+                  </div>
+                </div>
+
+                {/* Facebook Social */}
+                <div className="flex items-start gap-6 group">
+                  <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center text-primary border border-white/5 group-hover:bg-primary group-hover:text-white transition-all duration-300 transform group-hover:-rotate-12">
+                    <Facebook size={20} />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-[10px] font-bold text-white/50 uppercase tracking-[0.2em] mb-1">Facebook Page</span>
+                    <a href="https://www.facebook.com/share/1D2TDYap2G/" target="_blank" rel="noopener noreferrer" className="text-lg font-bold hover:text-primary transition-colors">Follow us on Facebook</a>
                   </div>
                 </div>
               </div>

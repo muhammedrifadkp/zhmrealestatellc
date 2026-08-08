@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import { Phone, Mail, MapPin, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Phone, Mail, MapPin, ArrowRight, CheckCircle2, Facebook, Instagram } from "lucide-react";
 
 type ContactForm = {
   name: string;
@@ -135,6 +135,18 @@ export function ContactSection() {
                   <a href="mailto:info@zhmrealestatellc.ae"
                     className="text-gray-500 hover:text-primary transition-colors text-sm">
                     info@zhmrealestatellc.ae
+                  </a>
+                </div>
+              </div>
+
+              <div className="pt-4 border-t border-gray-100 flex items-center gap-4">
+                <span className="text-xs font-bold text-secondary uppercase tracking-wider">Follow Us:</span>
+                <div className="flex items-center gap-3">
+                  <a href="https://www.facebook.com/share/1D2TDYap2G/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                    <Facebook size={16} />
+                  </a>
+                  <a href="https://www.instagram.com/zhmrealestate/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                    <Instagram size={16} />
                   </a>
                 </div>
               </div>

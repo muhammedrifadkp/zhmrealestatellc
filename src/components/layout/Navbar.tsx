@@ -215,7 +215,7 @@ export function Navbar() {
         
         <div className="flex items-center gap-5">
           <div className="flex items-center gap-3">
-            <a href="#" className="hover:text-white transition-colors"><Facebook size={13} /></a>
+            <a href="https://www.facebook.com/share/1D2TDYap2G/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Facebook size={13} /></a>
             <a href="#" className="hover:text-white transition-colors"><Twitter size={13} /></a>
             <a href="https://www.instagram.com/zhmrealestate/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Instagram size={13} /></a>
             {/* Using Ghost for snapchat icon placeholder */}
@@ -524,7 +524,7 @@ export function Navbar() {
               </div>
               
               <div className="flex gap-4 mt-2 text-gray-400">
-                <a href="#" className="hover:text-primary transition-colors"><Facebook size={22} strokeWidth={1.5} /></a>
+                <a href="https://www.facebook.com/share/1D2TDYap2G/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors"><Facebook size={22} strokeWidth={1.5} /></a>
                 <a href="#" className="hover:text-primary transition-colors"><Twitter size={22} strokeWidth={1.5} /></a>
                 <a href="https://www.instagram.com/zhmrealestate/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors"><Instagram size={22} strokeWidth={1.5} /></a>
               </div>
