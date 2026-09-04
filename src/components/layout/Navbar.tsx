@@ -40,18 +40,19 @@ const navItems = [
             { name: "View All", href: "/featured-projects/dubai" }
           ]
         },
-        // {
-        //   title: "SHARJAH",
-        //   links: [
-        //     { name: "Sharjah Waterfront City", href: "/featured-projects/sharjah/sharjah-waterfront-city" },
-        //     { name: "Deem at Hayyan", href: "/featured-projects/sharjah/deem-at-hayyan" },
-        //     { name: "Olfah", href: "/featured-projects/sharjah/olfah" },
-        //     { name: "Olfah 3", href: "/featured-projects/sharjah/olfah-3" },
-        //     { name: "Hayyan", href: "/featured-projects/sharjah/hayyan" },
-        //     { name: "Hamsa 2", href: "/featured-projects/sharjah/hamsa-2" },
-        //     { name: "View All", href: "/featured-projects/sharjah" }
-        //   ]
-        // },
+        {
+          title: "SHARJAH",
+          links: [
+            { name: "Sharjah Waterfront City", href: "/featured-projects/sharjah/sharjah-waterfront-city" },
+            { name: "Azizi Florence", href: "/featured-projects/sharjah/azizi-florence" },
+            { name: "Deem at Hayyan", href: "/featured-projects/sharjah/deem-at-hayyan" },
+            { name: "Olfah", href: "/featured-projects/sharjah/olfah" },
+            { name: "Olfah 3", href: "/featured-projects/sharjah/olfah-3" },
+            { name: "Hayyan", href: "/featured-projects/sharjah/hayyan" },
+            { name: "Hamsa 2", href: "/featured-projects/sharjah/hamsa-2" },
+            { name: "View All", href: "/featured-projects/sharjah" }
+          ]
+        },
         // {
         //   title: "RAS AL KHAIMA",
         //   links: [
@@ -92,6 +93,17 @@ const navItems = [
             { name: "View All", href: "/projects/dubai" }
           ]
         },
+        // {
+        //   title: "SHARJAH",
+        //   links: [
+        //     { name: "Aljada", href: "/projects/aljada" },
+        //     { name: "Al Mamsha", href: "/projects/al-mamsha" },
+        //     { name: "Muwaileh Commercial", href: "/projects/muwaileh-commercial" },
+        //     { name: "Tilal City", href: "/projects/tilal-city" },
+        //     { name: "Al Bedea Suburb", href: "/projects/al-bedea-suburb" },
+        //     { name: "View All", href: "/projects/sharjah" }
+        //   ]
+        // },
         {
           title: "DEVELOPERS",
           links: [
@@ -315,7 +327,6 @@ export function Navbar() {
                         if (title === "ABU DHABI") return `${base}/abu-dhabi`;
                         if (title === "DUBAI") return `${base}/dubai`;
                         if (title === "SHARJAH") return `${base}/sharjah`;
-                        if (title === "RAS AL KHAIMA") return `${base}/rak`;
                         if (title === "DEVELOPERS") return "/developers";
                         return "#";
                       };
@@ -329,7 +340,7 @@ export function Navbar() {
 
                       return (
                         <div key={idx} className="flex-1">
-                          {["ABU DHABI", "DUBAI", "SHARJAH", "RAS AL KHAIMA", "DEVELOPERS"].includes(col.title) ? (
+                          {["ABU DHABI", "DUBAI", "SHARJAH", "DEVELOPERS"].includes(col.title) ? (
                             <Link href={getLink(col.title)} onClick={handleLinkClick} className="block group/title">
                               <h4 className={`text-[13px] font-bold mb-6 tracking-wider uppercase border-b pb-2 transition-all ${
                                 isColActive
@@ -470,12 +481,12 @@ export function Navbar() {
                       >
                         {item.megaMenu.columns.map((col, idx) => (
                           <div key={idx} className="flex flex-col gap-4 mt-2">
-                            {["ABU DHABI", "DUBAI", "SHARJAH", "RAS AL KHAIMA", "DEVELOPERS"].includes(col.title) ? (
+                            {["ABU DHABI", "DUBAI", "SHARJAH", "DEVELOPERS"].includes(col.title) ? (
                               <Link 
                                 href={
                                   item.name === "FEATURED PROJECTS" 
-                                    ? `/featured-projects/${col.title === "RAS AL KHAIMA" ? "rak" : col.title.toLowerCase().replace(" ", "-")}`
-                                    : col.title === "DEVELOPERS" ? "/developers" : `/projects/${col.title === "RAS AL KHAIMA" ? "rak" : col.title.toLowerCase().replace(" ", "-")}`
+                                    ? `/featured-projects/${col.title.toLowerCase().replace(" ", "-")}`
+                                    : col.title === "DEVELOPERS" ? "/developers" : `/projects/${col.title.toLowerCase().replace(" ", "-")}`
                                 } 
                                 onClick={() => setIsMobileMenuOpen(false)}
                               >

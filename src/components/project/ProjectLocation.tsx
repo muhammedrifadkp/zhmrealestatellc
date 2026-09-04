@@ -25,7 +25,7 @@ export default function ProjectLocation({ project }: { project: ProjectProperty 
         <div className="w-full h-[500px] bg-gray-200 rounded-xl overflow-hidden luxury-card relative">
           {project.mapCode ? (
             <iframe 
-              src={`${project.mapCode}&output=embed`} 
+              src={project.mapCode.includes('output=embed') || project.mapCode.includes('/embed') ? project.mapCode : `${project.mapCode}&output=embed`} 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

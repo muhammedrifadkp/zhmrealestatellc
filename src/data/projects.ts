@@ -1724,8 +1724,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Alef Group",
       nationality: "Freehold"
     },
-    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
-    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
+    heroImage: "/images/expo-golf-villas/exterior.png",
+    galleryImages: ["/images/expo-golf-villas/exterior.png", "/images/expo-golf-villas/garden.png", "/images/expo-golf-villas/living-room.png"],
     amenities: ["Large Park", "Swimming Pool", "Fitness Center", "BBQ Area", "Jogging Track"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1786,8 +1786,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Alef Group",
       nationality: "Freehold"
     },
-    heroImage: "/images/al-reem/maya-villas-townhouses.png",
-    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/expo-golf-villas/exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
+    heroImage: "/images/expo-golf-villas/community.png",
+    galleryImages: ["/images/expo-golf-villas/community.png", "/images/expo-golf-villas/pool.png", "/images/expo-golf-villas/garden.png"],
     amenities: ["Largest Lagoon", "Green Park", "Football Court", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1870,8 +1870,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Baraka Real Estate Development LLC",
       nationality: "Freehold"
     },
-    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
-    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
+    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
+    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/beach-towers-exterior.png"],
     amenities: ["Waterpark", "Marina", "Shopping Center"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -1889,6 +1889,77 @@ export const projectsData: ProjectProperty[] = [
       {
         question: "Who should consider Sharjah Waterfront City?",
         answer: "Families looking for spacious beachfront villas, buyers seeking a peaceful and private residential environment, investors interested in coastal properties, and international buyers looking for lifestyle-driven communities."
+      }
+    ]
+  },
+  {
+    id: "azizi-florence",
+    slug: "azizi-florence",
+    name: "AZIZI FLORENCE",
+    location: "Emirates Road, Sharjah",
+    subtitle: "A Landmark Master Community in Sharjah",
+    description: "Azizi Florence is Sharjah's largest master-planned residential community, sprawling over 30 million square feet along Sheikh Mohammed Bin Zayed Road and Emirates Road. Developed by Azizi Developments, this freehold mega-project features 3 to 6-bedroom luxury townhouses and standalone villas divided across six distinct architectural clusters. Designed for premium sustainable living, 25% of the development is dedicated to green landscapes and crystal lagoons, highlighted by a 1.7 million square foot Central Park, international schools, retail & dining destinations, healthcare facilities, and a boutique hotel.",
+    isFeatured: true,
+    features: {
+      bedrooms: "3 to 6 Bedroom Villas & Townhouses",
+      propertyType: "Townhouses & Standalone Villas",
+      paymentPlan: "30/70 Payment Plan",
+      startingPrice: "AED 1,890,000",
+      handover: "Handover: 31-Jul-2029",
+      downPayment: "10%",
+      developer: "Azizi Developments",
+      nationality: "Freehold"
+    },
+    heroImage: "/images/expo-golf-villas/golf-view.png",
+    galleryImages: [
+      "/images/expo-golf-villas/golf-view.png",
+      "/images/expo-golf-villas/community.png",
+      "/images/expo-golf-villas/exterior.png"
+    ],
+    amenities: [
+      "1.7M Sq Ft Central Park",
+      "Lagoons & Waterfront Features",
+      "Green Community Spaces",
+      "Retail & Dining Destinations",
+      "Schools & Education",
+      "Healthcare & Hospital",
+      "Boutique Hotel",
+      "Swimming Pools",
+      "Fitness Center & Sports Facilities"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "1st Instalment", description: "Immediate on Booking" },
+      { percentage: "5%", label: "2nd Instalment", description: "Within 90 Days" },
+      { percentage: "5%", label: "3rd Instalment", description: "Within 270 Days" },
+      { percentage: "5%", label: "4th Instalment", description: "Within 450 Days" },
+      { percentage: "5%", label: "5th Instalment", description: "Within 630 Days" },
+      { percentage: "70%", label: "On Completion", description: "31-Jul-2029" }
+    ],
+    floorPlans: [],
+    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534948.9719365807!2d51.71226784033219!3d24.457831216337595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f438e19012eb1%3A0x359e6e103732297f!2sAzizi%20Developments!5e1!3m2!1sen!2sin!4v1788549331606!5m2!1sen!2sin",
+    locationBenefits: {
+      description: "Conveniently located along Emirates Road & Sheikh Mohammed Bin Zayed Road in Sharjah with seamless connectivity.",
+      points: [
+        "12 Mins to Sharjah International Airport",
+        "15 Mins to University City, Sharjah",
+        "20 Mins to Dubai International Airport",
+        "25 Mins to Downtown Dubai",
+        "Direct access to Sheikh Mohammed Bin Zayed Road & Emirates Road"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Azizi Florence?",
+        answer: "Townhouses: 3 Bedroom from AED 1,890,000 (2,223.84 sq.ft.), 4 Bedroom from AED 2,260,000 (2,660.00 sq.ft.). Single Standalone Villas: 4 Bedroom from AED 3,350,000 (3,713.80 sq.ft.), 5 Bedroom from AED 4,200,000 (4,635.62 sq.ft.), 6 Bedroom from AED 4,950,000 (4,930.45 sq.ft.)."
+      },
+      {
+        question: "What is the payment plan for Azizi Florence?",
+        answer: "Azizi Florence offers a 30/70 payment plan: 10% down payment on booking, 5% every few months during construction (at 90, 270, 450, and 630 days), and the final 70% on completion on July 31, 2029."
+      },
+      {
+        question: "What facilities are in the Azizi Florence master community?",
+        answer: "Sprawling across 30M sq ft, Azizi Florence offers 25% green landscapes, a 1.7M sq ft Central Park, crystal lagoons, retail promenade, international schools, hospital, boutique hotel, and over 85 lifestyle amenities."
       }
     ]
   },
@@ -1954,8 +2025,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Alef Group",
       nationality: "Freehold"
     },
-    heroImage: "/images/al-reem/addax-port-commercial.png",
-    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png", "/images/saadiyat/saadiyat-interior-living.png"],
+    heroImage: "/images/saadiyat/saadiyat-modern-apartment-1.png",
+    galleryImages: ["/images/saadiyat/saadiyat-modern-apartment-1.png", "/images/al-reem/sky-gardens-exterior.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Swimming Pool", "Kids Play Area", "Retail"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2125,8 +2196,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "/images/al-reem/reem-island-aerial.png",
-    galleryImages: ["/images/al-reem/reem-island-aerial.png", "/images/al-reem/addax-port-commercial.png", "/images/al-reem/luxury-apartment-interior.png"],
+    heroImage: "/images/al-reem/beach-towers-exterior.png",
+    galleryImages: ["/images/al-reem/beach-towers-exterior.png", "/images/al-reem/marina-bay-exterior.png", "/images/al-reem/modern-kitchen-interior.png"],
     amenities: ["Lobby", "Gym", "Security"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2149,8 +2220,8 @@ export const projectsData: ProjectProperty[] = [
       developer: "Alef Group",
       nationality: "Freehold"
     },
-    heroImage: "/images/al-reem/addax-port-commercial.png",
-    galleryImages: ["/images/al-reem/addax-port-commercial.png", "/images/al-reem/reem-island-aerial.png", "/images/saadiyat/saadiyat-interior-living.png"],
+    heroImage: "/images/al-reem/the-bridges-parkside.png",
+    galleryImages: ["/images/al-reem/the-bridges-parkside.png", "/images/al-reem/gate-tower-3.png", "/images/al-reem/luxury-apartment-interior.png"],
     amenities: ["Park and retail", "Cafe", "Gym"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
@@ -2232,8 +2303,8 @@ export const projectsData: ProjectProperty[] = [
       downPayment: "10%",
       developer: "Alef Group"
     },
-    heroImage: "/images/saadiyat/saadiyat-beach-villa-1.png",
-    galleryImages: ["/images/saadiyat/saadiyat-beach-villa-1.png", "/images/Yas-Riva/Yas-Riva-bg-img.jpeg", "/images/saadiyat/saadiyat-interior-living.png"],
+    heroImage: "/images/al-reem/maya-villas-townhouses.png",
+    galleryImages: ["/images/al-reem/maya-villas-townhouses.png", "/images/expo-golf-villas/garden.png", "/images/expo-golf-villas/pool.png"],
     amenities: ["Community Park", "Retail Hub", "Mosque"],
     floorPlans: [],
     siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
