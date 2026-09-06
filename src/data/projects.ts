@@ -425,6 +425,668 @@ export const projectsData: ProjectProperty[] = [
     videoUrl: "https://www.youtube.com/embed/JXLwgF9n_uI"
   },
   {
+    id: "greenz-by-danube",
+    slug: "greenz-by-danube",
+    name: "GREENZ BY DANUBE",
+    location: "Academic City, Dubai",
+    subtitle: "3-5 BR Townhouses & Villas in Academic City, Dubai",
+    description: "Greenz by Danube Properties is a master-planned residential community located in Academic City, Dubai. Offering a premium collection of 3, 4, and 5-bedroom townhouses and villas starting from AED 3.4M, Greenz brings together modern architectural elegance, lush green central parks, and over 40 resort-style amenities. Designed for sustainable luxury living, Greenz by Danube offers a serene lifestyle for families with spacious open-plan layouts, private gardens, and Danube's signature 1% monthly payment plan.",
+    isFeatured: true,
+    features: {
+      bedrooms: "3 to 5 Bedroom Townhouses & Villas",
+      propertyType: "Townhouses & Standalone Villas",
+      paymentPlan: "1% Monthly Payment Plan",
+      startingPrice: "AED 3,400,000 Starting from",
+      handover: "Expected Q4 2028",
+      downPayment: "10% Down Payment",
+      developer: "Danube Properties",
+      nationality: "Freehold"
+    },
+    heroImage: "/images/greenz-by-danube/greenz-hero.jpg",
+    galleryImages: [
+      "/images/greenz-by-danube/gallery-1.png",
+      "/images/greenz-by-danube/gallery-2.png",
+      "/images/greenz-by-danube/gallery-3.png",
+      "/images/greenz-by-danube/gallery-4.png",
+      "/images/greenz-by-danube/gallery-5.png",
+      "/images/greenz-by-danube/gallery-6.png"
+    ],
+    amenities: [
+      "Swimming Pool",
+      "Basketball Court",
+      "Gym & Fitness Center",
+      "Kids Play Area",
+      "Jogging & Cycling Track",
+      "Schools & Educational Hubs",
+      "Business Lounge & Co-Working",
+      "Outdoor Cinema & BBQ Area"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
+      { percentage: "1%", label: "Monthly Instalment", description: "1% Per Month During Construction" },
+      { percentage: "30%", label: "On Handover", description: "Expected Q4 2028" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "3 BR Townhouse",
+        images: ["/images/expo-golf-villas/3br-side.png"],
+        sideImage: "/images/expo-golf-villas/3br-side.png"
+      },
+      {
+        bedrooms: "4 BR Townhouse",
+        images: ["/images/expo-golf-villas/3br-side.png"],
+        sideImage: "/images/expo-golf-villas/3br-side.png"
+      },
+      {
+        bedrooms: "5 BR Villa",
+        images: ["/images/expo-golf-villas/3br-side.png"],
+        sideImage: "/images/expo-golf-villas/3br-side.png"
+      }
+    ],
+    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.7574585424113!2d55.42693367516079!3d25.118747677761586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f63479d8e9ecb%3A0x2378a0be5ff4065b!2sGreenz%20by%20DANUBE!5e1!3m2!1sen!2sin!4v1788723111485!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/B75jqDWzIrM",
+    locationBenefits: {
+      description: "Strategically situated in Academic City, Dubai with rapid connection to top educational hubs, airports, and downtown attractions.",
+      points: [
+        "01 Min to Academic City",
+        "02 Mins to Zayed University",
+        "05 Mins to Silicon Oasis / Mirdif City Centre",
+        "10 Mins to Dubai Safari Park",
+        "11 Mins to Dubai International Airport (DXB)",
+        "13 Mins to Downtown Dubai / Dubai Mall",
+        "15 Mins to Business Bay & Dubai Creek Harbour"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Greenz by Danube?",
+        answer: "Greenz by Danube townhouses & villas start from AED 3,400,000 (INR 7.79 Cr / USD 925K) for 3-Bedroom units, with 4 & 5-Bedroom layouts available on request."
+      },
+      {
+        question: "What is the payment plan for Greenz by Danube?",
+        answer: "Greenz by Danube features Danube's signature 1% monthly payment plan with 10% down payment on booking."
+      },
+      {
+        question: "Where is Greenz by Danube located?",
+        answer: "Greenz by Danube is located in Academic City, Dubai, just minutes away from Zayed University, Silicon Oasis, Dubai International Airport, and Downtown Dubai."
+      }
+    ]
+  },
+  {
+    id: "serenz-by-danube",
+    slug: "serenz-by-danube",
+    name: "SERENZ BY DANUBE",
+    location: "Jumeirah Village Circle (JVC), Dubai",
+    subtitle: "Fully Furnished Luxury Homes in JVC, Dubai",
+    description: "Serenz by Danube is a landmark residential development located in the heart of Jumeirah Village Circle (JVC), Dubai. Offering fully furnished studio, 1, 2, and 3-bedroom luxury apartments starting from AED 650,000, Serenz by Danube combines futuristic architectural design with over 40 resort-style amenities. Designed for modern urban living, Serenz offers residents a vibrant community lifestyle with sky pools, wellness spas, sports courts, and Danube's signature 1% monthly payment plan.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Studio, 1, 2 & 3 BR Apartments",
+      propertyType: "Fully Furnished Apartments",
+      paymentPlan: "1% Monthly Payment Plan",
+      startingPrice: "AED 650,000 Starting from",
+      handover: "Expected Q4 2027",
+      downPayment: "10% Down Payment",
+      developer: "Danube Properties",
+      nationality: "Freehold"
+    },
+    heroImage: "/images/serenz-by-danube/serenz-hero.png",
+    galleryImages: [
+      "/images/serenz-by-danube/gallery-1.png",
+      "/images/serenz-by-danube/gallery-2.png",
+      "/images/serenz-by-danube/gallery-3.png",
+      "/images/serenz-by-danube/gallery-4.jpg",
+      "/images/serenz-by-danube/gallery-5.jpg",
+      "/images/serenz-by-danube/gallery-6.png"
+    ],
+    amenities: [
+      "Sky Pool & Infinity Pool",
+      "Padel Tennis & Sports Courts",
+      "Fully Equipped Fitness Center & Gym",
+      "Kids Play Zone & Aquatic Park",
+      "Sky Lounge & Outdoor Cinema",
+      "Wellness Spa & Sauna",
+      "24/7 Security & Concierge Services"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
+      { percentage: "1%", label: "Monthly Instalment", description: "1% Per Month During Construction" },
+      { percentage: "30%", label: "On Handover", description: "Expected Q4 2027" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Studio",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "1 BR Apartment",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "2 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      },
+      {
+        bedrooms: "3 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      }
+    ],
+    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41098.929259200115!2d55.14878948918575!3d25.045265718117644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6ddf38ec1b03%3A0x61f7447b649fd99c!2sSerenz%20by%20Danube!5e1!3m2!1sen!2sin!4v1788723710123!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/0lHg9ogsiGc",
+    locationBenefits: {
+      description: "Ideally situated in Jumeirah Village Circle (JVC), Dubai with quick access to major highways, malls, and attractions.",
+      points: [
+        "05 Mins to Circle Mall, JVC",
+        "10 Mins to Dubai Hills Mall",
+        "15 Mins to Mall of the Emirates",
+        "20 Mins to Downtown Dubai & Dubai Mall",
+        "25 Mins to Dubai International Airport (DXB)"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Serenz by Danube?",
+        answer: "Serenz by Danube fully furnished apartments start from AED 650,000 for Studios, 1, 2, and 3-Bedroom units."
+      },
+      {
+        question: "What is the payment plan for Serenz by Danube?",
+        answer: "Serenz by Danube offers Danube's signature 1% monthly payment plan with 10% down payment on booking."
+      },
+      {
+        question: "Where is Serenz by Danube located?",
+        answer: "Serenz by Danube is located in Jumeirah Village Circle (JVC), Dubai, close to Circle Mall, Dubai Hills Mall, and Sheikh Mohammed Bin Zayed Road."
+      }
+    ]
+  },
+  {
+    id: "breez-by-danube",
+    slug: "breez-by-danube",
+    name: "BREEZ BY DANUBE",
+    location: "Dubai Maritime City, Dubai",
+    subtitle: "Waterfront Luxury Apartments in Dubai Maritime City",
+    description: "Breez by Danube is a stunning waterfront residential tower situated in Dubai Maritime City. Offering luxury Studio, 1, 2, 3, and 4-bedroom fully furnished apartments starting from AED 1.1 Million (USD 129K / INR 2.61 CR), Breez by Danube combines maritime architectural grandeur with over 40 world-class amenities. Residents enjoy panoramic Arabian Gulf views, sky pools, infinity pools, giant aquarium lobbies, and Danube's signature 1% monthly payment plan.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Studio, 1, 2, 3 & 4 BR Apartments",
+      propertyType: "Waterfront Luxury Apartments",
+      paymentPlan: "1% Monthly Payment Plan",
+      startingPrice: "AED 1,100,000 Starting from",
+      handover: "Expected Q4 2028",
+      downPayment: "10% Down Payment",
+      developer: "Danube Properties",
+      nationality: "Freehold"
+    },
+    heroImage: "/images/breez-by-danube/breez-hero.png",
+    galleryImages: [
+      "/images/breez-by-danube/gallery-1.png",
+      "/images/breez-by-danube/gallery-2.png",
+      "/images/breez-by-danube/gallery-3.png",
+      "/images/breez-by-danube/gallery-4.png",
+      "/images/breez-by-danube/gallery-5.png",
+      "/images/breez-by-danube/gallery-6.png"
+    ],
+    amenities: [
+      "Waterfront Sky Pool & Infinity Edge Pool",
+      "Giant Aquarium Grand Lobby & Concierge",
+      "Private Beach Access & Cabana Loungers",
+      "Modern Gymnasium & Wellness Spa",
+      "Padel Tennis & Multi-Sports Courts",
+      "Outdoor Cinema & Sky Lounge",
+      "Kids Play Zone & Aquatic Splash Park",
+      "24/7 Valet Parking & High-Speed Elevators"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
+      { percentage: "1%", label: "Monthly Instalment", description: "1% Per Month During Construction" },
+      { percentage: "30%", label: "On Handover", description: "Expected Q4 2028" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Studio",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "1 BR Apartment",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "2 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      },
+      {
+        bedrooms: "3 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      },
+      {
+        bedrooms: "4 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      }
+    ],
+    siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.532977415286!2d55.26761607516603!3d25.268680977665035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f430027e3a409%3A0x44e5a88e77c6f71a!2sBreez%20by%20Danube!5e1!3m2!1sen!2sin!4v1788724588410!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/RvCOReIW9Ds",
+    locationBenefits: {
+      description: "Strategically located in Dubai Maritime City, offering sea-front living with effortless connectivity to historic and modern Dubai.",
+      points: [
+        "02 Mins to Mina Rashid & Port Rashid",
+        "03 Mins to Metro Station",
+        "06 Mins to Dubai Frame & Zabeel Park",
+        "08 Mins to Jumeirah Beach",
+        "08 Mins to Bur Dubai",
+        "10 Mins to Downtown Dubai & Dubai Mall",
+        "15 Mins to Dubai International Airport (DXB)"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Breez by Danube?",
+        answer: "Breez by Danube luxury apartments start from AED 1.1 Million (USD 129K / INR 2.61 CR) for Studio, 1, 2, 3, and 4-Bedroom units."
+      },
+      {
+        question: "What is the payment plan for Breez by Danube?",
+        answer: "Breez by Danube features Danube's famous 1% monthly payment plan with 10% down payment on booking."
+      },
+      {
+        question: "Where is Breez by Danube located?",
+        answer: "Breez by Danube is located in Dubai Maritime City, Dubai, with direct views of the Arabian Gulf and quick access to Mina Rashid, Downtown Dubai, and DXB Airport."
+      }
+    ]
+  },
+  {
+    id: "shahrukhz-by-danube",
+    slug: "shahrukhz-by-danube",
+    name: "SHAHRUKHZ BY DANUBE",
+    location: "Al Sufouh 1, Sheikh Zayed Road, Dubai",
+    subtitle: "Ultra-Luxury Commercial Office Spaces & Business Suites on Sheikh Zayed Road",
+    description: "Shahrukhz by Danube is a landmark 55-storey commercial skyscraper prominently situated on Sheikh Zayed Road in Al Sufouh 1, Dubai. Designed for global corporations, visionary entrepreneurs, and elite investors, Shahrukhz by Danube offers premium commercial office spaces starting from AED 1,890,000. The tower sets a new benchmark in commercial real estate with high-tech boardrooms, executive screening auditoriums, sky padel courts, wellness spas, and Danube's signature 1% monthly payment plan.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Executive Offices & Business Suites",
+      propertyType: "Commercial Skyscraper & Office Spaces",
+      paymentPlan: "1% Monthly Payment Plan",
+      startingPrice: "AED 1,890,000 Starting from",
+      handover: "Expected Q4 2029",
+      downPayment: "10% Down Payment",
+      developer: "Danube Properties",
+      nationality: "Freehold"
+    },
+    heroImage: "/images/shahrukhz-by-danube/shahrukhz-hero.png",
+    galleryImages: [
+      "/images/shahrukhz-by-danube/gallery-1.png",
+      "/images/shahrukhz-by-danube/gallery-2.png",
+      "/images/shahrukhz-by-danube/gallery-3.png",
+      "/images/shahrukhz-by-danube/gallery-4.png",
+      "/images/shahrukhz-by-danube/gallery-5.png",
+      "/images/shahrukhz-by-danube/gallery-6.png"
+    ],
+    amenities: [
+      "Executive Board Room & High-Tech Conference Suites",
+      "Private Executive Screening Room & Cinema",
+      "Rooftop Sky Padel Court & Sports Deck",
+      "Grand Marble Drop-Off & Double-Height Lobby",
+      "Business Lounge & VIP Networking Lounge",
+      "State-of-the-Art Fitness Center & Wellness Spa",
+      "24/7 Concierge, Valet & Multi-Tier Security",
+      "Direct Sheikh Zayed Road Access & Metro Proximity"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
+      { percentage: "1%", label: "Monthly Instalment", description: "1% Per Month During Construction" },
+      { percentage: "30%", label: "On Handover", description: "Expected Q4 2029" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Executive Office Suite",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "Premium Commercial Floor",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      }
+    ],
+    siteMapImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.0470922926374!2d55.176612575160384!3d25.10843747776817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b7f4850328f%3A0xeb3c368fc4d02d64!2sShahrukhz%20by%20Danube!5e1!3m2!1sen!2sin!4v1788724803256!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/d9zzmL_uGbA",
+    locationBenefits: {
+      description: "Prime location directly on Sheikh Zayed Road in Al Sufouh 1, offering seamless access to Dubai's major business hubs, metro stations, and landmark attractions.",
+      points: [
+        "01 Min to Sheikh Zayed Road",
+        "03 Mins to Dubai Metro Station",
+        "05 Mins to Dubai Media City & Internet City",
+        "05 Mins to Palm Jumeirah",
+        "08 Mins to Mall of the Emirates",
+        "10 Mins to Dubai Marina & JBR",
+        "15 Mins to Downtown Dubai & Dubai Mall",
+        "20 Mins to Dubai International Airport (DXB)"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Shahrukhz by Danube?",
+        answer: "Commercial office spaces and executive business suites at Shahrukhz by Danube start from AED 1,890,000."
+      },
+      {
+        question: "What is the payment plan for Shahrukhz by Danube?",
+        answer: "Shahrukhz by Danube offers Danube's flexible 1% monthly payment plan with a 10% down payment upon booking."
+      },
+      {
+        question: "Where is Shahrukhz by Danube located?",
+        answer: "Shahrukhz by Danube is located on Sheikh Zayed Road in Al Sufouh 1, Dubai, right next to Dubai Media City, Internet City, and Palm Jumeirah."
+      }
+    ]
+  },
+  {
+    id: "oceanz-by-danube",
+    slug: "oceanz-by-danube",
+    name: "OCEANZ BY DANUBE",
+    location: "Dubai Maritime City, Dubai",
+    subtitle: "Interiors by Tonino Lamborghini Casa - Waterfront Luxury Apartments",
+    description: "Oceanz by Danube is a flagship 50-storey twin-tower waterfront residential development located in Dubai Maritime City. Featuring luxury interiors and Italian furniture by Tonino Lamborghini Casa, Oceanz offers studio, 1, 2, 3, and 4-bedroom apartments and oceanic sky villas starting from AED 1,100,000. Overlooking the serene Arabian Gulf, residents enjoy over 40 resort-style amenities including infinity pools, aquatic gyms, sky lounges, private beach access, and Danube's signature 1% monthly payment plan.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Studio, 1, 2, 3 & 4 BR Apartments & Sky Villas",
+      propertyType: "Waterfront Twin-Towers & Sky Villas",
+      paymentPlan: "1% Monthly Payment Plan",
+      startingPrice: "AED 1,100,000 Starting from",
+      handover: "Expected Q1 2027",
+      downPayment: "10% Down Payment",
+      developer: "Danube Properties",
+      nationality: "Freehold"
+    },
+    heroImage: "/images/oceanz-by-danube/oceanz-hero.png",
+    galleryImages: [
+      "/images/oceanz-by-danube/gallery-1.png",
+      "/images/oceanz-by-danube/gallery-2.jpg",
+      "/images/oceanz-by-danube/gallery-3.jpg",
+      "/images/oceanz-by-danube/gallery-4.jpg",
+      "/images/oceanz-by-danube/gallery-5.png",
+      "/images/oceanz-by-danube/gallery-6.png"
+    ],
+    amenities: [
+      "Interiors & Furnishings by Tonino Lamborghini Casa",
+      "Infinity Edge Sky Pool & Sea-View Deck",
+      "Aquatic Gym & Modern Fitness Center",
+      "Sunset Sky Lounge & Oceanfront Cafe",
+      "Private Beach Access & Waterfront Cabanas",
+      "Kids Play Zone & Aquatic Splash Park",
+      "Wellness Spa, Sauna & Jacuzzi",
+      "24/7 Valet Parking & Concierge Services"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
+      { percentage: "1%", label: "Monthly Instalment", description: "1% Per Month During Construction" },
+      { percentage: "30%", label: "On Handover", description: "Expected Q1 2027" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Studio",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "1 BR Apartment",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "2 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      },
+      {
+        bedrooms: "3 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      },
+      {
+        bedrooms: "4 BR Sky Villa",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      }
+    ],
+    siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.412257950256!2d55.26496947516615!3d25.272953277662253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43bdb3101987%3A0x6968b8224a46c2fc!2sOceanz%20by%20Danube!5e1!3m2!1sen!2sin!4v1788725282242!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/2EGnyiHg6Fs",
+    locationBenefits: {
+      description: "Directly located on the coast of Dubai Maritime City, offering sea-front luxury living with quick connectivity to historic and modern Dubai destinations.",
+      points: [
+        "02 Mins to Port Rashid & Mina Rashid Marina",
+        "03 Mins to Dubai Metro Station",
+        "06 Mins to Dubai Frame & Zabeel Park",
+        "08 Mins to Jumeirah Beach",
+        "08 Mins to Bur Dubai",
+        "10 Mins to Downtown Dubai & Dubai Mall",
+        "15 Mins to Dubai International Airport (DXB)"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Oceanz by Danube?",
+        answer: "Oceanz by Danube luxury apartments and sky villas start from AED 1,100,000 for Studio, 1, 2, 3, and 4-Bedroom units."
+      },
+      {
+        question: "What makes Oceanz by Danube unique?",
+        answer: "Oceanz by Danube features exclusive luxury interior design and furnishings by Tonino Lamborghini Casa, combined with over 40 resort-style oceanfront amenities."
+      },
+      {
+        question: "What is the payment plan for Oceanz by Danube?",
+        answer: "Oceanz by Danube offers Danube's famous 1% monthly payment plan with a 10% down payment on booking."
+      },
+      {
+        question: "Where is Oceanz by Danube located?",
+        answer: "Oceanz by Danube is located in Dubai Maritime City, Dubai, with direct views of the Arabian Gulf and easy access to Mina Rashid, Bur Dubai, and DXB Airport."
+      }
+    ]
+  },
+  {
+    id: "timez-by-danube",
+    slug: "timez-by-danube",
+    name: "TIMEZ BY DANUBE",
+    location: "Dubai Silicon Oasis (DSO), Dubai",
+    subtitle: "Fully Furnished Smart Apartments in Dubai Silicon Oasis",
+    description: "Timez by Danube is a modern residential tower located in Dubai Silicon Oasis (DSO), Dubai. Offering fully furnished studio, 1, 2, and 3-bedroom luxury smart apartments starting from AED 650,000, Timez by Danube combines futuristic architectural design with over 40 resort-style amenities. Designed for tech professionals and modern urban families, Timez features sky pools, executive libraries, state-of-the-art gyms, outdoor cinemas, and Danube's signature 1% monthly payment plan.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Studio, 1, 2 & 3 BR Apartments",
+      propertyType: "Fully Furnished Smart Apartments",
+      paymentPlan: "1% Monthly Payment Plan",
+      startingPrice: "AED 650,000 Starting from",
+      handover: "Expected Q4 2027",
+      downPayment: "10% Down Payment",
+      developer: "Danube Properties",
+      nationality: "Freehold"
+    },
+    heroImage: "/images/timez-by-danube/timez-hero-tower.png",
+    galleryImages: [
+      "/images/timez-by-danube/gallery-1.png",
+      "/images/timez-by-danube/gallery-2.png",
+      "/images/timez-by-danube/gallery-3.png",
+      "/images/timez-by-danube/gallery-4.png",
+      "/images/timez-by-danube/gallery-5.jpg",
+      "/images/timez-by-danube/gallery-6.jpg"
+    ],
+    amenities: [
+      "Executive Resident Library & Co-Working Lounge",
+      "Rooftop Sky Pool & Infinity Edge Pool",
+      "Fully Equipped Fitness Center & Gym",
+      "Kids Play Zone & Aquatic Splash Park",
+      "Outdoor Sky Cinema & Lounge",
+      "Wellness Spa & Sauna",
+      "Smart Home Automation Systems",
+      "24/7 Security & Concierge Services"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
+      { percentage: "1%", label: "Monthly Instalment", description: "1% Per Month During Construction" },
+      { percentage: "30%", label: "On Handover", description: "Expected Q4 2027" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Studio",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "1 BR Apartment",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "2 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      },
+      {
+        bedrooms: "3 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      }
+    ],
+    siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.6919804369027!2d55.36761707516091!3d25.12107797776003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f65000d5aad23%3A0xacb33acd8dbec5b5!2sTimez%20by%20Danube%20Properties!5e1!3m2!1sen!2sin!4v1788726114239!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/ECarM-XqfDc",
+    locationBenefits: {
+      description: "Conveniently located in Dubai Silicon Oasis (DSO), offering effortless connectivity to major tech hubs, universities, highways, and shopping centers.",
+      points: [
+        "02 Mins to Silicon Central Mall",
+        "05 Mins to Academic City & Universities",
+        "10 Mins to Global Village & IMG Worlds",
+        "15 Mins to Downtown Dubai & Dubai Mall",
+        "15 Mins to Dubai International Airport (DXB)"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Timez by Danube?",
+        answer: "Timez by Danube fully furnished smart apartments start from AED 650,000 for Studios, 1, 2, and 3-Bedroom units."
+      },
+      {
+        question: "What is the payment plan for Timez by Danube?",
+        answer: "Timez by Danube offers Danube's signature 1% monthly payment plan with a 10% down payment on booking."
+      },
+      {
+        question: "Where is Timez by Danube located?",
+        answer: "Timez by Danube is located in Dubai Silicon Oasis (DSO), Dubai, near Silicon Central Mall and Dubai Academic City."
+      }
+    ]
+  },
+  {
+    id: "bayz-102-by-danube",
+    slug: "bayz-102-by-danube",
+    name: "BAYZ 102 BY DANUBE",
+    location: "Business Bay, Dubai",
+    subtitle: "102-Storey Supertall Skyscraper in Business Bay with Helipad & Sky Taxi Deck",
+    description: "Bayz 102 by Danube is a landmark 102-storey supertall residential skyscraper located in the heart of Business Bay, Dubai. Offering luxury Studio, 1, 2, 3, and 4-bedroom apartments as well as Presidential Suites starting from AED 1,350,000, Bayz 102 stands as one of Dubai's tallest residential towers. Featuring an exclusive rooftop helipad for eVTOL sky taxis, sky pools, executive lounges with direct Burj Khalifa views, and over 40 ultra-luxury amenities, Bayz 102 redefines vertical living with Danube's signature 1% monthly payment plan.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Studio, 1, 2, 3, 4 BR & Presidential Suites",
+      propertyType: "102-Storey Supertall Skyscraper",
+      paymentPlan: "1% Monthly Payment Plan",
+      startingPrice: "AED 1,350,000 Starting from",
+      handover: "Expected Q4 2028",
+      downPayment: "10% Down Payment",
+      developer: "Danube Properties",
+      nationality: "Freehold"
+    },
+    heroImage: "/images/bayz-102-by-danube/bayz-hero.jpg",
+    galleryImages: [
+      "/images/bayz-102-by-danube/gallery-1.png",
+      "/images/bayz-102-by-danube/gallery-2.png",
+      "/images/bayz-102-by-danube/gallery-3.png",
+      "/images/bayz-102-by-danube/gallery-4.png",
+      "/images/bayz-102-by-danube/gallery-5.jpg",
+      "/images/bayz-102-by-danube/gallery-6.jpg"
+    ],
+    amenities: [
+      "Rooftop Helipad & eVTOL Sky Taxi Landing Deck",
+      "Executive Business Lounge with Direct Burj Khalifa View",
+      "Sky Infinity Pool & 102nd Floor Observation Deck",
+      "State-of-the-Art Gym, Fitness Center & Wellness Spa",
+      "Rooftop Padel Tennis Court & Sky Sports Deck",
+      "Private Executive Screening Room & Cinema",
+      "Aquatic Play Zone & Kids Splash Park",
+      "24/7 Valet Parking, Concierge & High-Speed Elevators"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
+      { percentage: "1%", label: "Monthly Instalment", description: "1% Per Month During Construction" },
+      { percentage: "30%", label: "On Handover", description: "Expected Q4 2028" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Studio",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "1 BR Apartment",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "2 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      },
+      {
+        bedrooms: "3 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      },
+      {
+        bedrooms: "Presidential Suite",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      }
+    ],
+    siteMapImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.824989710628!2d55.25736257516313!3d25.18743747771723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69c2bd44dc15%3A0x56ab9186c1e57c35!2sBayz%20102%20by%20Danube%20Properties!5e1!3m2!1sen!2sin!4v1788726359990!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/xfQscAHzMTI",
+    locationBenefits: {
+      description: "Prime location in Business Bay, Dubai, directly adjacent to Dubai Canal and Downtown Dubai, offering rapid access to Dubai's top financial and landmark destinations.",
+      points: [
+        "01 Min to Business Bay Metro Station",
+        "02 Mins to Dubai Canal Promenade",
+        "05 Mins to Burj Khalifa & Downtown Dubai",
+        "05 Mins to Dubai Mall",
+        "08 Mins to DIFC (Dubai International Financial Centre)",
+        "10 Mins to Jumeirah Beach",
+        "15 Mins to Dubai International Airport (DXB)"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Bayz 102 by Danube?",
+        answer: "Bayz 102 by Danube luxury apartments and Presidential Suites start from AED 1,350,000 for Studio, 1, 2, 3, and 4-Bedroom units."
+      },
+      {
+        question: "What makes Bayz 102 by Danube unique?",
+        answer: "Bayz 102 is a 102-storey supertall skyscraper featuring an exclusive rooftop helipad for eVTOL sky taxis and unobstructed views of Burj Khalifa and Dubai Canal."
+      },
+      {
+        question: "What is the payment plan for Bayz 102 by Danube?",
+        answer: "Bayz 102 by Danube offers Danube's signature 1% monthly payment plan with a 10% down payment on booking."
+      },
+      {
+        question: "Where is Bayz 102 by Danube located?",
+        answer: "Bayz 102 by Danube is located in Business Bay, Dubai, minutes away from Burj Khalifa, Dubai Mall, and Business Bay Metro Station."
+      }
+    ]
+  },
+  {
     id: "address-residences-the-bay",
     slug: "address-residences-the-bay",
     name: "Address Residences The Bay",

@@ -32,6 +32,13 @@ const navItems = [
         {
           title: "DUBAI",
           links: [
+            { name: "Greenz by Danube", href: "/featured-projects/dubai/greenz-by-danube" },
+            { name: "Serenz by Danube", href: "/featured-projects/dubai/serenz-by-danube" },
+            { name: "Breez by Danube", href: "/featured-projects/dubai/breez-by-danube" },
+            { name: "Shahrukhz by Danube", href: "/featured-projects/dubai/shahrukhz-by-danube" },
+            { name: "Oceanz by Danube", href: "/featured-projects/dubai/oceanz-by-danube" },
+            { name: "Timez by Danube", href: "/featured-projects/dubai/timez-by-danube" },
+            { name: "Bayz 102 by Danube", href: "/featured-projects/dubai/bayz-102-by-danube" },
             { name: "Elegance Tower", href: "/featured-projects/dubai/elegance-tower" },
             { name: "Address Residences The Bay", href: "/featured-projects/dubai/address-residences-the-bay" },
             { name: "Rawda Apartments", href: "/featured-projects/dubai/rawda-apartments" },
