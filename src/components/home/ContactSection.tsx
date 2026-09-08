@@ -97,19 +97,24 @@ export function ContactSection() {
 
             {/* Contact Details */}
             <div className="flex flex-col gap-6">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-                  <MapPin size={20} className="text-primary" />
+              <a 
+                href="https://maps.google.com/?q=ZHM+Real+Estate+LLC,+Ontario+Tower,+Business+Bay,+Dubai" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-start gap-4 group hover:opacity-80 transition-opacity"
+              >
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition-all">
+                  <MapPin size={20} className="text-primary group-hover:text-white transition-colors" />
                 </div>
                 <div>
-                  <p className="font-bold text-secondary text-sm mb-1">Office Address</p>
+                  <p className="font-bold text-secondary text-sm mb-1 group-hover:text-primary transition-colors">Office Address (Click to Open Map)</p>
                   <p className="text-gray-500 text-sm leading-relaxed">
                     ZHM Real Estate LLC<br />
-                    G010 Ontario Tower, Ground Floor<br />
+                    SR-G01-017 Ontario Tower, Ground Floor<br />
                     Business Bay, Dubai – UAE
                   </p>
                 </div>
-              </div>
+              </a>
 
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">

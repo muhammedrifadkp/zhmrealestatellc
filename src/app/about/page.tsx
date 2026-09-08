@@ -697,7 +697,7 @@ export default function AboutPage() {
               className="relative h-[260px] sm:h-[340px] md:h-[440px] rounded-2xl overflow-hidden shadow-2xl group"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.3944259913!2d55.27078231500396!3d25.18777798393851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d5b8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sBusiness%20Bay%2C%20Dubai!5e0!3m2!1sen!2sae!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4581.087334618895!2d55.25846396442503!3d25.185601732244294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69d8d53e557d%3A0x3c4e275ca11cf4f2!2sZHM%20Real%20Estate%20LLC!5e1!3m2!1sen!2sin!4v1788896567583!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -726,15 +726,17 @@ export default function AboutPage() {
                     <h3 className="text-base font-bold text-secondary mb-1">Head Office</h3>
                     <p className="text-gray-600 text-sm leading-relaxed">
                       ZHM Real Estate LLC<br />
-                      G010 Ontario Tower, Ground Floor<br />
+                      SR-G01-017 Ontario Tower, Ground Floor<br />
                       Business Bay, Dubai - UAE
                     </p>
-                    <Link
-                      href="/contact"
+                    <a
+                      href="https://maps.google.com/?q=ZHM+Real+Estate+LLC,+Ontario+Tower,+Business+Bay,+Dubai"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-primary font-semibold mt-2 text-sm hover:gap-3 transition-all"
                     >
                       Get Directions <ArrowRight size={14} />
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>

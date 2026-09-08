@@ -377,6 +377,99 @@ export const projectsData: ProjectProperty[] = [
     videoUrl: "https://www.youtube.com/embed/kAnJptG-CFQ"
   },
   {
+    id: "sei-saadiyat",
+    slug: "sei-saadiyat",
+    name: "SEI SAADIYAT",
+    location: "Saadiyat Island, Abu Dhabi",
+    subtitle: "Ultra-Luxury Beachfront Apartments & Coastal Villas on Saadiyat Island",
+    description: "Sei Saadiyat is an exclusive ultra-luxury coastal residential sanctuary situated on prestigious Saadiyat Island, Abu Dhabi. Nestled amidst natural mangrove reserves, turquoise beaches, and the world-renowned Saadiyat Cultural District—home to Louvre Abu Dhabi and Guggenheim Abu Dhabi—Sei Saadiyat offers luxury 1, 2, 3, and 4-bedroom beachfront apartments and 5-bedroom private lagoon villas. Designed with organic coastal architecture, private infinity pools, and lush forest pathways, Sei Saadiyat redefines island elegance.",
+    isFeatured: true,
+    features: {
+      bedrooms: "1, 2, 3 & 4 BR Apartments & 5 BR Villas",
+      propertyType: "Beachfront Apartments & Coastal Villas",
+      paymentPlan: "50/50 Flexible Payment Plan",
+      startingPrice: "AED 2,500,000 Starting from",
+      handover: "Expected Q4 2027",
+      downPayment: "10% Down Payment",
+      developer: "Aldar",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "/images/sei-saadiyat/sei-hero.png",
+    galleryImages: [
+      "/images/sei-saadiyat/gallery-1.png",
+      "/images/sei-saadiyat/gallery-2.jpg",
+      "/images/sei-saadiyat/gallery-3.jpg",
+      "/images/sei-saadiyat/gallery-4.jpg",
+      "/images/sei-saadiyat/gallery-5.jpg",
+      "/images/sei-saadiyat/gallery-6.jpg"
+    ],
+    amenities: [
+      "Direct Beach Access & Private Mangrove Boardwalks",
+      "Organic Resort Lagoon Pools & Sunbed Decks",
+      "Private Beachfront Infinity Pools for Villas",
+      "State-of-the-Art Fitness Center & Wellness Spa",
+      "Proximity to Louvre Abu Dhabi & Guggenheim Museum",
+      "Saadiyat Beach Golf Club & Water Sports Facilities",
+      "Fine Dining Restaurants & Beachfront Cafes",
+      "24/7 Security, Valet Parking & Concierge Services"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
+      { percentage: "40%", label: "During Construction", description: "In Easy Instalments" },
+      { percentage: "50%", label: "On Handover", description: "Expected Q4 2027" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "1 BR Apartment",
+        images: ["/images/Sama-Yas/1br-1.webp"],
+        sideImage: "/images/sama-yas/1br-side.png"
+      },
+      {
+        bedrooms: "2 BR Apartment",
+        images: ["/images/Sama-Yas/2br-1.webp"],
+        sideImage: "/images/sama-yas/2br-side.png"
+      },
+      {
+        bedrooms: "3 BR Apartment",
+        images: ["/images/Sama-Yas/3br-1.webp"],
+        sideImage: "/images/sama-yas/3br-side.png"
+      },
+      {
+        bedrooms: "5 BR Beach Villa",
+        images: ["/images/Yas-Riva/5br-1.webp"],
+        sideImage: "/images/Yas-Riva/Yas-Riva-bg-img.jpeg"
+      }
+    ],
+    siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d22848.215117907523!2d54.413521160072605!3d24.54188000474506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssei%20Saadiyat%20Island!5e1!3m2!1sen!2sin!4v1788891001572!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/pp5-FSwJ6xQ",
+    locationBenefits: {
+      description: "Ideally situated on Saadiyat Island, Abu Dhabi, providing direct connection to Abu Dhabi's premier cultural district, natural beaches, and downtown Abu Dhabi.",
+      points: [
+        "03 Mins to Saadiyat Beach Golf Club",
+        "05 Mins to Louvre Abu Dhabi",
+        "07 Mins to Guggenheim Abu Dhabi & Zayed National Museum",
+        "10 Mins to NYU Abu Dhabi",
+        "15 Mins to Downtown Abu Dhabi",
+        "25 Mins to Zayed International Airport (AUH)"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Sei Saadiyat?",
+        answer: "Sei Saadiyat luxury beachfront apartments and lagoon villas start from AED 2,500,000."
+      },
+      {
+        question: "Where is Sei Saadiyat located?",
+        answer: "Sei Saadiyat is located on Saadiyat Island, Abu Dhabi, near the Saadiyat Cultural District, Louvre Abu Dhabi, and Saadiyat Beach."
+      },
+      {
+        question: "What is the payment plan for Sei Saadiyat?",
+        answer: "Sei Saadiyat features a flexible 50/50 payment plan with a 10% down payment on booking."
+      }
+    ]
+  },
+  {
     id: "elegance-tower",
     slug: "elegance-tower",
     name: "Elegance Tower",
@@ -1083,6 +1176,103 @@ export const projectsData: ProjectProperty[] = [
       {
         question: "Where is Bayz 102 by Danube located?",
         answer: "Bayz 102 by Danube is located in Business Bay, Dubai, minutes away from Burj Khalifa, Dubai Mall, and Business Bay Metro Station."
+      }
+    ]
+  },
+  {
+    id: "azizi-venice",
+    slug: "azizi-venice",
+    name: "AZIZI VENICE",
+    location: "Dubai South, Dubai",
+    subtitle: "Venetian-Style Waterfront Master Community in Dubai South",
+    description: "Azizi Venice is a landmark AED 30 Billion Venetian-inspired waterfront master community located in Dubai South. Spanning around a 18km crystal lagoon with sweet water, beach boardwalks, and artificial waves, Azizi Venice offers luxury Studio, 1, 2, and 3-bedroom apartments as well as ultra-luxury mansions starting from AED 600,000 (USD 163K / INR 1.35 CR). Featuring a cultural Opera House, gondola and cable car rides, a 700m climate-controlled pedestrian shopping boulevard, and 5-star hotels, Azizi Venice offers a unique resort-style living experience with a 30/70 payment plan.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Studio, 1, 2 & 3 BR Apartments",
+      propertyType: "Waterfront Master Community & Mansions",
+      paymentPlan: "30/70 Flexible Payment Plan",
+      startingPrice: "AED 600,000 Starting from",
+      handover: "Expected Q4 2026",
+      downPayment: "10% Down Payment",
+      developer: "Azizi Developments",
+      nationality: "Freehold"
+    },
+    heroImage: "/images/azizi-venice/venice-hero.png",
+    galleryImages: [
+      "/images/azizi-venice/gallery-1.png",
+      "/images/azizi-venice/gallery-2.jpg",
+      "/images/azizi-venice/gallery-3.jpg",
+      "/images/azizi-venice/gallery-4.jpg",
+      "/images/azizi-venice/gallery-5.jpg",
+      "/images/azizi-venice/gallery-6.png"
+    ],
+    amenities: [
+      "18km Crystal Lagoon with Artificial Waves & Boardwalks",
+      "Cultural Opera House & Performing Arts Center",
+      "Gondola Rides & Scenic Cable Car Transport",
+      "700m Climate-Controlled Pedestrian Retail Boulevard",
+      "5-Star & 4-Star Luxury Hotels & Resorts",
+      "Aquatic Waterpark, Slides & Infinity Pools",
+      "State-of-the-Art Fitness Center & Wellness Spa",
+      "International Schools, Hospitals & Community Centers"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
+      { percentage: "20%", label: "During Construction", description: "In Easy Instalments" },
+      { percentage: "70%", label: "On Handover", description: "Expected Q4 2026" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Studio",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "1 BR Apartment",
+        images: ["/images/de-collective-1br-side.png"],
+        sideImage: "/images/de-collective-1br-side.png"
+      },
+      {
+        bedrooms: "2 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      },
+      {
+        bedrooms: "3 BR Apartment",
+        images: ["/images/de-collective-2br-side.png"],
+        sideImage: "/images/de-collective-2br-side.png"
+      }
+    ],
+    siteMapImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200",
+    mapCode: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.4781806785136!2d55.13930917515144!3d24.842541927940935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f75c492e97e91%3A0x1f0769f95fb1b1a3!2sAzizi%20Venice!5e1!3m2!1sen!2sin!4v1788889439088!5m2!1sen!2sin",
+    videoUrl: "https://www.youtube.com/embed/g5ogJAHkD5o",
+    locationBenefits: {
+      description: "Strategically located in Dubai South next to Al Maktoum International Airport (DWC) and Expo City Dubai, offering future-ready connectivity.",
+      points: [
+        "05 Mins to Al Maktoum International Airport (DWC)",
+        "07 Mins to Expo City Dubai",
+        "10 Mins to Dubai Exhibition Centre (DEC)",
+        "15 Mins to Sheikh Mohammed Bin Zayed Road",
+        "20 Mins to Dubai Marina & JBR",
+        "25 Mins to Downtown Dubai & Dubai Mall"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Azizi Venice?",
+        answer: "Azizi Venice luxury apartments start from AED 600,000 (USD 163K / INR 1.35 CR) for Studio, 1, 2, and 3-Bedroom units."
+      },
+      {
+        question: "What makes Azizi Venice unique?",
+        answer: "Azizi Venice is a Venetian-inspired community featuring an 18km crystal lagoon, gondola rides, cable cars, an Opera House, and a 700m climate-controlled shopping boulevard."
+      },
+      {
+        question: "What is the payment plan for Azizi Venice?",
+        answer: "Azizi Venice offers an attractive 30/70 payment plan (10% down payment, 20% during construction, and 70% on handover)."
+      },
+      {
+        question: "Where is Azizi Venice located?",
+        answer: "Azizi Venice is located in Dubai South, right next to Al Maktoum International Airport (DWC) and Expo City Dubai."
       }
     ]
   },

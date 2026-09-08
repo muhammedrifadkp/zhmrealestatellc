@@ -26,6 +26,7 @@ const navItems = [
             { name: "Manarat Living - Saadiyat", href: "/featured-projects/abu-dhabi/manarat-living" },
             { name: "The Arthouse", href: "/featured-projects/abu-dhabi/the-arthouse" },
             { name: "Muheira", href: "/featured-projects/abu-dhabi/muheira" },
+            { name: "Sei Saadiyat", href: "/featured-projects/abu-dhabi/sei-saadiyat" },
             { name: "View All", href: "/featured-projects/abu-dhabi" }
           ]
         },
@@ -39,6 +40,7 @@ const navItems = [
             { name: "Oceanz by Danube", href: "/featured-projects/dubai/oceanz-by-danube" },
             { name: "Timez by Danube", href: "/featured-projects/dubai/timez-by-danube" },
             { name: "Bayz 102 by Danube", href: "/featured-projects/dubai/bayz-102-by-danube" },
+            { name: "Azizi Venice", href: "/featured-projects/dubai/azizi-venice" },
             { name: "Elegance Tower", href: "/featured-projects/dubai/elegance-tower" },
             { name: "Address Residences The Bay", href: "/featured-projects/dubai/address-residences-the-bay" },
             { name: "Rawda Apartments", href: "/featured-projects/dubai/rawda-apartments" },
@@ -326,7 +328,7 @@ export function Navbar() {
                   </div>
 
                   {/* Right Links side */}
-                  <div className="w-[70%] p-8 flex gap-12 bg-white">
+                  <div className="w-[70%] p-7 flex gap-10 bg-white max-h-[420px]">
                     {item.megaMenu.columns.map((col, idx) => {
                       const isFeaturedSection = item.name === "FEATURED PROJECTS";
                       const getLink = (title: string) => {
@@ -344,44 +346,65 @@ export function Navbar() {
                       };
 
                       const isColActive = col.links.some(l => isLinkActive(l.href));
+                      const viewAllLink = col.links.find(l => l.name === "View All");
+                      const regularLinks = col.links.filter(l => l.name !== "View All");
 
                       return (
-                        <div key={idx} className="flex-1">
-                          {["ABU DHABI", "DUBAI", "SHARJAH", "DEVELOPERS"].includes(col.title) ? (
-                            <Link href={getLink(col.title)} onClick={handleLinkClick} className="block group/title">
-                              <h4 className={`text-[13px] font-bold mb-6 tracking-wider uppercase border-b pb-2 transition-all ${
-                                isColActive
-                                  ? "text-primary border-primary"
-                                  : "text-[#1e2350] border-gray-100 group-hover/title:text-primary group-hover/title:border-primary"
-                              }`}>
-                                {col.title}
-                              </h4>
-                            </Link>
-                          ) : (
-                            <h4 className="text-[13px] font-bold text-[#1e2350] mb-6 tracking-wider uppercase border-b border-gray-100 pb-2">{col.title}</h4>
+                        <div key={idx} className="flex-1 flex flex-col justify-between h-full min-w-0">
+                          <div>
+                            {["ABU DHABI", "DUBAI", "SHARJAH", "DEVELOPERS"].includes(col.title) ? (
+                              <Link href={getLink(col.title)} onClick={handleLinkClick} className="block group/title">
+                                <h4 className={`text-[13px] font-bold mb-4 tracking-wider uppercase border-b pb-2 transition-all ${
+                                  isColActive
+                                    ? "text-primary border-primary"
+                                    : "text-[#1e2350] border-gray-100 group-hover/title:text-primary group-hover/title:border-primary"
+                                }`}>
+                                  {col.title}
+                                </h4>
+                              </Link>
+                            ) : (
+                              <h4 className="text-[13px] font-bold text-[#1e2350] mb-4 tracking-wider uppercase border-b border-gray-100 pb-2">{col.title}</h4>
+                            )}
+                            <ul className="flex flex-col gap-3 max-h-[250px] overflow-y-auto custom-subtle-scrollbar pr-2">
+                              {regularLinks.map((link, lIdx) => (
+                                <li key={lIdx}>
+                                  <Link 
+                                    href={link.href}
+                                    onClick={handleLinkClick}
+                                    className={`text-[13px] transition-colors flex items-center group/link ${
+                                      isLinkActive(link.href)
+                                        ? "text-primary font-semibold"
+                                        : "text-gray-500 hover:text-primary"
+                                    }`}
+                                  >
+                                    <span className={`h-px bg-primary mr-0 transition-all duration-300 ${
+                                      isLinkActive(link.href)
+                                        ? "w-2 mr-2"
+                                        : "w-0 group-hover/link:w-2 group-hover/link:mr-2"
+                                    }`}></span>
+                                    <span className="truncate">{link.name}</span>
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+
+                          {viewAllLink && (
+                            <div className="pt-3 mt-3 border-t border-gray-100">
+                              <Link 
+                                href={viewAllLink.href}
+                                onClick={handleLinkClick}
+                                className={`text-[12px] font-bold tracking-wider uppercase flex items-center justify-between transition-colors ${
+                                  isLinkActive(viewAllLink.href)
+                                    ? "text-primary"
+                                    : "text-gray-400 hover:text-primary"
+                                }`}
+                              >
+                                <span>{viewAllLink.name}</span>
+                                <span className="text-[14px]">→</span>
+                              </Link>
+                            </div>
                           )}
-                          <ul className="flex flex-col gap-3.5">
-                            {col.links.map((link, lIdx) => (
-                              <li key={lIdx}>
-                                <Link 
-                                  href={link.href}
-                                  onClick={handleLinkClick}
-                                  className={`text-[13px] transition-colors flex items-center group/link ${
-                                    isLinkActive(link.href)
-                                      ? "text-primary font-semibold"
-                                      : "text-gray-500 hover:text-primary"
-                                  }`}
-                                >
-                                  <span className={`h-px bg-primary mr-0 transition-all duration-300 ${
-                                    isLinkActive(link.href)
-                                      ? "w-2 mr-2"
-                                      : "w-0 group-hover/link:w-2 group-hover/link:mr-2"
-                                  }`}></span>
-                                  {link.name}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
                         </div>
                       );
                     })}

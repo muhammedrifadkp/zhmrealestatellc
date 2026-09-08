@@ -39,6 +39,12 @@ body {
 ::-webkit-scrollbar-thumb { background: #d4af37; border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: #b5952f; }
 
+/* Subtle Scrollbar for dropdowns */
+.custom-subtle-scrollbar::-webkit-scrollbar { width: 4px; }
+.custom-subtle-scrollbar::-webkit-scrollbar-track { background: #f8f8f8; border-radius: 4px; }
+.custom-subtle-scrollbar::-webkit-scrollbar-thumb { background: #d4af37; border-radius: 4px; }
+.custom-subtle-scrollbar::-webkit-scrollbar-thumb:hover { background: #b5952f; }
+
 /* Section Label */
 .section-label {
   display: inline-flex;

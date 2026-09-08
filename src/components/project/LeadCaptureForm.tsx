@@ -18,11 +18,16 @@ export default function LeadCaptureForm({ project }: { project?: ProjectProperty
             </p>
             <div>
               <h4 className="text-xl font-bold mb-2">Location</h4>
-              <p className="text-gray-400">
+              <a 
+                href="https://maps.google.com/?q=ZHM+Real+Estate+LLC,+Ontario+Tower,+Business+Bay,+Dubai" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-primary transition-colors block leading-relaxed"
+              >
                 ZHM Real Estate LLC<br />
-                Ontario Tower G010, Ground Floor<br />
-                Business Bay Dubai-UAE
-              </p>
+                Ontario Tower SR-G01-017, Ground Floor<br />
+                Business Bay, Dubai - UAE
+              </a>
             </div>
           </div>
 

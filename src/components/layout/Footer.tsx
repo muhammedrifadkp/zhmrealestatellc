@@ -49,9 +49,16 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="text-lg font-bold uppercase tracking-wider mb-2 border-b-2 border-primary inline-block self-start pb-1">Contact Us</h3>
             <ul className="flex flex-col gap-4 text-sm">
-              <li className="flex items-start gap-3">
-                <MapPin className="text-primary shrink-0 mt-1" size={18} />
-                <span className="text-gray-400 leading-relaxed">ZHM Real Estate LLC<br/>G010 Ontario Tower<br/>Ground Floor Business Bay<br/>Dubai - UAE</span>
+              <li>
+                <a 
+                  href="https://maps.google.com/?q=ZHM+Real+Estate+LLC,+Ontario+Tower,+Business+Bay,+Dubai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 text-gray-400 hover:text-primary transition-colors group"
+                >
+                  <MapPin className="text-primary shrink-0 mt-1 group-hover:scale-110 transition-transform" size={18} />
+                  <span className="leading-relaxed">ZHM Real Estate LLC<br/>SR-G01-017 Ontario Tower<br/>Ground Floor Business Bay<br/>Dubai - UAE</span>
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-primary shrink-0" size={18} />

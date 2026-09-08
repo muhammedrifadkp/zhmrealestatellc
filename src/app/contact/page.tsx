@@ -145,17 +145,22 @@ export default function ContactPage() {
                 </div>
 
                 {/* Address */}
-                <div className="flex items-start gap-6 group">
+                <a 
+                  href="https://maps.google.com/?q=ZHM+Real+Estate+LLC,+Ontario+Tower,+Business+Bay,+Dubai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-6 group hover:opacity-90 transition-opacity"
+                >
                   <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center text-primary border border-white/5 group-hover:bg-primary group-hover:text-white transition-all duration-300 transform group-hover:-rotate-12">
                     <MapPin size={20} />
                   </div>
                   <div className="flex flex-col">
                     <span className="text-[10px] font-bold text-white/50 uppercase tracking-[0.2em] mb-1">Office Address</span>
                     <p className="text-base font-medium text-white/90 leading-snug max-w-[220px]">
-                      ZHM Real Estate LLC G010, Ontario Tower Ground Floor, Business Bay Dubai- UAE
+                      ZHM Real Estate LLC, SR-G01-017 Ontario Tower Ground Floor, Business Bay Dubai- UAE
                     </p>
                   </div>
-                </div>
+                </a>
 
                 {/* WhatsApp */}
                 <div className="flex items-start gap-6 group">
@@ -371,20 +376,25 @@ export default function ContactPage() {
                 Visit our office to discuss your real estate goals and explore the best property opportunities in Dubai. Our advisors will guide you through available listings, market insights, and investment options.
               </p>
               
-              <div className="flex items-start gap-4 p-6 md:p-8 bg-white/5 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-sm max-w-md group hover:bg-white/10 transition-all duration-500">
+              <a 
+                href="https://maps.google.com/?q=ZHM+Real+Estate+LLC,+Ontario+Tower,+Business+Bay,+Dubai" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-start gap-4 p-6 md:p-8 bg-white/5 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-sm max-w-md group hover:bg-white/10 transition-all duration-500 block"
+              >
                 <MapPin size={32} className="text-primary mt-1 group-hover:scale-110 transition-transform shrink-0" />
                 <div className="flex flex-col">
-                  <h4 className="text-xs font-black text-primary uppercase tracking-widest mb-3">Principal Address</h4>
+                  <h4 className="text-xs font-black text-primary uppercase tracking-widest mb-3">Principal Address (Click to Open Map)</h4>
                   <p className="text-base md:text-xl font-bold leading-relaxed tracking-tight">
-                    ZHM Real Estate LLC <br /> G010 Ontario Tower <br /> Ground Floor Business Bay <br /> Dubai- UAE
+                    ZHM Real Estate LLC <br /> SR-G01-017 Ontario Tower <br /> Ground Floor Business Bay <br /> Dubai- UAE
                   </p>
                 </div>
-              </div>
+              </a>
             </div>
             
             <div className="lg:w-1/2 w-full h-[350px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl relative grayscale hover:grayscale-0 transition-all duration-1000 border-4 border-white/5 group">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.17851002444!2d55.2713833!3d25.197197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4334ad467dbd%3A0xed433f1141df9043!2sOntario%20Tower!5e0!3m2!1sen!2sae!4v1712160000000!5m2!1sen!2sae" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4581.087334618895!2d55.25846396442503!3d25.185601732244294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69d8d53e557d%3A0x3c4e275ca11cf4f2!2sZHM%20Real%20Estate%20LLC!5e1!3m2!1sen!2sin!4v1788896567583!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
