@@ -389,7 +389,7 @@ export const projectsData: ProjectProperty[] = [
       propertyType: "Beachfront Apartments & Coastal Villas",
       paymentPlan: "50/50 Flexible Payment Plan",
       startingPrice: "AED 2,500,000 Starting from",
-      handover: "Expected Q4 2027",
+      handover: "Expected Q4 2030",
       downPayment: "10% Down Payment",
       developer: "Aldar",
       nationality: "Freehold - Open to all Nationalities"
@@ -416,7 +416,7 @@ export const projectsData: ProjectProperty[] = [
     paymentPlanDetails: [
       { percentage: "10%", label: "Down Payment", description: "Immediate on Booking" },
       { percentage: "40%", label: "During Construction", description: "In Easy Instalments" },
-      { percentage: "50%", label: "On Handover", description: "Expected Q4 2027" }
+      { percentage: "50%", label: "On Handover", description: "Expected Q4 2030" }
     ],
     floorPlans: [
       {
