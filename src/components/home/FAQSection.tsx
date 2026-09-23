@@ -7,7 +7,7 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "What services does ZHM Real Estate offer?",
-    a: "ZHM Real Estate offers a comprehensive range of services including buying, selling, leasing, and portfolio management for residential and commercial real estate in Dubai and the wider UAE. We also assist with international real estate investments in countries like Georgia and Latvia.",
+    a: "ZHM Real Estate offers a comprehensive range of services including buying, selling, leasing, and portfolio management for residential and commercial real estate in Dubai and the wider UAE. We also assist with international real estate investments in countries like <strong class=\"text-secondary font-bold\">Saudi Arabia</strong>, <strong class=\"text-secondary font-bold\">Qatar</strong>, <strong class=\"text-secondary font-bold\">Turkey</strong>, <strong class=\"text-secondary font-bold\">Georgia</strong>, and <strong class=\"text-secondary font-bold\">Latvia</strong>.",
   },
   {
     q: "What types of real estate do you deal with?",
@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: "Does ZHM Real Estate offer assets outside of the UAE?",
-    a: "Yes! We offer carefully selected international investment assets in Georgia and Latvia, providing our clients with diversification opportunities and attractive yields in emerging European markets.",
+    a: "Yes! We offer carefully selected international investment assets in <strong class=\"text-secondary font-bold\">Saudi Arabia</strong>, <strong class=\"text-secondary font-bold\">Qatar</strong>, <strong class=\"text-secondary font-bold\">Turkey</strong>, <strong class=\"text-secondary font-bold\">Georgia</strong>, and <strong class=\"text-secondary font-bold\">Latvia</strong>, providing our clients with diversification opportunities and attractive yields in key international and emerging markets.",
   },
   {
     q: "How do I list my asset with ZHM Real Estate?",
@@ -112,9 +112,10 @@ export function FAQSection() {
                       transition={{ duration: 0.35, ease: "easeInOut" }}
                       className="overflow-hidden"
                     >
-                      <p className="text-gray-500 text-sm leading-relaxed pb-5 pr-10">
-                        {faq.a}
-                      </p>
+                      <p
+                        className="text-gray-500 text-sm leading-relaxed pb-5 pr-10"
+                        dangerouslySetInnerHTML={{ __html: faq.a }}
+                      />
                     </motion.div>
                   )}
                 </AnimatePresence>

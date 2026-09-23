@@ -40,7 +40,7 @@ const services = [
   {
     icon: Globe,
     title: "International Properties",
-    desc: "Explore attractive investment opportunities in Georgia, Latvia, and other emerging markets alongside Dubai.",
+    desc: "Explore attractive investment opportunities in <strong class=\"text-white font-bold\">Saudi Arabia</strong>, <strong class=\"text-white font-bold\">Qatar</strong>, <strong class=\"text-white font-bold\">Turkey</strong>, <strong class=\"text-white font-bold\">Georgia</strong>, <strong class=\"text-white font-bold\">Latvia</strong>, and other emerging markets alongside Dubai.",
     href: "/services",
   },
 ];
@@ -100,9 +100,10 @@ export function ServicesSection() {
               <h3 className="text-white font-bold text-lg mb-3 group-hover:text-primary transition-colors duration-300">
                 {service.title}
               </h3>
-              <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                {service.desc}
-              </p>
+              <p
+                className="text-gray-400 text-sm leading-relaxed mb-6"
+                dangerouslySetInnerHTML={{ __html: service.desc }}
+              />
 
               <Link
                 href={service.href}
