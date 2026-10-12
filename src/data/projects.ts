@@ -489,8 +489,12 @@ export const projectsData: ProjectProperty[] = [
     },
     heroImage: "https://www.modon.com/images/modoncorporatelibraries/news/modon-launches-phase-one-of-wadeem-gardens-abu-dhabi-s-first-villa-community-to-offer-up-to-75-off-plan-home-finance-with-adib.jpg?sfvrsn=d8e087a0_1",
     galleryImages: [
-      "https://www.modon.com/images/modoncorporatelibraries/news/modon-launches-phase-one-of-wadeem-gardens-abu-dhabi-s-first-villa-community-to-offer-up-to-75-off-plan-home-finance-with-adib.jpg?sfvrsn=d8e087a0_1",
-      "https://www.modon.com/images/modoncorporatelibraries/news/modon-launches-wadeem-its-first-residential-plots-community-on-hudayriyat-island246c0b2c-5614-422a-aba6-af80f5805408.jpg?sfvrsn=e79271ea_1"
+      "https://dubai-immo.com/wp-content/uploads/2026/09/Wadeem-Gardens-by-Modon-villa.jpg",
+      "https://www.modon.com/images/modoncorporatelibraries/news/modon-launches-wadeem-its-first-residential-plots-community-on-hudayriyat-island246c0b2c-5614-422a-aba6-af80f5805408.jpg?sfvrsn=e79271ea_1",
+      "https://dubai-immo.com/wp-content/uploads/2026/09/Wadeem-Gardens-by-Modon-Hudayriyat.jpg",
+      "https://dubai-immo.com/wp-content/uploads/2026/09/Wadeem-Gardens-by-Modon-villa-2-1.jpg",
+      "https://www.modon.com/images/modoncorporatelibraries/news/modon-sells-out-wadeem-the-first-residential-plots-on-hudayriyat-island-within-72-hours.jpg?sfvrsn=ee6d1e2c_1",
+      "https://www.modon.com/images/modoncorporatelibraries/news/modon-launches-phase-one-of-wadeem-gardens-abu-dhabi-s-first-villa-community-to-offer-up-to-75-off-plan-home-finance-with-adib.jpg?sfvrsn=d8e087a0_1"
     ],
     amenities: [
       "2.3 km Climate-Controlled Walking Spine",
@@ -540,6 +544,456 @@ export const projectsData: ProjectProperty[] = [
       {
         question: "Is mortgage financing available for Wadeem Gardens?",
         answer: "Yes. Through Modon's partnership with Abu Dhabi Islamic Bank (ADIB), eligible buyers can finance up to 75% of the villa price off-plan, with free pre-approval within two hours."
+      }
+    ]
+  },
+  {
+    id: "yas-riva-reserve",
+    slug: "yas-riva-reserve",
+    name: "Yas Riva Reserve",
+    location: "Yas Island, Abu Dhabi",
+    subtitle: "Gated 4, 5 & 6 Bedroom Waterfront Villas by Aldar on Yas Island",
+    description: "Yas Riva Reserve is a gated community of 292 standalone villas by Aldar Properties on the northeast waterfront of Yas Island, Abu Dhabi, set directly opposite Yas Riva and linked to the island by a new bridge. The community offers 4, 5 and 6-bedroom inland villas alongside an exclusive collection of 45 canal-front homes, each with the option to add a private pontoon for mooring a boat. Average built-up areas range from 4,704 to 5,791 sq. ft. for inland villas and from 5,942 to 6,555 sq. ft. by the water, every villa comes with a private garden, and inland homes offer a choice of open or closed kitchen layouts. Residents enjoy a dedicated clubhouse, pools, sports courts, linear parks and everyday retail, all within easy reach of Yas Island's world-class leisure destinations.",
+    isFeatured: true,
+    features: {
+      bedrooms: "4, 5 & 6 Bedroom Villas",
+      propertyType: "Inland & Canal-Front Villas",
+      paymentPlan: "50/50 Payment Plan",
+      startingPrice: "AED 7,900,000 Starting from",
+      handover: "Contact for details",
+      downPayment: "5% Down Payment",
+      developer: "Aldar Properties",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://cloud.famproperties.com/project/large/-123934-123410.jpg",
+    galleryImages: [
+      "https://cloud.famproperties.com/project/large/-123934-123405.jpg",
+      "https://cloud.famproperties.com/project/large/-123934-123410.jpg",
+      "https://cloud.famproperties.com/project/large/-123934-123406.jpg",
+      "https://cloud.famproperties.com/project/large/-123934-123402.jpg",
+      "https://cloud.famproperties.com/project/large/-123934-123411.jpg",
+      "https://cloud.famproperties.com/project/large/-123934-123408.jpg",
+      "https://cloud.famproperties.com/project/large/-123934-123407.jpg"
+    ],
+    amenities: [
+      "Community Clubhouse",
+      "Adult & Children's Swimming Pools",
+      "Indoor & Outdoor Fitness Spaces",
+      "Padel & Sports Courts",
+      "Jogging & Cycling Tracks",
+      "Children's Play Areas & Splash Pads",
+      "Linear Parks & Pocket Gardens",
+      "Community Retail & Mosque"
+    ],
+    paymentPlanDetails: [
+      { percentage: "5%", label: "On Booking", description: "Reservation Payment" },
+      { percentage: "45%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "50%", label: "On Handover", description: "Balance on Completion" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "4 Bedroom Villa (4,704 sq. ft.)",
+        images: ["https://cloud.famproperties.com/floorplan/yas-riva-reserve-14901-261007124107.jpg"],
+        sideImage: "https://cloud.famproperties.com/project/large/-123934-123405.jpg"
+      },
+      {
+        bedrooms: "5 Bedroom Villa (5,188 - 5,942 sq. ft.)",
+        images: [
+          "https://cloud.famproperties.com/floorplan/yas-riva-reserve-14902-261007124208.jpg",
+          "https://cloud.famproperties.com/floorplan/yas-riva-reserve-14903-261007124246.jpg"
+        ],
+        sideImage: "https://cloud.famproperties.com/project/large/-123934-123402.jpg"
+      },
+      {
+        bedrooms: "6 Bedroom Villa (5,791 - 6,555 sq. ft.)",
+        images: [
+          "https://cloud.famproperties.com/floorplan/yas-riva-reserve-14904-261007124318.jpg",
+          "https://cloud.famproperties.com/floorplan/yas-riva-reserve-14905-261007124347.jpg"
+        ],
+        sideImage: "https://cloud.famproperties.com/project/large/-123934-123410.jpg"
+      }
+    ],
+    siteMapImage: "https://cloud.famproperties.com/project/large/-123934-123411.jpg",
+    mapCode: "https://www.google.com/maps?q=Yas+Riva+Reserve,+Yas+Island,+Abu+Dhabi",
+    locationBenefits: {
+      description: "Set on the northeast waterfront of Yas Island directly opposite Yas Riva, the community gains its own new bridge connection to the island and quick road links to Abu Dhabi city, Zayed International Airport and Dubai.",
+      points: [
+        "Directly opposite Yas Riva, with a new bridge to Yas Island",
+        "Close to Yas Mall & Yas Marina Circuit",
+        "Near SeaWorld Abu Dhabi & Warner Bros. World Abu Dhabi",
+        "Neighbouring Yas Acres community",
+        "Road links to Abu Dhabi city, Zayed International Airport & Dubai"
+      ]
+    },
+    faqs: [
+      {
+        question: "Is Yas Riva Reserve the same project as Yas Riva?",
+        answer: "No. Yas Riva Reserve is a separate, newer Aldar villa community located directly opposite Yas Riva on the northeast waterfront of Yas Island, with 292 villas and its own bridge connection."
+      },
+      {
+        question: "What are the starting prices for Yas Riva Reserve?",
+        answer: "Inland villas start from AED 7,900,000 for 4 bedrooms, AED 9,300,000 for 5 bedrooms and AED 10,500,000 for 6 bedrooms. Canal-front villas start from AED 13,300,000 for 5 bedrooms and AED 14,500,000 for 6 bedrooms."
+      },
+      {
+        question: "What is the payment plan for Yas Riva Reserve?",
+        answer: "Yas Riva Reserve offers a 50/50 payment plan: 5% on booking, 45% during construction and 50% on handover."
+      },
+      {
+        question: "How many waterfront villas are there in Yas Riva Reserve?",
+        answer: "45 of the 292 villas sit directly on the waterfront, and each of these homes can add a private pontoon for mooring a boat."
+      },
+      {
+        question: "Can foreigners buy villas in Yas Riva Reserve?",
+        answer: "Yes. Yas Riva Reserve is located in Yas Island's freehold zone, where buyers of all nationalities can own property."
+      }
+    ]
+  },
+  {
+    id: "the-canopies",
+    slug: "the-canopies",
+    name: "The Canopies",
+    location: "Yas Point, Yas Island, Abu Dhabi",
+    subtitle: "Garden-Led Apartments at Yas Point by Aldar on Yas Island",
+    description: "The Canopies is the first residential release at Yas Point, Aldar's new AED 6 billion waterfront destination on the northern edge of Yas Island, Abu Dhabi. Six mid-rise buildings hold 592 apartments, from studios to 1, 2 and 3-bedroom homes of approx. 495 to 1,981 sq. ft., including 2-bedroom + maid and 3-bedroom + maid + study layouts. The community is planned around more than 10,000 sqm of landscaped open space with a Central Park at its heart, so every residence looks onto greenery. The wider Yas Point masterplan adds a public beach, a 700-metre promenade, a marina and yacht club, a five-star hotel and an international school, making The Canopies an early entry point into one of Yas Island's most anticipated new destinations.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Studio, 1, 2 & 3 Bedroom Apartments",
+      propertyType: "Mid-Rise Apartments",
+      paymentPlan: "55/45 Payment Plan",
+      startingPrice: "AED 1,650,000 Starting from",
+      handover: "Expected Q3 2030",
+      downPayment: "5% Down Payment",
+      developer: "Aldar Properties",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://cloud.famproperties.com/project/large/-116106-134609.jpg",
+    galleryImages: [
+      "https://cloud.famproperties.com/project/large/-116106-134607.jpg",
+      "https://cloud.famproperties.com/project/large/-116106-134609.jpg",
+      "https://cloud.famproperties.com/project/large/-116106-134608.jpg",
+      "https://cloud.famproperties.com/project/large/-116106-134610.jpg",
+      "https://cloud.famproperties.com/project/large/-116106-134604.jpg",
+      "https://cloud.famproperties.com/project/large/-116106-134611.jpg",
+      "https://cloud.famproperties.com/project/large/-116106-134603.jpg",
+      "https://cloud.famproperties.com/project/large/-116106-134606.jpg"
+    ],
+    amenities: [
+      "Central Park & 10,000+ sqm Landscaped Gardens",
+      "The Canopy Club Residents' Clubhouse",
+      "Fully Equipped Gym",
+      "Co-Working & Multi-Purpose Spaces",
+      "Kids' Room & Play Areas",
+      "Outdoor Wellness & Social Spaces",
+      "BBQ & Picnic Areas",
+      "Retail & Dining"
+    ],
+    paymentPlanDetails: [
+      { percentage: "5%", label: "On Booking", description: "Reservation Payment" },
+      { percentage: "50%", label: "During Construction", description: "5 Instalments of 10% (Jan 2027 - May 2030)" },
+      { percentage: "45%", label: "On Handover", description: "Expected Q3 2030" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Studio",
+        images: ["https://cloud.famproperties.com/floorplan/the-canopies-at-yas-point-14803-260724135503.jpg"],
+        sideImage: "https://cloud.famproperties.com/project/large/-116106-134603.jpg"
+      },
+      {
+        bedrooms: "1 Bedroom",
+        images: ["https://cloud.famproperties.com/floorplan/the-canopies-at-yas-point-14804-260724135606.jpg"],
+        sideImage: "https://cloud.famproperties.com/project/large/-116106-134604.jpg"
+      },
+      {
+        bedrooms: "2 Bedroom",
+        images: ["https://cloud.famproperties.com/floorplan/the-canopies-at-yas-point-14805-260724135628.jpg"],
+        sideImage: "https://cloud.famproperties.com/project/large/-116106-134611.jpg"
+      },
+      {
+        bedrooms: "2 Bedroom + Maid",
+        images: ["https://cloud.famproperties.com/floorplan/the-canopies-at-yas-point-14806-260724135702.jpg"],
+        sideImage: "https://cloud.famproperties.com/project/large/-116106-134606.jpg"
+      },
+      {
+        bedrooms: "3 Bedroom + Maid + Study",
+        images: ["https://cloud.famproperties.com/floorplan/the-canopies-at-yas-point-14807-260724135718.jpg"],
+        sideImage: "https://cloud.famproperties.com/project/large/-116106-134608.jpg"
+      }
+    ],
+    siteMapImage: "https://cloud.famproperties.com/project/large/-116106-134607.jpg",
+    mapCode: "https://www.google.com/maps?q=Yas+Point,+Yas+Island,+Abu+Dhabi",
+    locationBenefits: {
+      description: "Located at Yas Point on the northernmost edge of Yas Island, The Canopies sits steps from the planned beach and promenade, with the island's theme parks, marina and major road links close at hand.",
+      points: [
+        "Approx. 5-10 Mins to Yas Mall, SeaWorld & Warner Bros. World",
+        "Approx. 5-10 Mins to Yas Marina Circuit",
+        "Approx. 15 Mins to Zayed International Airport (AUH)",
+        "Approx. 30 Mins to Central Abu Dhabi",
+        "Around 1 Hour to Dubai"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for The Canopies?",
+        answer: "Prices start from AED 1,650,000 for studios, AED 2,200,000 for 1-bedroom apartments, AED 3,400,000 for 2-bedroom apartments, AED 4,200,000 for 2-bedroom + maid and AED 5,500,000 for 3-bedroom + maid + study residences."
+      },
+      {
+        question: "What is the payment plan for The Canopies?",
+        answer: "The Canopies offers a 55/45 payment plan: 5% on booking, five instalments of 10% between January 2027 and May 2030, and 45% on handover."
+      },
+      {
+        question: "When is the handover of The Canopies?",
+        answer: "Handover of The Canopies is expected in Q3 2030."
+      },
+      {
+        question: "How many apartments are in The Canopies?",
+        answer: "The Canopies has 592 apartments across six mid-rise buildings, including studios and 1, 2 and 3-bedroom homes from approx. 495 to 1,981 sq. ft."
+      },
+      {
+        question: "Can foreigners buy property in The Canopies?",
+        answer: "Yes. Yas Island is a designated freehold zone in Abu Dhabi, open to buyers of all nationalities with full ownership rights."
+      }
+    ]
+  },
+  {
+    id: "yas-acres-the-orchids",
+    slug: "yas-acres-the-orchids",
+    name: "Yas Acres The Orchids",
+    location: "Yas Acres, Yas Island, Abu Dhabi",
+    subtitle: "Golf-View Townhouses & Villas in the Final Phase of Yas Acres by Aldar",
+    description: "The Orchids is a gated community of 217 homes by Aldar Properties within the established Yas Acres neighbourhood on Yas Island, Abu Dhabi, launched in June 2026 as the final residential phase of Yas Acres and sold out during its launch. It offers 2 and 3-bedroom townhouses, every one with a maid's room, alongside 4 and 5-bedroom villas with the option of a private pool, with sizes from approx. 1,356 to 5,016 sq. ft. and a choice of Light or Dark interior finishes. The low-rise neighbourhood overlooks the Yas Acres golf course and features its own community club, central park, adults' and children's pools and sports courts, while residents also enjoy access to the Yas Acres Golf & Country Club. Yas Mall, Ferrari World, schools and Yas Marina Circuit are just minutes away.",
+    isFeatured: true,
+    features: {
+      bedrooms: "2 & 3 BR Townhouses, 4 & 5 BR Villas",
+      propertyType: "Townhouses & Villas",
+      paymentPlan: "55/45 Payment Plan",
+      startingPrice: "AED 3,350,000 Starting from",
+      handover: "Expected Q3 2030",
+      downPayment: "5% Down Payment",
+      developer: "Aldar Properties",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://asset.aldar.com/damascus/launch/mp-yas-acres-orchids/yas_acres_orchids_welcome_banner_desktop.webp",
+    galleryImages: [
+      "https://asset.aldar.com/damascus/launch/mp-yas-acres-orchids/yas_acres_orchids_welcome_banner_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-yas-acres-orchids/yas_acres_orchids_story_banner_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-yas-acres-orchids/yas_acres_orchids_showcase_banner_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-yas-acres-orchids/yas_acres_orchids_specification_service_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-yas-acres-orchids/yas_acres_orchids_specification_aminities_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-yas-acres-orchids/yas_acres_orchids_pulse_story_desktop.webp"
+    ],
+    amenities: [
+      "Adult Swimming Pool & Children's Pool",
+      "Splash Pad",
+      "Fully Equipped Gym",
+      "Padel Court",
+      "Multipurpose Room",
+      "Children's Play Area",
+      "Central Park & Golf Course Views",
+      "Access to Yas Acres Golf & Country Club"
+    ],
+    paymentPlanDetails: [
+      { percentage: "5%", label: "On Booking", description: "Reservation Payment" },
+      { percentage: "50%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "45%", label: "On Handover", description: "Expected Q3 2030" }
+    ],
+    floorPlans: [],
+    siteMapImage: "https://asset.aldar.com/damascus/launch/mp-yas-acres-orchids/yas_acres_orchids_story_banner_desktop.webp",
+    mapCode: "https://www.google.com/maps?q=Yas+Acres,+Yas+Island,+Abu+Dhabi",
+    locationBenefits: {
+      description: "Set within the gated Yas Acres neighbourhood on Yas Island, The Orchids overlooks the golf course and puts the island's leisure, retail and schools within minutes.",
+      points: [
+        "Approx. 5-10 Mins to Yas Mall & Ferrari World",
+        "Approx. 5-10 Mins to Yas Marina Circuit",
+        "Approx. 10 Mins to Zayed International Airport (AUH)",
+        "Approx. 25-30 Mins to Abu Dhabi City Centre",
+        "Next to Yas Acres Golf & Country Club"
+      ]
+    },
+    faqs: [
+      {
+        question: "Is Yas Acres The Orchids still available?",
+        answer: "Aldar reported that The Orchids sold out during its launch in June 2026, generating more than AED 680 million in sales. Contact ZHM Real Estate for resale availability."
+      },
+      {
+        question: "What are the starting prices for Yas Acres The Orchids?",
+        answer: "2-bedroom townhouses start from AED 3,350,000 and 3-bedroom townhouses from AED 3,670,000. Villa prices are available on request."
+      },
+      {
+        question: "What is the payment plan for The Orchids?",
+        answer: "The Orchids offers a 55/45 payment plan: 5% on booking, 50% during construction and 45% on handover."
+      },
+      {
+        question: "When is the handover of Yas Acres The Orchids?",
+        answer: "Handover is expected in Q3 2030."
+      },
+      {
+        question: "What types of homes are available at The Orchids?",
+        answer: "The community has 217 homes: 2 and 3-bedroom townhouses with a maid's room, and 4 and 5-bedroom villas with the option of a private pool, with a choice of Light or Dark finishes."
+      },
+      {
+        question: "Can foreigners buy property at Yas Acres The Orchids?",
+        answer: "Yes. Yas Island is a freehold zone, so buyers of all nationalities can own property in full."
+      }
+    ]
+  },
+  {
+    id: "al-ghadeer-parks",
+    slug: "al-ghadeer-parks",
+    name: "Al Ghadeer Parks",
+    location: "Seih Al Sedeirah, Al Ghadeer, Abu Dhabi",
+    subtitle: "Nature-Inspired Townhouses & Villas by Aldar Between Abu Dhabi and Dubai",
+    description: "Al Ghadeer Parks is a 453-home community by Aldar Properties in Seih Al Sedeirah, part of the wider Al Ghadeer masterplan on the Abu Dhabi-Dubai corridor. The development offers 2 and 3-bedroom townhouses and 4-bedroom villas, some with private pools, designed around manicured parks, feature lakes, tree-lined pathways and pedestrian-prioritised streets, with private gardens and shaded terraces for every home. Shared facilities include a community centre, swimming pool, splash pad, multi-sports area, events lawn and desert stargazing lawns, and families have access to Al Ghadeer British School. With Al Maktoum International Airport around 16 minutes away and both Abu Dhabi and Dubai within easy reach, Al Ghadeer Parks offers spacious family living at an accessible entry price.",
+    isFeatured: true,
+    features: {
+      bedrooms: "2 & 3 BR Townhouses, 4 BR Villas",
+      propertyType: "Townhouses & Villas",
+      paymentPlan: "55/45 Payment Plan",
+      startingPrice: "AED 1,900,000 Starting from",
+      handover: "Expected Q2 2031",
+      downPayment: "5% Down Payment",
+      developer: "Aldar Properties",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_service_slide_1_desktop.webp",
+    galleryImages: [
+      "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_service_slide_1_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_service_slide_3_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_specification_discover_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_service_slide_4_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_service_slide_6_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_service_slide_2_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_specification_gather_desktop.webp",
+      "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_specification_neighbourhood_desktop.webp"
+    ],
+    amenities: [
+      "Manicured Parks & Feature Lakes",
+      "Community Centre",
+      "Swimming Pool & Splash Pad",
+      "Multi-Sports Area",
+      "Events Lawn",
+      "Desert Stargazing Lawns",
+      "Al Ghadeer British School",
+      "Pedestrian-Prioritised Streets"
+    ],
+    paymentPlanDetails: [
+      { percentage: "5%", label: "On Booking", description: "Reservation Payment" },
+      { percentage: "50%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "45%", label: "On Handover", description: "Expected Q2 2031" }
+    ],
+    floorPlans: [],
+    siteMapImage: "https://asset.aldar.com/damascus/launch/mp-alghadeer-parks/al_ghadeer_park_service_slide_3_desktop.webp",
+    mapCode: "https://www.google.com/maps?q=Al+Ghadeer,+Abu+Dhabi",
+    locationBenefits: {
+      description: "Located in Seih Al Sedeirah on the Abu Dhabi-Dubai corridor, Al Ghadeer Parks gives residents convenient access to both emirates and two international airports.",
+      points: [
+        "Approx. 16 Mins to Al Maktoum International Airport (DWC)",
+        "Approx. 30 Mins to Zayed International Airport (AUH)",
+        "Approx. 30 Mins to Yas Island",
+        "Approx. 40 Mins to Abu Dhabi City",
+        "Al Ghadeer British School within the community"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Al Ghadeer Parks?",
+        answer: "2-bedroom townhouses start from AED 1,900,000, 3-bedroom townhouses from AED 2,200,000 and 4-bedroom villas from AED 3,300,000."
+      },
+      {
+        question: "What is the payment plan for Al Ghadeer Parks?",
+        answer: "Al Ghadeer Parks offers a 55/45 payment plan: 5% on booking, 50% during construction and 45% on handover."
+      },
+      {
+        question: "When is the handover of Al Ghadeer Parks?",
+        answer: "Handover is expected in Q2 2031."
+      },
+      {
+        question: "Is Al Ghadeer Parks the same as Al Ghadeer Gardens?",
+        answer: "No. Al Ghadeer Parks is a separate 453-home community by Aldar within the wider Al Ghadeer masterplan."
+      },
+      {
+        question: "Where is Al Ghadeer Parks located?",
+        answer: "Al Ghadeer Parks is located in Seih Al Sedeirah, between Abu Dhabi and Dubai, around 16 minutes from Al Maktoum International Airport."
+      }
+    ]
+  },
+  {
+    id: "hudayriyat-golf-estates",
+    slug: "hudayriyat-golf-estates",
+    name: "Hudayriyat Golf Estates",
+    location: "Hudayriyat Island, Abu Dhabi",
+    subtitle: "Golf-Front Townhomes, Villas & Mansions by Modon on Hudayriyat Island",
+    description: "Hudayriyat Golf Estates is an exclusive Andalusian-inspired golf community by Modon Properties, the master developer of Hudayriyat Island, Abu Dhabi. Homes are set along an 18-hole golf course with fairway and water channel views, across a collection of 3 and 4-bedroom townhomes, 4-bedroom golf homes, 5-bedroom range villas, 6-bedroom fairway villas and 6-bedroom golf mansions, ranging from approx. 204 sqm to 1,150 sqm. The gated community includes a country clubhouse, wellness centre, private school, multi-sports courts, cycling trails, co-working spaces, parks and a dog park, while every home comes with garden space for custom landscaping. Beyond the gates, Hudayriyat Island offers Surf Abu Dhabi, Velodrome Abu Dhabi and miles of beaches, just minutes from the Corniche.",
+    isFeatured: true,
+    features: {
+      bedrooms: "3 to 6 Bedroom Townhomes, Villas & Mansions",
+      propertyType: "Golf Community - Townhomes, Villas & Mansions",
+      paymentPlan: "40/60 Payment Plan",
+      startingPrice: "AED 4,200,000 Starting from",
+      handover: "Expected Q3 2030",
+      downPayment: "5% Down Payment",
+      developer: "Modon Properties",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/exterior/hudayriyat-golf-estates-view.jpg?sfvrsn=88bbbae6_1",
+    galleryImages: [
+      "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/exterior/hudayriyat-golf-estates-view.jpg?sfvrsn=88bbbae6_1",
+      "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/exterior/hudayriyat-golf-estates-view-2.jpg?sfvrsn=d686cb19_1",
+      "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/exterior/hudayriyat-golf-estates-view-3.jpg?sfvrsn=7936c356_1",
+      "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/exterior/hudayriyat-golf-estates-view-4.jpg?sfvrsn=24e3ea0f_1",
+      "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/exterior/hudayriyat-golf-estates-view-5.jpg?sfvrsn=58771c5f_1",
+      "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/interior/mth_modon_west-golf-townhouses_view-34_a02.jpg?sfvrsn=6f5714ca_1",
+      "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/interior/mth_modon_west-golf-townhouses_view-35_a02.jpg?sfvrsn=893d1934_1",
+      "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/interior/mth_modon_west-golf-townhouses_view-37_a02.jpg?sfvrsn=45afed15_1",
+      "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/gallery/interior/mth_modon_west-golf-townhouses_view-41_a02.jpg?sfvrsn=f70f90e2_1"
+    ],
+    amenities: [
+      "18-Hole Championship Golf Course",
+      "Country Clubhouse",
+      "Wellness Centre",
+      "Private School",
+      "Multi-Sports Courts",
+      "Cycling Trails, Parks & Dog Park",
+      "Co-Working Spaces & Community Centre",
+      "Gated Community with 24/7 Security"
+    ],
+    paymentPlanDetails: [
+      { percentage: "5%", label: "On Booking", description: "Reservation Payment" },
+      { percentage: "35%", label: "During Construction", description: "7 Instalments of 5% Every 6 Months (Mar 2027 - Mar 2030)" },
+      { percentage: "60%", label: "On Handover", description: "Expected Q3 2030" }
+    ],
+    floorPlans: [],
+    siteMapImage: "https://www.modon.com/images/modoncorporatelibraries/real-estate/hudayriyat-golf-estate/hudayriyat-golf-estate-map-1400x788.jpg?sfvrsn=76caa364_1",
+    mapCode: "https://www.google.com/maps?q=Hudayriyat+Island,+Abu+Dhabi",
+    locationBenefits: {
+      description: "Located on Hudayriyat Island, Abu Dhabi's leisure and sports destination, Hudayriyat Golf Estates combines island living with quick access to the Corniche and the city's business districts.",
+      points: [
+        "Approx. 10 Mins to the Corniche & World Trade Centre",
+        "Approx. 15 Mins to Yas Island",
+        "Approx. 31 Mins to Zayed International Airport (AUH)",
+        "Close to Surf Abu Dhabi & Velodrome Abu Dhabi",
+        "Near Wadeem Gardens & Hudayriyat beaches"
+      ]
+    },
+    faqs: [
+      {
+        question: "What property types and prices are available at Hudayriyat Golf Estates?",
+        answer: "According to Modon's published average prices: 3-bedroom townhomes from around AED 4.2M, 4-bedroom townhomes AED 4.9M, 4-bedroom golf homes AED 7.4M, 5-bedroom range villas AED 10.3M, 6-bedroom fairway villas AED 26.8M and 6-bedroom golf mansions AED 35.8M."
+      },
+      {
+        question: "What is the payment plan for Hudayriyat Golf Estates?",
+        answer: "Hudayriyat Golf Estates offers a 40/60 payment plan: 5% on reservation, seven instalments of 5% every six months from March 2027 to March 2030, and 60% on handover."
+      },
+      {
+        question: "When is the handover of Hudayriyat Golf Estates?",
+        answer: "Handover is expected in Q3 2030."
+      },
+      {
+        question: "Can foreigners buy property at Hudayriyat Golf Estates?",
+        answer: "Yes. The villas and townhomes are offered on a freehold basis and are open to buyers of all nationalities."
+      },
+      {
+        question: "Can I resell before handover?",
+        answer: "According to Modon, villas may be resold before handover once at least 20% of the total price has been paid, subject to the project guidelines."
       }
     ]
   },
@@ -1595,6 +2049,613 @@ export const projectsData: ProjectProperty[] = [
       {
         question: "Who should consider Expo Golf Villas?",
         answer: "Families looking for spacious villas in a peaceful community, buyers seeking ready-to-move-in homes in Dubai, investors looking for affordable villa properties, and professionals working near Dubai South and Expo City."
+      }
+    ]
+  },
+  {
+    id: "bluewaters-bay",
+    slug: "bluewaters-bay",
+    name: "Bluewaters Bay",
+    location: "Bluewaters Island, Dubai",
+    subtitle: "Waterfront Apartments & Penthouses by Meraas on Bluewaters Island",
+    description: "Bluewaters Bay is a waterfront residential development by Meraas on Bluewaters Island, Dubai, made up of two high-rise towers with 672 apartments. The collection includes 1 to 4-bedroom apartments and penthouses of approx. 978 to 2,890 sq. ft., designed with floor-to-ceiling glazing to capture full sea views, the Dubai skyline and Ain Dubai. Residents enjoy an infinity rooftop pool, gym, tennis court, jogging tracks, children's play areas and BBQ areas, with Bluewaters Island's restaurants, retail and beachfront just steps away and JBR across the bridge. Launched in December 2022 and sold out from the developer, Bluewaters Bay is now available through resale, with handover expected in 2027.",
+    isFeatured: true,
+    features: {
+      bedrooms: "1, 2, 3 & 4 Bedroom Apartments & Penthouses",
+      propertyType: "Waterfront Apartments & Penthouses",
+      paymentPlan: "80/20 (Original Developer Plan)",
+      startingPrice: "Resale - Contact for latest prices",
+      handover: "Expected 2027",
+      downPayment: "20% (Original Developer Plan)",
+      developer: "Meraas",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://cloud.famproperties.com/project/large/bluewaters-bay-307637-120630.jpg",
+    galleryImages: [
+      "https://cloud.famproperties.com/project/large/bluewaters-bay-307637-120630.jpg",
+      "https://cloud.famproperties.com/project/large/bluewaters-bay-157923-165759.jpg",
+      "https://cloud.famproperties.com/project/large/bluewaters-bay-170733-164510.jpg",
+      "https://cloud.famproperties.com/project/large/bluewaters-bay-169345-164509.jpg",
+      "https://cloud.famproperties.com/project/large/bluewaters-bay-545493-171408.jpg",
+      "https://cloud.famproperties.com/project/large/bluewaters-bay-435021-164822.jpg",
+      "https://cloud.famproperties.com/project/large/bluewaters-bay-744250-171409.jpg",
+      "https://cloud.famproperties.com/project/large/bluewaters-bay-167266-164511.jpg",
+      "https://cloud.famproperties.com/project/large/bluewaters-bay-273218-171411.jpg"
+    ],
+    amenities: [
+      "Infinity Rooftop Pool",
+      "Fully Equipped Gym",
+      "Tennis Court",
+      "Jogging Tracks",
+      "Children's Play Area",
+      "BBQ Area",
+      "Full Sea & Ain Dubai Views",
+      "Covered Parking & 24/7 Security"
+    ],
+    paymentPlanDetails: [
+      { percentage: "20%", label: "On Booking", description: "Original Developer Plan" },
+      { percentage: "60%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "20%", label: "On Handover", description: "Expected 2027" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "1 Bedroom (approx. 978 sq. ft.)",
+        images: [
+          "https://cloud.famproperties.com/floorplan/bluewaters-bay-10755-230330170144.jpg",
+          "https://cloud.famproperties.com/floorplan/bluewaters-bay-10756-230330170332.jpg"
+        ],
+        sideImage: "https://cloud.famproperties.com/project/large/bluewaters-bay-545493-171408.jpg"
+      },
+      {
+        bedrooms: "2 Bedroom (1,238 - 1,902 sq. ft.)",
+        images: [
+          "https://cloud.famproperties.com/floorplan/bluewaters-bay-10754-230330170006.jpg",
+          "https://cloud.famproperties.com/floorplan/bluewaters-bay-10753-230330165915.jpg"
+        ],
+        sideImage: "https://cloud.famproperties.com/project/large/bluewaters-bay-435021-164822.jpg"
+      },
+      {
+        bedrooms: "3 Bedroom (2,016 - 2,033 sq. ft.)",
+        images: [
+          "https://cloud.famproperties.com/floorplan/bluewaters-bay-10751-230330165710.jpg",
+          "https://cloud.famproperties.com/floorplan/bluewaters-bay-10752-230330165808.jpg"
+        ],
+        sideImage: "https://cloud.famproperties.com/project/large/bluewaters-bay-167266-164511.jpg"
+      },
+      {
+        bedrooms: "4 Bedroom (approx. 2,890 sq. ft.)",
+        images: ["https://cloud.famproperties.com/floorplan/bluewaters-bay-10750-230330165419.jpg"],
+        sideImage: "https://cloud.famproperties.com/project/large/bluewaters-bay-157923-165759.jpg"
+      }
+    ],
+    siteMapImage: "https://cloud.famproperties.com/project/large/bluewaters-bay-307637-120630.jpg",
+    mapCode: "https://www.google.com/maps?q=Bluewaters+Bay,+Bluewaters+Island,+Dubai",
+    locationBenefits: {
+      description: "Set on Bluewaters Island just off JBR, Bluewaters Bay offers waterfront island living with Ain Dubai, beaches and Dubai Marina on the doorstep.",
+      points: [
+        "Next to Ain Dubai & Bluewaters dining and retail",
+        "Bridge access to JBR & The Beach",
+        "Close to Dubai Marina & Sheikh Zayed Road",
+        "Full sea and Dubai skyline views",
+        "Near Dubai Harbour & Palm Jumeirah"
+      ]
+    },
+    faqs: [
+      {
+        question: "Is Bluewaters Bay still available from the developer?",
+        answer: "Bluewaters Bay launched in December 2022 and is listed as sold out from Meraas. Units are now available through resale - contact ZHM Real Estate for current availability and prices."
+      },
+      {
+        question: "What was the launch price of Bluewaters Bay?",
+        answer: "At launch, 1-bedroom apartments started from approximately AED 2.56 million. Current resale prices are higher and vary by unit, floor and view."
+      },
+      {
+        question: "What unit types are available in Bluewaters Bay?",
+        answer: "Bluewaters Bay offers 1, 2, 3 and 4-bedroom apartments and penthouses across two towers, ranging from approx. 978 to 2,890 sq. ft."
+      },
+      {
+        question: "When is the handover of Bluewaters Bay?",
+        answer: "Handover is expected in 2027."
+      },
+      {
+        question: "Can foreigners buy in Bluewaters Bay?",
+        answer: "Yes. Bluewaters Island is a freehold area where buyers of all nationalities can own property."
+      }
+    ]
+  },
+  {
+    id: "farm-grove",
+    slug: "farm-grove",
+    name: "Farm Grove",
+    location: "The Valley, Dubai",
+    subtitle: "Nature-Inspired 4 & 5 Bedroom Villas by Emaar at The Valley",
+    description: "Farm Grove is a collection of contemporary 4 and 5-bedroom villas by Emaar Properties within The Valley, Emaar's master-planned community on the Dubai-Al Ain Road. The villas range from approx. 3,754 to 6,078 sq. ft., with open-plan living spaces, floor-to-ceiling glazing and private gardens set among landscaped green spaces. Residents enjoy a community pool, gym, landscaped gardens, children's play areas and BBQ areas, alongside the wider amenities of The Valley. Farm Grove sold out from the developer after its launch, and villas are now available through resale, with handover expected in December 2028.",
+    isFeatured: true,
+    features: {
+      bedrooms: "4 & 5 Bedroom Villas",
+      propertyType: "Standalone Villas",
+      paymentPlan: "80/20 (Original Developer Plan)",
+      startingPrice: "Resale - Contact for latest prices",
+      handover: "Expected Q4 2028",
+      downPayment: "10% (Original Developer Plan)",
+      developer: "Emaar Properties",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/gallery/image/fhvSu1DROa6fead04lavKzOQW357xGBT1aLbzyJsLmI=/original.webp",
+    galleryImages: [
+      "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/gallery/image/fhvSu1DROa6fead04lavKzOQW357xGBT1aLbzyJsLmI=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/gallery/image/ehBMgknF9m4X6y4OZ9_hGhMBrNwFHVxW-_iNiiQu5c4=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/gallery/image/ckPu8HOsajwnSCxxtpaaqAdUHSa7TeHo1bqDbpZQrYs=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/gallery/image/7kTz8bXdBCbL88RBD5qFnWkOvbJpePbOvwdRIayom90=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/gallery/image/fAL5f6ftErSFzk_Ie68yGiok5fqaah0UnWu3tZDEkp8=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/gallery/image/kSyXnoxgTLz6aCkIHFUZ1bw6pqgfd39Lf8OKzxcmvRw=/original.webp"
+    ],
+    amenities: [
+      "Community Swimming Pool",
+      "Landscaped Gardens & Green Spaces",
+      "Fully Equipped Gym",
+      "Children's Play Areas",
+      "BBQ Areas",
+      "Community Lawn & Yoga Zone",
+      "Clubhouse",
+      "24/7 Security"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "On Booking", description: "Original Developer Plan" },
+      { percentage: "70%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "20%", label: "On Handover", description: "Expected Q4 2028" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "4 Bedroom Villa (3,754 - 5,581 sq. ft.)",
+        images: [
+          "https://new-projects-media.propertyfinder.com/unit/89f040de-8a75-462a-8c3f-a2c34dbe798e/floor_plan/image/Chmcfbts7M4Ry83hK6szXSNqGC_CnvXBSj2jnVihR-k=/original.webp",
+          "https://new-projects-media.propertyfinder.com/unit/d5774b74-e78a-4e73-b867-7c6d27408369/floor_plan/image/NhwQeHuc5r5qMD1e989tgF9oxcJ8dGyY-IbT_-GYYBg=/original.webp"
+        ],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/gallery/image/ehBMgknF9m4X6y4OZ9_hGhMBrNwFHVxW-_iNiiQu5c4=/original.webp"
+      },
+      {
+        bedrooms: "5 Bedroom Villa (approx. 6,078 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/95e3bcac-f7a5-4644-9dc7-b38efae57e9d/floor_plan/image/bb9KK_1ddWRUPNDvu5tMzZg3oftrsacsVyKIjZsa8is=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/gallery/image/ckPu8HOsajwnSCxxtpaaqAdUHSa7TeHo1bqDbpZQrYs=/original.webp"
+      }
+    ],
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/3b53214b-e7e1-4036-b259-3136996870c9/master_plan/image/euRqj1fpiMi8CLB0iX3mAN3v2umlhCrEM10bvVR9iJo=/original.webp",
+    mapCode: "https://www.google.com/maps?q=The+Valley+by+Emaar,+Dubai",
+    locationBenefits: {
+      description: "Farm Grove is part of The Valley, Emaar's master-planned community on the Dubai-Al Ain Road, offering spacious suburban living with road links to central Dubai.",
+      points: [
+        "Within Emaar's master-planned The Valley community",
+        "Direct access via Dubai-Al Ain Road (E66)",
+        "Community parks, pools and sports facilities nearby",
+        "Road links to central Dubai via the E66",
+        "Surrounded by open green spaces and landscaped streets"
+      ]
+    },
+    faqs: [
+      {
+        question: "Is Farm Grove still available from Emaar?",
+        answer: "Farm Grove is listed as sold out from the developer. Villas are now available through resale - contact ZHM Real Estate for current availability and prices."
+      },
+      {
+        question: "What was the launch price of Farm Grove?",
+        answer: "Farm Grove launched with 4-bedroom villas starting from approximately AED 4.7 million."
+      },
+      {
+        question: "What villa types are available in Farm Grove?",
+        answer: "Farm Grove offers 4-bedroom villas of approx. 3,754 to 5,581 sq. ft. and 5-bedroom villas of approx. 6,078 sq. ft."
+      },
+      {
+        question: "What was the payment plan for Farm Grove?",
+        answer: "The original developer plan was 80/20: 10% on booking, 70% during construction and 20% on handover."
+      },
+      {
+        question: "When is the handover of Farm Grove?",
+        answer: "Handover is expected in December 2028."
+      }
+    ]
+  },
+  {
+    id: "marina-views-mina-rashid",
+    slug: "marina-views-mina-rashid",
+    name: "Marina Views",
+    location: "Rashid Yachts & Marina, Mina Rashid, Dubai",
+    subtitle: "Waterfront 1 to 4 Bedroom Apartments by Emaar at Rashid Yachts & Marina",
+    description: "Marina Views is a waterfront residential development by Emaar Properties at Rashid Yachts & Marina in Mina Rashid, Dubai, spread across three towers overlooking the marina and the Arabian Gulf. The project offers 1, 2, 3 and 4-bedroom apartments of approx. 729 to 2,974 sq. ft., with open-plan layouts, floor-to-ceiling windows and balconies framing marina and sea views. Residents enjoy infinity pools, a fully equipped gym, landscaped gardens and children's play areas, while the marina promenade brings restaurants, retail and a superyacht marina with around 430 wet berths to the doorstep. Marina Views launched in December 2024 and has sold out from the developer, with units now available through resale and handover expected in Q4 2028.",
+    isFeatured: true,
+    features: {
+      bedrooms: "1, 2, 3 & 4 Bedroom Apartments",
+      propertyType: "Waterfront Apartments",
+      paymentPlan: "80/20 (Original Developer Plan)",
+      startingPrice: "Resale - Contact for latest prices",
+      handover: "Expected Q4 2028",
+      downPayment: "10% (Original Developer Plan)",
+      developer: "Emaar Properties",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://new-projects-media.propertyfinder.com/project/c86fe859-abef-4913-9f44-b2de47c7a80c/gallery/image/I04p6RaI9rl4Ca98EjB-mQ9JQRvP7oGGx0kcaHbmuAE=/original.webp",
+    galleryImages: [
+      "https://new-projects-media.propertyfinder.com/project/c86fe859-abef-4913-9f44-b2de47c7a80c/gallery/image/3fitzKnaYZfYPWcqp0pFz9oCpBtsNJGfzPpreNu-AJY=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/c86fe859-abef-4913-9f44-b2de47c7a80c/gallery/image/I04p6RaI9rl4Ca98EjB-mQ9JQRvP7oGGx0kcaHbmuAE=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/c86fe859-abef-4913-9f44-b2de47c7a80c/gallery/image/Qf9Djbrbgzed3Zk6Hcdrvfdv9X8IdEqlqTogwVnhk_o=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/c86fe859-abef-4913-9f44-b2de47c7a80c/gallery/image/-nzosCLzUDRABWTdL1fLx9ku4TTJ93e0Ya_kQN_h028=/original.webp",
+      "https://cloud.famproperties.com/project/large/-381649-101241.jpg",
+      "https://cloud.famproperties.com/project/large/-381477-101236.jpg",
+      "https://cloud.famproperties.com/project/large/-381651-101335.jpg",
+      "https://cloud.famproperties.com/project/large/-381516-101455.jpg",
+      "https://cloud.famproperties.com/project/large/-381646-101346.jpg"
+    ],
+    amenities: [
+      "Infinity Swimming Pools",
+      "Fully Equipped Gym",
+      "Landscaped Gardens",
+      "Children's Play Area",
+      "Marina Promenade with Restaurants & Retail",
+      "Superyacht Marina with Wet Berths",
+      "Clubhouse",
+      "CCTV & 24/7 Security"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "On Booking", description: "Original Developer Plan" },
+      { percentage: "70%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "20%", label: "On Handover", description: "Expected Q4 2028" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "1 Bedroom (approx. 729 - 819 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/627367d3-3412-4af1-b179-be730c76e7ab/floor_plan/image/bZc_u_r-nkSxetEaVwzg5crlbZj2sLlrk3NG0XKxGJ0=/original.webp"],
+        sideImage: "https://cloud.famproperties.com/project/large/-381516-101455.jpg"
+      },
+      {
+        bedrooms: "2 Bedroom (approx. 1,221 - 1,425 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/603915e7-c82f-4c46-a910-9ae3d33fc74a/floor_plan/image/k6VWDTOEL-gf_LWlxnDSTcHEK9T4kCR8Uc5vMEprDfk=/original.webp"],
+        sideImage: "https://cloud.famproperties.com/project/large/-381651-101335.jpg"
+      },
+      {
+        bedrooms: "3 Bedroom (approx. 1,689 - 1,884 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/2a312e62-0cf0-4dd1-8416-a0f59fbb2cc2/floor_plan/image/pe-VlawrFo-ZXAUCwAlnDl8fkKH_8jN4yXWcIwXl9hQ=/original.webp"],
+        sideImage: "https://cloud.famproperties.com/project/large/-381646-101346.jpg"
+      },
+      {
+        bedrooms: "4 Bedroom (approx. 2,904 - 2,974 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/d492ee3d-9e6c-4eed-9d31-8152ceba2709/floor_plan/image/2NJfA0zCilusdCpCrIkYWJssccOlCfqE43DYsX4X6nk=/original.webp"],
+        sideImage: "https://cloud.famproperties.com/project/large/-381477-101236.jpg"
+      }
+    ],
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/c86fe859-abef-4913-9f44-b2de47c7a80c/master_plan/image/U5mpJOlI4uPaWJBxqK5D46eRTho4OKHXWodr_Ghkrgg=/original.webp",
+    mapCode: "https://www.google.com/maps?q=Rashid+Yachts+and+Marina,+Mina+Rashid,+Dubai",
+    locationBenefits: {
+      description: "Located at Rashid Yachts & Marina in historic Mina Rashid, Marina Views combines waterfront living with quick access to Downtown Dubai, Bur Dubai and Deira.",
+      points: [
+        "On the Rashid Yachts & Marina promenade",
+        "Next to the QE2 and Mina Rashid's superyacht marina",
+        "Close to Bur Dubai & Deira",
+        "Easy access to Downtown Dubai & Sheikh Zayed Road",
+        "Marina, sea and Dubai skyline views"
+      ]
+    },
+    faqs: [
+      {
+        question: "Is Marina Views still available from Emaar?",
+        answer: "Marina Views launched in December 2024 and is listed as sold out from the developer. Units are now available through resale - contact ZHM Real Estate for current availability and prices."
+      },
+      {
+        question: "What was the launch price of Marina Views?",
+        answer: "Marina Views launched with prices starting from approximately AED 1,650,000."
+      },
+      {
+        question: "What unit types are available in Marina Views?",
+        answer: "Marina Views offers 1, 2, 3 and 4-bedroom apartments across three towers, ranging from approx. 729 to 2,974 sq. ft."
+      },
+      {
+        question: "What was the payment plan for Marina Views?",
+        answer: "The original developer plan was 80/20: 10% on booking, 70% during construction and 20% on handover."
+      },
+      {
+        question: "When is the handover of Marina Views?",
+        answer: "Handover is expected in Q4 2028."
+      }
+    ]
+  },
+  {
+    id: "bayz-101-by-danube",
+    slug: "bayz-101-by-danube",
+    name: "BAYZ 101 BY DANUBE",
+    location: "Business Bay, Dubai",
+    subtitle: "Furnished Apartments with Burj Khalifa Views & 1% Monthly Payment Plan",
+    description: "Bayz 101 by Danube Properties is a high-rise residential tower in the heart of Business Bay, Dubai, a short walk from the Dubai Canal and the Business Bay Metro Station, with sweeping views of the Burj Khalifa and Downtown Dubai skyline. The tower offers fully furnished studios and 1, 2, 3 and 4-bedroom apartments of approx. 374 to 1,822 sq. ft., with Danube's signature lifestyle amenities including an infinity pool, health club and gym, tennis and badminton courts, jogging track, library and children's play areas. With an entry price from AED 1,175,000 and Danube's popular 1% monthly payment plan that extends beyond handover, Bayz 101 offers an accessible way to own in one of Dubai's most connected business and lifestyle districts.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Studio, 1, 2, 3 & 4 BR Apartments",
+      propertyType: "Fully Furnished Apartments",
+      paymentPlan: "1% Monthly Payment Plan (Post-Handover)",
+      startingPrice: "AED 1,175,000 Starting from",
+      handover: "Expected Q2 2028",
+      downPayment: "10% Down Payment",
+      developer: "Danube Properties",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/K5iJg_LsoQVQt2xWdQzjjnvI9BNsxOzUUTilyB4DtEY=/original.webp",
+    galleryImages: [
+      "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/K5iJg_LsoQVQt2xWdQzjjnvI9BNsxOzUUTilyB4DtEY=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/-YSNJ9wNC7lrV4KuQPxmrEdbQl3ITFE2kMhnNZBnfaY=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/55T7GxW5mQxp2AwVPE4vr6im02n6zjqc3EITEHnEF7Q=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/Yk5u_d68YmzJ8fgWVmn-ii9SFxetrPjCwL7URcrwapo=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/bB2AECMMs_sIw8DXjhVUJqghj8MK5q3jJtmTm08FKZs=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/9qOgObKjxxx_7u5FzEXDWLH-ucQOuqqa7jKnw4La4hs=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/TcyWN7tJpBECABJnRqtVLpvQvKQBQO3m3Ja5qpcuNOA=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/mmtYgcb-drRjE2LMXis52h7tJXgq5QAgIZNgqTj-Xxc=/original.webp"
+    ],
+    amenities: [
+      "Infinity Swimming Pool",
+      "Health Club & Fully Equipped Gym",
+      "Tennis & Badminton Courts",
+      "Jogging Track",
+      "Library & Business Centre",
+      "Snooker & Table Tennis",
+      "Children's Play Area",
+      "Restaurants & 24/7 Security"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "On Booking", description: "Down Payment" },
+      { percentage: "63%", label: "During Construction", description: "Mostly 1% Monthly Instalments" },
+      { percentage: "1%", label: "On Handover", description: "Expected Q2 2028" },
+      { percentage: "26%", label: "Post-Handover", description: "1% Monthly After Handover" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Studio (approx. 374 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/5aa3027d-f6e7-4ef7-8cb8-2676dda38311/floor_plan/image/IWlllRhxEWBJPmDwb3ZP-1kG1BT8l7PtV-sHgJInDRM=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/TcyWN7tJpBECABJnRqtVLpvQvKQBQO3m3Ja5qpcuNOA=/original.webp"
+      },
+      {
+        bedrooms: "1 Bedroom (approx. 670 - 941 sq. ft.)",
+        images: [
+          "https://new-projects-media.propertyfinder.com/unit/046c9424-90fa-436f-98db-1f7f9486d573/floor_plan/image/Z5bpqorc9Iphwu9BWXygIkF0tbRDCXEco3qmheMZ8e0=/original.webp",
+          "https://new-projects-media.propertyfinder.com/unit/1dd9a242-2c02-4bbb-b243-354659f579be/floor_plan/image/WdAvOr-tQbvHKffRsAUSGQXm-ia6WGuWQT0FKgXmhWw=/original.webp"
+        ],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/bB2AECMMs_sIw8DXjhVUJqghj8MK5q3jJtmTm08FKZs=/original.webp"
+      },
+      {
+        bedrooms: "2 Bedroom (approx. 964 - 1,276 sq. ft.)",
+        images: [
+          "https://new-projects-media.propertyfinder.com/unit/8de4332d-af34-4318-a9be-e7c43da2b1a3/floor_plan/image/5d9n1oHQA-hvEn8p-WDGHH5q0bfB_4iGr1itkPUp4iw=/original.webp",
+          "https://new-projects-media.propertyfinder.com/unit/7bc42ee3-5802-4993-82f1-b2266a3b59ac/floor_plan/image/Z_a0P3xycBeVF1zrPMU0xK7X7VBzcfV72-YKrM7ZQCM=/original.webp"
+        ],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/Yk5u_d68YmzJ8fgWVmn-ii9SFxetrPjCwL7URcrwapo=/original.webp"
+      },
+      {
+        bedrooms: "3 Bedroom (approx. 1,116 - 1,607 sq. ft.)",
+        images: [
+          "https://new-projects-media.propertyfinder.com/unit/705c80cd-5c72-4e53-a063-770c9bf60b86/floor_plan/image/1hLxj_k9QVNUsJN4uem8sAr2vhYxR1zDDFbqc2ta65M=/original.webp",
+          "https://new-projects-media.propertyfinder.com/unit/221d21d6-f779-409d-9222-b5ee7b4c95f1/floor_plan/image/wzHCVGTlU0qIVTFQkrnJeV23Ew0MRuIfSZShYCZ8O2E=/original.webp"
+        ],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/mmtYgcb-drRjE2LMXis52h7tJXgq5QAgIZNgqTj-Xxc=/original.webp"
+      },
+      {
+        bedrooms: "4 Bedroom (approx. 1,822 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/8cbb93e8-54ff-4059-a9a6-ef49d31477bb/floor_plan/image/ZSALxrtjJe393-8IDebfi6HO-VR64G-KS8ElqSzT_bY=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/gallery/image/-YSNJ9wNC7lrV4KuQPxmrEdbQl3ITFE2kMhnNZBnfaY=/original.webp"
+      }
+    ],
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/f411f5e1-63ed-434c-9d04-ab7a05e786d6/master_plan/image/cvFZSe2ZxAO4pJAksjcjVj8H11Oow6cUDA384qFMitY=/original.webp",
+    mapCode: "https://www.google.com/maps?q=Bayz+101+by+Danube,+Business+Bay,+Dubai",
+    locationBenefits: {
+      description: "Located in Business Bay, Bayz 101 puts residents within walking distance of the Dubai Canal and Business Bay Metro, with Downtown Dubai and Sheikh Zayed Road minutes away.",
+      points: [
+        "Short walk to Business Bay Metro Station",
+        "Steps from the Dubai Canal",
+        "Burj Khalifa & Downtown Dubai skyline views",
+        "Quick access to Sheikh Zayed Road",
+        "Close to Dubai Mall & DIFC"
+      ]
+    },
+    faqs: [
+      {
+        question: "What is the starting price of Bayz 101 by Danube?",
+        answer: "Bayz 101 starts from AED 1,175,000."
+      },
+      {
+        question: "What is the payment plan for Bayz 101?",
+        answer: "Bayz 101 follows Danube's 1% monthly plan: 10% down payment, 63% during construction (mostly in 1% monthly instalments), 1% on handover and 26% post-handover."
+      },
+      {
+        question: "When is the handover of Bayz 101?",
+        answer: "Handover is expected in Q2 2028."
+      },
+      {
+        question: "What unit types are available in Bayz 101?",
+        answer: "Bayz 101 offers fully furnished studios and 1, 2, 3 and 4-bedroom apartments ranging from approx. 374 to 1,822 sq. ft."
+      },
+      {
+        question: "Is Bayz 101 the same as Bayz 102?",
+        answer: "No. Bayz 101 and Bayz 102 are separate Danube towers in Business Bay. Bayz 101 is a residential tower with handover expected in Q2 2028."
+      }
+    ]
+  },
+  {
+    id: "ghaf-woods",
+    slug: "ghaf-woods",
+    name: "Ghaf Woods",
+    location: "Ghaf Woods, Dubailand, Dubai",
+    subtitle: "Dubai's Forest-Living Community by Majid Al Futtaim - Serra Apartments from AED 1.2M",
+    description: "Ghaf Woods is a forest-inspired master community by Majid Al Futtaim in Dubailand, Dubai, located next to Global Village and named after the ghaf, the UAE's national tree. Planned as 11 residential clusters set within dense, shaded woodland, it brings together apartments, duplexes and villas linked by walking and cycling trails, landscaped green spaces and community amenities. The current release, Serra at Ghaf Woods, offers 1, 2 and 3-bedroom apartments and 3-bedroom duplexes of approx. 1,052 to 2,935 sq. ft., with prices from AED 1,200,000 and a 10/50/40 payment plan. Residents enjoy swimming pools, a modern fitness centre, children's play areas, BBQ areas and jogging and cycling tracks, all surrounded by nature while staying connected to the rest of Dubai.",
+    isFeatured: true,
+    features: {
+      bedrooms: "1, 2 & 3 BR Apartments & 3 BR Duplexes (Serra)",
+      propertyType: "Forest-Living Apartments & Duplexes",
+      paymentPlan: "60/40 Payment Plan",
+      startingPrice: "AED 1,200,000 Starting from",
+      handover: "Expected Q3 2027 (Serra)",
+      downPayment: "10% Down Payment",
+      developer: "Majid Al Futtaim",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://new-projects-media.propertyfinder.com/project/79a9054f-04fd-4742-94af-c9b77b7c9d30/gallery/image/HyZQOvDYhCnG-R7P4QGuj0SuxlsBcUHSHVH8WvV0u6A=/original.webp",
+    galleryImages: [
+      "https://new-projects-media.propertyfinder.com/project/79a9054f-04fd-4742-94af-c9b77b7c9d30/gallery/image/qTmcf5o4RGfKtp1R8546_hCGI2fJwAxNcH0hDIyS1kU=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/79a9054f-04fd-4742-94af-c9b77b7c9d30/gallery/image/HyZQOvDYhCnG-R7P4QGuj0SuxlsBcUHSHVH8WvV0u6A=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/79a9054f-04fd-4742-94af-c9b77b7c9d30/gallery/image/oLt3I0qt9E6AMFhUpEB6KspbTo7nKq1ithuZgHAvw_Y=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/79a9054f-04fd-4742-94af-c9b77b7c9d30/gallery/image/gB98VRlnt0wpJIzrGmzPEa4Xt3_QKgNjRphXloIbXn8=/original.webp",
+      "https://cloud.famproperties.com/project/large/-502883-103815.jpg",
+      "https://cloud.famproperties.com/project/large/-506027-105218.jpg",
+      "https://cloud.famproperties.com/project/large/-505958-091715.jpg",
+      "https://cloud.famproperties.com/project/large/-505956-091713.jpg",
+      "https://cloud.famproperties.com/project/large/-505958-091710.jpg"
+    ],
+    amenities: [
+      "Forest Setting with Shaded Woodland",
+      "Walking, Jogging & Cycling Trails",
+      "Swimming Pools",
+      "Modern Fitness Centre",
+      "Children's Play Areas",
+      "BBQ Areas",
+      "Landscaped Gardens & Green Spaces",
+      "CCTV & 24/7 Security"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "On Booking", description: "Down Payment (Serra)" },
+      { percentage: "50%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "40%", label: "On Handover", description: "Expected Q3 2027" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "1 Bedroom Apartment (approx. 1,052 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/0be2cb00-5562-4082-b6b2-95aa7bddc5a9/floor_plan/image/WeYQ_QiPKmuR1yXvBtP2C5So_yfITaImEnp0mfnZDs0=/original.webp"],
+        sideImage: "https://cloud.famproperties.com/project/large/-505956-091713.jpg"
+      },
+      {
+        bedrooms: "2 Bedroom Apartment (approx. 1,966 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/1b39c1dd-dde1-47b8-b8f9-7357efd208bd/floor_plan/image/v7oNyl-G8vfqZXqKwW4bI9JL7_4Llvow3dFbGB64yak=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/79a9054f-04fd-4742-94af-c9b77b7c9d30/gallery/image/gB98VRlnt0wpJIzrGmzPEa4Xt3_QKgNjRphXloIbXn8=/original.webp"
+      },
+      {
+        bedrooms: "3 Bedroom Apartment (approx. 2,653 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/0b560d7b-9166-4219-b28e-20d07c74570c/floor_plan/image/CaL_x_z--XzRehYg6jD9H6TgfgclCGfU6p4AN1xVckc=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/79a9054f-04fd-4742-94af-c9b77b7c9d30/gallery/image/HyZQOvDYhCnG-R7P4QGuj0SuxlsBcUHSHVH8WvV0u6A=/original.webp"
+      },
+      {
+        bedrooms: "3 Bedroom Duplex (approx. 2,935 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/6e3a86c1-7197-4c2f-ab68-162d961167ab/floor_plan/image/_wo-6-ltjcW_b4gHwbPnCNL_vWhSD4tQod3D_Z_WNww=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/79a9054f-04fd-4742-94af-c9b77b7c9d30/gallery/image/oLt3I0qt9E6AMFhUpEB6KspbTo7nKq1ithuZgHAvw_Y=/original.webp"
+      }
+    ],
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/79a9054f-04fd-4742-94af-c9b77b7c9d30/master_plan/image/BLa-WxpWllpD5VOozXPpsN1vul-cFpuN7KV0mHNSfyI=/original.webp",
+    mapCode: "https://www.google.com/maps?q=Ghaf+Woods,+Dubailand,+Dubai",
+    locationBenefits: {
+      description: "Ghaf Woods sits in Dubailand next to Global Village, combining a tranquil forest environment with convenient access to retail, dining, healthcare and Dubai's main road network.",
+      points: [
+        "Next to Global Village",
+        "Close to retail, dining & healthcare facilities",
+        "Direct access to Dubai's main road network",
+        "Within the established Dubailand district",
+        "Surrounded by woodland trails & green spaces"
+      ]
+    },
+    faqs: [
+      {
+        question: "What is the starting price at Ghaf Woods?",
+        answer: "The current Serra release at Ghaf Woods starts from AED 1,200,000 for apartments."
+      },
+      {
+        question: "What is the payment plan for Serra at Ghaf Woods?",
+        answer: "Serra offers a 60/40 payment plan: 10% on booking, 50% during construction and 40% on handover."
+      },
+      {
+        question: "When is the handover of Ghaf Woods?",
+        answer: "Ghaf Woods is being delivered in phases. Serra is expected in Q3 2027, while later clusters such as Distrikt are expected around 2029."
+      },
+      {
+        question: "Which clusters are part of Ghaf Woods?",
+        answer: "Ghaf Woods is planned as 11 clusters, including Serra, Cilia, Lacina, Distrikt, Capria East, Capria West and the Arista villas. Some earlier clusters have sold out, so contact ZHM Real Estate for current availability."
+      },
+      {
+        question: "Where is Ghaf Woods located?",
+        answer: "Ghaf Woods is located in Dubailand, Dubai, next to Global Village."
+      }
+    ]
+  },
+  {
+    id: "350-riverside-crescent",
+    slug: "350-riverside-crescent",
+    name: "350 Riverside Crescent",
+    location: "Sobha Hartland II, Mohammed Bin Rashid City, Dubai",
+    subtitle: "Lagoon-View Apartments by Sobha Realty in Sobha Hartland II",
+    description: "350 Riverside Crescent is a high-rise residential tower by Sobha Realty in Sobha Hartland II, Mohammed Bin Rashid City, Dubai, and part of the waterfront Riverside Crescent series of towers. The tower offers 1, 1.5 and 2-bedroom apartments of approx. 526 to 1,218 sq. ft., with private balconies and views over the crystal lagoons, Downtown Dubai and the Meydan skyline; the 1.5 and 2-bedroom layouts include a study or powder room. Residents enjoy an infinity pool, health club and gym, sky garden, leisure lounge, library, indoor movie theatre and children's play areas, all set within Sobha Hartland II's landscaped lagoons, green spaces and waterfront promenades. Built with Sobha's renowned in-house quality, 350 Riverside Crescent is ideal for both end-users and investors looking for waterfront living close to the city centre.",
+    isFeatured: true,
+    features: {
+      bedrooms: "1, 1.5 & 2 Bedroom Apartments",
+      propertyType: "Lagoon-View Apartments",
+      paymentPlan: "Contact for details",
+      startingPrice: "AED 1,980,000 Starting from (subject to availability)",
+      handover: "Expected Q4 2027",
+      downPayment: "Contact for details",
+      developer: "Sobha Realty",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://sobharealty.com/sites/default/files/2024-11/350%20Riverside%20Crescent.jpg",
+    galleryImages: [
+      "https://sobharealty.com/sites/default/files/2024-11/350%20Riverside%20Crescent.jpg",
+      "https://new-projects-media.propertyfinder.com/project/6508b5c6-a623-4e55-a459-9d9a7bdfa15f/gallery/image/NbvfCuyhioinb1BxdFb7TcYPPA04mNVzeYzu9_fzCvw=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6508b5c6-a623-4e55-a459-9d9a7bdfa15f/gallery/image/jQ6J_CL0M6Va3POUgvwiMMlJERHCElssBN38JPkh5OE=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6508b5c6-a623-4e55-a459-9d9a7bdfa15f/gallery/image/Mb3J7ics1u-Nnbf_R0bnKCsPxF0vkt6xqYGTPvskawI=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6508b5c6-a623-4e55-a459-9d9a7bdfa15f/gallery/image/cjZswbFELWJkd2rClHyn9YchLs1s_e-va8Yffec-5ik=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6508b5c6-a623-4e55-a459-9d9a7bdfa15f/gallery/image/N9MVxaJoGua3dTFxHgKuVN0V_VP7a8jAcTV54JyfCqo=/original.webp"
+    ],
+    amenities: [
+      "Infinity Swimming Pool",
+      "Health Club & Fully Equipped Gym",
+      "Sky Garden",
+      "Leisure Lounge",
+      "Library",
+      "Indoor Movie Theatre",
+      "Children's Play Areas",
+      "Landscaped Lagoons & Green Spaces"
+    ],
+    floorPlans: [
+      {
+        bedrooms: "1 & 1.5 Bedroom (approx. 526 - 1,179 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/fc72bd23-5a40-4b13-b96a-d29f369f8c32/floor_plan/image/_LAjmfFfuGRIzrxgA61RgTMrfkKqFTn8whyeXrO9EtI=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/6508b5c6-a623-4e55-a459-9d9a7bdfa15f/gallery/image/cjZswbFELWJkd2rClHyn9YchLs1s_e-va8Yffec-5ik=/original.webp"
+      },
+      {
+        bedrooms: "2 Bedroom (approx. 710 - 1,218 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/78077cbe-d6bd-4ed7-8ed7-8478b64147e4/floor_plan/image/NXsq_HoHcjK8QkTRtJKC1M3uQyi8FL4_z750GNi9Op0=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/6508b5c6-a623-4e55-a459-9d9a7bdfa15f/gallery/image/N9MVxaJoGua3dTFxHgKuVN0V_VP7a8jAcTV54JyfCqo=/original.webp"
+      }
+    ],
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/6508b5c6-a623-4e55-a459-9d9a7bdfa15f/master_plan/image/cMoWEoIRY-U9BTWdQmn0g9gsSZcHvksQ_3nlU6FRUkw=/original.webp",
+    mapCode: "https://www.google.com/maps?q=Sobha+Hartland+II,+Dubai",
+    locationBenefits: {
+      description: "Set within Sobha Hartland II in Mohammed Bin Rashid City, 350 Riverside Crescent offers lagoon-side living close to Dubai's central business and leisure districts.",
+      points: [
+        "Approx. 15 Mins to Dubai International Airport (DXB)",
+        "Approx. 15 Mins to Business Bay",
+        "Approx. 15 Mins to Dubai Creek Harbour",
+        "Views of Downtown Dubai & the Meydan skyline",
+        "Within Sobha Hartland II's lagoons & green spaces"
+      ]
+    },
+    faqs: [
+      {
+        question: "What is the starting price of 350 Riverside Crescent?",
+        answer: "Sobha Realty lists starting prices from AED 1,980,000, subject to inventory availability. Resale units are also available - contact ZHM Real Estate for the latest options."
+      },
+      {
+        question: "What unit types are available in 350 Riverside Crescent?",
+        answer: "The tower offers 1, 1.5 and 2-bedroom apartments of approx. 526 to 1,218 sq. ft., with the 1.5 and 2-bedroom units including a study or powder room."
+      },
+      {
+        question: "When is the handover of 350 Riverside Crescent?",
+        answer: "Handover is expected in Q4 2027."
+      },
+      {
+        question: "Who is the developer of 350 Riverside Crescent?",
+        answer: "350 Riverside Crescent is developed by Sobha Realty as part of the Riverside Crescent series in Sobha Hartland II."
+      },
+      {
+        question: "Can foreigners buy in 350 Riverside Crescent?",
+        answer: "Yes. Sobha Hartland II is a freehold community where buyers of all nationalities can own property."
       }
     ]
   },
@@ -2886,6 +3947,354 @@ export const projectsData: ProjectProperty[] = [
       {
         question: "What facilities are in the Azizi Florence master community?",
         answer: "Sprawling across 30M sq ft, Azizi Florence offers 25% green landscapes, a 1.7M sq ft Central Park, crystal lagoons, retail promenade, international schools, hospital, boutique hotel, and over 85 lifestyle amenities."
+      }
+    ]
+  },
+  {
+    id: "the-view-island",
+    slug: "the-view-island",
+    name: "The View Island",
+    location: "Sharjah Waterfront City, Hamriya West, Sharjah",
+    subtitle: "Beachfront 4 & 5 Bedroom Townhouses & Villas by Ajmal Makan",
+    description: "The View Island is a waterfront residential community by Ajmal Makan within Sharjah Waterfront City, a mixed-use destination made up of a series of man-made islands on Sharjah's northern coast. The project offers 4-bedroom townhouses of approx. 3,315 to 3,885 sq. ft. and 5-bedroom villas of approx. 5,415 sq. ft., designed around beach and lagoon frontages with landscaped gardens, private outdoor spaces and bright, sea-facing interiors. Residents enjoy swimming pools, a gym, landscaped gardens, children's play areas and restaurants, with Ajman and Dubai within easy driving distance. With a starting price of AED 2,400,000 and a 10/30/60 payment plan, The View Island offers spacious beachfront family homes at an accessible price point for the UAE coast.",
+    isFeatured: true,
+    features: {
+      bedrooms: "4 BR Townhouses & 5 BR Villas",
+      propertyType: "Beachfront Townhouses & Villas",
+      paymentPlan: "40/60 Payment Plan",
+      startingPrice: "AED 2,400,000 Starting from",
+      handover: "Expected Q1 2028",
+      downPayment: "10% Down Payment",
+      developer: "Ajmal Makan",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/zbJk4p5UPHBYkKg2ihfzM3g0P_xlXALfLRvIj2DBNQA=/original.webp",
+    galleryImages: [
+      "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/zbJk4p5UPHBYkKg2ihfzM3g0P_xlXALfLRvIj2DBNQA=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/gLRHK-MoQxSeB4l8tDlwjpj07HId2OSurpqPsRiQHrw=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/JGVejhSAXR37CtPDAjqt-vfwy5zmUVg-u3sk9NYaqKA=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/6K4TvP_AoH27d6P6EXzI9XwI7CEBPSkxMr1-7bcxqYY=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/2uf9_TaJoqzp4vKK5e4ySngbPnLtIZ8ztT72FzB7Zfs=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/p6aAfK1JXSa9WdjS2sGaa_I6CLRpWCTsSBbJVF-JevU=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/XXPJLjAGOPjd1A3jpUYmtdcr6iQiVs6bkzlIbiSJ9KU=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/r6AL8COGrUAd1NhNMWT2lgQz3hVy2CBrwh2faJduXJg=/original.webp"
+    ],
+    amenities: [
+      "Beach & Lagoon Frontage",
+      "Swimming Pools",
+      "Fully Equipped Gym",
+      "Landscaped Gardens",
+      "Children's Play Area",
+      "Restaurants & Retail",
+      "Island Waterfront Promenades",
+      "CCTV & 24/7 Security"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "On Booking", description: "Down Payment" },
+      { percentage: "30%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "60%", label: "On Handover", description: "Expected Q1 2028" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "4 Bedroom Townhouse (approx. 3,315 - 3,885 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/57cbeff3-0565-46a7-a8a8-9f860cf4da89/floor_plan/image/rCk0Ze80LqViz94muS_KbecbnLvGDkWCLDvXRrBBpjI=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/gLRHK-MoQxSeB4l8tDlwjpj07HId2OSurpqPsRiQHrw=/original.webp"
+      },
+      {
+        bedrooms: "5 Bedroom Villa (approx. 5,415 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/0de83f36-e642-4514-98b5-9c0a47247156/floor_plan/image/nSAsC9lEfA3j8oSnqywNg-D38Lb2cZVP9hfS3K52x2c=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/gallery/image/2uf9_TaJoqzp4vKK5e4ySngbPnLtIZ8ztT72FzB7Zfs=/original.webp"
+      }
+    ],
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/6f29e764-7550-41be-8d17-6361bc07d726/master_plan/image/ggAT08wqg7WnH_n_wT_-8FMEAzuvQHvUF6q7lXRKmh0=/original.webp",
+    mapCode: "https://www.google.com/maps?q=Sharjah+Waterfront+City,+Sharjah",
+    locationBenefits: {
+      description: "Located within Sharjah Waterfront City on Sharjah's northern coast, The View Island offers island beachfront living with road access to Sharjah city, Ajman and Dubai.",
+      points: [
+        "Part of the Sharjah Waterfront City island masterplan",
+        "Beach and lagoon frontage",
+        "Short drive to Ajman",
+        "Road access to Sharjah city & Dubai",
+        "Weekend access to the East Coast & Fujairah"
+      ]
+    },
+    faqs: [
+      {
+        question: "What is the starting price of The View Island?",
+        answer: "The View Island starts from AED 2,400,000 for 4-bedroom townhouses."
+      },
+      {
+        question: "What is the payment plan for The View Island?",
+        answer: "The View Island offers a 40/60 payment plan: 10% on booking, 30% during construction and 60% on handover."
+      },
+      {
+        question: "When is the handover of The View Island?",
+        answer: "Handover is expected in Q1 2028."
+      },
+      {
+        question: "What unit types are available at The View Island?",
+        answer: "The project offers 4-bedroom townhouses of approx. 3,315 to 3,885 sq. ft. and 5-bedroom villas of approx. 5,415 sq. ft."
+      },
+      {
+        question: "Is The View Island still available?",
+        answer: "Availability from the developer is limited and some units may already be sold out. Contact ZHM Real Estate for current availability and resale options."
+      }
+    ]
+  },
+  {
+    id: "masaar-2-by-arada",
+    slug: "masaar-2-by-arada",
+    name: "MASAAR 2 BY ARADA",
+    location: "Masaar 2, Al Suyoh, Sharjah",
+    subtitle: "Forest-Inspired Townhouses & Villas by Arada in Sharjah",
+    description: "Masaar 2 is the second phase of Arada's nature-inspired Masaar community in the Al Suyoh district of Sharjah, near Tilal City. Set within a green, forested landscape, the phase offers 2, 3 and 4-bedroom townhouses of approx. 1,789 to 2,634 sq. ft. and 4 and 5-bedroom forest villas of approx. 3,183 to 5,831 sq. ft., released across neighbourhood clusters including Melia, Narenj and Anber. Residents enjoy swimming pools, fitness centres, landscaped gardens, children's play areas and an extensive cycling and jogging network running through the community. With prices starting from around AED 1,500,000 and a 5/35/60 payment plan, Masaar 2 offers spacious family homes in one of Sharjah's most popular master-planned communities.",
+    isFeatured: true,
+    features: {
+      bedrooms: "2, 3 & 4 BR Townhouses, 4 & 5 BR Villas",
+      propertyType: "Townhouses & Forest Villas",
+      paymentPlan: "40/60 Payment Plan",
+      startingPrice: "AED 1,500,000 Starting from",
+      handover: "Expected Q4 2027",
+      downPayment: "5% Down Payment",
+      developer: "Arada",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/cDW5UonbOSXNFGJC31r8S4KcxWHvXbgDIM4lH1T09-U=/original.webp",
+    galleryImages: [
+      "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/cDW5UonbOSXNFGJC31r8S4KcxWHvXbgDIM4lH1T09-U=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/6rH3AVdtGhPlEpx-M5IErFf8DePB7jVaRhXnh042YB4=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/7dPul5gdBygHSRpoU8a7NhH6ST9WqH15dPfUtbDL2Mo=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/RdkCtAmHvXVVsTz4zbycoCkH2dJw8pLMiw6soRr23mo=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/HJu08K1NF7qHJFSjLHkDEHukuNLvRXNfBnZVk4xYhhg=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/glDepdhFM0RJtJuVH0hCuUdh_ffZEYvUfX3nF4IEzT0=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/WA0K6oqOVRIbwINh6SykTaissBwNj6azioneS0Wjuxo=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/2X2WNU2cF4NwLgEaPeR4dQ2cnD5aDMiJB9ybaUgia0w=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/gallery/image/LDr6tExJVFHbjj0D6M3409ebWHIEZqLXwKNQW2xVCPc=/original.webp"
+    ],
+    amenities: [
+      "Forest Landscapes & Green Spaces",
+      "Cycling & Jogging Network",
+      "Swimming Pools",
+      "Fitness Centres",
+      "Landscaped Gardens",
+      "Children's Play Areas",
+      "Restaurants & Retail",
+      "CCTV & 24/7 Security"
+    ],
+    paymentPlanDetails: [
+      { percentage: "5%", label: "On Booking", description: "Down Payment" },
+      { percentage: "35%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "60%", label: "On Handover", description: "Expected Q4 2027" }
+    ],
+    floorPlans: [],
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/010f25e9-4246-4763-ab67-a23619447be7/master_plan/image/om4kk_s_p5iR6c6uWXRRN1BiMD3VCwEyqRQHFzkD-nw=/original.webp",
+    mapCode: "https://www.google.com/maps?q=Masaar,+Al+Suyoh,+Sharjah",
+    locationBenefits: {
+      description: "Masaar 2 is located in the Al Suyoh district near Tilal City, part of Sharjah's growing suburban corridor with access to Emirates Road and the wider UAE road network.",
+      points: [
+        "Part of Arada's established Masaar community",
+        "Near Tilal City, Al Suyoh",
+        "Access to Emirates Road",
+        "Close to schools, retail & community facilities",
+        "Forest setting with cycling & jogging trails"
+      ]
+    },
+    faqs: [
+      {
+        question: "What is the starting price of Masaar 2?",
+        answer: "Masaar 2 townhouses start from around AED 1,500,000, with villas priced higher depending on size and cluster."
+      },
+      {
+        question: "What is the payment plan for Masaar 2?",
+        answer: "Masaar 2 offers a 5/35/60 payment plan: 5% down payment, 35% during construction and 60% on handover."
+      },
+      {
+        question: "When is the handover of Masaar 2?",
+        answer: "Handover is expected in Q4 2027."
+      },
+      {
+        question: "What unit types are available in Masaar 2?",
+        answer: "Masaar 2 offers 2, 3 and 4-bedroom townhouses of approx. 1,789 to 2,634 sq. ft. and 4 and 5-bedroom villas of approx. 3,183 to 5,831 sq. ft., across clusters such as Melia, Narenj and Anber."
+      },
+      {
+        question: "Is Masaar 2 still available?",
+        answer: "Availability varies by cluster and some releases may be sold out. Contact ZHM Real Estate for current availability and resale options."
+      }
+    ]
+  },
+  {
+    id: "hawa-residence",
+    slug: "hawa-residence",
+    name: "HAWA Residence",
+    location: "Tilal City, Sharjah",
+    subtitle: "Contemporary Studios to 3 Bedroom Apartments by Al Marwan in Tilal City",
+    description: "HAWA Residence is a contemporary residential development by Al Marwan Group in Tilal City, Sharjah, located directly off Emirates Road. The project offers studios and 1, 2 and 3-bedroom apartments of approx. 353 to 2,226 sq. ft., designed for first-time buyers, upgraders and families alike. Residents enjoy a large resort-style swimming pool, landscaped courtyards and a Zen garden, a fitness centre, a children's play area, a ground-floor retail promenade and covered parking. HAWA Residence launched from AED 554,300 and has sold out from the developer, with units now available through resale and handover expected in Q4 2028.",
+    isFeatured: true,
+    features: {
+      bedrooms: "Studio, 1, 2 & 3 Bedroom Apartments",
+      propertyType: "Residential Apartments",
+      paymentPlan: "40/60 (Original Developer Plan)",
+      startingPrice: "Resale - Contact for latest prices",
+      handover: "Expected Q4 2028",
+      downPayment: "10% (Original Developer Plan)",
+      developer: "Al Marwan Group",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/25Ugwzf4IWQ4bUnFTemDh6sxAtlxPjR9DDSmoR_PLg4=/original.webp",
+    galleryImages: [
+      "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/25Ugwzf4IWQ4bUnFTemDh6sxAtlxPjR9DDSmoR_PLg4=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/nqnx9g9im6UXsa_8AP3l15EIYh-kQQDW6V-YpL3jBEA=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/jQO8BDo6o0U58AfOvjo5V39e2dfUOVdh1OE3SZ9LSDs=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/vv3l6JDctI5bhvFg5xhHeW4yFQrPwtDBfA4ctlEYBx0=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/xHbv-aWrNds5YBGutQLAO2UlcNCdmJHfcM9zCFp3TGg=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/NhNGkhtnrhRsHO7rcf274V3TWD0BgIGrkdMQvL9RZyY=/original.webp"
+    ],
+    amenities: [
+      "Resort-Style Swimming Pool",
+      "Landscaped Courtyards & Zen Garden",
+      "Fitness Centre",
+      "Children's Play Area",
+      "Retail Promenade",
+      "Covered Parking",
+      "CCTV Security",
+      "Direct Access to Emirates Road"
+    ],
+    paymentPlanDetails: [
+      { percentage: "10%", label: "On Booking", description: "Original Developer Plan" },
+      { percentage: "30%", label: "During Construction", description: "Construction-Linked Instalments" },
+      { percentage: "60%", label: "On Handover", description: "Expected Q4 2028" }
+    ],
+    floorPlans: [
+      {
+        bedrooms: "Studio (approx. 380 - 411 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/826b8d29-3583-41ac-9ac3-0b4c8d248e8c/floor_plan/image/aw9EybIv1dR1TibxMZe2Z1U-y3lGb9FG4GWaZnkUlRE=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/jQO8BDo6o0U58AfOvjo5V39e2dfUOVdh1OE3SZ9LSDs=/original.webp"
+      },
+      {
+        bedrooms: "1 Bedroom (approx. 631 - 1,116 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/037c4ef1-147c-4bd0-a140-a1d79c8e6475/floor_plan/image/0oS6a7Yls9ZuLGIl5S81tWu72AfETRCGPNtCh-yE3HY=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/nqnx9g9im6UXsa_8AP3l15EIYh-kQQDW6V-YpL3jBEA=/original.webp"
+      },
+      {
+        bedrooms: "2 Bedroom (up to approx. 1,181 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/db3978c3-2699-4f9e-81ff-ebf7f611d0a9/floor_plan/image/CS99APzcj7VgBpOcDQtyLVpEIc31JaRyhztcshyjMDk=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/vv3l6JDctI5bhvFg5xhHeW4yFQrPwtDBfA4ctlEYBx0=/original.webp"
+      },
+      {
+        bedrooms: "3 Bedroom (approx. 2,226 sq. ft.)",
+        images: ["https://new-projects-media.propertyfinder.com/unit/02414264-10ce-4265-b48f-efce0502c35d/floor_plan/image/r5XHN0baZ7XB6j0CZG-63EIXb8WDJ2bRzByb5PfJ40A=/original.webp"],
+        sideImage: "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/gallery/image/25Ugwzf4IWQ4bUnFTemDh6sxAtlxPjR9DDSmoR_PLg4=/original.webp"
+      }
+    ],
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/8bca87f4-d5f0-4804-bc2a-f16c5ec30084/master_plan/image/eJZk3-o0iWmbcyA41AkzIKGw85A1l4EuOBhK2JpEOhY=/original.webp",
+    mapCode: "https://www.google.com/maps?q=Tilal+City,+Sharjah",
+    locationBenefits: {
+      description: "HAWA Residence sits in Tilal City directly off Emirates Road, giving residents a calm neighbourhood with quick links across Sharjah and to Dubai.",
+      points: [
+        "Directly off Emirates Road",
+        "Approx. 2 Mins to the Masaar cycling & jogging track",
+        "Approx. 14 Mins to Sharjah International Airport",
+        "Within Sharjah's planned Tilal City community",
+        "Close to schools, retail & daily conveniences"
+      ]
+    },
+    faqs: [
+      {
+        question: "Is HAWA Residence still available from the developer?",
+        answer: "HAWA Residence is listed as sold out from the developer. Units are now available through resale - contact ZHM Real Estate for current availability and prices."
+      },
+      {
+        question: "What was the launch price of HAWA Residence?",
+        answer: "HAWA Residence launched with prices starting from AED 554,300."
+      },
+      {
+        question: "What unit types are available in HAWA Residence?",
+        answer: "The project offers studios and 1, 2 and 3-bedroom apartments ranging from approx. 353 to 2,226 sq. ft."
+      },
+      {
+        question: "What was the payment plan for HAWA Residence?",
+        answer: "The original developer plan was 10% on booking, 30% during construction and 60% on handover."
+      },
+      {
+        question: "When is the handover of HAWA Residence?",
+        answer: "Handover is expected in Q4 2028."
+      }
+    ]
+  },
+  {
+    id: "nama-4-at-al-mamsha",
+    slug: "nama-4-at-al-mamsha",
+    name: "NAMA 4 AT AL MAMSHA",
+    location: "Al Mamsha, Muwaileh, Sharjah",
+    subtitle: "1, 2 & 3 Bedroom Apartments by Alef Group in Sharjah's First Walkable Community",
+    description: "Nama 4 is a residential building by Alef Group within the Nama cluster of Al Mamsha in Muwaileh, Sharjah, the emirate's first fully walkable neighbourhood. The building offers 1, 2 and 3-bedroom apartments of approx. 530 to 2,065 sq. ft., with bright, modern interiors, fitted kitchens and contemporary bathrooms. Residents enjoy swimming pools, children's play areas, community parks and landscaped walkways, with Al Mamsha's retail, dining and water features just steps away. With prices starting from AED 729,000 and a 70/30 payment plan, Nama 4 offers an accessible entry into one of Sharjah's most popular master-planned communities, close to University City and Sharjah International Airport.",
+    isFeatured: true,
+    features: {
+      bedrooms: "1, 2 & 3 Bedroom Apartments",
+      propertyType: "Residential Apartments",
+      paymentPlan: "70/30 Payment Plan",
+      startingPrice: "AED 729,000 Starting from",
+      handover: "Expected Q4 2027 - Q1 2028",
+      downPayment: "Low Booking Deposit",
+      developer: "Alef Group",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://new-projects-media.propertyfinder.com/project/42b98f21-af72-44a0-bf08-186af99f45ed/gallery/image/2fK_NZ20QqJ6UvXIWPcWVIf1XioSfQlkkd93hNcuBzE=/original.webp",
+    galleryImages: [
+      "https://new-projects-media.propertyfinder.com/project/42b98f21-af72-44a0-bf08-186af99f45ed/gallery/image/2fK_NZ20QqJ6UvXIWPcWVIf1XioSfQlkkd93hNcuBzE=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/42b98f21-af72-44a0-bf08-186af99f45ed/gallery/image/EGCubODBHLz08SRlqU0MTFKilZgSz9sMbs8cYUZg38U=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/42b98f21-af72-44a0-bf08-186af99f45ed/gallery/image/-nSks04U6ropkNVLQQA4nTw6WyiceLO3lAtXZz3Lb2U=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/42b98f21-af72-44a0-bf08-186af99f45ed/gallery/image/SXb3S7L65dOyhFfiFbG6O_BkG0QdDENZP99xN8C8diU=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/42b98f21-af72-44a0-bf08-186af99f45ed/gallery/image/irSIfkc5iKDb3-pwOcPGm0NXX040QtOIiW3Eca5bgMk=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/42b98f21-af72-44a0-bf08-186af99f45ed/gallery/image/afnzTqUDkDdaA049tIefjtgMohd4s0H_1MZI3Rw21tI=/original.webp"
+    ],
+    amenities: [
+      "Swimming Pools",
+      "Children's Play Areas",
+      "Community Parks",
+      "Landscaped Walkways",
+      "Retail & Dining in Al Mamsha",
+      "Water Features",
+      "Fitness Facilities",
+      "Covered Parking"
+    ],
+    paymentPlanDetails: [
+      { percentage: "70%", label: "During Construction", description: "Including Booking Deposit" },
+      { percentage: "30%", label: "On Handover", description: "Expected Q4 2027 - Q1 2028" }
+    ],
+    floorPlans: [],
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/42b98f21-af72-44a0-bf08-186af99f45ed/master_plan/image/mqGROS19NdHaidPiw5n5lzBWmCWzKmpQDDcXqSjb95Y=/original.webp",
+    mapCode: "https://www.google.com/maps?q=Al+Mamsha,+Muwaileh,+Sharjah",
+    locationBenefits: {
+      description: "Located in Al Mamsha, Muwaileh, Nama 4 offers walkable community living with quick access to Sharjah's universities, airport and the main roads to Dubai and the northern emirates.",
+      points: [
+        "Approx. 5 Mins to University City of Sharjah",
+        "Approx. 15 Mins to Sharjah International Airport",
+        "Within Al Mamsha, Sharjah's first walkable neighbourhood",
+        "Steps from Al Mamsha retail, dining & water features",
+        "Easy connections to other emirates"
+      ]
+    },
+    faqs: [
+      {
+        question: "What is the starting price of Nama 4?",
+        answer: "Nama 4 at Al Mamsha starts from AED 729,000."
+      },
+      {
+        question: "What is the payment plan for Nama 4?",
+        answer: "Nama 4 offers a 70/30 payment plan: 70% during construction (including the booking deposit) and 30% on handover."
+      },
+      {
+        question: "When is the handover of Nama 4?",
+        answer: "Handover is expected between Q4 2027 and Q1 2028."
+      },
+      {
+        question: "What unit types are available in Nama 4?",
+        answer: "Nama 4 offers 1-bedroom apartments of approx. 530 to 810 sq. ft., 2-bedroom apartments of approx. 1,053 to 1,526 sq. ft. and 3-bedroom apartments of approx. 1,475 to 2,065 sq. ft."
+      },
+      {
+        question: "Can foreigners buy in Nama 4?",
+        answer: "Yes. Al Mamsha is a freehold community where buyers of all nationalities can own property."
       }
     ]
   },

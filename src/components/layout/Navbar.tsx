@@ -28,6 +28,11 @@ const navItems = [
             { name: "Muheira", href: "/featured-projects/abu-dhabi/muheira" },
             { name: "Sei Saadiyat", href: "/featured-projects/abu-dhabi/sei-saadiyat" },
             { name: "Wadeem Gardens", href: "/featured-projects/abu-dhabi/wadeem-gardens" },
+            { name: "Yas Riva Reserve", href: "/featured-projects/abu-dhabi/yas-riva-reserve" },
+            { name: "The Canopies", href: "/featured-projects/abu-dhabi/the-canopies" },
+            { name: "Yas Acres The Orchids", href: "/featured-projects/abu-dhabi/yas-acres-the-orchids" },
+            { name: "Al Ghadeer Parks", href: "/featured-projects/abu-dhabi/al-ghadeer-parks" },
+            { name: "Hudayriyat Golf Estates", href: "/featured-projects/abu-dhabi/hudayriyat-golf-estates" },
             { name: "View All", href: "/featured-projects/abu-dhabi" }
           ]
         },
@@ -47,6 +52,12 @@ const navItems = [
             { name: "Rawda Apartments", href: "/featured-projects/dubai/rawda-apartments" },
             { name: "DE Collective", href: "/featured-projects/dubai/de-collective" },
             { name: "Expo Golf Villas", href: "/featured-projects/dubai/expo-golf-villas" },
+            { name: "Bayz 101 by Danube", href: "/featured-projects/dubai/bayz-101-by-danube" },
+            { name: "Ghaf Woods", href: "/featured-projects/dubai/ghaf-woods" },
+            { name: "350 Riverside Crescent", href: "/featured-projects/dubai/350-riverside-crescent" },
+            { name: "Bluewaters Bay", href: "/featured-projects/dubai/bluewaters-bay" },
+            { name: "Farm Grove", href: "/featured-projects/dubai/farm-grove" },
+            { name: "Marina Views", href: "/featured-projects/dubai/marina-views-mina-rashid" },
             { name: "View All", href: "/featured-projects/dubai" }
           ]
         },
@@ -60,6 +71,10 @@ const navItems = [
             { name: "Olfah 3", href: "/featured-projects/sharjah/olfah-3" },
             { name: "Hayyan", href: "/featured-projects/sharjah/hayyan" },
             { name: "Hamsa 2", href: "/featured-projects/sharjah/hamsa-2" },
+            { name: "The View Island", href: "/featured-projects/sharjah/the-view-island" },
+            { name: "Masaar 2 by Arada", href: "/featured-projects/sharjah/masaar-2-by-arada" },
+            { name: "Nama 4 at Al Mamsha", href: "/featured-projects/sharjah/nama-4-at-al-mamsha" },
+            { name: "HAWA Residence", href: "/featured-projects/sharjah/hawa-residence" },
             { name: "View All", href: "/featured-projects/sharjah" }
           ]
         },

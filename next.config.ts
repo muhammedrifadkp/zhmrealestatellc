@@ -164,6 +164,18 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'flagcdn.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'cloud.famproperties.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'asset.aldar.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'sobharealty.com',
+      },
     ],
   },
 };
