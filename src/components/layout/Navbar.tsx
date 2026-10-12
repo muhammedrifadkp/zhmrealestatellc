@@ -27,6 +27,7 @@ const navItems = [
             { name: "The Arthouse", href: "/featured-projects/abu-dhabi/the-arthouse" },
             { name: "Muheira", href: "/featured-projects/abu-dhabi/muheira" },
             { name: "Sei Saadiyat", href: "/featured-projects/abu-dhabi/sei-saadiyat" },
+            { name: "Wadeem Gardens", href: "/featured-projects/abu-dhabi/wadeem-gardens" },
             { name: "View All", href: "/featured-projects/abu-dhabi" }
           ]
         },

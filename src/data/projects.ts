@@ -470,6 +470,80 @@ export const projectsData: ProjectProperty[] = [
     ]
   },
   {
+    id: "wadeem-gardens",
+    slug: "wadeem-gardens",
+    name: "Wadeem Gardens",
+    location: "Hudayriyat Island, Abu Dhabi",
+    subtitle: "Luxury 4, 5 & 6 Bedroom Villas by Modon on Hudayriyat Island",
+    description: "Wadeem Gardens is a gated villa community by Modon Properties on Hudayriyat Island, Abu Dhabi, set within Modon's Wadeem masterplan directly across the water from Al Bateen. The community offers 4, 5 and 6-bedroom villas across three clusters in Contemporary Arabic and Modernist styles, with built-up areas of 430 to 591 sq. m on plots of 532 to 720 sq. m and a choice of exterior finishes and interior layouts. Life at Wadeem Gardens is organised around a 2.3 km walking spine linking a central park, neighbourhood clubhouses, sports facilities and a waterfront promenade, with schools, healthcare and retail planned within the masterplan. Wadeem Gardens is also Abu Dhabi's first villa community to offer up to 75% off-plan home finance through Abu Dhabi Islamic Bank (ADIB), making it an ideal choice for families and long-term investors alike.",
+    isFeatured: true,
+    features: {
+      bedrooms: "4, 5 & 6 Bedroom Villas",
+      propertyType: "Gated Villa Community",
+      paymentPlan: "25/75 Payment Plan",
+      startingPrice: "AED 8,700,000 Starting from",
+      handover: "Expected Q2 2031",
+      downPayment: "5% Down Payment",
+      developer: "Modon Properties",
+      nationality: "Freehold - Open to all Nationalities"
+    },
+    heroImage: "https://www.modon.com/images/modoncorporatelibraries/news/modon-launches-phase-one-of-wadeem-gardens-abu-dhabi-s-first-villa-community-to-offer-up-to-75-off-plan-home-finance-with-adib.jpg?sfvrsn=d8e087a0_1",
+    galleryImages: [
+      "https://www.modon.com/images/modoncorporatelibraries/news/modon-launches-phase-one-of-wadeem-gardens-abu-dhabi-s-first-villa-community-to-offer-up-to-75-off-plan-home-finance-with-adib.jpg?sfvrsn=d8e087a0_1",
+      "https://www.modon.com/images/modoncorporatelibraries/news/modon-launches-wadeem-its-first-residential-plots-community-on-hudayriyat-island246c0b2c-5614-422a-aba6-af80f5805408.jpg?sfvrsn=e79271ea_1"
+    ],
+    amenities: [
+      "2.3 km Climate-Controlled Walking Spine",
+      "16-Hectare Central Park",
+      "Six Neighbourhood Clubhouses",
+      "Community Arena & Sports Fields",
+      "Swimming Pools & Recreational Hub",
+      "Walking, Running & Cycling Trails",
+      "Waterfront Promenade",
+      "Schools, Healthcare & Retail within the Masterplan"
+    ],
+    paymentPlanDetails: [
+      { percentage: "5%", label: "On Booking", description: "Reservation Payment" },
+      { percentage: "20%", label: "During Construction", description: "4 Instalments of 5% up to Month 48" },
+      { percentage: "75%", label: "On Handover", description: "Expected Q2 2031" }
+    ],
+    floorPlans: [],
+    siteMapImage: "https://www.modon.com/images/modoncorporatelibraries/news/modon-launches-wadeem-its-first-residential-plots-community-on-hudayriyat-island246c0b2c-5614-422a-aba6-af80f5805408.jpg?sfvrsn=e79271ea_1",
+    mapCode: "https://www.google.com/maps?q=Hudayriyat+Island,+Abu+Dhabi",
+    locationBenefits: {
+      description: "Located on Hudayriyat Island, directly across the water from Al Bateen, Wadeem Gardens combines island living with quick access to Abu Dhabi's business districts and the island's beaches and sports destinations.",
+      points: [
+        "Opposite Al Bateen, minutes from Downtown Abu Dhabi",
+        "20 Mins to Zayed International Airport (AUH)",
+        "23 Mins to Abu Dhabi Global Market (ADGM)",
+        "Close to Surf Abu Dhabi & Velodrome Abu Dhabi",
+        "Near Marsana Beach & Nawayef Park"
+      ]
+    },
+    faqs: [
+      {
+        question: "What are the starting prices for Wadeem Gardens?",
+        answer: "Wadeem Gardens villas start from AED 8,700,000 for 4 bedrooms, AED 10,200,000 for 5 bedrooms and AED 11,600,000 for 6 bedrooms."
+      },
+      {
+        question: "What is the payment plan for Wadeem Gardens?",
+        answer: "Wadeem Gardens offers a 25/75 payment plan: 5% on booking, 20% in four instalments of 5% during construction, and 75% on handover."
+      },
+      {
+        question: "When is the handover of Wadeem Gardens?",
+        answer: "Handover of Wadeem Gardens is expected in Q2 2031."
+      },
+      {
+        question: "Can foreigners buy villas in Wadeem Gardens?",
+        answer: "Yes. Wadeem Gardens is a freehold community open to all nationalities. UAE nationals also receive a 5% rebate on the property price."
+      },
+      {
+        question: "Is mortgage financing available for Wadeem Gardens?",
+        answer: "Yes. Through Modon's partnership with Abu Dhabi Islamic Bank (ADIB), eligible buyers can finance up to 75% of the villa price off-plan, with free pre-approval within two hours."
+      }
+    ]
+  },
+  {
     id: "elegance-tower",
     slug: "elegance-tower",
     name: "Elegance Tower",
