@@ -3843,7 +3843,7 @@ export const projectsData: ProjectProperty[] = [
     id: "sharjah-waterfront-city",
     slug: "sharjah-waterfront-city",
     name: "SHARJAH WATERFRONT CITY",
-    location: "Sharjah Waterfront City, Sharjah",
+    location: "Al Hamriyah, Sharjah",
     subtitle: "The Future of Coastal Living",
     description: "Experience serene coastal living at Sharjah Waterfront City, a large-scale residential development designed for comfort, privacy, and modern lifestyle. Surrounded by scenic waterfront views and green landscapes, this community offers a peaceful environment for families and investors. Sharjah Waterfront City is a thoughtfully designed residential destination that combines natural beauty with modern living. Built with a focus on outdoor lifestyle and open spaces, the community offers a pollution-free environment with access to beaches, landscaped areas, and lifestyle facilities. The development is designed to provide maximum comfort and privacy, making it ideal for families seeking a relaxed coastal lifestyle. With scenic waterfront views and well-planned infrastructure, residents can enjoy a balanced living experience surrounded by nature and convenience.",
     isFeatured: true,
@@ -3854,22 +3854,34 @@ export const projectsData: ProjectProperty[] = [
       startingPrice: "AED 2,500,000 Starting from",
       handover: "Launch Year: 2018",
       downPayment: "Contact for details",
-      developer: "Baraka Real Estate Development LLC",
+      developer: "Ajmal Makan Real Estate Development",
       nationality: "Freehold"
     },
-    heroImage: "/images/saadiyat/saadiyat-resort-pool.png",
-    galleryImages: ["/images/saadiyat/saadiyat-resort-pool.png", "/images/saadiyat/saadiyat-beachfront-condos.png", "/images/al-reem/beach-towers-exterior.png"],
+    heroImage: "https://new-projects-media.propertyfinder.com/project/ecf341dc-bc1e-44fe-8b68-cf700ceec566/gallery/image/K1faLFoComkkeP5NpfBUeVG4uPKtlBuefWiZm1OH9QI=/original.webp",
+    galleryImages: [
+      "https://new-projects-media.propertyfinder.com/project/ecf341dc-bc1e-44fe-8b68-cf700ceec566/gallery/image/K1faLFoComkkeP5NpfBUeVG4uPKtlBuefWiZm1OH9QI=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/ba4468b9-17ac-4d68-a2ce-0a517e2804dd/gallery/image/sXWbhZGeSsTiwrdyyfsGmVvgxtq1X9Vb3rOD6duwa1o=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/ecf341dc-bc1e-44fe-8b68-cf700ceec566/gallery/image/XebKSibKDZRS7U8w7evzQvPo9cEYDXXDMhrsgM0T7rA=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/ba4468b9-17ac-4d68-a2ce-0a517e2804dd/gallery/image/-22ddkpjM6eNsOAtx2mfnXpEo6MAfWGGkBqUPu3tL_I=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/ecf341dc-bc1e-44fe-8b68-cf700ceec566/gallery/image/_-NzkO1esMczVlJgwfxqOTifJip80_eiVb8seKh0h7k=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/ba4468b9-17ac-4d68-a2ce-0a517e2804dd/gallery/image/2UTsem5M-16kRlcAITNPUG-ccdnW0UIoCNovjiKwIac=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/ba4468b9-17ac-4d68-a2ce-0a517e2804dd/gallery/image/PQDeYPo8Iub3X5n8pSmMBtZ775dTBWIIDQWz4t7Q9PA=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/ecf341dc-bc1e-44fe-8b68-cf700ceec566/gallery/image/5pFYsot9YGg9W_ZD72OMTd0_Bfc_I_p2DfTKqypfZxU=/original.webp",
+      "https://new-projects-media.propertyfinder.com/project/ecf341dc-bc1e-44fe-8b68-cf700ceec566/gallery/image/gEjsveAFLlT_tPSRG63GNPCUI36bOiWuzawsoOCqMOo=/original.webp"
+    ],
     amenities: ["Waterpark", "Marina", "Shopping Center"],
     floorPlans: [],
-    siteMapImage: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200",
+    siteMapImage: "https://new-projects-media.propertyfinder.com/project/ba4468b9-17ac-4d68-a2ce-0a517e2804dd/gallery/image/sXWbhZGeSsTiwrdyyfsGmVvgxtq1X9Vb3rOD6duwa1o=/original.webp",
+    mapCode: "https://www.google.com/maps?q=Sharjah+Waterfront+City,+Al+Hamriyah,+Sharjah",
     locationBenefits: {
-      description: "Located in Sharjah Waterfront City, this development offers a unique coastal lifestyle with access to key destinations.",
+      description: "Sharjah Waterfront City sits on Sharjah's northern coastline in Al Hamriyah, next to the Hamriyah Free Zone and the Umm Al Quwain border, with road connections to Sharjah city, Ajman and Dubai.",
       points: [
-        "Direct access to beaches and waterfront areas",
-        "Peaceful environment away from city congestion",
-        "Easy access to nearby dining and retail outlets",
-        "Growing infrastructure and community development",
-        "Well-connected to key areas in Sharjah"
+        "20 Mins to Hamriyah Free Zone",
+        "25 Mins to Ajman Corniche",
+        "25 Mins to Umm Al Quwain Corniche",
+        "30 Mins to Sharjah International Airport",
+        "30 Mins to Al Majaz Waterfront, Sharjah",
+        "40 Mins to Dubai International Airport (DXB)"
       ]
     },
     faqs: [
