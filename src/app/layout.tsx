@@ -5,10 +5,12 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { SITE_URL } from "@/lib/site";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "ZHM Real Estate – Top Real Estate Company in Dubai",
   description: "ZHM Real Estate LLC is one of the top real estate agencies in Dubai, offering premium real estate for buy, sell, and rent.",
 };

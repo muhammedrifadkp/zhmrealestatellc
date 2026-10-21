@@ -2,8 +2,9 @@ import { MetadataRoute } from "next";
 import fs from "fs";
 import path from "path";
 import { projectsData, getProjectRegion } from "@/data/projects";
+import { SITE_URL } from "@/lib/site";
 
-const BASE_URL = "https://zhmrealestatellc.ae";
+const BASE_URL = SITE_URL;
 
 function getStaticRoutes(): string[] {
   const appDir = path.join(process.cwd(), "src", "app");

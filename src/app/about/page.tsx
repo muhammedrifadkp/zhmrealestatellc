@@ -96,6 +96,7 @@ export default function AboutPage() {
               className="text-4xl sm:text-5xl md:text-7xl lg:text-[6rem] font-bold text-white leading-[1.1] tracking-tight drop-shadow-2xl"
               style={{ fontFamily: '"Cormorant Garamond", serif' }}
             >
+              <span className="sr-only">About ZHM Real Estate LLC – </span>
               Building Dreams,
               <br />
               <span className="text-gold-gradient italic font-normal tracking-wide inline-block mt-1 md:mt-4 md:pl-8">
@@ -110,7 +111,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.7, ease: "easeOut" }}
           >
             <p className="text-sm md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed font-light tracking-wide">
-              Dubai&apos;s premier real estate agency, transforming visions into prestigious addresses since <span className="text-white font-medium">2010</span>.
+              ZHM Real Estate LLC is Dubai&apos;s premier real estate agency, transforming visions into prestigious addresses since <span className="text-white font-medium">2010</span>.
             </p>
           </motion.div>
 
@@ -199,7 +200,7 @@ export default function AboutPage() {
                   <div className="relative h-44 md:h-64 rounded-xl overflow-hidden group">
                     <Image
                       src="/images/address-residences-the-bay/lobby.png"
-                      alt="Business Meeting"
+                      alt="Lobby of Address Residences The Bay, Emaar Beachfront, Dubai"
                       fill
                       sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -208,7 +209,7 @@ export default function AboutPage() {
                   <div className="relative h-32 md:h-48 rounded-xl overflow-hidden group">
                     <Image
                       src="/images/address-residences-the-bay/interior-living.png"
-                      alt="Office Space"
+                      alt="Living room interior at Address Residences The Bay, Dubai"
                       fill
                       sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -219,7 +220,7 @@ export default function AboutPage() {
                   <div className="relative h-32 md:h-48 rounded-xl overflow-hidden group">
                     <Image
                       src="/images/Address Residences The Bay - Emaar Beachfront, Dubai.jpg.jpeg"
-                      alt="Dubai Buildings"
+                      alt="Address Residences The Bay towers at Emaar Beachfront, Dubai"
                       fill
                       sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -228,7 +229,7 @@ export default function AboutPage() {
                   <div className="relative h-44 md:h-64 rounded-xl overflow-hidden group">
                     <Image
                       src="/images/Sama-Yas/sama-yas-bg-image.webp"
-                      alt="Property Showcase"
+                      alt="Sama Yas residences on Yas Island, Abu Dhabi"
                       fill
                       sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -262,7 +263,7 @@ export default function AboutPage() {
                   <div className="absolute inset-0 transition-transform duration-[1200ms] ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover:scale-110">
                     <Image
                       src="/images/about/image-1.jpeg"
-                      alt="Mohammad Shahbaz Rasheed - Founder"
+                      alt="Mohammad Shahbaz Rasheed, Founder & CEO of ZHM Real Estate LLC"
                       fill
                       priority
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -274,7 +275,7 @@ export default function AboutPage() {
                   <div className="absolute inset-0 scale-110 transition-transform duration-[1200ms] ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover:scale-100">
                     <Image
                       src="/images/about/image-2.jpeg"
-                      alt="Mohammad Shahbaz Rasheed - Founder Hover"
+                      alt=""
                       fill
                       priority
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -697,6 +698,7 @@ export default function AboutPage() {
               className="relative h-[260px] sm:h-[340px] md:h-[440px] rounded-2xl overflow-hidden shadow-2xl group"
             >
               <iframe
+                title="ZHM Real Estate LLC office location – Ontario Tower, Business Bay, Dubai"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4581.087334618895!2d55.25846396442503!3d25.185601732244294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69d8d53e557d%3A0x3c4e275ca11cf4f2!2sZHM%20Real%20Estate%20LLC!5e1!3m2!1sen!2sin!4v1788896567583!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
